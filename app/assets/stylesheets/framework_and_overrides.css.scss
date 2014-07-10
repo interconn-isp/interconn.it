@@ -1,0 +1,27 @@
+// Brand colors
+$palette-orange: rgb(255, 153, 0);
+$palette-beige: rgb(255, 223, 174);
+$palette-beige-light: rgb(255, 239, 215);
+$palette-blue: rgb(72, 85, 102);
+$palette-blue-light: rgb(123, 134, 154);
+$palette-black: rgb(66, 66, 66);
+
+// Typography
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-size-base: 15px;
+
+// Border radius
+$border-radius-small: 0;
+$border-radius-base: 0;
+$border-radius-large: 0;
+
+// Spacing
+$spacing-base: 100px;
+$spacing-sm: ($spacing-base / 2);
+$spacing-lg: ($spacing-base * 1.5);
+
+// Links
+$link-color: $palette-blue-light;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";

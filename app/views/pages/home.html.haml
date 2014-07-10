@@ -1,0 +1,121 @@
+%section.text-center.jumbotron.jumbotron-presentation
+  .overlay
+    .container#jumbotron-presentation-container
+      #jumbotron-inner
+        .row
+          .col-xs-12
+            = image_tag '/assets/glyph.svg', class: 'img-responsive center-block', style: 'opacity: 0.75'
+
+            %h1#home-title-animated.hidden-xs
+              Internet per
+              %span#home-slogan
+
+            %h1.visible-xs
+              Internet per te.
+
+            %p
+              Hai 15 giorni di prova gratuita.
+              = link_to "Scopri l'offerta.", '#'
+
+        .row
+          .col-xs-12
+            .contained-sm.center-block
+              %form(role='form')
+                .form-group
+                  %input.form-control.input-lg(type='text' placeholder='Nome e cognome')
+
+                .form-group
+                  %input.form-control.input-lg(type='tel' placeholder='Numero di telefono')
+
+                .form-group
+                  %input.form-control.input-lg(type='text' placeholder='Sede di attivazione')
+
+                %button.btn.btn-bold.btn-blue-light.btn-transition.btn-lg(type='submit')
+                  Chiedi un sopralluogo
+
+        .arrow-wrapper
+          %p= link_to fa_icon('caret-down', class: 'arrow'), '#home-content'
+
+%a#home-content
+%section#features
+  #features-inner
+    .container.text-center
+      %h1
+        Costruito nel
+        %strong presente.
+        Proiettato nel
+        %strong futuro.
+
+    .container.feature-grid
+      .row
+        .col-xs-12.col-md-4.feature
+          = image_tag '/assets/ballicons/medal.svg', class: 'feature-icon'
+
+          %h3 Costi competitivi
+
+          %p.lead
+            Stanco di pagare troppo e avere in cambio troppo poco? Anche noi.
+
+          %p.lead
+            %strong=link_to "Scopri l'offerta", '#'
+
+        .col-xs-12.col-md-4.feature
+          = image_tag '/assets/ballicons/speed.svg', class: 'feature-icon'
+
+          %h3 Servizio da urlo
+
+          %p.lead
+            Connettività affidabile e prestazioni senza eguali. Buon divertimento.
+
+          %p.lead
+            %strong=link_to 'Leggi le testimonianze', '#'
+
+        .col-xs-12.col-md-4.feature
+          = image_tag '/assets/ballicons/heart.svg', class: 'feature-icon'
+
+          %h3 Assistenza su misura
+
+          %p.lead
+            Dimentica lunghe attese e scuse improbabili. Ti copriamo le spalle.
+
+          %p.lead
+            %strong=link_to 'Mettici alla prova', '#'
+
+        .col-xs-12.col-md-4.feature
+          = image_tag '/assets/ballicons/map.svg', class: 'feature-icon'
+
+          %h3 Copertura estesa
+
+          %p.lead
+            Arriviamo anche dove la tua compagnia telefonica aveva rinunciato.
+
+          %p.lead
+            %strong=link_to 'Verifica la copertura', '#'
+
+        .col-xs-12.col-md-4.feature
+          = image_tag '/assets/ballicons/letter.svg', class: 'feature-icon'
+
+          %h3 Contratto trasparente
+
+          %p.lead
+            Non c'è alcun bisogno di complicare le cose. Saprai sempre cosa ottieni.
+
+          %p.lead
+            %strong=link_to 'Leggi il contratto', '#'
+
+        .col-xs-12.col-md-4.feature
+          = image_tag '/assets/ballicons/laptop.svg', class: 'feature-icon'
+
+          %h3 Pannello di controllo
+
+          %p.lead
+            Tramite l'area clienti puoi accedere a tutti i tuoi dati e pagare le fatture.
+
+          %p.lead
+            %strong=link_to 'Accedi al pannello', '#'
+
+.partner-list
+  - %w(mikrotik dell cambium-networks odoo ubuntu debian centos vmware vayu ror).each do |partner|
+    = image_tag "/assets/partners/#{partner}.png"
+
+= javascript_include_tag '/assets/pages/home.js', 'data-turbolinks-track' => true

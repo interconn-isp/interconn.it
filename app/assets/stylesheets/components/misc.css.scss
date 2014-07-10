@@ -1,0 +1,29 @@
+section h1:first-child {
+  margin-top: 0;
+}
+
+section p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  border-bottom: 1px dotted;
+  transition: color 0.2s ease;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.btn {
+    border: none;
+  }
+}
+
+p.lead {
+  font-size: ceil(($font-size-large * 1.1));
+  margin-bottom: 10.5px;
+}
+
+p {
+  font-size: $font-size-large;
+}

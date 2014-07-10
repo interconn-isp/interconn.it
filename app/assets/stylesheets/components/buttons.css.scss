@@ -1,0 +1,26 @@
+.btn {
+  text-transform: uppercase;
+  font-weight: 200;
+  border: none;
+}
+
+.btn-lg {
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+
+.btn-transition {
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue-light {
+  @include button-variant(white, $palette-blue, $palette-blue);
+}
+
+.btn-orange {
+  @include button-variant(white, $palette-orange, $palette-orange);
+}
+
+.btn-bold {
+  font-weight: normal;
+}

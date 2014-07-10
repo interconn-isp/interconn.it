@@ -1,0 +1,12 @@
+.feature-grid {
+  text-align: center;
+
+  .feature {
+    padding-top: $spacing-sm;
+
+    .feature-icon {
+      width: 40%;
+      margin: 0 auto;
+    }
+  }
+}
