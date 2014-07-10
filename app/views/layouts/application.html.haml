@@ -9,14 +9,6 @@
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     = stylesheet_link_tag '//fonts.googleapis.com/css?family=Lato:300,400,700'
 
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
-
-    /[if lt IE 9]
-      = javascript_include_tag '//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'
-      = javascript_include_tag '//oss.maxcdn.com/respond/1.4.2/respond.min.js'
-
-    = yield :javascripts
-
     = csrf_meta_tags
 
     = favicon_link_tag '/images/apple-touch-icon-144x144-precomposed.png', rel: 'apple-touch-icon-precomposed', type: 'image/png', sizes: '144x144'
@@ -114,3 +106,11 @@
               %ul.list-inline
                 %li= link_to 'Note legali', '#'
                 %li= link_to 'Privacy policy', '#'
+
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+
+    /[if lt IE 9]
+      = javascript_include_tag '//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'
+      = javascript_include_tag '//oss.maxcdn.com/respond/1.4.2/respond.min.js'
+
+    = yield :javascripts
