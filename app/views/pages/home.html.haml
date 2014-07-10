@@ -118,4 +118,5 @@
   - %w(mikrotik dell cambium-networks odoo ubuntu debian centos vmware vayu ror).each do |partner|
     = image_tag asset_path("partners/#{partner}.png")
 
-= javascript_include_tag '/assets/pages/home.js', 'data-turbolinks-track' => true
+- content_for :javascripts do
+  = javascript_include_tag asset_path('pages/home.js'), 'data-turbolinks-track' => true
