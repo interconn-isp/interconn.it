@@ -17,9 +17,9 @@
     $('#jumbotron-presentation-container').css('padding-bottom', vPadding + 'px');
   }
 
-  $(window).load(function() {
+  $(function() {
     drawJumbotron();
-  });
+  })
 
   var oldWidth = $(window).width();
 
