@@ -1,3 +1,6 @@
+//= require jquery-marquee/jquery.marquee
+//= require jquery-lazyload/jquery.lazyload
+
 (function() {
   $(window).load(function() {
     $('.partner-list img').lazyload({

@@ -1,3 +1,5 @@
+//= require typed/typed
+
 (function() {
   $(function() {
     if ($("#home-title-animated").is(":visible")) {
