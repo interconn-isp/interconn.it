@@ -38,6 +38,9 @@ gem 'rails-i18n'
 # Active Record
 gem 'pg'
 
+# Heroku
+gem 'rails_12factor', group: :production
+
 group :development do
   # Error reporting
   gem 'better_errors'
