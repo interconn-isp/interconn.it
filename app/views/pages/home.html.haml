@@ -4,7 +4,7 @@
       #jumbotron-inner
         .row
           .col-xs-12
-            = image_tag '/assets/glyph.svg', class: 'img-responsive center-block', style: 'opacity: 0.75'
+            = image_tag asset_path('glyph.svg'), class: 'img-responsive center-block', style: 'opacity: 0.75'
 
             %h1#home-title-animated.hidden-xs
               Internet per
@@ -49,7 +49,7 @@
     .container.feature-grid
       .row
         .col-xs-12.col-md-4.feature
-          = image_tag '/assets/ballicons/medal.svg', class: 'feature-icon'
+          = image_tag asset_path('ballicons/medal.svg'), class: 'feature-icon'
 
           %h3 Costi competitivi
 
@@ -60,7 +60,7 @@
             %strong=link_to "Scopri l'offerta", '#'
 
         .col-xs-12.col-md-4.feature
-          = image_tag '/assets/ballicons/speed.svg', class: 'feature-icon'
+          = image_tag asset_path('ballicons/speed.svg'), class: 'feature-icon'
 
           %h3 Servizio da urlo
 
@@ -71,7 +71,7 @@
             %strong=link_to 'Leggi le testimonianze', '#'
 
         .col-xs-12.col-md-4.feature
-          = image_tag '/assets/ballicons/heart.svg', class: 'feature-icon'
+          = image_tag asset_path('ballicons/heart.svg'), class: 'feature-icon'
 
           %h3 Assistenza su misura
 
@@ -82,7 +82,7 @@
             %strong=link_to 'Mettici alla prova', '#'
 
         .col-xs-12.col-md-4.feature
-          = image_tag '/assets/ballicons/map.svg', class: 'feature-icon'
+          = image_tag asset_path('ballicons/map.svg'), class: 'feature-icon'
 
           %h3 Copertura estesa
 
@@ -93,7 +93,7 @@
             %strong=link_to 'Verifica la copertura', '#'
 
         .col-xs-12.col-md-4.feature
-          = image_tag '/assets/ballicons/letter.svg', class: 'feature-icon'
+          = image_tag asset_path('ballicons/letter.svg'), class: 'feature-icon'
 
           %h3 Contratto trasparente
 
@@ -104,7 +104,7 @@
             %strong=link_to 'Leggi il contratto', '#'
 
         .col-xs-12.col-md-4.feature
-          = image_tag '/assets/ballicons/laptop.svg', class: 'feature-icon'
+          = image_tag asset_path('ballicons/laptop.svg'), class: 'feature-icon'
 
           %h3 Pannello di controllo
 
@@ -116,6 +116,6 @@
 
 .partner-list
   - %w(mikrotik dell cambium-networks odoo ubuntu debian centos vmware vayu ror).each do |partner|
-    = image_tag "/assets/partners/#{partner}.png"
+    = image_tag asset_path("partners/#{partner}.png")
 
 = javascript_include_tag '/assets/pages/home.js', 'data-turbolinks-track' => true
