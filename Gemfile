@@ -16,7 +16,6 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'jquery-turbolinks'
 gem 'font-awesome-rails'
-gem 'jquery-ui-rails'
 
 # Views
 gem 'haml-rails'
