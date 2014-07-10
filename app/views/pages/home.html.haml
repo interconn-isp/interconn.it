@@ -117,7 +117,7 @@
 
 .partner-list
   - %w(mikrotik dell cambium-networks odoo ubuntu debian centos vmware vayu ror).each do |partner|
-    = image_tag asset_path("partners/#{partner}.png")
+    %img{'data-original' => asset_path("partners/#{partner}.png")}
 
 - content_for :javascripts do
   = javascript_include_tag asset_path('pages/home.js'), 'data-turbolinks-track' => true
