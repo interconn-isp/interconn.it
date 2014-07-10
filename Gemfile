@@ -38,7 +38,10 @@ gem 'rails-i18n'
 gem 'pg'
 
 # Heroku
-gem 'rails_12factor', group: :production
+group :production do
+  gem 'rails_12factor'
+  gem 'heroku_rails_deflate'
+end
 
 group :development do
   # Error reporting
