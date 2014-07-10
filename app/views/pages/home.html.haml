@@ -116,8 +116,16 @@
             %strong=link_to 'Accedi al pannello', '#'
 
 .partner-list
-  - %w(mikrotik dell cambium-networks odoo ubuntu debian centos vmware vayu ror).each do |partner|
-    %img{'data-original' => asset_path("partners/#{partner}.png")}
+  %img{'data-original' => asset_path('partners/mikrotik.png'), height: 75, width: 309}
+  %img{'data-original' => asset_path('partners/dell.png'), height: 75, width: 256}
+  %img{'data-original' => asset_path('partners/cambium-networks.png'), height: 75, width: 221}
+  %img{'data-original' => asset_path('partners/odoo.png'), height: 75, width: 235}
+  %img{'data-original' => asset_path('partners/ubuntu.png'), height: 75, width: 334}
+  %img{'data-original' => asset_path('partners/debian.png'), height: 75, width: 61}
+  %img{'data-original' => asset_path('partners/centos.png'), height: 75, width: 321}
+  %img{'data-original' => asset_path('partners/vmware.png'), height: 75, width: 466}
+  %img{'data-original' => asset_path('partners/vayu.png'), height: 75, width: 170}
+  %img{'data-original' => asset_path('partners/ror.png'), height: 75, width: 58}
 
 - content_for :javascripts do
   = javascript_include_tag asset_path('pages/home.js'), 'data-turbolinks-track' => true
