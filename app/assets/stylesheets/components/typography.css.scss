@@ -1,9 +1,11 @@
-section h1:first-child {
-  margin-top: 0;
-}
+section {
+  h1:first-child {
+    margin-top: 0;
+  }
 
-section p:last-child {
-  margin-bottom: 0;
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 a {
@@ -19,11 +21,11 @@ a {
   }
 }
 
-p.lead {
-  font-size: ceil(($font-size-large * 1.1));
-  margin-bottom: 10.5px;
-}
-
 p {
   font-size: $font-size-large;
+
+  &.lead {
+    font-size: ceil(($font-size-large * 1.1));
+    margin-bottom: 10.5px;
+  }
 }

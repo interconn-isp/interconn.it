@@ -8,14 +8,14 @@
 
 @import "typed/typed";
 
-@import "components/misc";
+@import "components/typography";
+@import "components/inputs";
+@import "components/buttons";
+@import "components/utilities";
+@import "components/font-awesome";
+
 @import "components/horizontal_call";
 @import "components/jumbotron";
-@import "components/buttons";
-@import "components/inputs";
-@import "components/utilities";
 @import "components/feature-grid";
-@import "components/feature-list";
-@import "components/partner-list";
 
 @import "components/footer";

@@ -1,3 +1,4 @@
+/********* CONTAIN ELEMENTS WIDTH *********/
 .contained-sm {
   max-width: 360px;
   margin: 0 auto;
@@ -11,75 +12,4 @@
 .contained-lg {
   max-width: 900px;
   margin: 0 auto;
-}
-
-/************** SPACING CLASSES ***********/
-.spaced-sm-top {
-  margin-top: $spacing-sm;
-}
-
-.spaced-sm-bottom {
-  margin-bottom: $spacing-sm;
-}
-
-.spaced-top {
-  margin-top: $spacing-base;
-}
-
-.spaced-bottom {
-  margin-bottom: $spacing-base;
-}
-
-.spaced-lg-top {
-  margin-top: $spacing-lg;
-}
-
-.spaced-lg-bottom {
-  margin-bottom: $spacing-lg;
-}
-
-/******** PADDING CLASSES ************/
-.padded-sm-top {
-  padding-top: $spacing-sm;
-}
-
-.padded-sm-bottom {
-  padding-bottom: $spacing-sm;
-}
-
-.padded-top {
-  padding-top: $spacing-base;
-}
-
-.padded-bottom {
-  padding-bottom: $spacing-base;
-}
-
-.padded-lg-top {
-  padding-top: $spacing-lg;
-}
-
-.padded-lg-bottom {
-  padding-bottom: $spacing-lg;
-}
-
-/************ IMAGE SIZES *************/
-.img-size-40 {
-  width: 40%;
-}
-
-.bg-gray {
-  background-color: $gray-lighter;
-}
-
-/********** FONT AWESOME ************/
-.fa-fw {
-  margin-right: 5px;
-}
-
-/********* RESPONSIVE POSITIONING ***********/
-@media (max-width: $screen-xs-max) {
-  .text-center-xs {
-    text-align: center !important;
-  }
 }
