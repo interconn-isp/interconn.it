@@ -37,9 +37,10 @@ gem 'rails-i18n'
 # Active Record
 gem 'pg'
 
-# Heroku
 group :production do
+  # Heroku
   gem 'rails_12factor'
+  gem 'heroku_rails_deflate'
 end
 
 group :development do
