@@ -1,7 +1,7 @@
 (function() {
   function drawFeatures()
   {
-    var vMargin = ($(window).height() - $('#features-inner').height()) / 2;
+    var vMargin = (($(window).height() - $('#features-inner').height()) / 2) + 1;
 
     if (vMargin < 100) {
       vMargin = 100;
@@ -11,11 +11,11 @@
     $('#features').css('margin-bottom', vMargin + 'px');
   }
 
-  $(function() {
+  $(window).load(function() {
     drawFeatures();
   });
 
-  $(window).resize(function() {
+  $(function() {
     drawFeatures();
   });
 }());

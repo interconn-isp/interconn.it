@@ -17,19 +17,11 @@
     $('#jumbotron-presentation-container').css('padding-bottom', vPadding + 'px');
   }
 
-  $(function() {
+  $(window).load(function() {
     drawJumbotron();
-  })
+  });
 
-  var oldWidth = $(window).width();
-
-  $(window).resize(function() {
-    if ($(window).width() == oldWidth) {
-      return;
-    }
-
-    oldWidth = $(window).width();
-
+  $(function() {
     drawJumbotron();
   });
 }());
