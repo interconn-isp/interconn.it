@@ -1,6 +1,11 @@
 /********* CONTAIN ELEMENTS WIDTH *********/
-.contained-sm {
+.contained-xs {
   max-width: 360px;
+  margin: 0 auto;
+}
+
+.contained-sm {
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -12,4 +17,9 @@
 .contained-lg {
   max-width: 900px;
   margin: 0 auto;
+}
+
+/********* GRAY BACKGROUND ***************/
+.bg-gray {
+  background-color: $gray-lighter;
 }

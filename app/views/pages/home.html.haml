@@ -15,11 +15,11 @@
 
             %p
               Hai 15 giorni di prova gratuita.
-              = link_to "Scopri l'offerta.", '#'
+              = link_to "Scopri l'offerta.", pricing_path
 
         .row
           .col-xs-12
-            .contained-sm.center-block
+            .contained-xs.center-block
               %form(role='form')
                 .form-group
                   %input.form-control.input-lg(type='text' placeholder='Nome e cognome')
@@ -57,7 +57,7 @@
             Stanco di pagare troppo e avere in cambio troppo poco? Anche noi.
 
           %p.lead
-            %strong=link_to "Scopri l'offerta", '#'
+            %strong=link_to "Scopri l'offerta", pricing_path
 
         .col-xs-12.col-md-4.feature
           = image_tag asset_path('ballicons/speed.svg'), class: 'feature-icon'

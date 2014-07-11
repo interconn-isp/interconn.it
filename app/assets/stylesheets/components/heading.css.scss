@@ -1,0 +1,15 @@
+.heading {
+  text-align: center;
+
+  h1 {
+    font-weight: bold;
+  }
+
+  p {
+    font-weight: normal;
+  }
+
+  &.heading-spaced {
+    margin-top: 100px;
+  }
+}
