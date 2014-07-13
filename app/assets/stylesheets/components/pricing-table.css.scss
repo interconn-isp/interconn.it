@@ -137,6 +137,10 @@
       padding-bottom: 64.5px;
     }
 
+    &.product-feature-optional {
+      background-color: lighten($palette-beige-light, 3.25%);
+    }
+
     text-align: center;
 
     .feature-desc {

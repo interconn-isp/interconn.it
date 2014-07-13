@@ -1,7 +1,6 @@
 .btn {
   text-transform: uppercase;
   font-weight: 200;
-  border: none;
 }
 
 .btn-lg {
@@ -15,10 +14,12 @@
 
 .btn-blue-light {
   @include button-variant(white, $palette-blue, $palette-blue);
+  border: none;
 }
 
 .btn-orange {
   @include button-variant(white, $palette-orange, $palette-orange);
+  border: none;
 }
 
 .btn-bold {
