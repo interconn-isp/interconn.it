@@ -16,95 +16,14 @@
     = favicon_link_tag '/images/apple-touch-icon-precomposed.png', rel: 'apple-touch-icon-precomposed', type: 'image/png'
     = favicon_link_tag '/images/favicon.ico', rel: 'shortcut icon'
 
-  %body
+  %body{id: yield(:body_id)}
+    = render 'layouts/navbar'
+
     %main(role='main')
       = yield
 
-    .jumbotron.jumbotron-blue.horizontal-call
-      .container
-        .contained-lg
-          .row
-            .col-xs-12.col-md-9
-              %p
-                Provaci per 15 giorni. Non rimarrai deluso.
-
-            .col-xs-12.col-md-3
-              %a.btn.btn-bold.btn-lg.btn-orange.btn-transition{href: '#'}
-                Inizia la tua prova
-
-    %footer
-      .footer-links
-        .container
-          .row.contained-lg.center-block
-            .footer-links-col.col-xs-6.col-md-3.col-md-offset-1
-              %h4 L'azienda
-
-              %ul.list-unstyled
-                %li= link_to 'La nostra storia', '#'
-                %li= link_to 'Lavora con noi', '#'
-                %li= link_to 'Blog', '#'
-                %li= link_to 'Kit stampa', '#'
-
-            .footer-links-col.col-xs-6.col-md-3
-              %h4 Servizi
-
-              %ul.list-unstyled
-                %li= link_to 'Contratto', '#'
-                %li= link_to 'Testimonianze', '#'
-                %li= link_to 'Copertura', '#'
-                %li= link_to 'Webmail', '#'
-                %li= link_to 'Area clienti', '#'
-
-            .footer-links-col.col-xs-6.col-md-3
-              %h4 Assistenza
-
-              %ul.list-unstyled
-                %li= link_to 'FAQ', '#'
-                %li= link_to 'Stato servizi', '#'
-                %li= link_to 'Contatti', '#'
-
-            .footer-links-col.col-xs-6.col-md-2
-              %h4 Seguici su...
-
-              %ul.list-unstyled
-                %li
-                  = fa_icon 'facebook', class: 'fa-fw'
-                  = link_to 'Facebook', '#'
-
-                %li
-                  = fa_icon 'twitter', class: 'fa-fw'
-                  = link_to 'Twitter', '#'
-
-                %li
-                  = fa_icon 'github', class: 'fa-fw'
-                  = link_to 'GitHub', '#'
-
-                %li
-                  = fa_icon 'google-plus', class: 'fa-fw'
-                  = link_to 'Google+', '#'
-
-                %li
-                  = fa_icon 'instagram', class: 'fa-fw'
-                  = link_to 'Instagram', '#'
-
-      .footer-disclaimer
-        .container
-          .row
-            .col-xs-12.col-sm-4
-              %ul.list-inline
-                %li InterConn S.r.l.
-                %li (P.I. 12220531003)
-
-            .col-xs-12.col-sm-4
-              %ul.list-inline
-                %li Via Delia, 9
-                %li 00155 Roma (RM)
-                %li Italia
-
-            .col-xs-12.col-sm-4
-              %ul.list-inline
-                %li= link_to 'Note legali', '#'
-                %li= link_to 'Privacy policy', '#'
+    = render 'layouts/bottom_call'
+    = render 'layouts/footer'
 
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
 
