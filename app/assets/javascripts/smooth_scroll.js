@@ -1,11 +1,17 @@
-$(function() {
-  $('a').click(function() {
-    var elem = $($.attr(this, 'href'));
-    var position = elem.position().top;
+//= require jquery-scrollTo/jquery.scrollTo
 
-    $('html, body').animate({
-      scrollTop: position + 1
-    }, 500);
-    return false;
+$(function() {
+  $('a[href*=#]').click(function() {
+    if (
+      location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      && location.hostname == this.hostname
+      && $(this.hash).length > 0
+    ) {
+      $.scrollTo(this.hash, {
+        duration: 500,
+        offset: 1
+      });
+      return false;
+    }
   });
 });
