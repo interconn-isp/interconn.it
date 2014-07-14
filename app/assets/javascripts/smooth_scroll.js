@@ -9,7 +9,7 @@ $(function() {
     ) {
       $.scrollTo(this.hash, {
         duration: 500,
-        offset: -30
+        offset: -60
       });
       return false;
     }
