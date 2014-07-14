@@ -31,42 +31,6 @@
   }
 }
 
-@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
-  .pricing-table-container {
-    .pricing-table-container-inner {
-      max-width: 350px;
-      margin: 0 auto;
-    }
-
-    margin-top: 15px;
-
-    &:first-child {
-      margin-top: 0;
-    }
-
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-}
-
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-  .pricing-table-container {
-    margin-top: 15px;
-
-    &:nth-child(1), &:nth-child(2) {
-      margin-top: 0;
-    }
-
-    &:nth-child(odd) {
-      padding-left: 15px !important;
-    }
-
-    &:nth-child(even) {
-      padding-right: 0 !important;
-    }
-  }
-}
-
 .pricing-table {
   margin-bottom: 0;
   list-style: none;
@@ -175,13 +139,6 @@
   }
 }
 
-@media (max-width: $screen-sm-max) {
-  .pricing-table .product-feature.product-feature-2x {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
 .larger-plans-row {
   margin-top: 50px;
   font-size: 21px;
@@ -209,7 +166,5 @@
     dd + dt {
       margin-top: 30px;
     }
-
   }
-
 }
