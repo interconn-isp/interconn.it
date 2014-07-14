@@ -11,9 +11,9 @@ $font-family-sans-serif: 'Lato', sans-serif;
 $font-size-base: 15px;
 
 // Border radius
-$border-radius-small: 0;
-$border-radius-base: 0;
-$border-radius-large: 0;
+$border-radius-base: 2px;
+$border-radius-small: 3px;
+$border-radius-large: 4px;
 
 // Spacing
 $spacing-base: 100px;
@@ -40,7 +40,7 @@ $navbar-default-toggle-icon-bar-bg: white;
 $navbar-default-toggle-border-color: darken($palette-blue, 6.5%);
 
 // Transparent navbar
-$navbar-inverse-bg: rgba($palette-blue, .5);
+$navbar-inverse-bg: $palette-blue;
 $navbar-inverse-color: white;
 $navbar-inverse-link-color: white;
 $navbar-inverse-link-hover-color: white;
