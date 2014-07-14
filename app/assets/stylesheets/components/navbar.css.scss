@@ -60,10 +60,10 @@ body {
   }
 
   &.navbar-inverse {
-    transition: background-color 0.5s ease;
+    transition: background-color .75s ease;
 
     &:hover {
-      background-color: rgba($palette-blue, .75);
+      background-color: rgba($palette-blue, 1);
     }
 
     .navbar-nav-action {
