@@ -93,7 +93,7 @@
             Arriviamo anche dove la tua compagnia telefonica aveva rinunciato.
 
           %p.lead
-            %strong=link_to 'Verifica la copertura', '#'
+            %strong=link_to 'Verifica la copertura', coverage_path
 
         .col-xs-12.col-md-4.feature
           = image_tag asset_path('ballicons/letter.svg'), class: 'feature-icon'
@@ -118,4 +118,4 @@
             %strong=link_to 'Accedi al pannello', '#'
 
 - content_for :javascripts do
-  = javascript_include_tag asset_path('pages/home.js'), 'data-turbolinks-track' => true
+  = javascript_include_tag asset_path('pages/home.js')

@@ -1,0 +1,42 @@
+html {
+  height: 100%
+}
+
+body#coverage {
+  &, & > main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #map-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+
+  #map-overlay {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+  .coverage-check-form {
+    .check-status-yes {
+      background-color: #2ecc40;
+      color: white;
+    }
+
+    .check-status-no {
+      background-color: #ff4136;
+      color: white;
+    }
+  }
+}

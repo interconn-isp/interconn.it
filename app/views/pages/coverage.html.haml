@@ -1,0 +1,21 @@
+- provide :title, 'Copertura InterConn'
+- provide :body_id, 'coverage'
+- provide :navbar_classes, 'navbar-inverse'
+
+#map-canvas
+
+#map-overlay
+  #map-overlay-inner
+    .container.contained
+      %form.coverage-check-form(role='form' action='#')
+        .form-group
+          .input-group.input-group-lg
+            %input.form-control#coverage-address(placeholder='Inserisci il tuo indirizzo...')
+
+            %span.input-group-addon.check-status-standby#check-status
+              = fa_icon 'spinner'
+              In attesa
+
+- content_for :javascripts do
+  = javascript_include_tag '//maps.googleapis.com/maps/api/js?libraries=places'
+  = javascript_include_tag asset_path('pages/coverage')
