@@ -63,7 +63,7 @@ body {
     transition: background-color 0.5s ease;
 
     &:hover {
-      background-color: rgba($palette-blue, 1);
+      background-color: rgba($palette-blue, .75);
     }
 
     .navbar-nav-action {
