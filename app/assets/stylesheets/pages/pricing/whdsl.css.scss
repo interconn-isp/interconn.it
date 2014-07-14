@@ -23,4 +23,16 @@ body#pricing-whdsl {
       margin: 0 auto;
     }
   }
+
+  body#pricing-whdsl .pricing-table {
+    .product-name, .product-price {
+      border-left: none;
+      border-right: none;
+    }
+
+    .product-name {
+      border-top-left-radius: $border-radius-large;
+      border-top-right-radius: $border-radius-large;
+    }
+  }
 }
