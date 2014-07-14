@@ -54,7 +54,7 @@
   color: white;
 
   .overlay {
-    background-color: rgba($palette-orange, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .container {
@@ -81,7 +81,6 @@
 
       &:hover {
         opacity: 1;
-        transform: scale(1.5);
       }
     }
   }

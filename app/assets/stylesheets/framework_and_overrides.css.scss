@@ -27,20 +27,20 @@ $link-color: $palette-blue-light;
 $navbar-height: 60px;
 
 // Orange navbar
-$navbar-default-bg: $palette-orange;
+$navbar-default-bg: $palette-blue;
 $navbar-default-color: white;
-$navbar-default-border: $palette-orange;
+$navbar-default-border: $palette-blue;
 $navbar-default-link-color: white;
 $navbar-default-link-hover-color: white;
 $navbar-default-link-active-color: white;
 $navbar-default-link-hover-bg: transparent;
 $navbar-default-brand-hover-color: white;
-$navbar-default-toggle-hover-bg: darken($palette-orange, 13%);
+$navbar-default-toggle-hover-bg: darken($palette-blue, 13%);
 $navbar-default-toggle-icon-bar-bg: white;
-$navbar-default-toggle-border-color: darken($palette-orange, 6.5%);
+$navbar-default-toggle-border-color: darken($palette-blue, 6.5%);
 
 // Transparent navbar
-$navbar-inverse-bg: rgba(0, 0, 0, .5);
+$navbar-inverse-bg: rgba($palette-blue, .75);
 $navbar-inverse-color: white;
 $navbar-inverse-link-color: white;
 $navbar-inverse-link-hover-color: white;
