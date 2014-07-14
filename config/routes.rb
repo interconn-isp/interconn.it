@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'pricing', to: 'high_voltage/pages#show', id: 'pricing/wadsl'
   get 'pricing/wadsl', to: 'high_voltage/pages#show', id: 'pricing/wadsl'
   get 'pricing/whdsl', to: 'high_voltage/pages#show', id: 'pricing/whdsl'
+  get 'pricing/voip', to: 'high_voltage/pages#show', id: 'pricing/voip'
 end

@@ -1,0 +1,44 @@
+- provide :title, 'InterConn VoIP'
+- provide :body_id, 'pricing-voip'
+
+.container.contained-lg
+  %section
+    .heading.heading-spaced
+      %h1 VoIP: telefona via internet.
+      %p.lead
+        Con i contratti InterConn VoIP chiami in tutto il mondo a costi irrisori.
+
+    .row.voip-container
+      .col-xs-12.pricing-tables-container
+        .row
+          .col-xs-12.pricing-table-container
+            .pricing-table-container-inner
+              %ul.pricing-table
+                %li.product-name InterConn VoIP
+                %li.product-price
+                  %span.price-currency €
+                  %span.price-digits 3
+                  %span.price-interval / mese
+
+                %li.product-feature
+                  %ul
+                    %li.feature-desc Locali e nazionali
+                    %li.feature-numbers €0,018 / min
+
+                %li.product-feature
+                  %ul
+                    %li.feature-desc Operatori mobili
+                    %li.feature-numbers €0,011 / min
+
+                %li.product-feature
+                  %ul
+                    %li.feature-desc Tempo di attivazione
+                    %li.feature-numbers 24 ore
+
+                %li.product-feature.product-feature-optional
+                  %ul
+                    %li.feature-desc Apparato preconfigurato
+                    %li.feature-numbers €68,00 u.t.
+
+                %li.product-action
+                  = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
