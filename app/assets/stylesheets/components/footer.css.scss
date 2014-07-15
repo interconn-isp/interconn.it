@@ -53,18 +53,16 @@ footer {
     p, ul {
       margin-bottom: 0;
     }
-  }
-}
 
-@media (min-width: $screen-sm-min) {
-  footer .footer-disclaimer {
-    div {
-      &:nth-child(2) {
-        text-align: center;
-      }
+    @media (min-width: $screen-sm-min) {
+      div {
+        &:nth-child(2) {
+          text-align: center;
+        }
 
-      &:nth-child(3) {
-        text-align: right;
+        &:nth-child(3) {
+          text-align: right;
+        }
       }
     }
   }
