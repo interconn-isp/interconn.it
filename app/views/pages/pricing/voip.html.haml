@@ -16,32 +16,36 @@
             %li.product-price
               %span.price-currency €
               %span.price-digits 3
-              %span.price-interval / mese
+              %span.price-interval / mese*
 
             %li.product-feature
               %ul
                 %li.feature-desc Locali e nazionali
-                %li.feature-numbers €0,018 / min
+                %li.feature-numbers €0,018 / min*
 
             %li.product-feature
               %ul
                 %li.feature-desc Operatori mobili
-                %li.feature-numbers €0,011 / min
+                %li.feature-numbers €0,011 / min*
 
             %li.product-feature.product-feature-optional
               %ul
                 %li.feature-desc Apparato preconfigurato
-                %li.feature-numbers €68,00 u.t.
+                %li.feature-numbers €68,00 u.t.*
 
             %li.product-feature.product-feature-optional
               %ul
                 %li.feature-desc Costo di portabilità
-                %li.feature-numbers €35,00 u.t.
-
+                %li.feature-numbers €35,00 u.t.*
 
             %li.product-action
               = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
 
-    .row.larger-plans-row
+    .row.asterisks-explanation
+      .col-xs-12
+        %ul.list-inline
+          %li * Prezzo da intendersi IVA inclusa
+
+    .row.larger-plans-info
       .col-xs-12
         = link_to 'Ti servono piani più grandi?', '#'

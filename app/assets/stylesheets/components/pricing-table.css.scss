@@ -152,9 +152,22 @@
   }
 }
 
-.larger-plans-row {
-  margin-top: 50px;
-  font-size: 21px;
+.asterisks-explanation {
+  margin-top: 5px;
+  font-size: $font-size-small;
+
+  @media (max-width: $screen-xs-max) {
+    text-align: center;
+
+    li {
+      display: block;
+    }
+  }
+}
+
+.larger-plans-info {
+  margin-top: 25px;
+  font-size: $font-size-large;
   text-align: center;
 }
 

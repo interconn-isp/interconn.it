@@ -16,12 +16,12 @@
             %li.product-price
               %span.price-currency €
               %span.price-digits 170
-              %span.price-interval / mese
+              %span.price-interval / mese*
 
             %li.product-feature
               %ul
                 %li.feature-desc Installazione
-                %li.feature-numbers €320 u.t.
+                %li.feature-numbers €320 u.t.*
 
             %li.product-feature
               %ul
@@ -36,7 +36,7 @@
             %li.product-feature.product-feature-optional
               %ul
                 %li.feature-desc IP statico aggiuntivo
-                %li.feature-numbers €4,92 / mese
+                %li.feature-numbers €4,92 / mese*
 
             %li.product-action
               = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
@@ -48,12 +48,12 @@
             %li.product-price
               %span.price-currency €
               %span.price-digits 250
-              %span.price-interval / mese
+              %span.price-interval / mese*
 
             %li.product-feature
               %ul
                 %li.feature-desc Installazione
-                %li.feature-numbers €320 u.t.
+                %li.feature-numbers €320 u.t.*
 
             %li.product-feature
               %ul
@@ -68,7 +68,7 @@
             %li.product-feature.product-feature-optional
               %ul
                 %li.feature-desc IP statico aggiuntivo
-                %li.feature-numbers €4,92 / mese
+                %li.feature-numbers €4,92 / mese*
 
             %li.product-action
               = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
@@ -80,12 +80,12 @@
             %li.product-price
               %span.price-currency €
               %span.price-digits 400
-              %span.price-interval / mese
+              %span.price-interval / mese*
 
             %li.product-feature
               %ul
                 %li.feature-desc Installazione
-                %li.feature-numbers €320 u.t.
+                %li.feature-numbers €320 u.t.*
 
             %li.product-feature
               %ul
@@ -100,12 +100,18 @@
             %li.product-feature.product-feature-optional
               %ul
                 %li.feature-desc IP statico aggiuntivo
-                %li.feature-numbers €4,92 / mese
+                %li.feature-numbers €4,92 / mese*
 
             %li.product-action
               = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
 
-    .row.larger-plans-row
+    .row.asterisks-explanation
+      .col-xs-12
+        %ul.list-inline
+          %li * Prezzo da intendersi IVA inclusa
+          %li ** Prezzo da intendersi IVA esclusa
+
+    .row.larger-plans-info
       .col-xs-12
         = link_to 'Ti servono piani più grandi?', '#'
 
