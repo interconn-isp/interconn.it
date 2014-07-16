@@ -1,0 +1,14 @@
+.telephone-number {
+  font-size: 54px;
+  color: $palette-blue-light;
+  font-weight: bolder;
+
+  small {
+    color: $gray-light;
+    font-size: 17px;
+    font-weight: 200;
+    display: block;
+    text-transform: uppercase;
+    margin-top: -15px;
+  }
+}

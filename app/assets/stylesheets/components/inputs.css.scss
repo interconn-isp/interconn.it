@@ -1,12 +1,22 @@
 .form-control, .form-control:focus {
-  border: none;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -moz-transition: none;
-  -webkit-transition: none;
+}
+
+.form-control:focus {
+  border-color: $palette-orange;
+}
+
+.input-flat, .input-flat:focus {
+  border: none;
 }
 
 .input-group-addon {
   border: none;
+}
+
+textarea.form-control {
+  resize: none;
+  min-height: 210px;
 }

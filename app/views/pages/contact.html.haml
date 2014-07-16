@@ -1,0 +1,66 @@
+- provide :body_id, 'contact'
+- provide :title, 'Contatti'
+
+%section#contact-info-section
+  .container#contact-info-container
+    .heading
+      %h1 Contatti e assistenza
+      %p.lead Come possiamo essere utili?
+
+    .row
+      .col-xs-12.col-md-6
+        .contact-column
+          %h3 Scrivici
+
+          %form(role='form')
+            .form-group
+              %label(for='name')
+                %abbr(title='obbligatorio') (*)
+                Nome completo:
+              %input.form-control.input-lg#name(required placeholder='Come ti chiami?')
+
+            .form-group
+              %label(for='telephone') Telefono/cellulare:
+              %input.form-control.input-lg#telephone(type='tel' placeholder='Non è obbligatorio, ma gradito.')
+
+            .form-group
+              %label(for='email')
+                %abbr(title='obbligatorio') (*)
+                Indirizzo email:
+              %input.form-control.input-lg#email(type='email' required placeholder='Promettiamo di non inviare spam.')
+
+            .form-group
+              %label(for='message')
+                %abbr(title='obbligatorio') (*)
+                Messaggio:
+              %textarea.form-control.input-lg#message(required placeholder='Non essere timido! :)')
+
+            %button.btn.btn-lg.btn-primary.btn-transition(type='submit') Contattaci
+
+      .col-xs-12.col-md-5.col-md-offset-1
+        .contact-column
+          %h3 Assistenza telefonica
+
+          %p
+            I nostri operatori sono disponibili dal lunedì al venerdì, dalle 9
+            alle 19 per rispondere alle tue domande e risolvere i tuoi problemi.
+
+          %p.telephone-number
+            800-193724
+            %small Numero verde gratuito
+
+          %p.telephone-number
+            06-83390315
+            %small Da telefoni cellulari e dall'estero
+
+          %h3 Skype
+
+          %p
+            Ci puoi anche trovare su Skype sotto il nome utente
+            = "#{link_to('interconn.wisp', 'skype:interconn.wisp?chat')}.".html_safe
+
+          %h3 Fax
+
+          %p
+            Se devi inviarci un fax, puoi mandarlo al numero
+            = "<strong>06-62 20 48 96</strong>.".html_safe
