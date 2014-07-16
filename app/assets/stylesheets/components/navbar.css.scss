@@ -3,7 +3,6 @@ body {
 }
 
 .navbar {
-  border: none;
   margin-bottom: 0;
 
   a {
@@ -34,33 +33,24 @@ body {
     max-width: 210px;
     float: right;
 
-    margin-top: 8px;
+    margin-top: 10px;
     margin-right: 15px;
 
-    border: 2px solid white;
+    background-color: lighten($palette-blue, 4%);
+    transition: background-color .25s ease;
+
     border-radius: $border-radius-large;
 
     text-transform: uppercase;
     font-weight: bold;
 
-    opacity: .75;
-    transition: opacity .25s ease;
+    &:hover {
+      background-color: $palette-blue;
+    }
 
     a {
       padding-top: 10px;
       padding-bottom: 10px;
-    }
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  &.navbar-inverse {
-    transition: background-color .75s ease;
-
-    &:hover {
-      background-color: rgba($palette-blue, 1);
     }
   }
 }
