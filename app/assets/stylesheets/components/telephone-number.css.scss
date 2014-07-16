@@ -1,11 +1,12 @@
 .telephone-number {
-  font-size: 54px;
+  font-size: 50px;
   color: $palette-blue-light;
   font-weight: bolder;
 
   small {
     color: $gray-light;
-    font-size: 17px;
+    font-size: 16px;
+    letter-spacing: .2px;
     font-weight: 200;
     display: block;
     text-transform: uppercase;
