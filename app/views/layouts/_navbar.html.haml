@@ -12,15 +12,7 @@
     .collapse.navbar-collapse#navbar-collapse
       .navbar-right
         %ul.nav.navbar-nav
-          %li.dropdown
-            %a.dropdown-toggle(href='#' data-toggle='dropdown')
-              Offerta
-              %span.caret
-            %ul.dropdown-menu(role='menu' data-no-turbolink)
-              %li= link_to 'WADSL', pricing_wadsl_path
-              %li= link_to 'WHDSL', pricing_whdsl_path
-              %li= link_to 'VoIP', pricing_voip_path
-
+          %li= link_to 'Offerta', pricing_path
           %li= link_to 'Copertura', coverage_path
           %li= link_to 'Contatti', contact_path
 
