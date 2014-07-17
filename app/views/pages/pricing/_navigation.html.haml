@@ -1,0 +1,6 @@
+.nav-wrapper
+  .container
+    %ul.nav.nav-tabs.nav-justified
+      %li{class: "#{'active' if params[:id] == 'pricing/wadsl'}"}= link_to 'WADSL', pricing_wadsl_path
+      %li{class: "#{'active' if params[:id] == 'pricing/whdsl'}"}= link_to 'WHDSL', pricing_whdsl_path
+      %li{class: "#{'active' if params[:id] == 'pricing/voip'}"}= link_to 'VoIP', pricing_voip_path
