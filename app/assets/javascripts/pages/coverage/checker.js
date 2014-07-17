@@ -30,7 +30,7 @@ var CoverageChecker = (function() {
       if (!place.geometry) {
         result
           .addClass('check-status-standby')
-          .html('In attesa...');
+          .html('<i class="fa fa-arrow-left"></i> In attesa...');
 
         return;
       }

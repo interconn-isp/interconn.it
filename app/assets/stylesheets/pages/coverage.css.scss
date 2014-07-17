@@ -1,6 +1,13 @@
 body#coverage {
-  .heading {
-    color: white;
+  color: white;
+
+  #coverage-container {
+    max-width: 700px;
+  }
+
+  ul.covered-areas-list {
+    font-size: 19px;
+    text-align: center;
   }
 
   .horizontal-call {
