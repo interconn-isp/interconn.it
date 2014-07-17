@@ -22,7 +22,7 @@ a {
 }
 
 p {
-  font-size: $font-size-large;
+  font-size: ceil(($font-size-base * 1.2));
 
   &.lead {
     font-size: ceil(($font-size-large * 1.1));
