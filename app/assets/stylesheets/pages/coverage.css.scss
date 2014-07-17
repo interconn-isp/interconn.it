@@ -41,12 +41,12 @@ body#coverage {
 
   .coverage-check-form {
     .check-status-yes {
-      background-color: #2ecc40;
+      background-color: $palette-green;
       color: white;
     }
 
     .check-status-no {
-      background-color: #ff4136;
+      background-color: $palette-red;
       color: white;
     }
   }
