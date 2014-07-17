@@ -12,9 +12,9 @@
     .collapse.navbar-collapse#navbar-collapse
       .navbar-right
         %ul.nav.navbar-nav
-          %li= link_to 'Offerta', pricing_path
-          %li= link_to 'Copertura', coverage_path
-          %li= link_to 'Contatti', contact_path
+          %li{class: "#{'active' if params[:id][0..7] == 'pricing/'}"}= link_to 'Offerta', pricing_path
+          %li{class: "#{'active' if params[:id] == 'coverage'}"}= link_to 'Copertura', coverage_path
+          %li{class: "#{'active' if params[:id] == 'contact'}"}= link_to 'Contatti', contact_path
           %li= link_to 'Supporto', '#'
 
         %ul.nav.navbar-nav
