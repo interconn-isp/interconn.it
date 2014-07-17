@@ -14,4 +14,10 @@
       margin-left: 0;
     }
   }
+
+  @media (max-width: $screen-sm-max) {
+    .btn-wrapper {
+      display: block;
+    }
+  }
 }
