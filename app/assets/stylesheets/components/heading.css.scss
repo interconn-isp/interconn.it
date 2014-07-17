@@ -1,15 +1,17 @@
 .heading {
+  margin-top: 75px;
+  margin-bottom: 50px;
+
   text-align: center;
 
-  h1 {
+  .heading-title {
     font-weight: bold;
   }
 
-  p {
-    font-weight: normal;
-  }
+  .heading-description {
+    margin-top: 0;
 
-  &.heading-spaced {
-    margin-top: 100px;
+    max-width: 600px;
+    margin: 0 auto;
   }
 }

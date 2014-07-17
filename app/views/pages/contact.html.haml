@@ -1,11 +1,11 @@
 - provide :body_id, 'contact'
 - provide :title, 'Contatti'
 
-%section#contact-info-section
-  .container#contact-info-container
+%section
+  .container#contact-container
     .heading
-      %h1 Contatti e assistenza
-      %p.lead Come possiamo essere utili?
+      %h1.heading-title Contatti e assistenza
+      %h3.heading-description Come possiamo essere utili?
 
     .row
       .col-xs-12.col-md-6
@@ -53,14 +53,12 @@
             06-83390315
             %small Da telefoni cellulari e dall'estero
 
+          %p.telephone-number
+            06-62204896
+            %small Solo per comunicazioni via fax
+
           %h3 Skype
 
           %p
             Ci puoi anche trovare su Skype sotto il nome utente
             = "#{link_to('interconn.wisp', 'skype:interconn.wisp?chat')}.".html_safe
-
-          %h3 Fax
-
-          %p
-            Se devi inviarci un fax, puoi mandarlo al numero
-            = "<strong>06-62 20 48 96</strong>.".html_safe

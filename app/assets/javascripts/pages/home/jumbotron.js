@@ -2,6 +2,7 @@
   function drawJumbotron()
   {
     var vPadding = ($(window).height() - $('#jumbotron-inner').height()) / 2;
+    vPadding -= 30;
 
     if (vPadding < 50) {
       vPadding = 50;

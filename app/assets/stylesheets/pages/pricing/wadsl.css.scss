@@ -1,10 +1,5 @@
 @media (max-width: $screen-xs-max) {
   body#pricing-wadsl .pricing-table-container {
-    .pricing-table-container-inner {
-      max-width: 350px;
-      margin: 0 auto;
-    }
-
     margin-top: 15px;
 
     &:first-child {
@@ -18,11 +13,6 @@
       .product-name, .product-price {
         border-left: none;
         border-right: none;
-      }
-
-      .product-name {
-        border-top-left-radius: $border-radius-large;
-        border-top-right-radius: $border-radius-large;
       }
     }
   }
