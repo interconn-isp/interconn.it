@@ -29,10 +29,6 @@
         .product-name, .product-price {
           border-left: none;
         }
-
-        .product-name {
-          border-top-left-radius: $border-radius-large;
-        }
       }
     }
 
@@ -42,10 +38,6 @@
       .pricing-table {
         .product-name, .product-price {
           border-right: none;
-        }
-
-        .product-name {
-          border-top-right-radius: $border-radius-large;
         }
       }
     }

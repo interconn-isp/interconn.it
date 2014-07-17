@@ -1,9 +1,12 @@
 .pricing-tables-container {
   margin-top: 50px;
 
+  max-width: 1130px;
+  margin: 0 auto;
+
   .pricing-table-container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 
     &:first-child {
       padding-left: 15px;
