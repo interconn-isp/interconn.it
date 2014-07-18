@@ -11,11 +11,8 @@
     $('#map-overlay').css('padding-bottom', vPadding + 'px');
   }
 
-  $(window).load(function() {
-    drawOverlay();
-  });
+  $(drawOverlay);
 
-  $(function() {
-    drawOverlay();
-  });
+  $(window).load(drawOverlay);
+  $(window).resize(drawOverlay);
 }());
