@@ -22,33 +22,21 @@ body {
   }
 
   .navbar-nav > li {
-    padding-left: 10px;
-    padding-right: 10px;
-
     a {
       text-transform: uppercase;
-
-      padding-left: 0;
-      padding-right: 0;
-      padding-bottom: 1px;
-
-      &:hover {
-        border-bottom: 1px dotted white;
-        padding-bottom: 0;
-      }
-    }
-
-    &.active {
-      a {
-        border-bottom: 1px dotted white;
-        padding-bottom: 0;
-      }
     }
   }
 
   .navbar-nav .navbar-nav-action {
+    padding-left: 10px;
+    padding-right: 10px;
+
     &:hover {
       background-color: $palette-blue;
+
+      a {
+        background-color: transparent;
+      }
     }
 
     max-width: 210px;
