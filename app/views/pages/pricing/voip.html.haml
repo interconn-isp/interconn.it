@@ -9,40 +9,72 @@
       %h1.heading-title VoIP: telefona via internet.
       %h3.heading-description Con i nostri contratti chiami ovunque a costi irrisori.
 
-    .row.pricing-tables-container
-      .col-xs-12.pricing-table-container
-        .pricing-table-container-inner
-          %ul.pricing-table
-            %li.product-name InterConn VoIP
-            %li.product-price
-              %span.price-currency €
-              %span.price-digits 3
-              %span.price-interval / mese*
+    .row(style='max-width: 750px; margin: 0 auto')
+      .col-xs-12.col-sm-6
+        .row.pricing-tables-container
+          .col-xs-12.pricing-table-container
+            .pricing-table-container-inner
+              %ul.pricing-table
+                %li.product-name InterConn VoIP
+                %li.product-price
+                  %span.price-currency €
+                  %span.price-digits 3
+                  %span.price-interval / mese*
 
-            %li.product-feature
-              %ul
-                %li.feature-desc Locali e nazionali
-                %li.feature-numbers €0,018 / min*
+                %li.product-feature
+                  %ul
+                    %li.feature-desc Locali e nazionali
+                    %li.feature-numbers €0,018 / min*
 
-            %li.product-feature
-              %ul
-                %li.feature-desc Operatori mobili
-                %li.feature-numbers €0,011 / min*
+                %li.product-feature
+                  %ul
+                    %li.feature-desc Operatori mobili
+                    %li.feature-numbers €0,011 / min*
 
-            %li.product-feature.product-feature-optional
-              %ul
-                %li.feature-desc Apparato preconfigurato
-                %li.feature-numbers €68,00 u.t.*
+                %li.product-feature.product-feature-optional
+                  %ul
+                    %li.feature-desc Apparato preconfigurato
+                    %li.feature-numbers €68,00 u.t.*
 
-            %li.product-feature.product-feature-optional
-              %ul
-                %li.feature-desc Costo di portabilità
-                %li.feature-numbers €35,00 u.t.*
+                %li.product-feature.product-feature-optional
+                  %ul
+                    %li.feature-desc Costo di portabilità
+                    %li.feature-numbers €35,00 u.t.*
 
-            %li.product-action
-              = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
+                %li.product-action
+                  = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
 
-    .row.asterisks-explanation
-      .col-xs-12
-        %ul.list-unstyled
-          %li * Prezzo da intendersi IVA inclusa
+        .row.asterisks-explanation
+          .col-xs-12
+            %ul.list-unstyled
+              %li * Prezzo da intendersi IVA inclusa.
+
+      .col-xs-12.col-sm-6
+        .pricing-table-sidebar
+          %h3 Tariffe internazionali
+
+          %p
+            Se vuoi chiamare all'estero puoi consultare le
+            = link_to 'tariffe internazionali', '#'
+            sul nostro sito web.
+
+          %h3 Tempi di attivazione
+
+          %p
+            L'attivazione di una nuova linea VoIP avviene entro 24 ore dalla
+            ricezione.
+
+          %h3 Tempi di portabilità
+
+          %p
+            Se vuoi passare a InterConn mantenendo il tuo numero, possiamo
+            effettuare la portabilità della linea esistente in 10 giorni.
+
+          %h3 Piani personalizzati
+
+          %p
+            I clienti che prevedono di generare una grande mole di traffico
+            telefonico possono richiedere l'attivazione di un piano con tariffe
+            agevolate. Se è il tuo caso, ti invitiamo a
+            = link_to 'contattarci', contact_path
+            per discuterne.

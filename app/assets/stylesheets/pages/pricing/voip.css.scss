@@ -8,5 +8,17 @@ body#pricing-voip {
     max-width: 380px;
     margin: 0 auto;
     margin-top: 5px;
+    margin-left: -15px;
+  }
+
+  .pricing-table-sidebar {
+    max-width: 350px;
+    margin: 0 auto;
+
+    h3:first-child {
+      @media (min-width: $screen-sm-min) {
+        margin-top: 0;
+      }
+    }
   }
 }
