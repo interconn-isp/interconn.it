@@ -15,7 +15,6 @@
           %li{class: "#{'active' if params[:id] && params[:id][0..7] == 'pricing/'}"}= link_to 'Offerta', pricing_path
           %li{class: "#{'active' if params[:id] == 'coverage'}"}= link_to 'Copertura', coverage_path
           %li{class: "#{'active' if params[:controller] == 'contacts'}"}= link_to 'Contatti', contact_path
-          %li= link_to 'Supporto', '#'
 
         %ul.nav.navbar-nav
           %li.navbar-nav-action= link_to "Chiedi l'attivazione", '#'
