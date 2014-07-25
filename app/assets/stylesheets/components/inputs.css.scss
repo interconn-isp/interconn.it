@@ -1,11 +1,11 @@
 .form-control, .form-control:focus {
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
 }
 
 .form-control:focus {
-  border-color: $palette-orange;
+  border-color: $palette-blue-light;
 }
 
 .input-flat, .input-flat:focus {

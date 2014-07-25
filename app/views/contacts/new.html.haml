@@ -1,0 +1,54 @@
+- provide :body_id, 'contact'
+- provide :title, 'Contatti'
+
+%section
+  .container#contact-container
+    .heading
+      %h1.heading-title Contatti e assistenza
+      %h3.heading-description Come possiamo essere utili?
+
+    .row
+      .col-xs-12.col-md-6
+        .contact-column
+          - if @contact.persisted?
+            %h3 Messaggio inviato
+
+            %p
+              Il tuo messaggio è stato inviato con successo! Riceverai una
+              risposta in men che non si dica.
+          - else
+            %h3 Scrivici
+
+            = simple_form_for(@contact, url: contact_path) do |f|
+              = f.input :full_name, input_html: { class: 'input-lg' }, placeholder: 'Come ti chiami?'
+              = f.input :phone, input_html: { class: 'input-lg' }, placeholder: 'Non è obbligatorio, ma gradito.'
+              = f.input :email, input_html: { class: 'input-lg' }, placeholder: 'Promettiamo di non inviare spam.'
+              = f.input :message, input_html: { class: 'input-lg', id: 'message' }, placeholder: 'Non essere timido! :)'
+
+              %button.btn.btn-lg.btn-primary.btn-transition(type='submit') Contattaci
+
+      .col-xs-12.col-md-5.col-md-offset-1
+        .contact-column
+          %h3 Assistenza telefonica
+
+          %p
+            I nostri operatori sono disponibili dal lunedì al venerdì, dalle 9
+            alle 19 per rispondere alle tue domande e risolvere i tuoi problemi.
+
+          %p.telephone-number
+            800-193724
+            %small Numero verde gratuito
+
+          %p.telephone-number
+            06-83390315
+            %small Da telefoni cellulari e dall'estero
+
+          %p.telephone-number
+            06-62204896
+            %small Solo per comunicazioni via fax
+
+          %h3 Skype
+
+          %p
+            Ci puoi anche trovare su Skype sotto il nome utente
+            = "#{link_to('interconn.wisp', 'skype:interconn.wisp?chat')}.".html_safe

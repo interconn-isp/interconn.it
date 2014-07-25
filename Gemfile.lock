@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/plataformatec/simple_form.git
+  revision: ed3de1c2b566a962697529e824953f6b280e2867
+  branch: master
+  specs:
+    simple_form (3.1.0.rc2)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -64,6 +73,9 @@ GEM
       timers (~> 1.1.0)
     childprocess (0.5.3)
       ffi (~> 1.0, >= 1.0.11)
+    clockwork (0.7.7)
+      activesupport
+      tzinfo
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -73,6 +85,7 @@ GEM
       execjs
     coffee-script-source (1.7.1)
     colorize (0.7.3)
+    connection_pool (2.0.0)
     daemons (1.1.9)
     database_cleaner (1.3.0)
     debug_inspector (0.0.2)
@@ -150,10 +163,13 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    metaclass (0.0.4)
     method_source (0.8.2)
     mime-types (1.25.1)
     mini_portile (0.6.0)
     minitest (5.4.0)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
     multi_json (1.10.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -205,6 +221,9 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    redis (3.1.0)
+    redis-namespace (1.5.0)
+      redis (~> 3.0, >= 3.0.4)
     ref (1.0.5)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
@@ -241,9 +260,14 @@ GEM
       rubyzip (~> 1.0)
       websocket (~> 1.0.4)
     sexp_processor (4.4.3)
-    simple_form (3.0.2)
-      actionpack (~> 4.0)
-      activemodel (~> 4.0)
+    shoulda-matchers (2.6.2)
+      activesupport (>= 3.0.0)
+    sidekiq (3.2.1)
+      celluloid (>= 0.15.2)
+      connection_pool (>= 2.0.0)
+      json
+      redis (>= 3.0.6)
+      redis-namespace (>= 1.3.1)
     slop (3.6.0)
     sprockets (2.11.0)
       hike (~> 1.2)
@@ -295,6 +319,7 @@ DEPENDENCIES
   capistrano-rails-console
   capistrano-rvm (~> 0.1.1)
   capybara
+  clockwork
   coffee-rails (~> 4.0.0)
   database_cleaner
   factory_girl_rails
@@ -311,6 +336,7 @@ DEPENDENCIES
   html2haml
   jquery-rails
   launchy
+  mocha
   pg
   pry-rails
   pry-rescue
@@ -324,7 +350,9 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 4.0.3)
   selenium-webdriver
-  simple_form
+  shoulda-matchers
+  sidekiq
+  simple_form (~> 3.1.0.rc1)!
   therubyracer
   thin
   uglifier (>= 1.3.0)

@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   get 'pricing/voip', to: 'high_voltage/pages#show', id: 'pricing/voip'
 
   get 'coverage', to: 'high_voltage/pages#show', id: 'coverage'
-  get 'contact', to: 'high_voltage/pages#show', id: 'contact'
+
+  get 'contact', to: 'contacts#new'
+  post 'contact', to: 'contacts#create'
 end

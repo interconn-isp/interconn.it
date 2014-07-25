@@ -1,0 +1,8 @@
+it:
+  simple_form:
+    labels:
+      contact:
+        full_name: 'Nome completo:'
+        email:     'Indirizzo email:'
+        phone:     'Telefono/cellulare:'
+        message:   'Messaggio:'

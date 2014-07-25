@@ -17,7 +17,7 @@ gem 'font-awesome-rails'
 
 # Views
 gem 'haml-rails'
-gem 'simple_form'
+gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form', branch: 'master'
 gem 'high_voltage', '~> 2.2.0'
 
 # JavaScript runtime
@@ -34,6 +34,10 @@ gem 'rails-i18n'
 
 # Active Record
 gem 'pg'
+
+# Asynchronous jobs
+gem 'sidekiq'
+gem 'clockwork'
 
 group :production do
   # Heroku
@@ -69,15 +73,15 @@ group :development do
 
   # Asset logging suppression
   gem 'quiet_assets'
+
+  # Console
+  gem 'pry-rails'
+  gem 'pry-rescue'
 end
 
 group :development, :test do
   # Factories
   gem 'factory_girl_rails'
-
-  # Console
-  gem 'pry-rails'
-  gem 'pry-rescue'
 
   # RSpec
   gem 'rspec-rails'
@@ -94,4 +98,10 @@ group :test do
 
   # Factories
   gem 'faker'
+
+  # RSpec
+  gem 'shoulda-matchers'
+
+  # Mocking
+  gem 'mocha'
 end
