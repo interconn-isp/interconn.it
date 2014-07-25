@@ -1,0 +1,7 @@
+.nav-wrapper
+  .container
+    %ul.nav.nav-tabs.nav-justified
+      %li{class: "#{'active' if yield(:body_id) == 'faq-terms'}"}= link_to 'Termini del servizio', faq_terms_path
+      %li{class: "#{'active' if yield(:body_id) == 'faq-tech'}"}= link_to 'Tecnologia', faq_tech_path
+      %li{class: "#{'active' if yield(:body_id) == 'faq-voip'}"}= link_to 'VoIP', faq_voip_path
+      %li{class: "#{'active' if yield(:body_id) == 'faq-condos'}"}= link_to 'Condomini', faq_condos_path

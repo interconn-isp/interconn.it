@@ -21,6 +21,10 @@ a {
   }
 }
 
+.nav a {
+  border-bottom: none;
+}
+
 p {
   font-size: ceil(($font-size-base * 1.2));
 

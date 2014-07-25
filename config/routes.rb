@@ -10,4 +10,10 @@ Rails.application.routes.draw do
 
   get 'contact', to: 'contacts#new'
   post 'contact', to: 'contacts#create'
+
+  get 'faq', to: 'high_voltage/pages#show', id: 'faq/terms'
+  get 'faq/terms', to: 'high_voltage/pages#show', id: 'faq/terms'
+  get 'faq/tech', to: 'high_voltage/pages#show', id: 'faq/tech'
+  get 'faq/voip', to: 'high_voltage/pages#show', id: 'faq/voip'
+  get 'faq/condos', to: 'high_voltage/pages#show', id: 'faq/condos'
 end
