@@ -1,0 +1,22 @@
+body#contract {
+  .terms-long {
+    p, ul, dl, ol, address, table {
+      font-size: 14px;
+    }
+
+    h5 {
+      font-weight: bold;
+    }
+  }
+
+  .terms-short {
+    h4 {
+      font-size: ceil(($font-size-small * 1.1));
+      color: $gray-light;
+    }
+
+    p {
+      font-size: ceil(($font-size-large * 1.2));
+    }
+  }
+}

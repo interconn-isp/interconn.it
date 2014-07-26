@@ -16,4 +16,6 @@ Rails.application.routes.draw do
   get 'faq/tech', to: 'high_voltage/pages#show', id: 'faq/tech'
   get 'faq/voip', to: 'high_voltage/pages#show', id: 'faq/voip'
   get 'faq/condos', to: 'high_voltage/pages#show', id: 'faq/condos'
+
+  get 'contract', to: 'high_voltage/pages#show', id: 'contract'
 end
