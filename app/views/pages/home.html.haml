@@ -21,19 +21,14 @@
 
         .row
           .col-xs-12
-            .contained-xs.center-block
-              %form(role='form')
+            .contained.center-block
+              %form.form-inline(role='form')
                 .form-group
-                  %input.form-control.input-lg(type='text' placeholder='Nome e cognome')
-
+                  %input.form-control.input-lg.input-flat(type='text' placeholder='Il tuo indirizzo')
                 .form-group
-                  %input.form-control.input-lg(type='tel' placeholder='Numero di telefono')
-
-                .form-group
-                  %input.form-control.input-lg(type='text' placeholder='Sede di attivazione')
-
-                %button.btn.btn-bold.btn-blue-light.btn-transition.btn-lg(type='submit')
-                  Chiedi un sopralluogo
+                  %input.form-control.input-lg.input-flat(type='text' placeholder='Telefono o email')
+                %button.btn.btn-bold.btn-orange.btn-transition.btn-lg(type='submit')
+                  Inizia la prova!
 
         .arrow-wrapper
           %p= link_to fa_icon('caret-down', class: 'arrow'), '#features'
