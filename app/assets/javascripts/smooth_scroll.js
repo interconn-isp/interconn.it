@@ -7,9 +7,12 @@ $(function() {
       && location.hostname == this.hostname
       && $(this.hash).length > 0
     ) {
+      var offset = -59;
+      offset -= parseInt($(this.hash).css('margin-top'));
+
       $.scrollTo(this.hash, {
         duration: 500,
-        offset: -59
+        offset: offset
       });
       return false;
     }
