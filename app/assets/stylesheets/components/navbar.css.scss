@@ -45,7 +45,10 @@ body {
 
     margin-left: 25px;
     margin-top: 10px;
-    margin-right: 10px;
+
+    @media (max-width: $screen-sm-max) {
+      margin-right: 15px;
+    }
 
     background-color: lighten($palette-blue, 4%);
     transition: background-color .25s ease;
