@@ -16,7 +16,11 @@ body#contract {
     }
 
     p {
-      font-size: ceil(($font-size-large * 1.2));
+      font-size: 16px;
+
+      @media (min-width: $screen-sm-min) {
+        font-size: ceil(($font-size-large * 1));
+      }
     }
   }
 }
