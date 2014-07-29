@@ -1,0 +1,20 @@
+= simple_form_for(@inquiry) do |f|
+  = f.input :full_name, input_html: { class: 'input-lg' }
+
+  .row
+    .col-xs-12.col-sm-6
+      = f.input :telephone, input_html: { class: 'input-lg' }, required: true
+
+    .col-xs-12.col-sm-6
+      = f.input :email, input_html: { class: 'input-lg' }, required: true
+
+  = f.input :address, input_html: { class: 'input-lg', style: 'min-height: 100px' }
+  = f.input :product, input_html: { class: 'input-lg' }
+  = f.input :notes, input_html: { class: 'input-lg', style: 'min-height: 150px' }
+
+  .text-center
+    %button.btn.btn-lg.btn-primary.btn-orange.btn-transition
+      - if @inquiry.persisted?
+        Aggiorna richiesta
+      - else
+        Richiedi un sopralluogo

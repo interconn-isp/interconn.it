@@ -93,6 +93,8 @@ GEM
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
+    enumerize (0.8.0)
+      activesupport (>= 3.2)
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.2.1)
@@ -192,6 +194,9 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
+    rack_session_access (0.1.1)
+      builder (>= 2.0.0)
+      rack (>= 1.0.0)
     rails (4.1.4)
       actionmailer (= 4.1.4)
       actionpack (= 4.1.4)
@@ -322,6 +327,7 @@ DEPENDENCIES
   clockwork
   coffee-rails (~> 4.0.0)
   database_cleaner
+  enumerize
   factory_girl_rails
   faker
   figaro
@@ -341,6 +347,7 @@ DEPENDENCIES
   pry-rails
   pry-rescue
   quiet_assets
+  rack_session_access
   rails (= 4.1.4)
   rails-i18n
   rails_12factor

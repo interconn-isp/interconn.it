@@ -34,6 +34,7 @@ gem 'rails-i18n'
 
 # Active Record
 gem 'pg'
+gem 'enumerize'
 
 # Asynchronous jobs
 gem 'sidekiq'
@@ -95,6 +96,7 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'selenium-webdriver'
+  gem 'rack_session_access'
 
   # Factories
   gem 'faker'

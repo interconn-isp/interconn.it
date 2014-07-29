@@ -1,6 +1,6 @@
 - provide :body_id, 'home'
 
-%section.text-center.jumbotron.jumbotron-presentation
+%section.text-center.jumbotron.jumbotron-presentation#inquiry
   .overlay
     .container#jumbotron-presentation-container
       #jumbotron-inner
@@ -22,11 +22,12 @@
         .row
           .col-xs-12
             .contained.center-block
-              %form.form-inline(role='form')
+              = simple_form_for @inquiry, url: inquiries_path, wrapper: :inline_form, html: { class: 'form-inline' } do |f|
                 .form-group
-                  %input.form-control.input-lg.input-flat(type='text' placeholder='Il tuo indirizzo')
+                  = f.input_field :address, as: :string, class: 'input-lg input-flat form-control', placeholder: 'Il tuo indirizzo'
                 .form-group
-                  %input.form-control.input-lg.input-flat(type='text' placeholder='Telefono o email')
+                  = f.input_field :telephone_or_email, as: :string, class: 'input-lg input-flat form-control', placeholder: 'Telefono o email'
+
                 %button.btn.btn-bold.btn-orange.btn-transition.btn-lg(type='submit')
                   Inizia la prova!
 

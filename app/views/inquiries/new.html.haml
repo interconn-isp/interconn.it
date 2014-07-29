@@ -1,0 +1,26 @@
+- provide :title, 'Richiesta di sopralluogo'
+
+.container
+  .heading
+    %h1.heading-title Richiesta di sopralluogo
+    %h3.heading-description Compila il modulo e sarai ricontattato in men che non si dica per fissare un appuntamento!
+
+.container.contained-sm
+  .row
+    .col-xs-12
+      = simple_form_for(@inquiry) do |f|
+        .row
+          .col-xs-12.col-sm-6
+            = f.input :telephone, input_html: { class: 'input-lg' }, required: true
+
+          .col-xs-12.col-sm-6
+            = f.input :email, input_html: { class: 'input-lg' }, required: true
+
+        = f.input :address, input_html: { class: 'input-lg', style: 'min-height: 100px' }
+
+        .text-center
+          %button.btn.btn-lg.btn-primary.btn-orange.btn-transition
+            Richiedi un sopralluogo
+
+- content_for :javascripts do
+  = javascript_include_tag asset_path('pages/inquiry.js')

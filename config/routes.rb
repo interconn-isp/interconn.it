@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'high_voltage/pages#show', id: 'home'
+  root to: 'home#show'
 
   get 'pricing', to: 'high_voltage/pages#show', id: 'pricing/wadsl'
   get 'pricing/wadsl', to: 'high_voltage/pages#show', id: 'pricing/wadsl'
@@ -18,4 +18,7 @@ Rails.application.routes.draw do
   get 'faq/condos', to: 'high_voltage/pages#show', id: 'faq/condos'
 
   get 'contract', to: 'high_voltage/pages#show', id: 'contract'
+
+  resources :inquiries, only: [:create]
+  resource :inquiry, only: [:edit, :update]
 end

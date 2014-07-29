@@ -1,0 +1,27 @@
+it:
+  simple_form:
+    labels:
+      inquiry:
+        full_name: 'Nome completo:'
+        telephone: 'Telefono:'
+        email:     'Email:'
+        product:   'Prodotto:'
+        notes:     'Note:'
+        address:   'Indirizzo:'
+    placeholders:
+      inquiry:
+        address: "Inserisci un indirizzo completo per una gestione più veloce della tua richiesta."
+        notes: 'IP statici aggiuntivi, portabilità del numero di telefono e qualunque altra cosa che dovremmo sapere.'
+
+  enumerize:
+    inquiry:
+      product:
+        wadsl-7mega-privati:  'WADSL 7 Mega Privati'
+        wadsl-10mega-privati: 'WADSL 10 Mega Privati'
+        wadsl-4mega-business: 'WADSL 4 Mega Business'
+        wadsl-7mega-business: 'WADSL 7 Mega Business'
+        whdsl-2mega-1mega:    'WHDSL 2 Mega / 1 Mega'
+        whdsl-2mega-2mega:    'WHDSL 2 Mega / 2 Mega'
+        whdsl-2mega-2mega:    'WHDSL 2 Mega / 2 Mega'
+        whdsl-4mega-2mega:    'WHDSL 4 Mega / 2 Mega'
+        voip:                 'InterConn VoIP'
