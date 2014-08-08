@@ -7,16 +7,7 @@ RSpec.describe InquiryTrelloManager do
 
   describe '#create_inquiry_card' do
     it 'creates the card' do
-      expected_desc = "- Codice richiesta: **#{inquiry[:code]}**\n"
-      expected_desc += "- Indirizzo: **#{inquiry[:address]}**\n"
-      expected_desc += "- Telefono: **#{inquiry[:telephone]}**\n"
-      expected_desc += "- Data invio: **#{inquiry[:created_at].strftime('%d/%m/%Y %H:%M')}**"
-
-      Trello::Card.expects(:create)
-        .once
-        .with(name: inquiry[:address], desc: expected_desc, list_id: 'DummyList')
-        .returns(true)
-
+      Trello::Card.expects(:create).once
       subject.create_inquiry_card(inquiry)
     end
   end

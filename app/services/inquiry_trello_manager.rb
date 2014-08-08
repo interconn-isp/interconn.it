@@ -1,12 +1,10 @@
 class InquiryTrelloManager
   SYMBOL_TO_DESC = {
     code: 'Codice richiesta',
-    address: 'Indirizzo',
     full_name: 'Nome cliente',
-    telephone: 'Telefono',
-    email: 'Email',
-    product: 'Prodotto',
-    notes: 'Note',
+    telephone: 'Telefono cliente',
+    email: 'Email cliente',
+    product: 'Prodotto richiesto',
     created_at: 'Data invio'
   }
 
@@ -37,18 +35,24 @@ class InquiryTrelloManager
   private
 
   def build_card_desc(inquiry)
-    SYMBOL_TO_DESC.each_key.map do |key|
+    desc_parts = SYMBOL_TO_DESC.each_key.map do |key|
       field_name = SYMBOL_TO_DESC[key]
       field_value = inquiry[key]
 
       next if field_value.blank?
 
       "- #{field_name}: **#{field_value}**"
-    end.select{ |v| v.present? }.join("\n")
+    end
+
+    desc_parts << "\nIndirizzo:\n\n```\n#{inquiry[:address]}\n```"
+    desc_parts << "\nNote:\n\n```\n#{inquiry[:notes]}\n```" unless inquiry[:notes].blank?
+
+    desc_parts.select{ |v| v.present? }.join("\n")
   end
 
   def prepare_inquiry(inquiry)
     inquiry = inquiry.symbolize_keys
+    inquiry[:product] = I18n.t("enumerize.inquiry.product.#{inquiry[:product]}")
     inquiry[:created_at] = inquiry[:created_at].strftime('%d/%m/%Y %H:%M')
     inquiry
   end
