@@ -1,6 +1,4 @@
-class CreateInquiryTrelloCard
-  attr_reader :options
-
+class InquiryTrelloManager
   SYMBOL_TO_DESC = {
     code: 'Codice richiesta',
     address: 'Indirizzo',
@@ -12,6 +10,8 @@ class CreateInquiryTrelloCard
     created_at: 'Data invio'
   }
 
+  attr_reader :options
+
   def initialize(options = {})
     @options = options
   end
@@ -21,14 +21,22 @@ class CreateInquiryTrelloCard
 
     Trello::Card.create(
       name: inquiry[:address],
-      desc: build_card_description(inquiry),
+      desc: build_card_desc(inquiry),
       list_id: options[:list_id]
     )
   end
 
+  def update_inquiry_card(card_id, inquiry)
+    inquiry = prepare_inquiry(inquiry)
+
+    card = Trello::Card.find(card_id)
+    card.desc = build_card_desc(inquiry)
+    card.update!
+  end
+
   private
 
-  def build_card_description(inquiry)
+  def build_card_desc(inquiry)
     SYMBOL_TO_DESC.each_key.map do |key|
       field_name = SYMBOL_TO_DESC[key]
       field_value = inquiry[key]

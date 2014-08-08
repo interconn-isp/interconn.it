@@ -41,19 +41,13 @@ RSpec.describe Inquiry, :type => :model do
     end
   end
 
-  describe '.unprocessed' do
-    let!(:processed_inquiry) { FactoryGirl.create(:inquiry, processed: true) }
-    let!(:unprocessed_inquiry) { FactoryGirl.create(:inquiry) }
-
-    it 'returns the unprocessed inquiries only' do
-      expect(Inquiry.unprocessed).to eq([unprocessed_inquiry])
-    end
-  end
-
   describe '#mark_as_processed!' do
-    it 'updates the processed attribute to true' do
-      subject.expects(:update_column).with(:processed, true).once
-      subject.mark_as_processed!
+    it 'updates the attributes' do
+      subject.expects(:update_columns)
+        .with(processed: true, trello_card_id: 'test')
+        .once
+
+      subject.mark_as_processed!('test')
     end
   end
 end

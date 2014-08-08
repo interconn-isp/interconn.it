@@ -10,6 +10,7 @@ class InquiriesController < ApplicationController
 
     if @inquiry.save
       session[:inquiry_code] = @inquiry.code
+      CreateInquiryTrelloCardWorker.perform_async(@inquiry.id)
       redirect_to edit_inquiry_path
     else
       render :new
@@ -22,6 +23,7 @@ class InquiriesController < ApplicationController
   def update
     if @inquiry.update(inquiry_params)
       session.delete :inquiry_code
+      UpdateInquiryTrelloCardWorker.perform_async(@inquiry.id)
       render :updated
     else
       render :edit
