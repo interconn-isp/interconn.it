@@ -34,5 +34,5 @@ namespace :deploy do
     end
   end
 
-  after :finishing, 'deploy:cleanup'
+  after :finishing, 'deploy:cleanup', 'clockwork:restart'
 end
