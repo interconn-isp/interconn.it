@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/plataformatec/simple_form.git
-  revision: ed3de1c2b566a962697529e824953f6b280e2867
+  revision: c3bc4af79df2f3f51500a38d8a84aa682f9ad009
   branch: master
   specs:
     simple_form (3.1.0.rc2)
@@ -38,14 +38,14 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (2.1.1.20140710)
+    autoprefixer-rails (2.2.0.20140727)
       execjs
     better_errors (1.1.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bootstrap-sass (3.2.0.0)
+    bootstrap-sass (3.2.0.1)
       sass (~> 3.2)
     builder (3.2.2)
     capistrano (3.0.1)
@@ -227,7 +227,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redis (3.1.0)
-    redis-namespace (1.5.0)
+    redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
     ref (1.0.5)
     rspec (3.0.0)
