@@ -11,6 +11,8 @@ class Inquiry < ActiveRecord::Base
   validates :email, presence: { if: ->{ telephone.blank? } }
   validates :telephone, presence: { if: ->{ email.blank? } }
 
+  scope :unprocessed, -> { where processed: false }
+
   before_create :set_code
 
   attr_reader :telephone_or_email
@@ -23,6 +25,10 @@ class Inquiry < ActiveRecord::Base
     else
       self.telephone = telephone_or_email
     end
+  end
+
+  def mark_as_processed!
+    update_column :processed, true
   end
 
   protected

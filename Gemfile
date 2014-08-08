@@ -40,6 +40,9 @@ gem 'enumerize'
 gem 'sidekiq'
 gem 'clockwork'
 
+# Trello integration
+gem 'ruby-trello', require: 'trello'
+
 group :production do
   # Heroku
   gem 'rails_12factor'
