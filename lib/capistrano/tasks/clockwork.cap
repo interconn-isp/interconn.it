@@ -51,7 +51,6 @@ namespace :clockwork do
     "#{shared_path}/tmp/pids"
   end
 
-
   def rails_env
     fetch(:rails_env, false) ? "RAILS_ENV=#{fetch(:rails_env)}" : ''
   end
