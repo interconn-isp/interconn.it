@@ -47,7 +47,7 @@ Rails.application.configure do
   config.active_support.deprecation = :notify
 
   # ActionMailer configuration.
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
 
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
@@ -58,7 +58,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  # Action Mailer SMTP configuration.
+  # ActionMailer SMTP configuration.
   config.action_mailer.smtp_settings = {
     address:              ENV['SMTP_ADDRESS'],
     port:                 ENV['SMTP_PORT'],
@@ -66,6 +66,6 @@ Rails.application.configure do
     user_name:            ENV['SMTP_USERNAME'],
     password:             ENV['SMTP_PASSWORD'],
     authentication:       ENV['SMTP_AUTH'],
-    enable_starttls_auto: ENV['SMTP_STARTTLS']
+    enable_starttls_auto: (ENV['SMTP_STARTTLS'] == 'true')
   }
 end
