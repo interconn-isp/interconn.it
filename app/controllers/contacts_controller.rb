@@ -7,7 +7,9 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
     @contact.source_ip = request.remote_ip
 
-    @contact.save
+    if @contact.save
+      SendContactEmailWorker.perform_async(@contact.id)
+    end
 
     render :new
   end

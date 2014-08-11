@@ -17,6 +17,12 @@ RSpec.describe ContactsController, type: :controller do
           post :create, contact: params
         }.to change(Contact, :count).by(1)
       end
+
+      it 'delivers the email asynchronously' do
+        expect {
+          post :create, contact: params
+        }.to change(SendContactEmailWorker.jobs, :size).by(1)
+      end
     end
 
     context 'with invalid params' do
