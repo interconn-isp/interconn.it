@@ -1,5 +1,7 @@
 .btn {
   text-transform: uppercase;
+  transition: background-color .25s ease,
+              border-color .25s ease;
 }
 
 .btn-lg {
@@ -9,10 +11,8 @@
 
 .btn-blue-light {
   @include button-variant(white, $palette-blue, $palette-blue);
-  @include btn-styles($palette-blue);
 }
 
 .btn-orange {
   @include button-variant(white, $palette-orange, $palette-orange);
-  @include btn-styles($palette-orange);
 }
