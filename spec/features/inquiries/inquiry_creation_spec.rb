@@ -10,7 +10,7 @@ RSpec.describe 'the inquiry creation page', type: :feature do
     fill_in 'Telefono o email', with: inquiry[:email]
 
     expect {
-      click_button 'Inizia la prova!'
+      click_button 'Inizia la tua prova!'
     }.to change(Inquiry, :count).by(1)
   end
 end
