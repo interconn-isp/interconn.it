@@ -22,7 +22,7 @@
     %main(role='main')
       = yield
 
-    = render 'layouts/bottom_call'
+    = render 'layouts/bottom_call' unless params[:controller] == 'inquiries'
     = render 'layouts/footer'
 
     = javascript_include_tag 'application'
