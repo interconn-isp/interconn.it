@@ -1,11 +1,10 @@
 body#contact {
-  #contact-container {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+  #contact-form {
+    margin-top: 50px;
+    margin-bottom: 50px;
 
-  .contact-column {
-    max-width: 500px;
-    margin: 0 auto;
+    h3:first-child {
+      margin-top: 0;
+    }
   }
 }

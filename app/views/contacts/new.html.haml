@@ -6,50 +6,54 @@
     %h1.heading-title Contatti e supporto
     %h3.heading-description Fatti avanti, siamo qui per aiutare!
 
-%section
-  .container#contact-container
+.telephones
+  .container
     .row
-      .col-xs-12.col-md-6
-        .contact-column
-          - if @contact.persisted?
-            %h3 Messaggio inviato
+      .col-xs-12.col-sm-4.telephone
+        .telephone-note Numero verde gratuito
+        .telephone-number 800-193724
 
-            %p
-              Il tuo messaggio è stato inviato con successo! Riceverai una
-              risposta in men che non si dica.
-          - else
-            %h3 Scrivici
+      .col-xs-12.col-sm-4.telephone
+        .telephone-note Da cellulari e dall'estero
+        .telephone-number 06-83390315
 
-            = simple_form_for(@contact, url: contact_path) do |f|
-              = f.input :full_name, input_html: { class: 'input-lg' }, placeholder: 'Come ti chiami?'
-              = f.input :phone, input_html: { class: 'input-lg' }, placeholder: 'Non è obbligatorio, ma gradito.'
-              = f.input :email, input_html: { class: 'input-lg' }, placeholder: 'Promettiamo di non inviare spam.'
-              = f.input :message, input_html: { class: 'input-lg', id: 'message' }, placeholder: 'Non essere timido! :)'
+      .col-xs-12.col-sm-4.telephone
+        .telephone-note Comunicazioni via fax
+        .telephone-number 06-62204896
 
-              %button.btn.btn-lg.btn-primary(type='submit') Contattaci
-
-      .col-xs-12.col-md-5.col-md-offset-1
-        .contact-column
-          %h3 Assistenza telefonica
+.container.contained-sm#contact-form
+  .row
+    .col-xs-12
+      - if @contact.persisted?
+        .text-center
+          %h3 Messaggio inviato
 
           %p
-            I nostri operatori sono disponibili dal lunedì al venerdì, dalle 9
-            alle 19 per rispondere alle tue domande e risolvere i tuoi problemi.
+            Il tuo messaggio è stato inviato con successo! Riceverai una
+            risposta in men che non si dica.
+      - else
+        %h3.text-center Scrivici
 
-          %p.telephone-number
-            800-193724
-            %small Numero verde gratuito
+        = simple_form_for(@contact, url: contact_path) do |f|
+          = f.input :full_name, input_html: { class: 'input-lg' }, placeholder: 'Come ti chiami?'
+          = f.input :phone, input_html: { class: 'input-lg' }, placeholder: 'Non è obbligatorio, ma gradito.'
+          = f.input :email, input_html: { class: 'input-lg' }, placeholder: 'Promettiamo di non inviare spam.'
+          = f.input :message, input_html: { class: 'input-lg', id: 'message' }, placeholder: 'Non essere timido! :)'
 
-          %p.telephone-number
-            06-83390315
-            %small Da telefoni cellulari e dall'estero
+          .text-center
+            %button.btn.btn-lg.btn-primary(type='submit') Contattaci
 
-          %p.telephone-number
-            06-62204896
-            %small Solo per comunicazioni via fax
+.huge-social-icons.hsi-last
+  .container-fluid
+    .row
+      .col-xs-6.col-md-3.social-icon.si-facebook
+        = link_to(fa_icon('facebook', class: 'fa-fw'), 'https://facebook.com/interconn.wisp')
 
-          %h3 Skype
+      .col-xs-6.col-md-3.social-icon.si-twitter
+        = link_to(fa_icon('twitter', class: 'fa-fw'), 'https://twitter.com/InterConnISP')
 
-          %p
-            Ci puoi anche trovare su Skype sotto il nome utente
-            = "#{link_to('interconn.wisp', 'skype:interconn.wisp?chat')}.".html_safe
+      .col-xs-6.col-md-3.social-icon.si-google-plus
+        = link_to(fa_icon('google-plus', class: 'fa-fw'), '#')
+
+      .col-xs-6.col-md-3.social-icon.si-skype
+        = link_to(fa_icon('skype', class: 'fa-fw'), 'skype:interconn.wisp?chat')

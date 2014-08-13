@@ -1,0 +1,31 @@
+.heading + .telephones {
+  border-top: none;
+  margin-top: -25px;
+}
+
+.telephones {
+  border-top: 1px solid $gray-lighter;
+  border-bottom: 1px solid $gray-lighter;
+
+  .telephone {
+    padding: 25px 0;
+    border-right: 1px solid $gray-lighter;
+    text-align: center;
+
+    &:first-child {
+      border-left: 1px solid $gray-lighter;
+    }
+
+    .telephone-note {
+      font-weight: thin;
+      text-transform: uppercase;
+      color: $palette-blue;
+    }
+
+    .telephone-number {
+      font-size: ceil(($font-size-large * 2));
+      font-weight: bolder;
+      color: $palette-orange;
+    }
+  }
+}
