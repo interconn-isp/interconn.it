@@ -6,8 +6,6 @@
       #jumbotron-inner
         .row
           .col-xs-12
-            = image_tag asset_path('glyph.svg'), class: 'img-responsive center-block', style: 'opacity: 0.75'
-
             %h1#home-title-animated.hidden-xs
               Internet per
               %span#home-slogan
@@ -15,9 +13,11 @@
             %h1.visible-xs
               Internet per te.
 
-            %p
-              Hai 15 giorni di prova gratuita.
-              = link_to "Scopri l'offerta.", pricing_path
+            .contained-sm
+              %p.small-speech
+                Internet non è più un optional, eppure quasi 3 milioni di italiani non possono accedervi.
+                InterConn usa la tecnologia wireless per abbattere il
+                digital divide una casa alla volta.
 
         .row
           .col-xs-12
@@ -30,6 +30,8 @@
 
                 %button.btn.btn-bold.btn-orange.btn-transition.btn-lg(type='submit')
                   Inizia la prova!
+
+                %p Hai 15 giorni di prova gratuita e senza impegno.
 
         .arrow-wrapper
           %p= link_to fa_icon('caret-down', class: 'arrow'), '#features'
@@ -51,8 +53,8 @@
           %h3 Costi competitivi
 
           %p.lead
-            Stanco di pagare troppo per avere troppo poco? Ottieni un rapporto
-            qualità/prezzo senza precedenti.
+            Stanco di pagare troppo per avere troppo poco? Con InterConn ottieni
+            un rapporto qualità/prezzo senza precedenti.
 
         .col-xs-12.col-md-4.feature
           = image_tag asset_path('ballicons/speed.svg'), class: 'feature-icon'
@@ -60,8 +62,8 @@
           %h3 Servizio da urlo
 
           %p.lead
-            Connettività affidabile e prestazioni senza eguali. Da questo
-            momento internet non è più un optional.
+            Connettività affidabile e prestazioni senza eguali. Finalmente un
+            servizio su cui puoi davvero contare.
 
         .col-xs-12.col-md-4.feature
           = image_tag asset_path('ballicons/heart.svg'), class: 'feature-icon'

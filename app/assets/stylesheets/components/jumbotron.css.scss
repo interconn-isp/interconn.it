@@ -7,20 +7,28 @@
 
   h1:first-child, p:first-child {
     margin-top: 0;
+    margin-bottom: 21px;
   }
 
   p:last-child {
     margin-bottom: 0;
   }
 
-  margin-bottom: 0;
-
   h1, .h1 {
-    font-size: ceil(($font-size-large * 3));
+    font-size: ceil(($font-size-large * 4));
+    font-weight: bolder;
+    text-shadow: 1px 1px $gray;
   }
+
+  margin-bottom: 0;
 
   p {
     font-size: ceil(($font-size-large * 1.7));
+  }
+
+  p.small-speech {
+    font-weight: normal;
+    font-size: ceil(($font-size-large * 1.2));
   }
 
   a {
@@ -34,6 +42,14 @@
 
   form {
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 25px;
+    border-radius: 10px;
+
+    p {
+      font-size: ceil(($font-size-large * 1));
+      margin-top: 10px;
+    }
   }
 }
 
