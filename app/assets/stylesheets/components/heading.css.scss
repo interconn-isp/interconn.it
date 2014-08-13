@@ -1,11 +1,17 @@
 .heading {
-  margin-top: 75px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &.heading-bordered {
+    border-bottom: 1px solid darken($gray-lighter, 6.5%);
+    margin-bottom: 25px;
+  }
 
   text-align: center;
 
   .heading-title {
     font-weight: bold;
+    margin-top: 0;
   }
 
   .heading-description {

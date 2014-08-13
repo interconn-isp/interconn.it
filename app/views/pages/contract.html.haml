@@ -1,9 +1,10 @@
 - provide :title, 'Contratto'
 - provide :body_id, 'contract'
 
-.heading
-  %h1.heading-title Contratto InterConn
-  %h3.heading-description A sinistra per gli avvocati, a destra per te.
+.heading.heading-bordered
+  .container
+    %h1.heading-title Contratto InterConn
+    %h3.heading-description A sinistra per gli avvocati, a destra per te.
 
 .container.visible-xs
   .text-center
@@ -12,8 +13,6 @@
         %input(type='radio' name='contract-view' value='complete' checked) Completo
       %label.btn.btn-primary
         %input(type='radio' name='contract-view' value='simplified') Semplificato
-
-%hr/
 
 .container#art-1
   .row

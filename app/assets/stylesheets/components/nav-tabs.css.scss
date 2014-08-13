@@ -1,9 +1,10 @@
+.heading + .nav-wrapper {
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
 .nav-wrapper {
   border-bottom: 1px solid darken($gray-lighter, 6.5%);
-
-  & + .container {
-    margin-top: -25px;
-  }
 }
 
 .nav-tabs {
