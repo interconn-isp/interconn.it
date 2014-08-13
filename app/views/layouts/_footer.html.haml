@@ -7,7 +7,7 @@
 
           %ul.list-unstyled
             %li= link_to 'La nostra storia', '#'
-            %li= link_to 'Lavora con noi', '#'
+            %li= link_to 'Lavora con noi', jobs_path
             %li= link_to 'Blog', '#'
             %li= link_to 'Kit stampa', '#'
 
@@ -35,19 +35,23 @@
           %ul.list-unstyled
             %li
               = fa_icon 'facebook', class: 'fa-fw'
-              = link_to 'Facebook', 'https://www.facebook.com/interconn.wisp'
+              = link_to 'Facebook', ENV['FACEBOOK_URL']
 
             %li
               = fa_icon 'twitter', class: 'fa-fw'
-              = link_to 'Twitter', 'https://twitter.com/InterConnISP'
+              = link_to 'Twitter', ENV['TWITTER_URL']
 
             %li
               = fa_icon 'github', class: 'fa-fw'
-              = link_to 'GitHub', 'https://github.com/interconn-wisp'
+              = link_to 'GitHub', ENV['GITHUB_URL']
 
             %li
               = fa_icon 'google-plus', class: 'fa-fw'
-              = link_to 'Google+', '#'
+              = link_to 'Google+', ENV['GOOGLE_PLUS_URL']
+
+            %li
+              = fa_icon 'skype', class: 'fa-fw'
+              = link_to 'Skype', ENV['SKYPE_URL']
 
   .footer-disclaimer
     .container

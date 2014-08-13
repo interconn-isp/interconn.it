@@ -47,13 +47,13 @@
   .container-fluid
     .row
       .col-xs-6.col-md-3.social-icon.si-facebook
-        = link_to(fa_icon('facebook', class: 'fa-fw'), 'https://facebook.com/interconn.wisp')
+        = link_to(fa_icon('facebook', class: 'fa-fw'), ENV['FACEBOOK_URL'])
 
       .col-xs-6.col-md-3.social-icon.si-twitter
-        = link_to(fa_icon('twitter', class: 'fa-fw'), 'https://twitter.com/InterConnISP')
+        = link_to(fa_icon('twitter', class: 'fa-fw'), ENV['TWITTER_URL'])
 
       .col-xs-6.col-md-3.social-icon.si-google-plus
-        = link_to(fa_icon('google-plus', class: 'fa-fw'), '#')
+        = link_to(fa_icon('google-plus', class: 'fa-fw'), ENV['GOOGLE_PLUS_URL'])
 
       .col-xs-6.col-md-3.social-icon.si-skype
-        = link_to(fa_icon('skype', class: 'fa-fw'), 'skype:interconn.wisp?chat')
+        = link_to(fa_icon('skype', class: 'fa-fw'), ENV['SKYPE_URL'])
