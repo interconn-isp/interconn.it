@@ -1,27 +1,18 @@
 .btn {
   text-transform: uppercase;
-  font-weight: 200;
 }
 
 .btn-lg {
-  padding-top: 11.5px;
-  padding-bottom: 11.5px;
-}
-
-.btn-transition {
-  transition: background-color 0.3s ease;
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
 }
 
 .btn-blue-light {
   @include button-variant(white, $palette-blue, $palette-blue);
-  border: none;
+  @include btn-styles($palette-blue);
 }
 
 .btn-orange {
   @include button-variant(white, $palette-orange, $palette-orange);
-  border: none;
-}
-
-.btn-bold {
-  font-weight: normal;
+  @include btn-styles($palette-orange);
 }
