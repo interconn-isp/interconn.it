@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get 'faq/condos', to: 'high_voltage/pages#show', id: 'faq/condos'
 
   get 'contract', to: 'high_voltage/pages#show', id: 'contract'
+  get 'jobs', to: 'high_voltage/pages#show', id: 'jobs'
 
   resources :inquiries, only: [:create]
   resource :inquiry, only: [:edit, :update]
