@@ -1,3 +1,6 @@
+# Make Thin send its output to stdout.
+$stdout.sync = true
+
 require File.expand_path('../boot', __FILE__)
 
 # Pick the frameworks you want:
