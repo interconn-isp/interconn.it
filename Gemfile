@@ -43,12 +43,6 @@ gem 'clockwork'
 # Trello integration
 gem 'ruby-trello', require: 'trello'
 
-group :production do
-  # Heroku
-  gem 'rails_12factor'
-  gem 'heroku_rails_deflate'
-end
-
 group :development do
   # Error reporting
   gem 'better_errors'
