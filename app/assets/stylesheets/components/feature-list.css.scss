@@ -1,0 +1,20 @@
+.feature-list {
+  .feature {
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    &:nth-child(even) {
+      background-color: $gray-lighter;
+    }
+
+    .feature-icon {
+      width: 100%;
+    }
+  }
+}
+
+.heading + .feature-list .feature:first-child {
+  &:first-child {
+    padding-top: 50px;
+  }
+}

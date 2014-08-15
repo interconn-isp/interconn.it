@@ -1,0 +1,16 @@
+body#about {
+  #about-jumbotron {
+    background-image: asset-url('about.jpg');
+    background-position: center center;
+
+    .container {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      max-width: 800px;
+    }
+  }
+
+  .horizontal-call {
+    margin-top: 0;
+  }
+}

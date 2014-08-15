@@ -1,0 +1,74 @@
+- provide :title, 'Chi siamo'
+- provide :body_id, 'about'
+
+.heading.heading-bordered
+  .container
+    %h1.heading-title Chi siamo
+    %h3.heading-description
+      InterConn è un insieme di visionari e appassionati accomunati
+      dall'obiettivo di abbattere il digital divide offrendo un servizio di
+      alta qualità.
+
+.feature-list
+  .feature
+    .container.contained
+      .row
+        .col-xs-4
+          = image_tag asset_path('ballicons/lightbulb.svg'), class: 'feature-icon'
+
+        .col-xs-8
+          %h2 Siamo ideatori
+
+          %p
+            In un panorama fossilizzato come quello del digital divide, portiamo
+            un'onda di novità. Pianifichiamo e agiamo. Sfruttiamo le tecnologie
+            esistenti per offrire prodotti innovativi. Studiamo con attenzione ogni
+            aspetto del nostro processo per offrire un servizio su cui contare.
+
+  .feature
+    .container.contained
+      .row
+        .col-xs-8
+          %h2 Siamo sperimentatori
+
+          %p
+            Non ci adagiamo sui nostri successi. Il clima di costante
+            sperimentazione è la nostra firma, ciò che ci distingue dalla
+            concorrenza. Siamo alla continua ricerca di soluzioni migliori, più
+            veloci ed efficienti, senza per questo compromettere la stabilità dei
+            nostri servizi.
+
+        .col-xs-4
+          = image_tag asset_path('ballicons/chemistry.svg'), class: 'feature-icon'
+
+  .feature
+    .container.contained
+      .row
+        .col-xs-4
+          = image_tag asset_path('ballicons/diamond.svg'), class: 'feature-icon'
+
+        .col-xs-8
+          %h2 Siamo perfezionisti
+
+          %p
+            Sopra ogni altra cosa ci interessa la qualità. Se non possiamo dare il
+            meglio di noi, non diamo niente. Come i nostri utenti, abbiamo provato
+            in prima persona le frustrazioni di un cattivo servizio, e siamo
+            determinati a non imitarlo, anche se dobbiamo compiere grandi sforzi.
+
+.jumbotron.jumbotron-presentation.jumbotron-fixed.text-center#about-jumbotron
+  .overlay
+    .container
+      %h1 Siamo InterConn.
+
+      %p.lead
+        Un gruppo di visionari e professionisti con l'obiettivo di abbattere il
+        digital divide e restituire alle persone il diritto di condividere le
+        proprie idee.
+
+      %p.lead
+        = "L'<strong>umanità</strong> è il nostro vanto.".html_safe
+        = "L'<strong>onestà</strong> è il nostro valore.".html_safe
+        = "La <strong>perfezione</strong> è il nostro marchio.".html_safe
+
+      %p.lead Vieni a conoscerci. Rimarrai stupito.

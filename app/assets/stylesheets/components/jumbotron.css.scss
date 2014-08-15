@@ -64,9 +64,7 @@
 }
 
 .jumbotron-presentation {
-  background-image: asset-url("jumbotron-presentation-cover.jpg");
   background-size: cover;
-  background-position: center 60%;
   color: white;
 
   .overlay {
@@ -100,4 +98,8 @@
       }
     }
   }
+}
+
+.jumbotron-fixed {
+  background-attachment: fixed;
 }
