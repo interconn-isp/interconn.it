@@ -1,0 +1,13 @@
+.panel-job {
+  @include panel-variant($palette-blue-light, white, $palette-blue, $palette-blue-light);
+
+  .panel-body {
+    p {
+      font-size: ceil(($font-size-base));
+    }
+  }
+
+  & > .panel-footer {
+    background-color: $palette-blue;
+  }
+}

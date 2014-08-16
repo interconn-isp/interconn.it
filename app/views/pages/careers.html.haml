@@ -1,0 +1,36 @@
+- provide :title, 'Lavora con noi'
+- provide :body_id, 'jobs'
+
+.heading.heading-bordered
+  .container
+    %h1.heading-title Lavora con noi
+    %h3.heading-description
+      Cerchi un'azienda dinamica con una missione nobile? Benvenuto in
+      InterConn. Ti divertirai qui.
+
+.container(style='margin-top: 50px')
+  .row
+    .col-xs-12.col-md-6.col-md-offset-3
+      .panel.panel-job
+        .panel-heading
+          .panel-title Commerciale
+
+        .panel-body
+          %p
+            InterConn è alla ricerca di addetti commerciali in grado di
+            espandere il mercato locale, acquisire nuovi utenti e stabilire
+            con questi un rapporto a lungo termine, individuare possibilità di
+            evoluzione per l'azienda, suggerire e delineare strategie di
+            marketing efficaci.
+
+          %p Il candidato ideale:
+
+          %ul
+            %li ha esperienza nel settore o è interessato ad acquisirla;
+            %li ha una forte attitudine al lavoro di squadra;
+            %li ammira e condivide la missione dell'azienda;
+            %li ha un discreto (a tratti infantile) senso dell'umorismo.
+
+        .panel-footer
+          .text-right
+            = link_to 'Questo lavoro fa per me', '#', class: 'btn btn-orange'
