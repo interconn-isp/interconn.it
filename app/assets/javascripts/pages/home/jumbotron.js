@@ -1,7 +1,7 @@
 (function() {
   function drawJumbotron()
   {
-    var vPadding = ($(window).height() - $('#jumbotron-inner').height()) / 2;
+    var vPadding = ($(window).height() - $('#home-jumbotron-content').height()) / 2;
     vPadding -= 30;
 
     if (vPadding < 50) {
@@ -14,8 +14,8 @@
       $('.arrow-wrapper').hide();
     }
 
-    $('#jumbotron-presentation-container').css('padding-top', vPadding + 'px');
-    $('#jumbotron-presentation-container').css('padding-bottom', vPadding + 'px');
+    $('#home-jumbotron-container').css('padding-top', vPadding + 'px');
+    $('#home-jumbotron-container').css('padding-bottom', vPadding + 'px');
   }
 
   $(window).load(function() {

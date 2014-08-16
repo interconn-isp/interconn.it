@@ -1,9 +1,6 @@
-/*
- *= depend_on jumbotron-presentation-cover.jpg
- */
-
 .jumbotron {
   padding: 0;
+  margin-bottom: 0;
 
   h1:first-child, p:first-child {
     margin-top: 0;
@@ -17,33 +14,29 @@
   h1, .h1 {
     font-size: ceil(($font-size-large * 4));
     font-weight: bolder;
-    text-shadow: 1px 1px $gray;
   }
 
-  margin-bottom: 0;
-
-  p {
-    font-size: ceil(($font-size-large * 1.7));
-  }
-
-  p.small-speech {
+  p:not(.lead) {
     font-weight: normal;
     font-size: ceil(($font-size-large * 1.2));
   }
 
+  p.lead {
+    font-size: ceil(($font-size-large * 1.7));
+  }
+
   a {
-    border-color: white;
+    &:not(.btn) {
+      border-color: white;
+    }
+
     color: white;
   }
 
-  a.btn {
-    border-bottom: none;
-  }
-
-  form {
+  .jumbotron-form-wrapper {
     margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 50px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 
     p {
@@ -51,31 +44,13 @@
       margin-top: 10px;
     }
   }
-}
-
-.jumbotron-orange {
-  background-color: $palette-orange;
-  color: white;
-}
-
-.jumbotron-blue {
-  background-color: darken($palette-blue, 6.5%);
-  color: white;
-}
-
-.jumbotron-presentation {
-  background-size: cover;
-  color: white;
-
-  .overlay {
-    background-color: rgba(0, 0, 0, .5);
-  }
 
   .container {
     position: relative;
   }
 
-  .arrow-wrapper {
+  .jumbotron-arrow-wrapper {
+    text-align: center;
     position: absolute;
     bottom: 30px;
     width: 100%;
@@ -84,14 +59,19 @@
       border-bottom: none;
     }
 
-    .arrow {
-      border: 5px solid white;
-      border-radius: 50%;
+    .jumbotron-arrow {
+      padding-top: 5px;
+
       width: 50px;
       height: 50px;
-      padding-top: 5px;
+
+      border: 5px solid white;
+      border-radius: 50%;
+
       opacity: 0.75;
-      transition: all 0.2s ease;
+      transition: opacity 0.2s ease;
+
+      font-size: 33px;
 
       &:hover {
         opacity: 1;
@@ -100,6 +80,13 @@
   }
 }
 
-.jumbotron-fixed {
+.jumbotron-photo {
+  background-size: cover;
   background-attachment: fixed;
+
+  color: white;
+
+  .overlay {
+    background-color: rgba(0, 0, 0, .5);
+  }
 }

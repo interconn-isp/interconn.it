@@ -8,16 +8,12 @@ section {
   }
 }
 
-a {
+a:not(.btn) {
   border-bottom: 1px dotted;
   transition: color 0.2s ease;
 
   &:hover {
     text-decoration: none;
-  }
-
-  &.btn {
-    border: none;
   }
 }
 

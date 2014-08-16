@@ -1,15 +1,32 @@
+/*
+ *= depend_on jumbotron-presentation-cover.jpg
+ */
+
 body#home {
   .horizontal-call {
     margin-top: 0;
   }
 
-  #features {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-
-  #inquiry {
+  #home-jumbotron {
     background-image: asset-url('jumbotron-presentation-cover.jpg');
     background-position: center 60%;
+    text-align: center;
+  }
+
+  #animated-home-title-wrapper {
+    @media (max-width: $screen-sm-max) {
+      display: none;
+    }
+  }
+
+  #static-home-title-wrapper {
+    @media (min-width: $screen-md-min) {
+      display: none;
+    }
+  }
+
+  #home-features {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }

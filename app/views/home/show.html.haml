@@ -1,53 +1,50 @@
 - provide :body_id, 'home'
 
-%section.text-center.jumbotron.jumbotron-presentation#inquiry
+.jumbotron.jumbotron-photo#home-jumbotron
   .overlay
-    .container#jumbotron-presentation-container
-      #jumbotron-inner
+    .container#home-jumbotron-container
+      #home-jumbotron-content
         .row
           .col-xs-12
-            %h1#home-title-animated.hidden-xs.hidden-sm
+            %h1#animated-home-title-wrapper
               Internet per
-              %span#home-slogan
+              %span#animated-home-title
 
-            %h1.visible-xs.visible-sm
+            %h1#static-home-title-wrapper
               Internet per te.
 
             .contained-sm
-              %p.small-speech
+              %p
                 Internet non è più un optional, eppure quasi 3 milioni di
                 italiani non possono accedervi. InterConn usa la tecnologia
                 wireless per abbattere il digital divide una casa alla volta.
 
-        .row
-          .col-xs-12
-            .contained.center-block
+            .jumbotron-form-wrapper.contained
               = simple_form_for @inquiry, url: inquiries_path, wrapper: :inline_form, html: { class: 'form-inline' } do |f|
                 .form-group
-                  = f.input_field :address, as: :string, class: 'input-lg input-flat form-control', placeholder: 'Il tuo indirizzo'
+                  = f.input_field :address, as: :string, class: 'form-control input-lg input-flat', placeholder: 'Il tuo indirizzo'
                 .form-group
-                  = f.input_field :telephone_or_email, as: :string, class: 'input-lg input-flat form-control', placeholder: 'Telefono o email'
+                  = f.input_field :telephone_or_email, as: :string, class: 'form-control input-lg input-flat', placeholder: 'Telefono o email'
 
                 %button.btn.btn-orange.btn-lg(type='submit')
                   Inizia la tua prova!
 
                 %p Hai 15 giorni di prova gratuita e senza impegno.
 
-        .arrow-wrapper
-          %p= link_to fa_icon('caret-down', class: 'arrow'), '#features'
+        .jumbotron-arrow-wrapper
+          %p= link_to fa_icon('caret-down', class: 'jumbotron-arrow'), '#features'
 
-%section#features
-  #features-inner
-    .container.text-center
-      %h1
-        Costruito nel
-        %strong presente.
-        Proiettato nel
-        %strong futuro.
+#home-features
+  .container
+    .row
+      .col-xs-12
+        %h1.text-center
+          = "Costruito nel <strong>presente</strong>.".html_safe
+          = "Proiettato nel <strong>futuro</strong>.".html_safe
 
-    .container.feature-grid
+    .feature-grid
       .row
-        .col-xs-12.col-md-4.feature
+        .feature.col-xs-12.col-md-4
           = image_tag asset_path('ballicons/money-saving.svg'), class: 'feature-icon'
 
           %h3 Costi competitivi
@@ -56,7 +53,7 @@
             Stanco di pagare troppo per avere troppo poco? Con InterConn ottieni
             un rapporto qualità/prezzo senza precedenti.
 
-        .col-xs-12.col-md-4.feature
+        .feature.col-xs-12.col-md-4
           = image_tag asset_path('ballicons/wi-fi.svg'), class: 'feature-icon'
 
           %h3 Servizio da urlo
@@ -65,7 +62,7 @@
             Connettività affidabile e prestazioni senza eguali. Finalmente un
             servizio su cui puoi davvero contare.
 
-        .col-xs-12.col-md-4.feature
+        .feature.col-xs-12.col-md-4
           = image_tag asset_path('ballicons/support.svg'), class: 'feature-icon'
 
           %h3 Assistenza su misura
@@ -75,7 +72,7 @@
             tempo reale qualunque tuo problema.
 
       .row
-        .col-xs-12.col-md-4.feature
+        .feature.col-xs-12.col-md-4
           = image_tag asset_path('ballicons/map.svg'), class: 'feature-icon'
 
           %h3 Copertura estesa
@@ -84,7 +81,7 @@
             Arriviamo anche dove le compagnie telefoniche tradizionali hanno
             rinunciato. Nessuno rimane indietro.
 
-        .col-xs-12.col-md-4.feature
+        .feature.col-xs-12.col-md-4
           = image_tag asset_path('ballicons/dock.svg'), class: 'feature-icon'
 
           %h3 Contratto trasparente
@@ -93,7 +90,7 @@
             Non c'è alcun bisogno di complicare le cose. Con il nostro contratto
             saprai sempre per cosa stai pagando.
 
-        .col-xs-12.col-md-4.feature
+        .feature.col-xs-12.col-md-4
           = image_tag asset_path('ballicons/graph.svg'), class: 'feature-icon'
 
           %h3 Pannello di controllo
