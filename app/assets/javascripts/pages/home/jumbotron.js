@@ -11,7 +11,7 @@
       // There's no point in displaying the arrow, as the user
       // will already have to scroll to reveal the rest of the
       // jumbotron
-      $('.arrow-wrapper').hide();
+      $('.jumbotron-arrow-wrapper').hide();
     }
 
     $('#home-jumbotron-container').css('padding-top', vPadding + 'px');
