@@ -3,11 +3,17 @@ body#about {
     background-image: asset-url('about.jpg');
     background-position: center center;
 
+    text-align: center;
+
     .container {
       padding-top: 100px;
       padding-bottom: 100px;
       max-width: 800px;
     }
+  }
+
+  #about-logo {
+    margin: 0 auto;
   }
 
   .horizontal-call {

@@ -56,10 +56,10 @@
             in prima persona le frustrazioni di un cattivo servizio, e siamo
             determinati a non imitarlo, anche se dobbiamo compiere grandi sforzi.
 
-.jumbotron.jumbotron-presentation.jumbotron-fixed.text-center#about-jumbotron
+.jumbotron.jumbotron-photo#about-jumbotron
   .overlay
     .container
-      = image_tag asset_path('glyph.svg'), class: 'img-responsive glyph-opaque'
+      = image_tag asset_path('glyph.svg'), class: 'img-responsive', id: 'about-logo'
 
       %h1 Siamo InterConn.
 
