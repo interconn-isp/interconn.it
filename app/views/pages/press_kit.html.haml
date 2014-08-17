@@ -1,0 +1,69 @@
+- provide :title, 'Kit stampa'
+- provide :body_id, 'press-kit'
+
+.heading.heading-bordered
+  .container
+    %h1.heading-title Kit stampa
+    %h3.heading-description
+      Tutto il materiale pubblicitario di cui hai bisogno.
+
+.container.contained
+  .row
+    .col-xs-12
+      %h2 Loghi
+      %hr/
+
+  .row
+    .col-xs-12.col-sm-6
+      %p= image_tag asset_path('images/press-kit/glyph/glyph.svg'), class: 'img-responsive img-thumbnail'
+
+      %p
+        %ul.download-links-list
+          %li
+            = link_to 'SVG', asset_path('images/press-kit/glyph/glyph.svg')
+            (7,7 KB)
+
+          %li
+            = link_to 'PNG', asset_path('images/press-kit/glyph/glyph.png')
+            (69,2 KB)
+
+    .col-xs-12.col-sm-6
+      %p= image_tag asset_path('images/press-kit/full-logo/vertical/vertical.svg'), class: 'img-responsive img-thumbnail'
+
+      %p
+        %ul.download-links-list
+          %li
+            = link_to 'SVG', asset_path('images/press-kit/full-logo/vertical/vertical.svg')
+            (8,4 KB)
+
+          %li
+            = link_to 'PNG', asset_path('images/press-kit/full-logo/vertical/vertical.png')
+            (97,1 KB)
+
+    .col-xs-12
+      %p= image_tag asset_path('images/press-kit/full-logo/horizontal/horizontal.svg'), class: 'img-responsive img-thumbnail'
+
+      %p
+        %ul.download-links-list
+          %li
+            = link_to 'SVG', asset_path('images/press-kit/full-logo/horizontal/horizontal.svg')
+            (7,7 KB)
+
+          %li
+            = link_to 'PNG', asset_path('images/press-kit/full-logo/horizontal/horizontal.png')
+            (120,3 KB)
+
+  .row
+    .col-xs-12
+      %h2 Sfondi
+      %hr/
+
+  .row
+    .col-xs-12
+      %p= image_tag asset_path('images/press-kit/wallpaper/wallpaper.png'), class: 'img-responsive img-thumbnail'
+
+      %p
+        %ul.download-links-list
+          %li
+            = link_to 'PNG', asset_path('images/press-kit/wallpaper/wallpaper.png')
+            (58,5 KB)
