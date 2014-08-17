@@ -1,5 +1,5 @@
 - provide :title, 'Lavora con noi'
-- provide :body_id, 'jobs'
+- provide :body_id, 'careers'
 
 .heading.heading-bordered
   .container
@@ -8,9 +8,9 @@
       Cerchi un'azienda dinamica con una missione nobile? Benvenuto in
       InterConn. Ti divertirai qui.
 
-.container(style='margin-top: 50px')
+.container#careers-main-container
   .row
-    .col-xs-12.col-md-6.col-md-offset-3
+    .col-xs-12.col-md-7#careers-openings
       .panel.panel-job
         .panel-heading
           .panel-title Commerciale
@@ -34,3 +34,25 @@
         .panel-footer
           .text-right
             = link_to 'Invia candidatura', '#', class: 'btn btn-orange'
+
+    .col-xs-12.col-md-5#careers-benefits
+      %h3 Lavorare in InterConn
+
+      %p
+        Cerchiamo persone determinate e disposte a crescere in un ambiente di
+        lavoro sereno ma esigente. L'esperienza nel settore non è fondamentale,
+        mentre sono richieste la passione, la capacità di apprendere rapidamente
+        e la volontà di mettersi in gioco. Le magliette vincono sulle camicie,
+        l'umorismo, la sincerità e il rispetto trionfano sulla servilità. Non
+        abbiamo orari fissi, ma dovrai essere pronto quando serve.
+
+      %p
+        La qualità dei nostri servizi ci rende unici, dunque ci aspettiamo che
+        ogni impiegato sia all'altezza della missione svolta. Commettere un
+        errore è accettabile, ripeterlo non lo è. Ci muoviamo velocemente e
+        otteniamo risultati tangibili. Rivediamo in continuazione i nostri
+        processi e apportiamo le modifiche necessarie.
+
+      %p
+        Non è un lavoro che potrai lasciare dietro la porta di casa, ma sarai
+        felice di portarlo ovunque con te.

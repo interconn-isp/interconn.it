@@ -1,0 +1,23 @@
+body#careers {
+  #careers-main-container {
+    margin-top: 50px;
+  }
+
+  #careers-openings {
+    @media (min-width: $screen-md-min) {
+      padding-right: 30px;
+    }
+  }
+
+  #careers-benefits {
+    @media (min-width: $screen-md-min) {
+      padding-left: 30px;
+
+      border-left: 1px solid $gray-lighter;
+
+      h3:first-child {
+        margin-top: -4px;
+      }
+    }
+  }
+}
