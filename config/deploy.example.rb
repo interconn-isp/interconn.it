@@ -34,5 +34,8 @@ namespace :deploy do
     end
   end
 
-  after :finishing, 'deploy:cleanup', 'clockwork:restart'
+  after :finishing, 'deploy:cleanup'
+
+  after :restart, 'sidekiq:restart'
+  after :restart, 'clockwork:restart'
 end
