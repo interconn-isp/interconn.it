@@ -25,10 +25,6 @@ class Inquiry < ActiveRecord::Base
     end
   end
 
-  def mark_as_processed!(card_id)
-    update_columns(processed: true, trello_card_id: card_id)
-  end
-
   protected
 
   def set_code

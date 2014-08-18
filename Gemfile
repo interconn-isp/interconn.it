@@ -41,9 +41,6 @@ gem 'enumerize'
 gem 'sidekiq'
 gem 'clockwork'
 
-# Trello integration
-gem 'ruby-trello', require: 'trello'
-
 # Administration
 gem 'activeadmin', github: 'activeadmin/active_admin'
 gem 'devise'
