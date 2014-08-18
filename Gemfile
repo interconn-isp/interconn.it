@@ -45,6 +45,7 @@ gem 'clockwork'
 gem 'activeadmin', github: 'activeadmin/active_admin'
 gem 'devise'
 gem 'draper'
+gem 'cancancan'
 
 group :development do
   # Error reporting
