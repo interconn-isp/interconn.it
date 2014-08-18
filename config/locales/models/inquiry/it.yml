@@ -16,6 +16,7 @@ it:
         created_at: 'Data richiesta'
         product:    'Prodotto'
         notes:      'Note'
+        status:     'Stato'
 
   simple_form:
     labels:
@@ -26,11 +27,12 @@ it:
         product:   'Prodotto:'
         notes:     'Note:'
         address:   'Indirizzo:'
+        status:    'Stato:'
 
     placeholders:
       inquiry:
-        address: "Inserisci un indirizzo completo per una gestione più veloce della tua richiesta."
-        notes: 'IP statici aggiuntivi, portabilità del numero di telefono e qualunque altra cosa che dovremmo sapere.'
+        address: 'Inserisci un indirizzo completo per una gestione più veloce della tua richiesta.'
+        notes:   'IP statici aggiuntivi, portabilità del numero di telefono e qualunque altra cosa che dovremmo sapere.'
 
   enumerize:
     inquiry:
@@ -45,6 +47,11 @@ it:
         whdsl-4mega-2mega:    'WHDSL 4 Mega / 2 Mega'
         voip:                 'InterConn VoIP'
 
+      status:
+        requested:  'Richiesto'
+        completed:  'Completato'
+        infeasible: 'Non fattibile'
+
   formtastic:
     labels:
       inquiry: *labels
@@ -53,3 +60,10 @@ it:
       inquiry:
         telephone: 'Inserisci almeno un contatto.'
         email:     'Inserisci almeno un contatto.'
+
+  active_admin:
+    scopes:
+      all: 'Tutti'
+      requested: 'Richiesti'
+      completed: 'Completati'
+      infeasible: 'Non fattibili'
