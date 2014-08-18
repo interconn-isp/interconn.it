@@ -1,0 +1,52 @@
+.deals {
+  @media (max-width: $screen-xs-max) {
+    display: none;
+  }
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  z-index: 100;
+
+  height: 1.5em;
+
+  margin: auto;
+
+  -webkit-transform-origin: 0 50%;
+     -moz-transform-origin: 0 50%;
+      -ms-transform-origin: 0 50%;
+       -o-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+
+  -webkit-transform: rotate(-90deg) translate(-50%, 50%);
+     -moz-transform: rotate(-90deg) translate(-50%, 50%);
+      -ms-transform: rotate(-90deg) translate(-50%, 50%);
+       -o-transform: rotate(-90deg) translate(-50%, 50%);
+          transform: rotate(-90deg) translate(-50%, 50%);
+
+
+  .content {
+    padding: 5px 10px;
+
+    background-color: $palette-orange;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    a {
+      color: white;
+      font-weight: bold;
+      border-bottom: none;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
