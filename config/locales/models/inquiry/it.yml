@@ -1,13 +1,32 @@
 it:
+  activerecord:
+    models:
+      inquiry:
+        one:   'Sopralluogo'
+        other: 'Sopralluoghi'
+
+    attributes:
+      inquiry:
+        id:         'ID'
+        code:       'Codice'
+        full_name:  'Nome completo'
+        address:    'Indirizzo'
+        telephone:  'Telefono'
+        email:      'Email'
+        created_at: 'Data richiesta'
+        product:    'Prodotto'
+        notes:      'Note'
+
   simple_form:
     labels:
-      inquiry:
+      inquiry: &labels
         full_name: 'Nome completo:'
         telephone: 'Telefono:'
         email:     'Email:'
         product:   'Prodotto:'
         notes:     'Note:'
         address:   'Indirizzo:'
+
     placeholders:
       inquiry:
         address: "Inserisci un indirizzo completo per una gestione più veloce della tua richiesta."
@@ -25,3 +44,12 @@ it:
         whdsl-2mega-2mega:    'WHDSL 2 Mega / 2 Mega'
         whdsl-4mega-2mega:    'WHDSL 4 Mega / 2 Mega'
         voip:                 'InterConn VoIP'
+
+  formtastic:
+    labels:
+      inquiry: *labels
+
+    hints:
+      inquiry:
+        telephone: 'Inserisci almeno un contatto.'
+        email:     'Inserisci almeno un contatto.'

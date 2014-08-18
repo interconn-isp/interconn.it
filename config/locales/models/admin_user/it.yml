@@ -1,10 +1,13 @@
 it:
   activerecord:
     models:
-      admin_user: 'Amministratore'
+      admin_user:
+        one:   'Amministratore'
+        other: 'Amministratori'
 
     attributes:
       admin_user:
+        id:                 'ID'
         email:              'Email'
         password:           'Password'
         sign_in_count:      'Numero di accessi'
