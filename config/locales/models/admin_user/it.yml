@@ -1,0 +1,20 @@
+it:
+  activerecord:
+    models:
+      admin_user: 'Amministratore'
+
+    attributes:
+      admin_user:
+        email:              'Email'
+        password:           'Password'
+        sign_in_count:      'Numero di accessi'
+        current_sign_in_at: 'Ultimo accesso'
+        current_sign_in_ip: 'Ultimo IP'
+        created_at:         'Data creazione'
+
+  formtastic:
+    labels:
+      admin_user:
+        email:                 'Email:'
+        password:              'Password:'
+        password_confirmation: 'Conferma password:'

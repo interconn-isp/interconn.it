@@ -5,7 +5,7 @@ ruby '2.1.2'
 gem 'rails', '4.1.4'
 
 # Asset preprocessors
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
@@ -31,6 +31,7 @@ gem 'figaro'
 
 # I18n
 gem 'rails-i18n'
+gem 'devise-i18n'
 
 # Active Record
 gem 'pg'
@@ -42,6 +43,10 @@ gem 'clockwork'
 
 # Trello integration
 gem 'ruby-trello', require: 'trello'
+
+# Administration
+gem 'activeadmin', github: 'activeadmin/active_admin'
+gem 'devise'
 
 group :development do
   # Error reporting
