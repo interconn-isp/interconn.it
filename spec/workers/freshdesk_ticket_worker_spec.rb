@@ -11,7 +11,7 @@ RSpec.describe FreshdeskTicketWorker do
         message:   'Hello, world!'
       )
 
-      ticket.expects(:mark_as_processed!).once.returns(true)
+      ticket.expects(:destroy!).once.returns(true)
 
       Ticket.expects(:find).with(1).once.returns(ticket)
 

@@ -16,8 +16,8 @@ class FreshdeskTicketWorker
       description: ticket.message
     })
 
-    ticket.mark_as_processed!
+    ticket.destroy!
 
-    Rails.logger.info "Ticket #{ticket.id} created in Freshdesk"
+    logger.info "Ticket #{freshdesk_ticket['helpdesk_ticket']['id']} created in Freshdesk"
   end
 end
