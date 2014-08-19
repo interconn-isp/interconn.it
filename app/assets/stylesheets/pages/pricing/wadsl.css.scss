@@ -1,3 +1,10 @@
+body#pricing-wadsl {
+  .pricing-table-container-inner {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: $screen-xs-max) {
   body#pricing-wadsl .pricing-table-container {
     margin-top: 15px;
@@ -14,6 +21,11 @@
         border-left: none;
         border-right: none;
       }
+
+      .product-feature, .product-action {
+        border-left-width: 2px;
+        border-right-width: 2px;
+      }
     }
   }
 }
@@ -29,6 +41,10 @@
         .product-name, .product-price {
           border-left: none;
         }
+
+        .product-feature, .product-action {
+          border-left-width: 2px;
+        }
       }
     }
 
@@ -38,6 +54,10 @@
       .pricing-table {
         .product-name, .product-price {
           border-right: none;
+        }
+
+        .product-feature, .product-action {
+          border-right-width: 2px;
         }
       }
     }

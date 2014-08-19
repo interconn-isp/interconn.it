@@ -6,8 +6,9 @@
 .container
   %section
     .heading
-      %h1.heading-title WADSL: veloce e affidabile.
-      %h3.heading-description L'ideale per sbrigare le faccende di ogni giorno.
+      .container
+        %h1.heading-title WADSL: veloce e affidabile.
+        %h3.heading-description L'ideale per sbrigare le faccende di ogni giorno.
 
     .row.pricing-tables-container
       .col-xs-12.col-sm-6.col-md-3.pricing-table-container
@@ -128,11 +129,12 @@
             %li.product-action
               = link_to "Attiva Offerta", '#', class: 'btn btn-orange btn-lg btn-transition'
 
-    .row.asterisks-explanation
+    .row
       .col-xs-12
-        %ul.list-unstyled
-          %li * Prezzo da intendersi IVA inclusa.
-          %li ** Prezzo da intendersi IVA esclusa.
+        .asterisks-explanation
+          %ul.list-unstyled
+            %li * Prezzo da intendersi IVA inclusa.
+            %li ** Prezzo da intendersi IVA esclusa.
 
 .bg-gray
   .container.general-features-container
