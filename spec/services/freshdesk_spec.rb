@@ -8,17 +8,26 @@ RSpec.describe Freshdesk do
     )
   end
 
+  before(:each) { VCR.insert_cassette('freshdesk') }
+  after(:each) { VCR.eject_cassette }
+
   describe '#create_ticket' do
     it 'creates the ticket' do
-      VCR.use_cassette('freshdesk') do
-        expect {
-          subject.create_ticket(helpdesk_ticket: {
-            description: 'Some details on the issue ...',
-            subject: 'Support needed..',
-            email: 'tom@outerspace.com'
-          })
-        }.not_to raise_error
-      end
+      expect {
+        subject.create_ticket(helpdesk_ticket: {
+          description: 'Some details on the issue ...',
+          subject: 'Support needed..',
+          email: 'tom@outerspace.com'
+        })
+      }.not_to raise_error
+    end
+  end
+
+  describe '#update_user' do
+    it 'updates the user' do
+      expect {
+        subject.update_user(5000219246, user: { name: 'John Doe' })
+      }.not_to raise_error
     end
   end
 end
