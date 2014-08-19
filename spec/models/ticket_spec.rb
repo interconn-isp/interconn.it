@@ -16,4 +16,12 @@ RSpec.describe Ticket, type: :model do
   it 'validates the format of email' do
     expect(subject).not_to allow_value('test').for(:email)
   end
+
+  it 'ensures the length of subject is at least 4' do
+    expect(subject).to ensure_length_of(:subject).is_at_least(4)
+  end
+
+  it 'ensures the length of message is at least 10' do
+    expect(subject).to ensure_length_of(:message).is_at_least(10)
+  end
 end
