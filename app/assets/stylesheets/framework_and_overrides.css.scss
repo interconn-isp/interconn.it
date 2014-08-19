@@ -47,3 +47,7 @@ $grid-float-breakpoint: 992px;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#super-wrapper {
+  overflow: hidden;
+}
