@@ -5,7 +5,6 @@ class TicketsController < ApplicationController
 
   def create
     @ticket = Ticket.new(ticket_params)
-    @ticket.source_ip = request.remote_ip
 
     if @ticket.save
       FreshdeskTicketWorker.perform_async(@ticket.id)

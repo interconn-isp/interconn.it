@@ -16,18 +16,4 @@ RSpec.describe Ticket, type: :model do
   it 'validates the format of email' do
     expect(subject).not_to allow_value('test').for(:email)
   end
-
-  describe '#mark_as_processed!' do
-    it 'sets processed to true' do
-      ticket = FactoryGirl.build_stubbed(:ticket)
-
-      ticket
-        .expects(:update_column)
-        .once
-        .with(:processed, true)
-        .returns(true)
-
-      ticket.mark_as_processed!
-    end
-  end
 end
