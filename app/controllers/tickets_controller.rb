@@ -7,7 +7,9 @@ class TicketsController < ApplicationController
     @ticket = Ticket.new(ticket_params)
     @ticket.source_ip = request.remote_ip
 
-    @ticket.save
+    if @ticket.save
+      FreshdeskTicketWorker.perform_async(@ticket.id)
+    end
 
     render :new
   end

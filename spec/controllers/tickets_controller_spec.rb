@@ -17,6 +17,12 @@ RSpec.describe TicketsController, type: :controller do
           post :create, ticket: params
         }.to change(Ticket, :count).by(1)
       end
+
+      it 'creates the ticket on Freshdesk asynchronously' do
+        expect {
+          post :create, ticket: params
+        }.to change(FreshdeskTicketWorker.jobs, :size).by(1)
+      end
     end
 
     context 'with invalid params' do

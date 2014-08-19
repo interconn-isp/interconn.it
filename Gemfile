@@ -47,6 +47,9 @@ gem 'devise'
 gem 'draper'
 gem 'cancancan'
 
+# Freshdesk integration
+gem 'httparty'
+
 group :development do
   # Error reporting
   gem 'better_errors'
@@ -108,4 +111,8 @@ group :test do
 
   # Mocking
   gem 'mocha'
+
+  # API testing
+  gem 'webmock'
+  gem 'vcr'
 end
