@@ -6,7 +6,7 @@ RSpec.describe 'the contact page', type: :feature do
 
     ticket = FactoryGirl.build(:ticket)
 
-    %w(full_name email message).each do |attribute|
+    %w(full_name email message subject).each do |attribute|
       fill_in I18n.t("simple_form.labels.ticket.#{attribute}"), with: ticket.send(attribute)
     end
 

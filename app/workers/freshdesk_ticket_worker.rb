@@ -14,7 +14,7 @@ class FreshdeskTicketWorker
     freshdesk_ticket = freshdesk.create_ticket(helpdesk_ticket: {
       requester_name: ticket.full_name,
       email: ticket.email,
-      subject: 'Richiesta di supporto',
+      subject: ticket.subject,
       description: ticket.message
     })
 

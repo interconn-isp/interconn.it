@@ -6,3 +6,4 @@ it:
         email:     'Indirizzo email:'
         phone:     'Telefono/cellulare:'
         message:   'Messaggio:'
+        subject:   'Oggetto:'

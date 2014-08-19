@@ -8,6 +8,7 @@ RSpec.describe FreshdeskTicketWorker do
         full_name: 'John Doe',
         email:     'jdoe@example.com',
         phone:     '3918192716',
+        subject:   'Test ticket',
         message:   'Hello, world!'
       )
 
@@ -18,7 +19,7 @@ RSpec.describe FreshdeskTicketWorker do
       Freshdesk.any_instance.expects(:create_ticket).with(helpdesk_ticket: {
         requester_name: 'John Doe',
         email:          'jdoe@example.com',
-        subject:        'Richiesta di supporto',
+        subject:        'Test ticket',
         description:    'Hello, world!'
       }).once.returns(
         'helpdesk_ticket' => {
