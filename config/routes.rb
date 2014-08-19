@@ -10,8 +10,8 @@ Rails.application.routes.draw do
   get 'about', to: 'high_voltage/pages#show', id: 'about'
   get 'press-kit', to: 'high_voltage/pages#show', id: 'press_kit'
 
-  get 'contact', to: 'contacts#new'
-  post 'contact', to: 'contacts#create'
+  get 'contact', to: 'tickets#new'
+  post 'contact', to: 'tickets#create'
 
   get 'pricing', to: 'high_voltage/pages#show', id: 'pricing/wadsl'
   get 'pricing/wadsl', to: 'high_voltage/pages#show', id: 'pricing/wadsl'

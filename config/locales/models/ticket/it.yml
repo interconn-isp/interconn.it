@@ -1,7 +1,7 @@
 it:
   simple_form:
     labels:
-      contact:
+      ticket:
         full_name: 'Nome completo:'
         email:     'Indirizzo email:'
         phone:     'Telefono/cellulare:'

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe Contact, type: :model do
-  subject { FactoryGirl.build_stubbed(:contact) }
+RSpec.describe Ticket, type: :model do
+  subject { FactoryGirl.build_stubbed(:ticket) }
 
   it 'is valid' do
     expect(subject).to be_valid
@@ -19,15 +19,15 @@ RSpec.describe Contact, type: :model do
 
   describe '#mark_as_processed!' do
     it 'sets processed to true' do
-      contact = FactoryGirl.build_stubbed(:contact)
+      ticket = FactoryGirl.build_stubbed(:ticket)
 
-      contact
+      ticket
         .expects(:update_column)
         .once
         .with(:processed, true)
         .returns(true)
 
-      contact.mark_as_processed!
+      ticket.mark_as_processed!
     end
   end
 end

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe ContactsController, type: :controller do
+RSpec.describe TicketsController, type: :controller do
   describe "GET 'new'" do
     it 'is successful' do
       get :new
@@ -10,12 +10,12 @@ RSpec.describe ContactsController, type: :controller do
 
   describe "POST 'create'" do
     context 'with valid params' do
-      let(:params) { FactoryGirl.attributes_for(:contact) }
+      let(:params) { FactoryGirl.attributes_for(:ticket) }
 
       it 'is successful' do
         expect {
-          post :create, contact: params
-        }.to change(Contact, :count).by(1)
+          post :create, ticket: params
+        }.to change(Ticket, :count).by(1)
       end
     end
 
@@ -24,8 +24,8 @@ RSpec.describe ContactsController, type: :controller do
 
       it 'is not successful' do
         expect {
-          post :create, contact: params
-        }.not_to change(Contact, :count)
+          post :create, ticket: params
+        }.not_to change(Ticket, :count)
       end
     end
   end

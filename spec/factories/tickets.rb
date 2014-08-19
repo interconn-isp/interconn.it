@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :contact do
+  factory :ticket do
     full_name { Faker::Name.name }
     email { Faker::Internet.email }
     message { Faker::Lorem.paragraph }
