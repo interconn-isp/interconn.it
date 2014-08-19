@@ -44,60 +44,65 @@
 
     .feature-grid
       .row
-        .feature.col-xs-12.col-md-4
-          = image_tag asset_path('ballicons/piggy-bank.svg'), class: 'feature-icon'
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag asset_path('ballicons/piggy-bank.svg'), class: 'feature-icon'
 
-          %h3 Costi competitivi
+            %h3 Costi competitivi
 
-          %p.lead
-            Stanco di pagare troppo per avere troppo poco? Con InterConn ottieni
-            un rapporto qualità/prezzo senza precedenti.
+            %p.lead
+              Stanco di pagare troppo per avere troppo poco? Con noi ottieni
+              un rapporto qualità/prezzo imbattibile.
 
-        .feature.col-xs-12.col-md-4
-          = image_tag asset_path('ballicons/speed.svg'), class: 'feature-icon'
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag asset_path('ballicons/speed.svg'), class: 'feature-icon'
 
-          %h3 Servizio da urlo
+            %h3 Servizio da urlo
 
-          %p.lead
-            Connettività affidabile e prestazioni senza eguali. Finalmente un
-            servizio su cui puoi davvero contare.
+            %p.lead
+              Connettività affidabile e prestazioni senza eguali. Finalmente un
+              servizio su cui puoi davvero contare.
 
-        .feature.col-xs-12.col-md-4
-          = image_tag asset_path('ballicons/help.svg'), class: 'feature-icon'
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag asset_path('ballicons/help.svg'), class: 'feature-icon'
 
-          %h3 Assistenza su misura
+            %h3 Assistenza su misura
 
-          %p.lead
-            Dimentica le lunghe attese e le scuse improbabili. Risolveremo in
-            tempo reale qualunque tuo problema.
+            %p.lead
+              Dimentica le lunghe attese e le scuse improbabili. Risolveremo in
+              tempo reale qualunque tuo problema.
 
-      .row
-        .feature.col-xs-12.col-md-4
-          = image_tag asset_path('ballicons/globe.svg'), class: 'feature-icon'
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag asset_path('ballicons/globe.svg'), class: 'feature-icon'
 
-          %h3 Copertura estesa
+            %h3 Copertura estesa
 
-          %p.lead
-            Arriviamo anche dove le compagnie telefoniche tradizionali hanno
-            rinunciato. Nessuno rimane indietro.
+            %p.lead
+              Arriviamo anche dove le compagnie telefoniche tradizionali hanno
+              rinunciato. Nessuno rimane indietro.
 
-        .feature.col-xs-12.col-md-4
-          = image_tag asset_path('ballicons/document.svg'), class: 'feature-icon'
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag asset_path('ballicons/document.svg'), class: 'feature-icon'
 
-          %h3 Contratto trasparente
+            %h3 Contratto trasparente
 
-          %p.lead
-            Non c'è alcun bisogno di complicare le cose. Con il nostro contratto
-            saprai sempre per cosa stai pagando.
+            %p.lead
+              Non c'è alcun bisogno di complicare le cose. Con il nostro contratto
+              saprai sempre per cosa stai pagando.
 
-        .feature.col-xs-12.col-md-4
-          = image_tag asset_path('ballicons/settings.svg'), class: 'feature-icon'
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag asset_path('ballicons/settings.svg'), class: 'feature-icon'
 
-          %h3 Pannello di controllo
+            %h3 Pannello di controllo
 
-          %p.lead
-            Accedi a tutti i tuoi dati, gestisci i servizi di connettività e
-            paga le fatture, tutto senza muoverti da casa.
+            %p.lead
+              Accedi a tutti i tuoi dati, gestisci i servizi di connettività e
+              paga le fatture, tutto senza muoverti da casa.
 
 - content_for :javascripts do
   = javascript_include_tag asset_path('pages/home.js')
