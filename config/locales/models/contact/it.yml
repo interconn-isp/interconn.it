@@ -1,20 +1,4 @@
 it:
-  activerecord:
-    models:
-      contact:
-        one:   'Ticket'
-        other: 'Ticket'
-
-    attributes:
-      contact:
-        id:         'ID'
-        full_name:  'Nome completo'
-        email:      'Email'
-        phone:      'Telefono'
-        message:    'Messaggio'
-        source_ip:  'Indirizzo IP'
-        created_at: 'Data creazione'
-
   simple_form:
     labels:
       contact:
