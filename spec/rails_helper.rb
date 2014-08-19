@@ -43,6 +43,7 @@ RSpec.configure do |config|
   config.infer_spec_type_from_file_location!
 
   Sidekiq::Testing.fake!
+  Sidekiq::Logging.logger = nil
 
   VCR.configure do |c|
     c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'

@@ -9,6 +9,8 @@ class FreshdeskTicketWorker
       freshdesk_api_key: ENV['FRESHDESK_API_KEY']
     )
 
+    logger.info "Creating Freshdesk ticket for ticket #{ticket.id}"
+
     freshdesk_ticket = freshdesk.create_ticket(helpdesk_ticket: {
       requester_name: ticket.full_name,
       email: ticket.email,
@@ -16,8 +18,14 @@ class FreshdeskTicketWorker
       description: ticket.message
     })
 
-    ticket.destroy!
+    logger.info "Updating Freshdesk user #{freshdesk_ticket['helpdesk_ticket']['requester_id']} with new info"
 
-    logger.info "Ticket #{freshdesk_ticket['helpdesk_ticket']['id']} created in Freshdesk"
+    freshdesk.update_user(freshdesk_ticket['helpdesk_ticket']['requester_id'], user: {
+      phone: ticket.phone
+    }) if ticket.phone.present?
+
+    logger.info "Finished processing ticket #{ticket.id}"
+
+    ticket.destroy!
   end
 end

@@ -20,7 +20,16 @@ RSpec.describe FreshdeskTicketWorker do
         email:          'jdoe@example.com',
         subject:        'Richiesta di supporto',
         description:    'Hello, world!'
-      }).once.returns(stub())
+      }).once.returns(
+        'helpdesk_ticket' => {
+          'id' => 1,
+          'requester_id' => 1
+        }
+      )
+
+      Freshdesk.any_instance.expects(:update_user).with(1, user: {
+        phone: '3918192716'
+      }).once
 
       subject.perform(1)
     end
