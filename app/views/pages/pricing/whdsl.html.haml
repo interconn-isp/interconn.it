@@ -125,12 +125,30 @@
           %h3 Assistenza dedicata 24x7
 
           %p
-            Ci rendiamo conto che non ti puoi permettere neanche un secondo di
-            downtime. Per questo motivo, tutti gli utenti WHDSL hanno accesso a
-            una linea telefonica dedicata e disponibile 24 ore al giorno, 7
-            giorni su 7.
+            Sappiamo che userai i nostri prodotti per cose importanti. Tutti gli
+            utenti WHDSL hanno accesso a una linea telefonica dedicata
+            disponibile 24 ore al giorno, 7 giorni su 7. Non ci sono pause sul
+            nostro calendario.
 
           %p
             %strong Prendi pure quelle ferie. Ti copriamo le spalle.
 
-  = render 'pages/pricing/common_features', invert_icons: true
+  .feature
+    .container.contained
+      .row
+        .col-xs-12.col-md-4
+          = image_tag asset_path('ballicons/browser.svg'), class: 'feature-icon'
+
+        .col-xs-12.col-md-8
+          %h3 IP statico
+
+          %p
+            Se vuoi offrire servizi al pubblico, avrai bisogno di un IP statico.
+            Con ogni contratto WHDSL riceverai in omaggio un IP pubblico
+            statico. Puoi acquistare IP statici aggiuntivi a soli 6 euro IVA
+            inclusa. Divertiti!
+
+          %p
+            %strong Va’ a fare del bene col tuo scintillante IP statico.
+
+  = render 'pages/pricing/common_features'

@@ -137,4 +137,22 @@
             %li ** Prezzo da intendersi IVA esclusa.
 
 .feature-list.feature-list-inverted
-  = render 'pages/pricing/common_features', invert_icons: false
+  = render 'pages/pricing/common_features'
+
+  .feature
+    .container.contained
+      .row
+        .col-xs-12.col-md-4.pull-right
+          = image_tag asset_path('ballicons/browser.svg'), class: 'feature-icon'
+
+        .col-xs-12.col-md-8
+          %h3 IP pubblico
+
+          %p
+            Molti ISP assegnano a più utenti lo stesso IP pubblico. Questo
+            sistema, sebbene più economico per il fornitore, rende molto più
+            difficoltoso l'uso di software P2P. Noi assegniamo invece a ogni
+            utente un IP pubblico dinamico.
+
+          %p
+            %strong Non lasciarti limitare. Scegli InterConn.
