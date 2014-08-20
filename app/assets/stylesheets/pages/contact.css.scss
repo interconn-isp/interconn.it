@@ -1,5 +1,5 @@
 body#contact {
-  #contact-form {
+  #contact-form-wrapper {
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -9,6 +9,12 @@ body#contact {
 
     #message {
       min-height: 225px;
+    }
+
+    #contact-info-column {
+      @media (max-width: $screen-sm-max) {
+        margin-top: 20px;
+      }
     }
   }
 }

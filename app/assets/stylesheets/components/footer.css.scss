@@ -13,6 +13,10 @@ footer {
     }
   }
 
+  ul {
+    font-size: $font-size-base;
+  }
+
   .footer-links {
     padding-top: $spacing-base - 20px;
     padding-bottom: $spacing-base;

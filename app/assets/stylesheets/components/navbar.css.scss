@@ -16,6 +16,10 @@ body {
     border-bottom: none;
   }
 
+  ul {
+    font-size: $font-size-base;
+  }
+
   .navbar-brand {
     img {
       height: $navbar-height - $navbar-padding-vertical * 2;

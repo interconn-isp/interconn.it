@@ -21,11 +21,11 @@ a:not(.btn) {
   border-bottom: none;
 }
 
-p {
+p, ul {
   font-size: ceil(($font-size-base * 1.2));
+}
 
-  &.lead {
-    font-size: ceil(($font-size-large * 1.1));
-    margin-bottom: 10.5px;
-  }
+p.lead {
+  font-size: ceil(($font-size-large * 1.1));
+  margin-bottom: 10.5px;
 }
