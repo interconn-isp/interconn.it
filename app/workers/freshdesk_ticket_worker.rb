@@ -15,7 +15,8 @@ class FreshdeskTicketWorker
       requester_name: ticket.full_name,
       email: ticket.email,
       subject: ticket.subject,
-      description: ticket.message
+      description: ticket.message,
+      group_id: ticket.category.value
     })
 
     logger.info "Updating Freshdesk user #{freshdesk_ticket['helpdesk_ticket']['requester_id']} with new info"

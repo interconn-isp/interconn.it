@@ -10,6 +10,8 @@ RSpec.describe 'the contact page', type: :feature do
       fill_in I18n.t("simple_form.labels.ticket.#{attribute}"), with: ticket.send(attribute)
     end
 
+    select ticket.category.text, from: I18n.t('simple_form.labels.ticket.category')
+
     expect {
       click_button 'Contattaci'
     }.to change(Ticket, :count).by(1)

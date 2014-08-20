@@ -9,7 +9,8 @@ RSpec.describe FreshdeskTicketWorker do
         email:     'jdoe@example.com',
         phone:     '3918192716',
         subject:   'Test ticket',
-        message:   'Hello, world!'
+        message:   'Hello, world!',
+        category:  stub(value: 1)
       )
 
       ticket.expects(:destroy!).once.returns(true)
@@ -20,7 +21,8 @@ RSpec.describe FreshdeskTicketWorker do
         requester_name: 'John Doe',
         email:          'jdoe@example.com',
         subject:        'Test ticket',
-        description:    'Hello, world!'
+        description:    'Hello, world!',
+        group_id:       1
       }).once.returns(
         'helpdesk_ticket' => {
           'id' => 1,

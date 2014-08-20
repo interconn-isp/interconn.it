@@ -4,5 +4,6 @@ FactoryGirl.define do
     email { Faker::Internet.email }
     sequence(:subject) { |n| "Ticket #{n}" }
     message { Faker::Lorem.paragraph }
+    category { Ticket.category.values.sample }
   end
 end
