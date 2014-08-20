@@ -13,6 +13,17 @@ body#home {
     background-image: asset-url('jumbotron-presentation-cover.jpg');
     background-position: center 60%;
     text-align: center;
+
+    .jumbotron-text {
+      margin-bottom: 20px;
+    }
+
+    .jumbotron-form-wrapper {
+      @media (max-width: $screen-xs-max) {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
   }
 
   #animated-home-title-wrapper {
