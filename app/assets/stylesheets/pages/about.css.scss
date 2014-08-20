@@ -1,6 +1,10 @@
+/*
+ *= depend_on covers/about.jpg
+ */
+
 body#about {
   #about-jumbotron {
-    background-image: asset-url('about.jpg');
+    background-image: asset-url('covers/about.jpg');
     background-position: center center;
 
     text-align: center;

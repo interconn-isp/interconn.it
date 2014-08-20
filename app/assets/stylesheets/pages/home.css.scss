@@ -1,5 +1,5 @@
 /*
- *= depend_on jumbotron-presentation-cover.jpg
+ *= depend_on covers/home.jpg
  */
 
 body#home {
@@ -10,7 +10,7 @@ body#home {
   }
 
   #home-jumbotron {
-    background-image: asset-url('jumbotron-presentation-cover.jpg');
+    background-image: asset-url('covers/home.jpg');
     background-position: center 60%;
     text-align: center;
 
