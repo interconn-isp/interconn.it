@@ -19,12 +19,26 @@
       }
     }
 
+    p {
+      color: $gray-light;
+    }
+
     @media (max-width: $screen-sm-max) {
       text-align: center;
 
       .container {
         max-width: 550px;
       }
+    }
+  }
+
+  &.feature-list-inverted .feature {
+    &:nth-child(even) {
+      background-color: white;
+    }
+
+    &:nth-child(odd) {
+      background-color: lighten($gray-lighter, 3.25%);
     }
   }
 }

@@ -114,60 +114,23 @@
           %ul.list-unstyled
             %li * Prezzo da intendersi IVA esclusa.
 
-.bg-gray
-  .container.general-features-container
-    .row
-      .col-xs-12
-        .text-center
-          %h2 Ogni piano comprende...
+.feature-list.feature-list-inverted
+  .feature
+    .container.contained
+      .row
+        .col-xs-12.col-md-4.pull-right
+          = image_tag asset_path('ballicons/help.svg'), class: 'feature-icon'
 
-    .row
-      .col-xs-12.col-sm-6
-        .contained-xs
-          %dl.list-icons
-            %dt.h4
-              = fa_icon 'envelope-o', class: 'fa-fw'
-              2 email da 1 GB
-            %dd
-              Puoi usare le email solo per le comunicazioni di InterConn o
-              per tutte le tue necessità. Se preferisci, possiamo anche inviare
-              le notifiche al tuo indirizzo esistente.
+        .col-xs-12.col-md-8
+          %h3 Assistenza dedicata 24x7
 
-            %dt.h4
-              = fa_icon 'signal', class: 'fa-fw'
-              Router Wi-Fi
-            %dd
-              Ti sarà consegnato un router Wi-Fi in comodato d'uso gratuito. Il
-              router è coperto da garanzia illimitata e, in caso di guasto, sia
-              il nuovo hardware che la sostituzione sono gratuiti.
+          %p
+            Ci rendiamo conto che non ti puoi permettere neanche un secondo di
+            downtime. Per questo motivo, tutti gli utenti WHDSL hanno accesso a
+            una linea telefonica dedicata e disponibile 24 ore al giorno, 7
+            giorni su 7.
 
-          %dl.list-icons
-            %dt.h4
-              = fa_icon 'support', class: 'fa-fw'
-              Assistenza dedicata 24x7
+          %p
+            %strong Prendi pure quelle ferie. Ti copriamo le spalle.
 
-            %dd
-              Puoi chiamarci giorno e notte, anche durante le feste. Troverai
-              sempre un tecnico qualificato e dotato di tutti gli strumenti per
-              risolvere immediatamente il tuo problema.
-
-      .col-xs-12.col-sm-6
-        .contained-xs
-          %dl.list-icons
-            %dt.h4
-              = fa_icon 'globe', class: 'fa-fw'
-              IP pubblico statico
-
-            %dd
-              Molti provider limitano i propri utenti con gli IP privati.
-              InterConn assegna a ogni utente con un contratto WHDSL un IP
-              pubblico statico, per poter offrire i tuoi servizi al pubblico.
-
-            %dt.h4
-              = fa_icon 'clock-o', class: 'fa-fw'
-              15 giorni di prova
-
-            %dd
-              Temi che il servizio non sia all'altezza? Hai 15 giorni di prova
-              completamente gratuita e senza impegno. Se ci ripensi puoi
-              restituirci antenna e contratto. Ma ti garantiamo che non accadrà.
+  = render 'pages/pricing/common_features', invert_icons: true

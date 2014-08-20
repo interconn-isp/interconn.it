@@ -136,50 +136,5 @@
             %li * Prezzo da intendersi IVA inclusa.
             %li ** Prezzo da intendersi IVA esclusa.
 
-.bg-gray
-  .container.general-features-container
-    .row
-      .col-xs-12
-        .text-center
-          %h2 Ogni piano comprende...
-
-    .row
-      .col-xs-12.col-sm-6
-        .contained-xs
-          %dl.list-icons
-            %dt.h4
-              = fa_icon 'envelope-o', class: 'fa-fw'
-              Email da 1 GB
-            %dd
-              Puoi usare l'email solo per le comunicazioni di InterConn o
-              per tutte le tue necessità. Se preferisci, possiamo anche inviare
-              le notifiche al tuo indirizzo esistente.
-
-            %dt.h4
-              = fa_icon 'signal', class: 'fa-fw'
-              Router Wi-Fi
-            %dd
-              Ti sarà consegnato un router Wi-Fi in comodato d'uso gratuito. Il
-              router è coperto da garanzia illimitata e, in caso di guasto, sia
-              il nuovo hardware che la sostituzione sono gratuiti.
-
-      .col-xs-12.col-sm-6
-        .contained-xs
-          %dl.list-icons
-            %dt.h4
-              = fa_icon 'globe', class: 'fa-fw'
-              IP pubblico dinamico
-
-            %dd
-              Molti provider limitano i propri utenti con gli IP privati.
-              InterConn assegna a ogni utente con un contratto WADSL un IP
-              pubblico dinamico, per poter accedere a tutti i servizi online.
-
-            %dt.h4
-              = fa_icon 'clock-o', class: 'fa-fw'
-              15 giorni di prova
-
-            %dd
-              Temi che il servizio non sia all'altezza? Hai 15 giorni di prova
-              completamente gratuita e senza impegno. Se ci ripensi puoi
-              restituirci antenna e contratto. Ma ti garantiamo che non accadrà.
+.feature-list.feature-list-inverted
+  = render 'pages/pricing/common_features', invert_icons: false
