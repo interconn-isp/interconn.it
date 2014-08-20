@@ -3,6 +3,14 @@ body#pricing-whdsl {
     max-width: 400px;
     margin: 0 auto;
   }
+
+  .asterisks-explanation {
+    @media (max-width: $screen-sm-max) {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 @media (max-width: $screen-sm-max) {

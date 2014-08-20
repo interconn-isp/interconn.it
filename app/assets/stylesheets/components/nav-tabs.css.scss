@@ -8,6 +8,8 @@
 }
 
 .nav-tabs {
+  font-size: $font-size-base;
+
   li {
     &:first-child {
       border-left: 1px solid darken($gray-lighter, 6.5%);

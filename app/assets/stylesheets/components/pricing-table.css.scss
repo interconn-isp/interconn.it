@@ -144,10 +144,8 @@
 .asterisks-explanation {
   margin-top: 5px;
 
-  font-size: $font-size-small;
-
-  @media (max-width: $screen-xs-max) {
-    text-align: center;
+  ul {
+    font-size: $font-size-small;
   }
 }
 
