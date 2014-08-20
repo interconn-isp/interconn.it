@@ -8,7 +8,7 @@
     }
 
     &:nth-child(even) {
-      background-color: $gray-lighter;
+      background-color: lighten($gray-lighter, 3.25%);
     }
 
     .feature-icon {
