@@ -1,0 +1,21 @@
+- provide :title, 'Promozioni'
+- provide :body_id, 'deals'
+
+.heading.heading-bordered
+  .container
+    %h1.heading-title Promozioni
+    %h3.heading-description Sconti e affari sui nostri prodotti, solo per te.
+
+.container.contained-sm(style='margin-top: 125px; margin-bottom: 150px;')
+  .row
+    .col-xs-12
+      .text-center
+        %p.text-muted
+          = fa_icon 'frown-o', style: 'font-size: 250px'
+
+        %p.text-muted(style='font-size: 35px')
+          Sembra che attualmente non ci siano promozioni attive.
+          Perché non riprovi tra un po'? Avremo qualcosa per te!
+
+        %p(style='font-size: 29px')
+          = link_to 'Torna alla home →', root_path
