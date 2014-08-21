@@ -2,7 +2,7 @@
   @include panel-variant($palette-blue-light, white, $palette-blue, $palette-blue-light);
 
   .panel-body {
-    p {
+    p, ul {
       font-size: ceil(($font-size-base));
     }
   }
