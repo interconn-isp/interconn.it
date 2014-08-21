@@ -26,7 +26,7 @@
 
           %ul.list-unstyled
             %li= link_to 'FAQ', faq_path
-            %li= link_to 'Stato servizi', ENV['STATUS_URL']
+            %li= link_to 'Stato servizi', ENV['STATUS_URL'] if ENV['STATUS_URL']
             %li= link_to 'Contatti', contact_path
 
         .footer-links-col.col-xs-6.col-md-3
