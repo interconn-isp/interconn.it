@@ -1,0 +1,32 @@
+body#deals {
+  #deals-container {
+    margin-top: 125px;
+    margin-bottom: 150px;
+
+    text-align: center;
+
+    p {
+      &.no-deals-text {
+        color: $gray-light;
+        font-size: 35px;
+
+        @media (max-width: $screen-sm-max) {
+          font-size: 29px;
+        }
+      }
+
+      &.back-to-home {
+        font-size: 29px;
+      }
+    }
+
+    .no-deals-icon {
+      color: $gray-light;
+      font-size: 200px;
+
+      @media (max-width: $screen-sm-max) {
+        font-size: 20px;
+      }
+    }
+  }
+}
