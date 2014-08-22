@@ -36,5 +36,6 @@
       = javascript_include_tag '//oss.maxcdn.com/respond/1.4.2/respond.min.js'
 
     = yield :javascripts
+    = render 'layouts/ga' if ENV['GA_ID']
 
 = stylesheet_link_tag '//fonts.googleapis.com/css?family=Lato:300,400,700'
