@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   private
 
-  def access_denied
+  def access_denied(exception)
     redirect_to root_path
   end
 end

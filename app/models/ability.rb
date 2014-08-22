@@ -4,8 +4,8 @@ class Ability
   def initialize(user)
     return unless user
 
+    can :read, ActiveAdmin::Page, name: 'Dashboard'
     can :manage, AdminUser
     can :manage, Inquiry
-    can [:read, :destroy], Contact
   end
 end
