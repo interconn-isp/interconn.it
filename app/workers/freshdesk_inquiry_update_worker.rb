@@ -18,13 +18,13 @@ class FreshdeskInquiryUpdateWorker
       private: false
     }) unless note_body.blank?
 
-    if inquiry.telephone.present?
+    if inquiry.phone.present?
       requester_id = freshdesk.get_ticket(inquiry.freshdesk_ticket_id)['helpdesk_ticket']['requester_id']
 
       logger.info "Updating Freshdesk user #{requester_id}"
 
       freshdesk.update_user(requester_id, user: {
-        phone: inquiry.telephone
+        phone: inquiry.phone
       })
     end
 

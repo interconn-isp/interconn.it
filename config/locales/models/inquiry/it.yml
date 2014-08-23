@@ -11,18 +11,17 @@ it:
         code:       'Codice'
         full_name:  'Nome completo'
         address:    'Indirizzo'
-        telephone:  'Telefono'
+        phone:      'Telefono'
         email:      'Email'
         created_at: 'Data richiesta'
         product:    'Prodotto'
         notes:      'Note'
-        status:     'Stato'
 
   simple_form:
     labels:
       inquiry: &labels
         full_name: 'Nome completo:'
-        telephone: 'Telefono:'
+        phone:     'Telefono:'
         email:     'Email:'
         product:   'Prodotto:'
         notes:     'Note:'

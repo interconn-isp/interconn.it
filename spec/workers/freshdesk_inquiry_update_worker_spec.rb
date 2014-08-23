@@ -13,7 +13,7 @@ RSpec.describe FreshdeskInquiryUpdateWorker do
         address: 'Fake Address',
         product: stub(text: 'Foobar'),
         notes: 'Lorem ipsum dolor sit amet',
-        telephone: '3170188171'
+        phone: '3170188171'
       )
 
       Inquiry
