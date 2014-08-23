@@ -1,9 +1,8 @@
 ActiveAdmin.register Inquiry do
   decorate_with InquiryDecorator
 
-  permit_params :full_name, :address, :telephone, :email, :product, :notes, :status
+  permit_params :full_name, :address, :telephone, :email, :product, :notes
 
-  filter :code
   filter :full_name
   filter :address
   filter :telephone
@@ -12,20 +11,15 @@ ActiveAdmin.register Inquiry do
   filter :product, as: :select, collection: Inquiry.product.options
 
   scope :all
-  scope :requested
-  scope :completed
-  scope :infeasible
 
   index do
     selectable_column
 
     id_column
 
-    column :code
     column :full_name
     column :address
     column :created_at
-    column :status
 
     actions
   end
@@ -45,7 +39,6 @@ ActiveAdmin.register Inquiry do
       column do
         panel 'Dati sopralluogo' do
           attributes_table_for inquiry do
-            row :status
             row :product
             row :address
             row :notes
@@ -69,10 +62,6 @@ ActiveAdmin.register Inquiry do
       f.input :address, input_html: { style: 'height: 100px' }
       f.input :product
       f.input :notes, input_html: { style: 'height: 100px' }
-    end
-
-    f.inputs 'Stato sopralluogo' do
-      f.input :status, include_blank: false
     end
 
     f.actions

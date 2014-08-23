@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :inquiry do
-    address { Faker::Address.street_address }
+    full_name { Faker::Name.name }
     email { Faker::Internet.email }
   end
 end

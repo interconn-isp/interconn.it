@@ -1,30 +1,13 @@
+- provide :body_id, 'edit-inquiry'
 - provide :title, 'Grazie!'
 
-.container
-  .heading
+.heading.heading-bordered
+  .container
     %h1.heading-title Grazie mille!
-    %h3.heading-description Ti ricontatteremo il prima possibile. Ci diresti qualcosa in più su di te?
+    %h3.heading-description
+      Ti ricontatteremo il prima possibile. Ci diresti qualcosa in più su di te?
 
-.container.contained-sm
+.container.contained-sm#inquiry-form-container
   .row
     .col-xs-12
-      = simple_form_for(@inquiry) do |f|
-        = f.input :full_name, input_html: { class: 'input-lg' }
-
-        .row
-          .col-xs-12.col-sm-6
-            = f.input :telephone, input_html: { class: 'input-lg' }, required: true
-
-          .col-xs-12.col-sm-6
-            = f.input :email, input_html: { class: 'input-lg' }, required: true
-
-        = f.input :address, input_html: { class: 'input-lg', style: 'min-height: 100px' }
-        = f.input :product, input_html: { class: 'input-lg' }
-        = f.input :notes, input_html: { class: 'input-lg', style: 'min-height: 150px' }
-
-        .text-center
-          %button.btn.btn-lg.btn-primary.btn-orange
-            Aggiorna richiesta
-
-- content_for :javascripts do
-  = javascript_include_tag asset_path('pages/inquiry.js')
+      = render 'inquiries/form'

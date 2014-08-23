@@ -28,12 +28,12 @@ RSpec.describe InquiriesController, type: :controller do
       let(:inquiry) { FactoryGirl.create(:inquiry) }
 
       it 'is successful' do
-        get :edit, {}, { inquiry_code: inquiry.code }
+        get :edit, {}, { inquiry_id: inquiry.id }
         expect(response).to be_success
       end
 
       it 'loads the inquiry' do
-        get :edit, {}, { inquiry_code: inquiry.code }
+        get :edit, {}, { inquiry_id: inquiry.id }
         expect(assigns(:inquiry)).to eq(inquiry)
       end
     end
@@ -54,13 +54,13 @@ RSpec.describe InquiriesController, type: :controller do
         let(:params) { FactoryGirl.attributes_for(:inquiry) }
 
         it 'is successful' do
-          put :update, { inquiry: params }, { inquiry_code: inquiry.code }
+          put :update, { inquiry: params }, { inquiry_id: inquiry.id }
           expect(response).to be_success
         end
 
         it 'updates the inquiry' do
           expect {
-            put :update, { inquiry: params }, { inquiry_code: inquiry.code }
+            put :update, { inquiry: params }, { inquiry_id: inquiry.id }
             inquiry.reload
           }.to change(inquiry, :email).to(params[:email])
         end
@@ -71,7 +71,7 @@ RSpec.describe InquiriesController, type: :controller do
 
         it 'does not update the inquiry' do
           expect {
-            put :update, { inquiry: params }, { inquiry_code: inquiry.code }
+            put :update, { inquiry: params }, { inquiry_id: inquiry.id }
             inquiry.reload
           }.not_to change(inquiry, :email)
         end

@@ -7,34 +7,5 @@ class Inquiry < ActiveRecord::Base
     voip
   )
 
-  enumerize :status, in: [:requested, :completed, :infeasible], default: :requested
-
-  validates :address, :status, presence: true
-
-  validates :email, presence: { if: ->{ telephone.blank? } }
-  validates :telephone, presence: { if: ->{ email.blank? } }
-
-  before_create :set_code
-
-  status.values.each do |value|
-    scope value, -> { where status: value }
-  end
-
-  attr_reader :telephone_or_email
-
-  def telephone_or_email=(telephone_or_email)
-    @telephone_or_email = telephone_or_email
-
-    if /@/ =~ telephone_or_email
-      self.email = telephone_or_email
-    else
-      self.telephone = telephone_or_email
-    end
-  end
-
-  protected
-
-  def set_code
-    self.code = SecureRandom.hex[0..7].upcase
-  end
+  validates :full_name, :email, presence: true
 end

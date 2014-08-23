@@ -22,9 +22,9 @@
             .jumbotron-form-wrapper.contained
               = simple_form_for @inquiry, url: inquiries_path, wrapper: :inline_form, html: { class: 'form-inline' } do |f|
                 .form-group
-                  = f.input_field :address, as: :string, class: 'form-control input-lg input-flat', placeholder: 'Il tuo indirizzo'
+                  = f.input_field :full_name, as: :string, class: 'form-control input-lg input-flat', placeholder: 'Il tuo nome'
                 .form-group
-                  = f.input_field :telephone_or_email, as: :string, class: 'form-control input-lg input-flat', placeholder: 'Telefono o email'
+                  = f.input_field :email, as: :string, class: 'form-control input-lg input-flat', placeholder: 'La tua email'
 
                 %button.btn.btn-orange.btn-lg(type='submit')
                   Inizia la tua prova!

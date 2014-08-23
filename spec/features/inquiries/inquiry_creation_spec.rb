@@ -6,8 +6,8 @@ RSpec.describe 'the inquiry creation page', type: :feature do
 
     inquiry = FactoryGirl.attributes_for(:inquiry)
 
-    fill_in 'Il tuo indirizzo', with: inquiry[:address]
-    fill_in 'Telefono o email', with: inquiry[:email]
+    fill_in 'Il tuo nome', with: inquiry[:full_name]
+    fill_in 'La tua email', with: inquiry[:email]
 
     expect {
       click_button 'Inizia la tua prova!'

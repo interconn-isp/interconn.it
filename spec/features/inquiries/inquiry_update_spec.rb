@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'the inquiry update page', type: :feature do
   let(:inquiry) { FactoryGirl.create(:inquiry) }
-  before(:each) { page.set_rack_session(inquiry_code: inquiry.code) }
+  before(:each) { page.set_rack_session(inquiry_id: inquiry.id) }
 
   it 'updates the inquiry' do
     visit edit_inquiry_path

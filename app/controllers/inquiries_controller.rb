@@ -9,7 +9,7 @@ class InquiriesController < ApplicationController
     @inquiry = Inquiry.new(inquiry_params)
 
     if @inquiry.save
-      session[:inquiry_code] = @inquiry.code
+      session[:inquiry_id] = @inquiry.id
       redirect_to edit_inquiry_path
     else
       render :new
@@ -21,7 +21,7 @@ class InquiriesController < ApplicationController
 
   def update
     if @inquiry.update(inquiry_params)
-      session.delete :inquiry_code
+      session.delete :inquiry_id
       render :updated
     else
       render :edit
@@ -32,18 +32,17 @@ class InquiriesController < ApplicationController
 
   def inquiry_params
     params.require(:inquiry).permit(
-      :full_name, :telephone, :email, :telephone_or_email,
-      :address, :product, :notes
+      :full_name, :telephone, :email, :address, :product, :notes
     )
   end
 
   def load_current_inquiry
-    unless session[:inquiry_code]
+    unless session[:inquiry_id]
       redirect_to root_path
       return false
     end
 
-    @inquiry = Inquiry.find_by_code(session[:inquiry_code])
+    @inquiry = Inquiry.find(session[:inquiry_id])
 
     unless @inquiry
       redirect_to root_path
