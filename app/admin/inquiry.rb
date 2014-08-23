@@ -49,6 +49,7 @@ ActiveAdmin.register Inquiry do
             row :product
             row :address
             row :notes
+            row :created_at
           end
         end
       end
