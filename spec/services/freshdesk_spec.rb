@@ -11,6 +11,14 @@ RSpec.describe Freshdesk do
   before(:each) { VCR.insert_cassette('freshdesk') }
   after(:each) { VCR.eject_cassette }
 
+  describe '#get_ticket' do
+    it 'retrieves the ticket' do
+      expect {
+        subject.get_ticket(18)
+      }.not_to raise_error
+    end
+  end
+
   describe '#create_ticket' do
     it 'creates the ticket' do
       expect {

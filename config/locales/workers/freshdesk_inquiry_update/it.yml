@@ -4,8 +4,8 @@ it:
       note_html:
         address: >
           <p>
-            Il sopralluogo è da effettuarsi al seguente indirizzo:<
-            strong>%{address}</strong>
+            Il sopralluogo è da effettuarsi al seguente indirizzo:
+            <strong>%{address}</strong>
           </p>
         product: >
           <p>

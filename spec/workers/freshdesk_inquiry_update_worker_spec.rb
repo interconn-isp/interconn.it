@@ -12,7 +12,8 @@ RSpec.describe FreshdeskInquiryUpdateWorker do
         freshdesk_ticket_id: 1,
         address: 'Fake Address',
         product: stub(text: 'Foobar'),
-        notes: 'Lorem ipsum dolor sit amet'
+        notes: 'Lorem ipsum dolor sit amet',
+        telephone: '3170188171'
       )
 
       Inquiry
@@ -24,6 +25,19 @@ RSpec.describe FreshdeskInquiryUpdateWorker do
       Freshdesk
         .any_instance
         .expects(:add_note_to_ticket)
+        .once
+
+      Freshdesk
+        .any_instance
+        .expects(:get_ticket)
+        .with(1)
+        .once
+        .returns('helpdesk_ticket' => { 'requester_id' => 1 })
+
+      Freshdesk
+        .any_instance
+        .expects(:update_user)
+        .with(1, user: { phone: '3170188171' })
         .once
 
       inquiry

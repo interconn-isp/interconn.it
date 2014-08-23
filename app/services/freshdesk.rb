@@ -7,6 +7,12 @@ class Freshdesk
     @options = options
   end
 
+  def get_ticket(ticket_id)
+    response = get "/helpdesk/tickets/#{ticket_id}.json"
+    raise "Ticket was not retrieved (HTTP code #{response.code})" unless response.code == 200
+    response
+  end
+
   def create_ticket(ticket_params)
     response = post '/helpdesk/tickets.json', ticket_params
     raise "Ticket was not created (HTTP code #{response.code})" unless response.code == 200
