@@ -22,7 +22,7 @@ RSpec.describe FreshdeskInquiryCreationWorker do
         .expects(:create_ticket)
         .once
         .returns('helpdesk_ticket' => {
-          'id' => 1,
+          'display_id' => 1,
           'requester_id' => 1
         })
 

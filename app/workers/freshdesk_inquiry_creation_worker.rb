@@ -21,7 +21,7 @@ class FreshdeskInquiryCreationWorker
       priority: ENV['FRESHDESK_INQUIRY_PRIORITY']
     })
 
-    inquiry.update_column :freshdesk_ticket_id, freshdesk_ticket['helpdesk_ticket']['id']
+    inquiry.update_column :freshdesk_ticket_id, freshdesk_ticket['helpdesk_ticket']['display_id']
 
     logger.info "Finished processing inquiry #{inquiry.id}"
   end

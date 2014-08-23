@@ -70,6 +70,12 @@ RSpec.describe InquiriesController, type: :controller do
             inquiry.reload
           }.to change(inquiry, :email).to(params[:email])
         end
+
+        it 'asynchronously updates the Freshdesk ticket' do
+          expect {
+            put :update, { inquiry: params }, { inquiry_id: inquiry.id }
+          }.to change(FreshdeskInquiryUpdateWorker.jobs, :size).by(1)
+        end
       end
 
       context 'with invalid params' do

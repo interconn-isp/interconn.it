@@ -1,0 +1,19 @@
+it:
+  workers:
+    freshdesk_inquiry_update:
+      note_html:
+        address: >
+          <p>
+            Il sopralluogo è da effettuarsi al seguente indirizzo:<
+            strong>%{address}</strong>
+          </p>
+        product: >
+          <p>
+            L'utente ha chiesto l'attivazione del seguente prodotto:
+            <strong>%{product}</strong>.
+          </p>
+        notes: >
+          <p>
+            L'utente ha inoltre lasciato le seguenti note:
+            <strong>%{notes}</strong>
+          </p>

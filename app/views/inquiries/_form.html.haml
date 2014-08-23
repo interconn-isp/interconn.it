@@ -1,12 +1,15 @@
 = simple_form_for(@inquiry) do |f|
   = f.input :full_name, input_html: { class: 'input-lg' }
 
-  .row
-    .col-xs-12.col-sm-6
-      = f.input :telephone, input_html: { class: 'input-lg' }
+  - if @inquiry.new_record?
+    .row
+      .col-xs-12.col-sm-6
+        = f.input :email, input_html: { class: 'input-lg' }
 
-    .col-xs-12.col-sm-6
-      = f.input :email, input_html: { class: 'input-lg' }
+      .col-xs-12.col-sm-6
+        = f.input :telephone, input_html: { class: 'input-lg' }
+  - else
+    = f.input :telephone, input_html: { class: 'input-lg' }
 
   = f.input :address, input_html: { class: 'input-lg', style: 'min-height: 100px' }
   = f.input :product, input_html: { class: 'input-lg' }

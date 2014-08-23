@@ -13,9 +13,9 @@ class Freshdesk
     response
   end
 
-  def update_ticket(ticket_id, ticket_params)
-    response = put "/helpdesk/tickets/#{ticket_id}.json", ticket_params
-    raise "Ticket was not updated (HTTP code #{response.code})" unless response.code == 200
+  def add_note_to_ticket(ticket_id, note_params)
+    response = post "/helpdesk/tickets/#{ticket_id}/conversations/note.json", note_params
+    raise "Note was not created (HTTP code #{response.code})" unless response.code == 200
     response
   end
 

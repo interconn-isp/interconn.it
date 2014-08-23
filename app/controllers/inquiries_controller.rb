@@ -24,6 +24,8 @@ class InquiriesController < ApplicationController
   def update
     if @inquiry.update(inquiry_params)
       session.delete :inquiry_id
+      FreshdeskInquiryUpdateWorker.perform_async @inquiry.id
+
       render :updated
     else
       render :edit

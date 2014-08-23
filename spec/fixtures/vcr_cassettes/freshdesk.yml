@@ -1,6 +1,99 @@
 ---
 http_interactions:
 - request:
+    method: post
+    uri: https://fake:X@test.freshdesk.com/helpdesk/tickets/10/conversations/note.json?helpdesk_note%5Bbody%5D=Foobar!
+    body:
+      encoding: UTF-8
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"c1584441ee4879e6ee233e7c982e5969"'
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - nginx/1.2.9 + Phusion Passenger 3.0.21
+      Set-Cookie:
+      - _helpkit_session=BAh7BzoPc2Vzc2lvbl9pZCIlYTQ1MTA3ODA0ODRlMDRjNDhmYTg2OTBmZmNlOTViYzhJIgpmbGFzaAY6BkVGSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlSSIabm90ZSDDqCBzdGF0byBjcmVhdG8uBjsGVAY6CkB1c2VkewY7CEY%3D--c2cebcf34f546e2f5bb9754d6628e4d89fcd9d7c;
+        path=/; HttpOnly
+      - helpdesk_node_session=36589eec241f65c7d4b55140e96ebbbffa9bd2663b1498d868b76dac2e6111739d5e6286cf55161b3bf7f2c05f59d9d0d095fedeecb47d740a49584ad7126c7b;
+        path=/
+      Status:
+      - '200'
+      X-Powered-By:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.21
+      X-Runtime:
+      - '184'
+      Content-Length:
+      - '275'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"note":{"body":"Foobar!","body_html":"\u003Cdiv\u003EFoobar!\u003C/div\u003E","created_at":"2014-08-23T20:56:46+03:00","deleted":false,"id":5000529391,"incoming":false,"private":true,"source":2,"updated_at":"2014-08-23T20:56:46+03:00","user_id":5000194008,"attachments":[]}}'
+    http_version:
+  recorded_at: Sat, 23 Aug 2014 17:56:40 GMT
+- request:
+    method: post
+    uri: https://fake:X@test.freshdesk.com/helpdesk/tickets.json?helpdesk_ticket%5Bdescription%5D=Some%20details%20on%20the%20issue%20...&helpdesk_ticket%5Bemail%5D=tom@outerspace.com&helpdesk_ticket%5Bsubject%5D=Support%20needed..
+    body:
+      encoding: UTF-8
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"257177a9c3399202d82bf3d834f06d4a"'
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - nginx/1.2.9 + Phusion Passenger 3.0.21
+      Set-Cookie:
+      - _helpkit_session=BAh7BzoPc2Vzc2lvbl9pZCIlOWNkM2M1MmM0NTY2Y2RlMjkxNzlhNTQxZWEyMWUzMGZJIgpmbGFzaAY6BkVGSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlSSIcdGlja2V0IMOoIHN0YXRvIGNyZWF0by4GOwZUBjoKQHVzZWR7BjsIRg%3D%3D--19646e1e134627f29d0a8b9c081970872f5c5c9a;
+        path=/; HttpOnly
+      - helpdesk_node_session=36589eec241f65c7d4b55140e96ebbbffa9bd2663b1498d868b76dac2e6111739d5e6286cf55161b3bf7f2c05f59d9d0d095fedeecb47d740a49584ad7126c7b;
+        path=/
+      Status:
+      - '200'
+      X-Powered-By:
+      - Phusion Passenger (mod_rails/mod_rack) 3.0.21
+      X-Runtime:
+      - '191'
+      Content-Length:
+      - '970'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"helpdesk_ticket":{"cc_email":{"cc_emails":[],"fwd_emails":[],"reply_cc":[]},"created_at":"2014-08-23T20:56:47+03:00","deleted":false,"delta":true,"description":"Some
+        details on the issue ...","description_html":"\u003Cdiv\u003ESome details
+        on the issue \u0026#8230;\u003C/div\u003E","display_id":12,"due_by":"2014-08-26T20:56:47+03:00","email_config_id":null,"frDueBy":"2014-08-24T20:56:47+03:00","fr_escalated":false,"group_id":null,"id":5000467038,"isescalated":false,"notes":[],"owner_id":null,"priority":1,"requester_id":5000203233,"responder_id":null,"source":2,"spam":false,"status":2,"subject":"Support
+        needed..","ticket_type":null,"to_email":null,"trained":false,"updated_at":"2014-08-23T20:56:47+03:00","urgent":false,"status_name":"Aperto","requester_status_name":"Elaborazione
+        in corso","priority_name":"Basso","source_name":"Portale","requester_name":"Tom","responder_name":"No
+        Agent","to_emails":null,"product_id":null,"attachments":[],"custom_field":{}}}'
+    http_version:
+  recorded_at: Sat, 23 Aug 2014 17:56:41 GMT
+- request:
     method: put
     uri: https://fake:X@test.freshdesk.com/contacts/5000219246.json?user%5Bname%5D=John%20Doe
     body:
@@ -23,7 +116,7 @@ http_interactions:
       Server:
       - nginx/1.2.9 + Phusion Passenger 3.0.21
       Set-Cookie:
-      - _helpkit_session=BAh7BzoPc2Vzc2lvbl9pZCIlN2I0MjM2OTFkZjgzNTMxNGNiOTE4ODM5Y2U5MTk1ODBJIgpmbGFzaAY6BkVGSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlQzoeQWN0aXZlU3VwcG9ydDo6U2FmZUJ1ZmZlciJLQ29udGFjdCBoYXMgYmVlbiB1cGRhdGVkCjxhIGhyZWY9Ii91c2Vycy81MDAwMjE5MjQ2Ij5WaWV3IENvbnRhY3Q8L2E%2BCgY6CkB1c2VkewY7CEY%3D--a027df8d93c80f67d283ab0293bbc49d4244dc44;
+      - _helpkit_session=BAh7BzoPc2Vzc2lvbl9pZCIlZTI3NWVkOTM2NTk2Y2ZkMTdkNmE1OGZkNWZhZTk5ODJJIgpmbGFzaAY6BkVGSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlQzoeQWN0aXZlU3VwcG9ydDo6U2FmZUJ1ZmZlciJLQ29udGFjdCBoYXMgYmVlbiB1cGRhdGVkCjxhIGhyZWY9Ii91c2Vycy81MDAwMjE5MjQ2Ij5WaWV3IENvbnRhY3Q8L2E%2BCgY6CkB1c2VkewY7CEY%3D--2ba8d3571c2a35444fe1d2216d07f6308d3b8b83;
         path=/; HttpOnly
       - helpdesk_node_session=36589eec241f65c7d4b55140e96ebbbffa9bd2663b1498d868b76dac2e6111739d5e6286cf55161b3bf7f2c05f59d9d0d095fedeecb47d740a49584ad7126c7b;
         path=/
@@ -32,7 +125,7 @@ http_interactions:
       X-Powered-By:
       - Phusion Passenger (mod_rails/mod_rack) 3.0.21
       X-Runtime:
-      - '383'
+      - '57'
       Content-Length:
       - '1'
       Connection:
@@ -41,98 +134,5 @@ http_interactions:
       encoding: UTF-8
       string: " "
     http_version:
-  recorded_at: Tue, 19 Aug 2014 18:42:47 GMT
-- request:
-    method: post
-    uri: https://fake:X@test.freshdesk.com/helpdesk/tickets.json?helpdesk_ticket%5Bdescription%5D=Some%20details%20on%20the%20issue%20...&helpdesk_ticket%5Bemail%5D=tom@outerspace.com&helpdesk_ticket%5Bsubject%5D=Support%20needed..
-    body:
-      encoding: UTF-8
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, max-age=0, must-revalidate
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - '"d085f48ca7f131b2cd585959cca2fab9"'
-      Expires:
-      - Fri, 01 Jan 1990 00:00:00 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - nginx/1.2.9 + Phusion Passenger 3.0.21
-      Set-Cookie:
-      - _helpkit_session=BAh7BzoPc2Vzc2lvbl9pZCIlOTQ1MWU0MjhkZjFjNTk2OTg5MTZhOGJmNjY5NjNkNzhJIgpmbGFzaAY6BkVGSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlSSIcdGlja2V0IMOoIHN0YXRvIGNyZWF0by4GOwZUBjoKQHVzZWR7BjsIRg%3D%3D--06960775c85c20f3170d6c0b0ae7af89147e9079;
-        path=/; HttpOnly
-      - helpdesk_node_session=36589eec241f65c7d4b55140e96ebbbffa9bd2663b1498d868b76dac2e6111739d5e6286cf55161b3bf7f2c05f59d9d0d095fedeecb47d740a49584ad7126c7b;
-        path=/
-      Status:
-      - '200'
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.21
-      X-Runtime:
-      - '311'
-      Content-Length:
-      - '970'
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: '{"helpdesk_ticket":{"cc_email":{"cc_emails":[],"fwd_emails":[],"reply_cc":[]},"created_at":"2014-08-19T21:42:48+03:00","deleted":false,"delta":true,"description":"Some
-        details on the issue ...","description_html":"\u003Cdiv\u003ESome details
-        on the issue \u0026#8230;\u003C/div\u003E","display_id":17,"due_by":"2014-08-22T21:42:48+03:00","email_config_id":null,"frDueBy":"2014-08-20T21:42:48+03:00","fr_escalated":false,"group_id":null,"id":5000352892,"isescalated":false,"notes":[],"owner_id":null,"priority":1,"requester_id":5000203233,"responder_id":null,"source":2,"spam":false,"status":2,"subject":"Support
-        needed..","ticket_type":null,"to_email":null,"trained":false,"updated_at":"2014-08-19T21:42:48+03:00","urgent":false,"status_name":"Aperto","requester_status_name":"Elaborazione
-        in corso","priority_name":"Basso","source_name":"Portale","requester_name":"Tom","responder_name":"No
-        Agent","to_emails":null,"product_id":null,"attachments":[],"custom_field":{}}}'
-    http_version:
-  recorded_at: Tue, 19 Aug 2014 18:42:47 GMT
-- request:
-    method: put
-    uri: https://fake:X@test.freshdesk.com/helpdesk/tickets/7.json?helpdesk_ticket%5Bdescription%5D=Foobar!
-    body:
-      encoding: UTF-8
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - no-cache, no-store, max-age=0, must-revalidate
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - '"62bfd3b63227952181cf3509a626a382"'
-      Expires:
-      - Fri, 01 Jan 1990 00:00:00 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - nginx/1.2.9 + Phusion Passenger 3.0.21
-      Set-Cookie:
-      - helpdesk_node_session=36589eec241f65c7d4b55140e96ebbbffa9bd2663b1498d868b76dac2e6111739d5e6286cf55161b3bf7f2c05f59d9d0d095fedeecb47d740a49584ad7126c7b;
-        path=/
-      Status:
-      - '200'
-      X-Powered-By:
-      - Phusion Passenger (mod_rails/mod_rack) 3.0.21
-      X-Runtime:
-      - '158'
-      Content-Length:
-      - '301'
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: '{"ticket":{"deleted":false,"display_id":7,"subject":"Richiesta di sopralluogo","status_name":"Aperto","requester_status_name":"Elaborazione
-        in corso","priority_name":"Medio","source_name":"Portale","requester_name":"Alessandro
-        Desantis","responder_name":"No Agent","to_emails":null,"product_id":null}}'
-    http_version:
-  recorded_at: Sat, 23 Aug 2014 17:12:55 GMT
+  recorded_at: Sat, 23 Aug 2014 17:56:42 GMT
 recorded_with: VCR 2.9.2
