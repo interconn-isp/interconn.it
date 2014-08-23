@@ -1,25 +1,7 @@
 it:
-  activerecord:
-    models:
-      inquiry:
-        one:   'Sopralluogo'
-        other: 'Sopralluoghi'
-
-    attributes:
-      inquiry:
-        id:         'ID'
-        code:       'Codice'
-        full_name:  'Nome completo'
-        address:    'Indirizzo'
-        phone:      'Telefono'
-        email:      'Email'
-        created_at: 'Data richiesta'
-        product:    'Prodotto'
-        notes:      'Note'
-
   simple_form:
     labels:
-      inquiry: &labels
+      inquiry:
         full_name: 'Nome completo:'
         phone:     'Telefono:'
         email:     'Email:'
@@ -45,24 +27,3 @@ it:
         whdsl-2mega-2mega:    'WHDSL 2 Mega / 2 Mega'
         whdsl-4mega-2mega:    'WHDSL 4 Mega / 2 Mega'
         voip:                 'InterConn VoIP'
-
-      status:
-        requested:  'Richiesto'
-        completed:  'Completato'
-        infeasible: 'Non fattibile'
-
-  formtastic:
-    labels:
-      inquiry: *labels
-
-    hints:
-      inquiry:
-        telephone: 'Inserisci almeno un contatto.'
-        email:     'Inserisci almeno un contatto.'
-
-  active_admin:
-    scopes:
-      all: 'Tutti'
-      requested: 'Richiesti'
-      completed: 'Completati'
-      infeasible: 'Non fattibili'

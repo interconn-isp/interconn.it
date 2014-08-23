@@ -41,12 +41,6 @@ gem 'enumerize'
 gem 'sidekiq'
 gem 'clockwork'
 
-# Administration
-gem 'activeadmin', github: 'activeadmin/active_admin'
-gem 'devise'
-gem 'draper'
-gem 'cancancan'
-
 # Freshdesk integration
 gem 'httparty'
 
