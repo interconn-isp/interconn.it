@@ -13,6 +13,12 @@ class Freshdesk
     response
   end
 
+  def update_ticket(ticket_id, ticket_params)
+    response = put "/helpdesk/tickets/#{ticket_id}.json", ticket_params
+    raise "Ticket was not updated (HTTP code #{response.code})" unless response.code == 200
+    response
+  end
+
   def update_user(user_id, user_params)
     response = put "/contacts/#{user_id}.json", user_params
     raise "User was not updated (HTTP code #{response.code})" unless response.code == 200

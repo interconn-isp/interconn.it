@@ -23,6 +23,16 @@ RSpec.describe Freshdesk do
     end
   end
 
+  describe '#update_ticket' do
+    it 'updates the ticket' do
+      expect {
+        subject.update_ticket(7, helpdesk_ticket: {
+          description: 'Foobar!'
+        })
+      }.not_to raise_error
+    end
+  end
+
   describe '#update_user' do
     it 'updates the user' do
       expect {
