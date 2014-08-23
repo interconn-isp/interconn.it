@@ -10,6 +10,12 @@ RSpec.describe InquiriesController, type: :controller do
           post :create, inquiry: params
         }.to change(Inquiry, :count).by(1)
       end
+
+      it 'asynchronously creates the Freshdesk ticket' do
+        expect {
+          post :create, inquiry: params
+        }.to change(FreshdeskInquiryCreationWorker.jobs, :size).by(1)
+      end
     end
 
     context 'with invalid params' do

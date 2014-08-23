@@ -1,0 +1,6 @@
+it:
+  workers:
+    freshdesk_inquiry_creation:
+      ticket:
+        subject: 'Richiesta di sopralluogo'
+        description: 'Questo utente ha chiesto di essere ricontattato per un sopralluogo.'

@@ -10,6 +10,8 @@ class InquiriesController < ApplicationController
 
     if @inquiry.save
       session[:inquiry_id] = @inquiry.id
+      FreshdeskInquiryCreationWorker.perform_async @inquiry.id
+
       redirect_to edit_inquiry_path
     else
       render :new
