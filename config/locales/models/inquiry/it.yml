@@ -12,8 +12,9 @@ it:
 
     placeholders:
       inquiry:
-        address: 'Inserisci un indirizzo completo per una gestione più veloce della tua richiesta.'
-        notes:   'IP statici aggiuntivi, portabilità del numero di telefono e qualunque altra cosa che dovremmo sapere.'
+        notes: >
+          IP statici aggiuntivi, portabilità del numero di telefono e qualunque
+          altra cosa che dovremmo sapere.
 
   enumerize:
     inquiry:
