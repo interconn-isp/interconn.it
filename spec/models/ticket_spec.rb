@@ -24,4 +24,8 @@ RSpec.describe Ticket, type: :model do
   it 'ensures the length of message is at least 10' do
     expect(subject).to ensure_length_of(:message).is_at_least(10)
   end
+
+  it 'validates the format of phone' do
+    expect(subject).not_to allow_value('test').for(:phone)
+  end
 end

@@ -1,0 +1,5 @@
+it:
+  activerecord:
+    errors:
+      messages:
+        improbable_phone: 'non è un numero di telefono'

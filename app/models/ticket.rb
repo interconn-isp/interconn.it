@@ -7,8 +7,10 @@ class Ticket < ActiveRecord::Base
     support: ENV['FRESHDESK_SUPPORT_GROUP']
   }
 
-  validates :full_name, :email, :message, :subject, :category, presence: true
-  validates :email, format: { with: /@/ }
-  validates :subject, length: { minimum: 4 }
-  validates :message, length: { minimum: 10 }
+  validates :full_name, presence: true
+  validates :category, presence: true
+  validates :email, presence: true, format: { with: /@/ }
+  validates :subject, presence: true, length: { minimum: 4 }
+  validates :message, presence: true, length: { minimum: 10 }
+  validates :phone, format: { with: /\A(\+|\d)+\z/, allow_blank: true, message: I18n.t('activerecord.errors.messages.improbable_phone') }
 end
