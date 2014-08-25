@@ -14,6 +14,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
+gem 'twitter-typeahead-rails'
 
 # Views
 gem 'haml-rails'
@@ -43,6 +44,9 @@ gem 'clockwork'
 
 # Freshdesk integration
 gem 'httparty'
+
+# API
+gem 'jbuilder'
 
 group :development do
   # Error reporting
@@ -96,6 +100,7 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
   gem 'rack_session_access'
+  gem 'poltergeist'
 
   # Factories
   gem 'faker'

@@ -52,13 +52,6 @@
 
       .col-xs-12.col-sm-6
         .pricing-table-sidebar
-          %h3 Tariffe internazionali
-
-          %p
-            Se vuoi chiamare all'estero puoi consultare le
-            = link_to 'tariffe internazionali', '#'
-            sul nostro sito web.
-
           %h3 Tempi di attivazione
 
           %p
@@ -79,3 +72,15 @@
             agevolate. Se è il tuo caso, ti invitiamo a
             = link_to 'contattarci', contact_path
             per discuterne.
+
+          %h3 Tariffe
+
+          %p
+            Puoi consultare le tariffe minutarie nazionali e internazionali
+            tramite
+            = link_to 'questo modulo.', '#', data: { toggle: 'modal', target: '#call-rates-modal' }, id: 'call-rates-modal-label'
+
+= render 'pages/pricing/call_rates_modal'
+
+- content_for :javascripts do
+  = javascript_include_tag asset_path('pages/call-rates.js')

@@ -1,0 +1,66 @@
+.modal.modal-interconn.fade#call-rates-modal(tabindex='-1' role='dialog' aria-labelledby='call-rates-modal-label' aria-hidden='true')
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close(type='button' data-dismiss='modal')
+          %span(aria-hidden) &times;
+          %span.sr-only Chiudi
+
+        %h4.modal-title Tariffe VoIP
+
+      .modal-body
+        %p
+          Se vuoi conoscere le tariffe minutarie nazionali e internazionali,
+          inserisci il nome del gestore o Paese che vuoi chiamare nel modulo
+          sottostante.
+
+        %form#call-rate-search-form
+          .form-group
+            .input-group.input-group-lg
+              %input.form-control.input-lg#call-rate-search(placeholder='Dove vuoi chiamare?' pattern='.{3,}' required)
+              %span.input-group-btn
+                %button.btn.btn-lg.btn-default(type='submit')
+                  = fa_icon 'search'
+                  Cerca
+            %p.help-block
+              Inserisci almeno 3 caratteri per cercare.
+              %strong Usa l'inglese per i nomi dei Paesi.
+
+        %table.table.table-bordered.table-striped.table-hover#call-rates-table(style='margin-top: 20px')
+          %thead
+            %tr
+              %th Direttrice
+              %th Tariffa
+
+          %tbody
+            %tr.call-rate#call-rate-template(style='display: none')
+              %td.call-rate-traffic-direction
+              %td.call-rate-rate
+
+            %tr#call-rates-empty(style='display: none')
+              %td(colspan='2')
+                Nessuna tariffa corrisponde ai criteri selezionati.
+
+            %tr#call-rates-loading(style='display: none')
+              %td(colspan='2')
+                = fa_icon 'spinner', class: 'fa-spin'
+
+            %tr#call-rates-instructions
+              %td(colspan='2')
+                Digita il nome di un gestore e premi Invio per iniziare la ricerca.
+
+        %ul.list-unstyled.color-legend
+          %li
+            %span.label.label-info &nbsp;
+            Tariffa flat
+
+          %li
+            %span.label.label-warning &nbsp;
+            Tariffa peak (lun-ven 08:00-18:30, sab 08:00-13:00)
+
+          %li
+            %span.label.label-success &nbsp;
+            Tariffa off-peak
+
+      .modal-footer
+        %button.btn.btn-default(type='button' data-dismiss='modal') Chiudi

@@ -25,4 +25,6 @@ Rails.application.routes.draw do
 
   resources :inquiries, only: [:create]
   resource :inquiry, only: [:edit, :update]
+
+  resources :call_rates, only: [:index], path: 'call-rates', defaults: { format: 'json' }
 end

@@ -1,0 +1,13 @@
+.modal {
+  &.modal-interconn {
+    .modal-header {
+      background-color: $palette-orange;
+      color: white;
+    }
+
+    .modal-footer {
+      background-color: $palette-blue;
+      color: white;
+    }
+  }
+}

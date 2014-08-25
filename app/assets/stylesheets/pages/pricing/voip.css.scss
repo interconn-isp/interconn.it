@@ -19,4 +19,22 @@ body#pricing-voip {
       }
     }
   }
+
+  #call-rates-modal {
+    #call-rates-table {
+      margin-top: 20px;
+    }
+
+    ul.color-legend {
+      font-size: $font-size-small;
+
+      li {
+        margin-bottom: 2.5px;
+
+        .label {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
 }

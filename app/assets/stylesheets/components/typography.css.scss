@@ -21,7 +21,7 @@ a:not(.btn) {
   border-bottom: none;
 }
 
-p, ul {
+p:not(.help-block), ul {
   font-size: ceil(($font-size-base * 1.2));
 }
 

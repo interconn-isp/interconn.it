@@ -82,6 +82,7 @@ GEM
       timers (~> 1.1.0)
     childprocess (0.5.3)
       ffi (~> 1.0, >= 1.0.11)
+    cliver (0.3.2)
     clockwork (0.7.7)
       activesupport
       tzinfo
@@ -161,6 +162,9 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.6.11)
     interception (0.5)
+    jbuilder (2.1.3)
+      activesupport (>= 3.0.0, < 5)
+      multi_json (~> 1.2)
     jquery-rails (3.1.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
@@ -191,6 +195,11 @@ GEM
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
     pg (0.17.1)
+    poltergeist (1.5.1)
+      capybara (~> 2.1)
+      cliver (~> 0.3.1)
+      multi_json (~> 1.0)
+      websocket-driver (>= 0.2.0)
     polyglot (0.3.5)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -309,6 +318,10 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    twitter-typeahead-rails (0.10.2)
+      actionpack (>= 3.1)
+      jquery-rails
+      railties (>= 3.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.5.3)
@@ -319,6 +332,7 @@ GEM
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
     websocket (1.0.7)
+    websocket-driver (0.3.4)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
@@ -354,10 +368,12 @@ DEPENDENCIES
   high_voltage (~> 2.2.0)
   html2haml
   httparty
+  jbuilder
   jquery-rails
   launchy
   mocha
   pg
+  poltergeist
   pry-rails
   pry-rescue
   quiet_assets
@@ -375,6 +391,7 @@ DEPENDENCIES
   simple_form (~> 3.1.0.rc1)!
   therubyracer
   thin
+  twitter-typeahead-rails
   uglifier (>= 1.3.0)
   vcr
   webmock
