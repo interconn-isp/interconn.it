@@ -3,7 +3,8 @@ var CoverageAutocomplete = (function() {
     input: 'coverage-address',
 
     options: {
-      types: ['geocode']
+      types: ['geocode'],
+      componentRestrictions: { country: 'it' }
     },
 
     map: null,
@@ -18,7 +19,9 @@ var CoverageAutocomplete = (function() {
         this.options
       );
 
-      this.autocomplete.bindTo('bounds', this.map.map);
+      if (this.map) {
+        this.autocomplete.bindTo('bounds', this.map.map);
+      }
     },
 
     onPlaceChanged: function(callback) {

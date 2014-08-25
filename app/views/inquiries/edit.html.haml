@@ -11,3 +11,7 @@
   .row
     .col-xs-12
       = render 'inquiries/form'
+
+- content_for :javascripts do
+  = javascript_include_tag '//maps.googleapis.com/maps/api/js?libraries=places'
+  = javascript_include_tag asset_path('pages/inquiry.js')

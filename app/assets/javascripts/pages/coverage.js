@@ -1,6 +1,7 @@
-//= require pages/coverage/map
-//= require pages/coverage/autocomplete
-//= require pages/coverage/checker
+//= require components/gmaps/map
+//= require components/gmaps/autocomplete
+//= require components/gmaps/checker
+
 //= require pages/coverage/overlay
 
 (function() {

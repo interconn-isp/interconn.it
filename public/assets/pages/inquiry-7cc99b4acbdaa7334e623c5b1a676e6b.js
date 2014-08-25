@@ -1,1 +1,0 @@
-!function(){var e=function(e,i){$("#inquiry_"+e).keyup(function(){n(e,i)})},n=function(e,n){var i=$("#inquiry_"+n).parents(".form-group").find("label abbr");""!=$("#inquiry_"+e).val()?i.hide():i.show()};$(function(){n("email","telephone"),n("telephone","email"),e("telephone","email"),e("email","telephone")})}();
