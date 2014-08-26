@@ -14,7 +14,6 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
-gem 'twitter-typeahead-rails'
 
 # Views
 gem 'haml-rails'
