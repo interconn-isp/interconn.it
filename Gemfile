@@ -47,6 +47,9 @@ gem 'httparty'
 # API
 gem 'jbuilder'
 
+# Bower assets
+gem 'bower-rails'
+
 group :development do
   # Error reporting
   gem 'better_errors'

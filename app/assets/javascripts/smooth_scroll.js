@@ -1,4 +1,4 @@
-//= require jquery-scrollTo/jquery.scrollTo
+//= require jquery.scrollTo/jquery.scrollTo
 
 $(function() {
   $('a[href*=#]').click(function() {
