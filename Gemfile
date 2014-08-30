@@ -47,10 +47,10 @@ gem 'httparty'
 # API
 gem 'jbuilder'
 
-# Bower assets
-gem 'bower-rails'
-
 group :development do
+  # Bower assets
+  gem 'bower-rails'
+
   # Error reporting
   gem 'better_errors'
   gem 'binding_of_caller', platforms: [:mri_21]
