@@ -1,4 +1,8 @@
 $(function() {
+  $('#call-rates-modal').on('shown.bs.modal', function() {
+    $('#call-rate-search').focus();
+  });
+
   $('#call-rate-search-form').submit(function(e) {
     // Prevent default submit behaviour
     e.preventDefault();
