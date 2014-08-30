@@ -3,4 +3,9 @@ it:
     freshdesk_inquiry_creation:
       ticket:
         subject: 'Richiesta di sopralluogo'
-        description: 'Questo utente ha chiesto di essere ricontattato per un sopralluogo.'
+        description_html: '<p>Questo utente ha chiesto di essere ricontattato per un sopralluogo.</p>'
+        product_html: >
+          <p>
+            L'utente ha chiesto l'attivazione del seguente prodotto:
+            <strong>%{product}</strong>.
+          </p>

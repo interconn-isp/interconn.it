@@ -21,6 +21,8 @@
 
             .jumbotron-form-wrapper.contained
               = simple_form_for @inquiry, url: inquiries_path, wrapper: :inline_form, html: { class: 'form-inline' } do |f|
+                = f.hidden_field :product
+
                 .form-group
                   = f.input_field :full_name, as: :string, class: 'form-control input-lg input-flat', placeholder: 'Nome e cognome'
                 .form-group

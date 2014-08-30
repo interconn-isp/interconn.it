@@ -97,7 +97,6 @@ group :test do
   # Acceptance testing
   gem 'capybara'
   gem 'launchy'
-  gem 'selenium-webdriver'
   gem 'rack_session_access'
   gem 'poltergeist'
 

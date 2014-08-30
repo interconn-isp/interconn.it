@@ -8,7 +8,8 @@ RSpec.describe FreshdeskInquiryCreationWorker do
       inquiry = stub(
         id: 1,
         full_name: 'John Doe',
-        email: 'jdoe@example.com'
+        email: 'jdoe@example.com',
+        product: nil
       )
 
       Inquiry

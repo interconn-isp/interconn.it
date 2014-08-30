@@ -11,11 +11,19 @@ class FreshdeskInquiryCreationWorker
 
     logger.info "Creating Freshdesk ticket for inquiry #{inquiry.id}"
 
+    description = I18n.t('workers.freshdesk_inquiry_creation.ticket.description_html')
+
+    if inquiry.product.present?
+      description += I18n.t('workers.freshdesk_inquiry_creation.ticket.product_html',
+        product: inquiry.product.text
+      )
+    end
+
     freshdesk_ticket = freshdesk.create_ticket(helpdesk_ticket: {
       requester_name: inquiry.full_name,
       email: inquiry.email,
       subject: I18n.t('workers.freshdesk_inquiry_creation.ticket.subject'),
-      description: I18n.t('workers.freshdesk_inquiry_creation.ticket.description'),
+      description_html: description,
       group_id: ENV['FRESHDESK_INFO_GROUP'],
       ticket_type: ENV['FRESHDESK_INQUIRY_TYPE'],
       priority: ENV['FRESHDESK_INQUIRY_PRIORITY']
