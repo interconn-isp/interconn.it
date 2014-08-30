@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/seuros/capistrano-sidekiq.git
-  revision: 73477132fe05f62916f3ca432281202ddabd50f9
+  revision: 807ede255740b57f11b04c0929e6f8a04cf35951
   specs:
     capistrano-sidekiq (0.3.6)
       capistrano
@@ -46,7 +46,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (3.0.0.20140821)
+    autoprefixer-rails (3.0.1.20140826)
       execjs
     better_errors (2.0.0)
       coderay (>= 1.0.0)
@@ -91,7 +91,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.7.1)
+    coffee-script-source (1.8.0)
     colorize (0.7.3)
     connection_pool (2.0.0)
     crack (0.4.2)
@@ -120,9 +120,9 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
-    font-awesome-rails (4.1.0.0)
+    font-awesome-rails (4.2.0.0)
       railties (>= 3.2, < 5.0)
-    foreman (0.74.0)
+    foreman (0.75.0)
       dotenv (~> 0.11.1)
       thor (~> 0.19.1)
     formatador (0.2.5)
@@ -182,7 +182,7 @@ GEM
     method_source (0.8.2)
     mime-types (1.25.1)
     mini_portile (0.6.0)
-    minitest (5.4.0)
+    minitest (5.4.1)
     mocha (1.1.0)
       metaclass (~> 0.0.1)
     multi_json (1.10.1)
