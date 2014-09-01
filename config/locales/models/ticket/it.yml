@@ -11,7 +11,7 @@ it:
 
     placeholders:
       ticket:
-        full_name: 'Come ti chiami?'
+        full_name: 'Inserisci nome e cognome.'
         phone:     'Non è obbligatorio, ma gradito.'
         email:     'Promettiamo di non inviare spam.'
         subject:   'Cerca di essere sintetico.'
