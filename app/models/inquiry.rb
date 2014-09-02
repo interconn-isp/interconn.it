@@ -9,11 +9,6 @@ class Inquiry < ActiveRecord::Base
 
   validates :full_name, presence: true
   validates :email, presence: true, format: { with: /@/ }
-  validates :phone, format: {
-    with: /\A\+\d+\z/,
-    allow_blank: true,
-    message: I18n.t('activerecord.errors.messages.improbable_phone')
-  }
-
-  scope :stale, ->{ where '(EXTRACT(EPOCH FROM CURRENT_TIMESTAMP - created_at) / 3600) > 24' }
+  validates :phone, presence: true, format: { with: /\A(\+|\d)+\z/, allow_blank: true }
+  validates :address, presence: true
 end

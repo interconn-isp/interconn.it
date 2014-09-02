@@ -1,0 +1,23 @@
+body#inquiry {
+  background-image: asset-url('covers/home.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
+  #inquiry-outer-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+
+    .heading {
+      padding-top: 0;
+      padding-bottom: 30px;
+    }
+  }
+
+  .horizontal-call {
+    margin-top: 0;
+  }
+
+  #inquiry-inner-container {
+    max-width: 500px;
+  }
+}

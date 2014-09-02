@@ -7,7 +7,7 @@ class TicketsController < ApplicationController
     @ticket = Ticket.new(ticket_params)
 
     if @ticket.save
-      FreshdeskTicketWorker.perform_async(@ticket.id)
+      TicketWorker.perform_async(@ticket.id)
     end
 
     render :new

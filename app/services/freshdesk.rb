@@ -7,27 +7,9 @@ class Freshdesk
     @options = options
   end
 
-  def get_ticket(ticket_id)
-    response = get "/helpdesk/tickets/#{ticket_id}.json"
-    raise "Ticket was not retrieved (HTTP code #{response.code})" unless response.code == 200
-    response
-  end
-
   def create_ticket(ticket_params)
     response = post '/helpdesk/tickets.json', ticket_params
     raise "Ticket was not created (HTTP code #{response.code})" unless response.code == 200
-    response
-  end
-
-  def add_note_to_ticket(ticket_id, note_params)
-    response = post "/helpdesk/tickets/#{ticket_id}/conversations/note.json", note_params
-    raise "Note was not created (HTTP code #{response.code})" unless response.code == 200
-    response
-  end
-
-  def update_user(user_id, user_params)
-    response = put "/contacts/#{user_id}.json", user_params
-    raise "User was not updated (HTTP code #{response.code})" unless response.code == 200
     response
   end
 

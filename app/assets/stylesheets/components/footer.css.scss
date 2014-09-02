@@ -1,6 +1,11 @@
-footer {
+.horizontal-call + footer {
   margin-top: 100px;
+}
 
+$footer-links-bg: darken($palette-black, 15%);
+$footer-disclaimer-bg: darken($palette-black, 20%);
+
+footer {
   color: $gray-light;
   font-size: 16px;
 
@@ -24,7 +29,7 @@ footer {
   .footer-links {
     padding-top: $spacing-base - 20px;
     padding-bottom: $spacing-base;
-    background-color: darken($palette-black, 15%);
+    background-color: $footer-links-bg;
 
     ul.list-unstyled {
       margin-bottom: 0;
@@ -58,10 +63,16 @@ footer {
     padding-top: 25px;
     padding-bottom: 25px;
 
-    background-color: darken($palette-black, 20%);
+    background-color: $footer-disclaimer-bg;
 
     p, ul {
       margin-bottom: 0;
+    }
+  }
+
+  &.footer-semitrans {
+    .footer-disclaimer {
+      background-color: rgba($footer-disclaimer-bg, .85)
     }
   }
 }

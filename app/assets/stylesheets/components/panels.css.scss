@@ -11,3 +11,14 @@
     background-color: $palette-blue;
   }
 }
+
+.panel-inquiry {
+  border-radius: $border-radius-large;
+
+  @include panel-variant(darken($gray-lighter, 6.5%), $gray-darker, white, darken($gray-lighter, 6.5%));
+
+  .panel-body {
+    padding: 20px;
+    background-color: lighten($gray-lighter, 3.25%);
+  }
+}

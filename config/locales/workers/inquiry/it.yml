@@ -1,7 +1,8 @@
 it:
   workers:
-    freshdesk_inquiry_update:
-      note_html:
+    inquiry:
+      subject: 'Richiesta di sopralluogo'
+      description_html:
         address: >
           <p>
             Il sopralluogo è da effettuarsi al seguente indirizzo:
@@ -17,3 +18,7 @@ it:
             L'utente ha inoltre lasciato le seguenti note:
             <strong>%{notes}</strong>
           </p>
+        phone: >
+          <p>
+            L'utente ha specificato il seguente numero di telefono:
+            <strong>%{phone}</strong>.

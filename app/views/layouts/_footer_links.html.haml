@@ -1,0 +1,53 @@
+.footer-links
+  .container.contained-lg
+    .row
+      .footer-links-col.col-xs-6.col-md-3
+        %h4 L'azienda
+
+        %ul.list-unstyled
+          %li= link_to 'Chi siamo', about_path
+          %li= link_to 'Lavora con noi', careers_path
+          %li= link_to 'Blog', ENV['BLOG_URL'] if ENV['BLOG_URL']
+          %li= link_to 'Kit stampa', press_kit_path
+
+      .footer-links-col.col-xs-6.col-md-3
+        %h4 Servizi
+
+        %ul.list-unstyled
+          %li= link_to 'Contratto', contract_path
+          %li= link_to 'Copertura', coverage_path
+          %li= link_to 'Promozioni', deals_path
+          %li= link_to 'Webmail', 'http://webmail.interconn.it'
+          %li= link_to 'Area clienti', '#'
+
+      .footer-links-col.col-xs-6.col-md-3
+        %h4 Assistenza
+
+        %ul.list-unstyled
+          %li= link_to 'FAQ', faq_path
+          %li= link_to 'Stato servizi', ENV['STATUS_URL'] if ENV['STATUS_URL']
+          %li= link_to 'Contatti', contact_path
+
+      .footer-links-col.col-xs-6.col-md-3
+        %h4 Seguici su...
+
+        %ul.list-unstyled
+          %li
+            = fa_icon 'facebook', class: 'fa-fw'
+            = link_to 'Facebook', ENV['FACEBOOK_URL']
+
+          %li
+            = fa_icon 'twitter', class: 'fa-fw'
+            = link_to 'Twitter', ENV['TWITTER_URL']
+
+          %li
+            = fa_icon 'github', class: 'fa-fw'
+            = link_to 'GitHub', ENV['GITHUB_URL']
+
+          %li
+            = fa_icon 'google-plus', class: 'fa-fw'
+            = link_to 'Google+', ENV['GOOGLE_PLUS_URL']
+
+          %li
+            = fa_icon 'skype', class: 'fa-fw'
+            = link_to 'Skype', ENV['SKYPE_URL']

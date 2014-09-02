@@ -1,0 +1,34 @@
+- provide :body_id, 'inquiry'
+- provide :title, 'Richiesta di sopralluogo'
+- provide :hide_ctas, true
+- provide :hide_footer_links, true
+- provide :footer_classes, 'footer-semitrans'
+
+#inquiry-outer-container
+  #inquiry-content
+    .heading.heading-inverse
+      %h1.heading-title Grazie mille!
+      %h3.heading-description È bello averti a bordo.
+
+    .container#inquiry-inner-container
+      .panel.panel-inquiry
+        .panel-body
+          %p
+            La tua richiesta di sopralluogo è stata inoltrata al nostro staff di
+            supporto, che la prenderà in carico e ti ricontatterà per fissare un
+            appuntamento.
+
+          %p
+            Se il sopralluogo dovesse avere esito positivo, un nostro tecnico
+            installerà la nostra antenna e potrai testare gratuitamente i nostri
+            servizi per 15 giorni!
+
+          %p
+            Ti ringraziamo della fiducia che hai riposto in noi e ci auguriamo
+            di vederti presto parte di questo viaggio.
+
+          %p.text-right
+            — Il team InterConn
+
+- content_for :javascripts do
+  = javascript_include_tag asset_path('pages/inquiries/created.js')

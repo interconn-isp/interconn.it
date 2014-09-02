@@ -1,4 +1,4 @@
-class FreshdeskTicketWorker
+class TicketWorker
   include Sidekiq::Worker
 
   def perform(ticket_id)

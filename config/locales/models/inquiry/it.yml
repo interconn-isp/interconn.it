@@ -2,7 +2,7 @@ it:
   simple_form:
     labels:
       inquiry:
-        full_name: 'Nome completo:'
+        full_name: 'Nome e cognome:'
         phone:     'Telefono:'
         email:     'Email:'
         product:   'Prodotto:'
@@ -12,9 +12,10 @@ it:
 
     placeholders:
       inquiry:
+        address: 'Inserisci il tuo indirizzo completo.'
         notes: >
-          IP statici aggiuntivi, portabilità del numero di telefono e qualunque
-          altra cosa che dovremmo sapere.
+          IP statici aggiuntivi, portabilità del numero di telefono e ogni
+          altra esigenza.
 
   enumerize:
     inquiry:

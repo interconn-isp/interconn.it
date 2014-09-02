@@ -1,5 +1,5 @@
-RSpec.describe FreshdeskTicketWorker do
-  subject { FreshdeskTicketWorker.new }
+RSpec.describe TicketWorker do
+  subject { described_class.new }
 
   describe '#perform' do
     it 'creates the ticket' do

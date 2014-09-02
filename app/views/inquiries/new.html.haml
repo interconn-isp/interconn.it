@@ -1,18 +1,20 @@
-- provide :body_id, 'new-inquiry'
+- provide :body_id, 'inquiry'
 - provide :title, 'Richiesta di sopralluogo'
+- provide :hide_ctas, true
+- provide :hide_footer_links, true
+- provide :footer_classes, 'footer-semitrans'
 
-.heading.heading-bordered
-  .container
-    %h1.heading-title Richiesta di sopralluogo
-    %h3.heading-description
-      Compila il modulo e sarai ricontattato in men che non si dica per fissare
-      un appuntamento!
+#inquiry-outer-container
+  #inquiry-content
+    .heading.heading-inverse
+      %h1.heading-title Richiesta di sopralluogo
+      %h3.heading-description Inizia subito la tua prova gratuita di 15 giorni!
 
-.container.contained-sm#inquiry-form-container
-  .row
-    .col-xs-12
-      = render 'inquiries/form'
+    .container#inquiry-inner-container
+      .panel.panel-inquiry
+        .panel-body
+          = render 'inquiries/form'
 
 - content_for :javascripts do
   = javascript_include_tag '//maps.googleapis.com/maps/api/js?libraries=places'
-  = javascript_include_tag asset_path('pages/inquiry.js')
+  = javascript_include_tag asset_path('pages/inquiries/new.js')

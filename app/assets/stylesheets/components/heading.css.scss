@@ -2,11 +2,6 @@
   padding-top: 50px;
   padding-bottom: 50px;
 
-  &.heading-bordered {
-    border-bottom: 1px solid darken($gray-lighter, 6.5%);
-    margin-bottom: 25px;
-  }
-
   text-align: center;
 
   .heading-title {
@@ -18,5 +13,20 @@
     max-width: 600px;
     margin: 0 auto;
     color: $gray-light;
+  }
+
+  &.heading-inverse {
+    .heading-title {
+      color: white;
+    }
+
+    .heading-description {
+      color: darken($gray-lighter, 6.5%);
+    }
+  }
+
+  &.heading-bordered {
+    border-bottom: 1px solid darken($gray-lighter, 6.5%);
+    margin-bottom: 25px;
   }
 }

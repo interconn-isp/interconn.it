@@ -1,6 +1,11 @@
 .btn {
   transition: background-color .25s ease,
               border-color .25s ease;
+
+  small {
+    display: block;
+    opacity: .75;
+  }
 }
 
 .btn-lg {

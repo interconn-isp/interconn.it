@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe FreshdeskInquiryCreationWorker do
-  subject { FreshdeskInquiryCreationWorker.new }
+RSpec.describe InquiryWorker do
+  subject { described_class.new }
 
   describe '#perform' do
     it 'creates the tickets on Freshdesk' do
@@ -9,7 +9,10 @@ RSpec.describe FreshdeskInquiryCreationWorker do
         id: 1,
         full_name: 'John Doe',
         email: 'jdoe@example.com',
-        product: nil
+        product: nil,
+        phone: '3281716819',
+        address: 'Via Fasulla 123',
+        notes: ''
       )
 
       Inquiry
@@ -28,10 +31,8 @@ RSpec.describe FreshdeskInquiryCreationWorker do
         })
 
       inquiry
-        .expects(:update_column)
-        .with(:freshdesk_ticket_id, 1)
+        .expects(:destroy!)
         .once
-        .returns(true)
 
       subject.perform(1)
     end
