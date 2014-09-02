@@ -6,19 +6,19 @@ gem 'rails', '4.1.4'
 
 # Asset preprocessors
 gem 'sass-rails'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier'
+gem 'coffee-rails'
 
 # Assets
 gem 'jquery-rails'
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 
 # Views
 gem 'haml-rails'
 gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form', branch: 'master'
-gem 'high_voltage', '~> 2.2.0'
+gem 'high_voltage'
 
 # JavaScript runtime
 gem 'therubyracer', platform: :ruby
@@ -56,11 +56,11 @@ group :development do
   gem 'binding_of_caller', platforms: [:mri_21]
 
   # Deployment
-  gem 'capistrano', '~> 3.0.1'
+  gem 'capistrano'
   gem 'capistrano-bundler'
-  gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-rails'
   gem 'capistrano-rails-console'
-  gem 'capistrano-rvm', '~> 0.1.1'
+  gem 'capistrano-rvm'
   gem 'capistrano-sidekiq'
 
   # Process management
