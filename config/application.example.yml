@@ -1,0 +1,46 @@
+SECRET: SecretToken
+
+DEFAULT_LOCALE: it
+TIME_ZONE: Rome
+
+HOST: 'www.interconn.it'
+
+MAIL_SENDER: 'info@interconn.it'
+CONTACT_EMAIL: 'assistenza@interconn.it'
+
+SMTP_ADDRESS: 'mail.interconn.it'
+SMTP_PORT: 25
+SMTP_DOMAIN: 'v2.interconn.it'
+SMTP_USERNAME: 'devel@interconn.it'
+SMTP_PASSWORD: 'D2DqrNoxH9tRTSu'
+SMTP_AUTH: 'plain'
+SMTP_STARTTLS: true
+SMTP_OPENSSL_VERIFY: none
+
+FACEBOOK_URL: 'https://www.facebook.com/interconn.wisp'
+TWITTER_URL: 'https://twitter.com/InterConnISP'
+GOOGLE_PLUS_URL: 'https://plus.google.com/b/102521319510282326533'
+GITHUB_URL: 'https://github.com/interconn-wisp'
+SKYPE_URL: 'skype:interconn.wisp?chat'
+
+DEVISE_SECRET: 'SecretToken'
+DEVISE_PEPPER: 'SecretToken'
+
+SITE_NAME: 'InterConn'
+
+FRESHDESK_DOMAIN: 'interconn.freshdesk.com'
+FRESHDESK_API_KEY: 'FreshdeskApiKey'
+
+FRESHDESK_INFO_GROUP: 5000030612
+FRESHDESK_BILLING_GROUP: 5000030613
+FRESHDESK_SUPPORT_GROUP: 5000030614
+
+FRESHDESK_INQUIRY_TYPE: 'Opportunità'
+FRESHDESK_INQUIRY_PRIORITY: 2
+
+# STATUS_URL: 'http://status.interconn.it'
+PRIVACY_URL: 'https://www.iubenda.com/privacy-policy/131846'
+
+GA_ID: 'UA-54085084-1'
+
+REDIS_NAMESPACE: 'interconn'

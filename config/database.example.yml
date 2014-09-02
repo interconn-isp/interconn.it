@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: interconn_development
+  pool: 5
+  username: interconn
+  password: interconn
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: interconn_test
+  pool: 5
+  username: interconn
+  password: interconn
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: interconn_production
+  pool: 5
+  username: interconn
+  password: interconn
+  host: localhost
