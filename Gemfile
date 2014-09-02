@@ -68,7 +68,6 @@ group :development do
 
   # Continuous testing
   gem 'guard-bundler'
-  gem 'guard-rails'
   gem 'guard-rspec'
   gem 'rb-fchange', require: false
   gem 'rb-fsevent', require: false
@@ -83,6 +82,10 @@ group :development do
   # Console
   gem 'pry-rails'
   gem 'pry-rescue'
+
+  # Preloading
+  gem 'spring'
+  gem 'spring-commands-rspec'
 end
 
 group :development, :test do
@@ -107,7 +110,7 @@ group :test do
   gem 'faker'
 
   # RSpec
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', require: false
 
   # Mocking
   gem 'mocha'
