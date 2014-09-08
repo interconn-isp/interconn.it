@@ -15,18 +15,26 @@ class TicketWorker
       requester_name: ticket.full_name,
       email: ticket.email,
       subject: ticket.subject,
-      description: ticket.message,
+      description_html: build_ticket_description(ticket),
       group_id: ticket.category.value
     })
-
-    logger.info "Updating Freshdesk user #{freshdesk_ticket['helpdesk_ticket']['requester_id']} with new info"
-
-    freshdesk.update_user(freshdesk_ticket['helpdesk_ticket']['requester_id'], user: {
-      phone: ticket.phone
-    }) if ticket.phone.present?
 
     logger.info "Finished processing ticket #{ticket.id}"
 
     ticket.destroy!
+  end
+
+  def build_ticket_description(ticket)
+    description = I18n.t('workers.ticket.description_html.message',
+      message: ERB::Util.html_escape(ticket.message)
+    )
+
+    if ticket.phone.present?
+      description += I18n.t('workers.ticket.description_html.phone',
+        phone: ERB::Util.html_escape(ticket.phone)
+      )
+    end
+
+    description
   end
 end

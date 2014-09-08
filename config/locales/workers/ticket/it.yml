@@ -1,0 +1,14 @@
+it:
+  workers:
+    ticket:
+      subject: 'Richiesta di sopralluogo'
+      description_html:
+        message: >
+          <p>
+            L'utente ha lasciato il seguente messaggio:
+            <strong>%{message}</strong>
+          </p>
+        phone: >
+          <p>
+            L'utente ha specificato il seguente numero di telefono:
+            <strong>%{phone}</strong>.

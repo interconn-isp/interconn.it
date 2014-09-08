@@ -17,22 +17,12 @@ RSpec.describe TicketWorker do
 
       Ticket.expects(:find).with(1).once.returns(ticket)
 
-      Freshdesk.any_instance.expects(:create_ticket).with(helpdesk_ticket: {
-        requester_name: 'John Doe',
-        email:          'jdoe@example.com',
-        subject:        'Test ticket',
-        description:    'Hello, world!',
-        group_id:       1
-      }).once.returns(
+      Freshdesk.any_instance.expects(:create_ticket).once.returns(
         'helpdesk_ticket' => {
           'id' => 1,
           'requester_id' => 1
         }
       )
-
-      Freshdesk.any_instance.expects(:update_user).with(1, user: {
-        phone: '3918192716'
-      }).once
 
       subject.perform(1)
     end
