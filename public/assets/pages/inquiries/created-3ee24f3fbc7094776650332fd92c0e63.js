@@ -1,1 +1,0 @@
-!function(){function n(){var n=($(window).height()-($("#inquiry-content").height()+$("footer").height()))/2;n-=30,100>n&&(n=100),$("#inquiry-content").css("padding-top",n+"px"),$("#inquiry-content").css("padding-bottom",n+"px")}$(window).load(function(){n()})}();
