@@ -48,7 +48,7 @@
       .row
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag asset_path('ballicons/piggy-bank.svg'), class: 'feature-icon'
+            = image_tag 'ballicons/piggy-bank.svg', class: 'feature-icon'
 
             %h3 Costi competitivi
 
@@ -58,7 +58,7 @@
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag asset_path('ballicons/speed.svg'), class: 'feature-icon'
+            = image_tag 'ballicons/speed.svg', class: 'feature-icon'
 
             %h3 Servizio da urlo
 
@@ -68,7 +68,7 @@
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag asset_path('ballicons/help.svg'), class: 'feature-icon'
+            = image_tag 'ballicons/help.svg', class: 'feature-icon'
 
             %h3 Assistenza su misura
 
@@ -78,7 +78,7 @@
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag asset_path('ballicons/globe.svg'), class: 'feature-icon'
+            = image_tag 'ballicons/globe.svg', class: 'feature-icon'
 
             %h3 Copertura estesa
 
@@ -88,7 +88,7 @@
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag asset_path('ballicons/document.svg'), class: 'feature-icon'
+            = image_tag 'ballicons/document.svg', class: 'feature-icon'
 
             %h3 Contratto trasparente
 
@@ -98,7 +98,7 @@
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag asset_path('ballicons/settings.svg'), class: 'feature-icon'
+            = image_tag 'ballicons/settings.svg', class: 'feature-icon'
 
             %h3
               Pannello di controllo
@@ -109,4 +109,4 @@
               paga le fatture, tutto senza muoverti da casa.
 
 - content_for :javascripts do
-  = javascript_include_tag asset_path('pages/home.js')
+  = javascript_include_tag 'pages/home.js'
