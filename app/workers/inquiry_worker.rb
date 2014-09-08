@@ -41,25 +41,25 @@ class InquiryWorker
 
     if inquiry.phone.present?
       description += I18n.t('workers.inquiry.description_html.phone',
-        phone: inquiry.phone
+        phone: ERB::Util.html_escape(inquiry.phone)
       )
     end
 
     if inquiry.address.present?
       description += I18n.t('workers.inquiry.description_html.address',
-        address: inquiry.address
+        address: ERB::Util.html_escape(inquiry.address)
       )
     end
 
     if inquiry.product.present?
       description += I18n.t('workers.inquiry.description_html.product',
-        product: inquiry.product.text
+        product: ERB::Util.html_escape(inquiry.product.text)
       )
     end
 
     if inquiry.notes.present?
       description += I18n.t('workers.inquiry.description_html.notes',
-        notes: inquiry.notes
+        notes: ERB::Util.html_escape(inquiry.notes)
       )
     end
 
