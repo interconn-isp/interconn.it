@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 # Rails
-gem 'rails', '4.1.5'
+gem 'rails', '4.1.6'
 
 # Asset preprocessors
-gem 'sass-rails'
+gem 'sass-rails', github: 'rails/sass-rails', branch: 'master'
 gem 'uglifier'
 gem 'coffee-rails'
 
