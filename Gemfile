@@ -47,6 +47,9 @@ gem 'httparty'
 # API
 gem 'jbuilder'
 
+# Monitoring
+gem 'newrelic_rpm'
+
 group :development do
   # Bower assets
   gem 'bower-rails'
