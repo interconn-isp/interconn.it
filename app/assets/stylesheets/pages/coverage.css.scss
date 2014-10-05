@@ -45,14 +45,37 @@ body#coverage {
   }
 
   .coverage-check-form {
+    #check-status {
+      transition: background-color .25s ease-in-out;
+    }
+
+    .check-status-standby {
+      &, &:hover {
+        color: $gray-dark;
+      }
+
+      &:hover {
+        cursor: default;
+      }
+    }
+
     .check-status-yes {
       background-color: $palette-green;
+
       color: white;
+
+      &:hover {
+        background-color: darken($palette-green, 5%);
+      }
     }
 
     .check-status-no {
       background-color: $palette-red;
       color: white;
+
+      &:hover {
+        cursor: default;
+      }
     }
   }
 }

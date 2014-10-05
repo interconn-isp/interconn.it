@@ -8,7 +8,7 @@ section {
   }
 }
 
-a:not(.btn) {
+a:not(.btn, .input-group-addon) {
   border-bottom: 1px dotted;
   transition: color 0.2s ease;
 

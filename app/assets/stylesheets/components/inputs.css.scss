@@ -14,6 +14,10 @@
 
 .input-group-addon {
   border: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 textarea.form-control {

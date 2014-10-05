@@ -6,6 +6,8 @@ var CoverageChecker = (function() {
 
     result: 'check-status',
 
+    inquiry_path: '/inquiries/new',
+
     init: function(map, autocomplete) {
       this.map = map;
       this.autocomplete = autocomplete;
@@ -25,7 +27,8 @@ var CoverageChecker = (function() {
       result
         .removeClass('check-status-standby')
         .removeClass('check-status-yes')
-        .removeClass('check-status-no');
+        .removeClass('check-status-no')
+        .attr('href', '#');
 
       if (!place.geometry) {
         result
@@ -38,7 +41,8 @@ var CoverageChecker = (function() {
       if (this.map.polygonsContain(place.geometry.location)) {
         result
           .addClass('check-status-yes')
-          .html('<i class="fa fa-check"></i> Sei coperto!');
+          .html('<i class="fa fa-check"></i> Sei coperto!')
+          .attr('href', this.inquiry_path);
       } else {
         result
           .addClass('check-status-no')
