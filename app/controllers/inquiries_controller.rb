@@ -1,6 +1,7 @@
 class InquiriesController < ApplicationController
   def new
     @inquiry = Inquiry.new
+    @inquiry.product = params[:product]
   end
 
   def create
