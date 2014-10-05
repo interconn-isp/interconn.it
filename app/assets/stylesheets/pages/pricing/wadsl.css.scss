@@ -13,17 +13,11 @@ body#pricing-wadsl {
   }
 
   .asterisks-explanation {
-    padding-left: 5px;
-
-    @media (max-width: $screen-xs-max) {
-      max-width: 400px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 0;
-    }
-
-    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-      padding-left: 15px;
+    ul {
+      @media (max-width: $screen-xs-max) {
+        padding-left: 0;
+        text-align: center;
+      }
     }
   }
 }
@@ -58,8 +52,6 @@ body#pricing-wadsl {
     margin-top: 15px;
 
     &:nth-child(odd) {
-      padding-left: 15px !important;
-
       .pricing-table {
         .product-name, .product-price {
           border-left: none;
@@ -72,8 +64,6 @@ body#pricing-wadsl {
     }
 
     &:nth-child(even) {
-      padding-right: 15px !important;
-
       .pricing-table {
         .product-name, .product-price {
           border-right: none;
