@@ -3,6 +3,13 @@
     display: none;
   }
 
+  opacity: .7;
+  transition: opacity .25s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+
   position: fixed;
   left: 0;
   top: 0;
