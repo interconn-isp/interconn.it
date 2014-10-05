@@ -5,7 +5,7 @@ ruby '2.1.2'
 gem 'rails', '4.1.6'
 
 # Asset preprocessors
-gem 'sass-rails', github: 'rails/sass-rails', branch: 'master'
+gem 'sass-rails', '4.0.3'
 gem 'uglifier'
 gem 'coffee-rails'
 
