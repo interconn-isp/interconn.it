@@ -143,3 +143,16 @@
     font-size: $font-size-small;
   }
 }
+
+.custom-plans {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border: 2px solid $gray-lighter;
+  border-top: none;
+
+  p {
+    font-size: $font-size-large;
+    text-align: center;
+  }
+}

@@ -44,4 +44,9 @@ body#pricing-whdsl {
       border-right-width: 2px;
     }
   }
+
+  body#pricing-whdsl .custom-plans {
+    max-width: 400px;
+    margin: 0 auto;
+  }
 }
