@@ -34,6 +34,7 @@ namespace :deploy do
     end
   end
 
+  after :publishing, 'deploy:restart'
   after :finishing, 'deploy:cleanup'
 
   after :restart, 'sidekiq:restart'
