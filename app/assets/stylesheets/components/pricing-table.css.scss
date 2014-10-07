@@ -152,7 +152,10 @@
   border-top: none;
 
   p {
-    font-size: $font-size-large;
     text-align: center;
+
+    @media (max-width: $screen-xs-max) {
+      font-size: $font-size-base;
+    }
   }
 }

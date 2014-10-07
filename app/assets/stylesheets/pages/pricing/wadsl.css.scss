@@ -48,9 +48,14 @@ body#pricing-wadsl {
     }
   }
 
-  body#pricing-wadsl .custom-plans {
-    max-width: 400px;
-    margin: 0 auto;
+  body#pricing-wadsl .custom-plans-row {
+    margin-left: 0;
+    margin-right: 0;
+
+    .custom-plans {
+      max-width: 370px;
+      margin: 0 auto;
+    }
   }
 }
 
