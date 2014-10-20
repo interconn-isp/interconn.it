@@ -114,6 +114,7 @@ group :test do
 
   # RSpec
   gem 'shoulda-matchers', require: false
+  gem 'fuubar'
 
   # Mocking
   gem 'mocha'
