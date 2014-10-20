@@ -1,7 +1,7 @@
 body#deals {
   #deals-container {
-    margin-top: 125px;
-    margin-bottom: 150px;
+    margin-top: 60px;
+    margin-bottom: 80px;
 
     text-align: center;
 
@@ -22,7 +22,7 @@ body#deals {
 
     .no-deals-icon {
       color: $gray-light;
-      font-size: 200px;
+      font-size: 250px;
 
       @media (max-width: $screen-sm-max) {
         font-size: 20px;
