@@ -3,7 +3,9 @@ body#deals {
     margin-top: 60px;
     margin-bottom: 80px;
 
-    text-align: center;
+    .no-deals {
+      text-align: center;
+    }
 
     p {
       &.no-deals-text {
@@ -28,5 +30,9 @@ body#deals {
         font-size: 20px;
       }
     }
+  }
+
+  .horizontal-call {
+    margin-top: -30px;
   }
 }

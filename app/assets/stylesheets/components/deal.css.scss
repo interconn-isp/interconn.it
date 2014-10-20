@@ -1,0 +1,20 @@
+.deal {
+  margin-bottom: 30px;
+  padding: 15px;
+
+  border: 1px solid darken($gray-lighter, 6.5%);
+
+  .deal-image-wrapper {
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    img {
+      transition: transform .25s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}

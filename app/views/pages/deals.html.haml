@@ -6,15 +6,49 @@
     %h1.heading-title Promozioni
     %h3.heading-description Sconti e affari sui nostri prodotti, solo per te.
 
-.container.contained-sm#deals-container
+.container#deals-container
+  -#
+    .row
+      .col-xs-12
+        .no-deals.contained-sm
+          = fa_icon 'frown-o', class: 'no-deals-icon'
+
+          %p.no-deals-text
+            Sembra che attualmente non ci siano promozioni attive.
+            Perché non riprovi tra un po'? Avremo qualcosa per te!
+
+          %p.back-to-home
+            = link_to 'Torna alla home →', root_path
+
   .row
-    .col-xs-12
-      %p.no-deals-icon
-        = fa_icon 'frown-o'
+    .col-xs-12.col-sm-6
+      .deal
+        .deal-image-wrapper
+          = link_to image_tag('deals/bring-a-friend.jpg', class: 'img-responsive', alt: 'Porta un amico'), contact_path
 
-      %p.no-deals-text
-        Sembra che attualmente non ci siano promozioni attive.
-        Perché non riprovi tra un po'? Avremo qualcosa per te!
+        %h3 Porta un amico
 
-      %p.back-to-home
-        = link_to 'Torna alla home →', root_path
+        %p
+          Chi trova un amico trova un tesoro, recita un antico proverbio greco.
+          Da InterConn, chi porta un amico ottiene insieme a lui un mese di
+          connettività gratuita. Se sei rimasto soddisfatto del nostro servizio
+          perché non condividere la gioia? Suggerisci InterConn ai tuoi
+          conoscenti: ne beneficerete entrambi!
+
+    .col-xs-12.col-sm-6
+      .deal
+        .deal-image-wrapper
+          = link_to image_tag('deals/evangelists.jpg', class: 'img-responsive', alt: 'Diventa un Evangelist'), contact_path
+
+        %h3 Diventa un Evangelist
+
+        %p
+          Se sei il titolare di una piccola o media impresa, puoi diventare un
+          InterConn Evangelist. Gli Evangelist pubblicizzano il brand InterConn
+          e raccolgono autonomamente i dati di clienti interessati ai nostri
+          servizi.
+
+          = link_to 'Contattaci', contact_path
+
+          subito per un accordo su misura; combatti in prima linea il digital
+          divide!
