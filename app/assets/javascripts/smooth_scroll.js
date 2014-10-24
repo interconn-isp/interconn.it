@@ -8,12 +8,15 @@ $(function() {
       && $(this.hash).length > 0
     ) {
       var offset = -59;
-      offset -= parseInt($(this.hash).css('margin-top'));
+      offset -= parseInt($(this.hash).css('margin-top')) + parseInt($(this.hash).css('padding-top'));
+
+      offset -= parseInt($(this.hash).data('scroll-offset'));
 
       $.scrollTo(this.hash, {
         duration: 500,
         offset: offset
       });
+
       return false;
     }
   });
