@@ -2,39 +2,7 @@
 //= require within-viewport/jquery.withinViewport
 
 $(function() {
-  var updateContractView = function() {
-    var contractView = $('input[name="contract-view"]:checked').val();
-
-    if (contractView == 'complete') {
-      $('.terms-long').show();
-      $('.terms-short').addClass('hidden-xs');
-    } else {
-      $('.terms-short').removeClass('hidden-xs');
-      $('.terms-long').hide();
-    }
-  };
-
-  $('input[name="contract-view"]').change(updateContractView);
-
-  $(window).resize(function() {
-    if ($(window).width() >= 768) {
-      $('.terms-short').removeClass('hidden-xs');
-      $('.terms-long').show();
-    }
-  });
-
-  $('#contract-nav > .nav > li > a > span').tooltip({
-    placement: 'left',
-    container: 'body',
-    delay: 250
-  });
-
-  $(window).scroll(function() {
-    updateCurrentArticle();
-  });
-
-  function getCurrentArticle()
-  {
+  var getCurrentArticle = function() {
     var currentArticle;
 
     $('.article h4:visible').each(function() {
@@ -57,10 +25,9 @@ $(function() {
     currentArticle = parseInt(currentArticle.attr('id').split('-')[1])
 
     return currentArticle;
-  }
+  };
 
-  function updateCurrentArticle()
-  {
+  var updateCurrentArticle = function() {
     var currentArticle = getCurrentArticle();
 
     var previousArticle = $('#art-' + (currentArticle - 1));
@@ -81,7 +48,40 @@ $(function() {
       $('#next-article').attr('disabled', false);
       $('#next-article').attr('href', '#' + nextArticle.attr('id'))
     }
-  }
+  };
+
+  $(window).scroll(updateCurrentArticle);
 
   updateCurrentArticle();
+});
+
+$(function() {
+  var updateContractView = function() {
+    var contractView = $('input[name="contract-view"]:checked').val();
+
+    if (contractView == 'complete') {
+      $('.terms-long').show();
+      $('.terms-short').addClass('hidden-xs');
+    } else {
+      $('.terms-short').removeClass('hidden-xs');
+      $('.terms-long').hide();
+    }
+  };
+
+  $('input[name="contract-view"]').change(updateContractView);
+});
+
+$(window).resize(function() {
+  if ($(window).width() >= 768) {
+    $('.terms-short').removeClass('hidden-xs');
+    $('.terms-long').show();
+  }
+});
+
+$(function() {
+  $('#contract-nav > .nav > li > a > span').tooltip({
+    placement: 'left',
+    container: 'body',
+    delay: 250
+  });
 });
