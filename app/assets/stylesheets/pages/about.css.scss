@@ -18,14 +18,16 @@ body#about {
   }
 
   .container {
-    h1, h2 {
-      &:first-child {
-        margin-top: 0;
-      }
-    }
-
     blockquote {
       margin-bottom: 10.5px;
+    }
+
+    *:first-child {
+      margin-top: 0;
+    }
+
+    *:last-child {
+      margin-bottom: 0;
     }
   }
 
