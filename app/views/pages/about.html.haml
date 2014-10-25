@@ -1,76 +1,179 @@
 - provide :title, 'Chi siamo'
 - provide :body_id, 'about'
 
-.heading.heading-bordered
+#about-cover
+
+.container.contained-sm.text-container
+  %h1 Cos'è internet?
+
+  %p
+
+    No, non è un corso di informatica per ultrasettantenni. Non vogliamo
+    spiegarti la differenza tra un lettore CD e un portatazze. (Perlomeno
+    speriamo di non doverlo fare.) Ma visto che hai voluto saperne di più su
+    InterConn, poiché sei interessato a chi siamo, cosa facciamo e perché lo
+    facciamo, fermati per un istante e chiediti:
+    %strong cos'è internet?
+
+  %p
+
+    Se credi che sia un optional, un lusso di cui poter fare a meno, allora può
+    darsi che InterConn non sia adatta a te, perché per noi è molto di più: non
+    solo è il più performante mezzo di comunicazione che abbiamo a disposizione
+    nel nostro secolo;
+
+    %strong
+      internet è partecipazione, evoluzione, scambio di idee.
+
+    È uno dei pilastri fondanti della società moderna, una
+    &ldquo;comodità&rdquo; necessaria e imprescindibile.
+
+  %p
+    Se la pensi come noi, allora condividerai il nostro dolore nell'apprendere
+    che
+
+    = link_to 'una immensa fetta della popolazione', 'http://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users'
+
+    ancora non vi può accedere. A queste persone è preclusa la possibilità di
+    esprimersi in maniera efficace, di comunicare con i propri cari, di trovare
+    ispirazione nelle idee di altri.
+
+    %strong
+      A queste persone è negato l'uso di strumenti che aumenterebbero
+      le loro possibilità di sviluppo sociale, personale,
+      culturale ed economico.
+
+#internet-map-wrapper
   .container
-    %h1.heading-title Chi siamo
-    %h3.heading-description
-      InterConn è un insieme di visionari e professionisti accomunati
-      dall'obiettivo di abbattere il digital divide offrendo un servizio di
-      alta qualità.
+    = image_tag 'internet-users-map.png', class: 'img-responsive'
 
-.feature-list
-  .feature
-    .container.contained
-      .row
-        .col-xs-12.col-md-4.pull-right
-          = image_tag 'ballicons/brain.svg', class: 'feature-icon'
+.data-grid
+  .container.contained
+    .row
+      .col-xs-12.col-sm-6.datum
+        .datum-number 7,1 miliardi
+        .datum-note persone nel mondo
 
-        .col-xs-12.col-md-8
-          %h2 Siamo ideatori
+      .col-xs-12.col-sm-6.datum
+        .datum-number 4,3 miliardi
+        .datum-note non usano internet
 
-          %p
-            In un panorama fossilizzato come quello del digital divide, portiamo
-            un'onda di novità. Pianifichiamo e agiamo. Sfruttiamo le tecnologie
-            esistenti per offrire prodotti innovativi. Studiamo con attenzione ogni
-            aspetto del nostro processo per offrire un servizio su cui contare.
+.container.contained-sm#internet-map-caption
+  Numero di utenti internet nel mondo. L'accessibilità della rete non
+  implica il suo utilizzo.
 
-  .feature
-    .container.contained
-      .row
-        .col-xs-12.col-md-4
-          = image_tag 'ballicons/chemistry.svg', class: 'feature-icon'
+.container.contained-sm.text-container
+  %h2 Il digital divide in Italia
 
-        .col-xs-12.col-md-8
-          %h2 Siamo sperimentatori
+  %p
+    Per cambiare il mondo dobbiamo prima cambiare noi stessi. In Italia il 12%
+    della popolazione è ancora sprovvisto di un collegamento a internet
+    accettabile, ma solo il 58% utilizza effettivamente la rete. La situazione
+    è migliorata negli ultimi anni, ma siamo ancora lontani dalle medie
+    europee in termini di qualità e disponibilità della connessione a
+    internet.
 
-          %p
-            Non ci adagiamo sui nostri successi. Il clima di costante
-            sperimentazione è la nostra firma, ciò che ci distingue dalla
-            concorrenza. Siamo alla continua ricerca di soluzioni migliori, più
-            veloci ed efficienti, senza per questo compromettere la stabilità dei
-            nostri servizi.
+  %p
+    Tramite la creazione di partnership strategiche, l'utilizzo di tecnologie
+    innovative e l'ideazione di campagne promozionali vogliamo fornire a ogni
+    cittadino non solo i mezzi per esprimere e condividere idee, ma anche le
+    capacità per un loro utilizzo responsabile e ottimale.
 
-  .feature
-    .container.contained
-      .row
-        .col-xs-12.col-md-4.pull-right
-          = image_tag 'ballicons/diamond.svg', class: 'feature-icon'
+  %p
+    Con questa dualità degli obiettivi in mente, InterConn ha dato avvio a
+    progetti come
 
-        .col-xs-12.col-md-8
-          %h2 Siamo perfezionisti
+    = link_to('Evangelist', deals_path) + ','
 
-          %p
-            Sopra ogni altra cosa ci interessa la qualità. Se non possiamo dare il
-            meglio di noi, non diamo niente. Come i nostri utenti, abbiamo provato
-            in prima persona le frustrazioni di un cattivo servizio, e siamo
-            determinati a non imitarlo, anche se dobbiamo compiere grandi sforzi.
+    che consente alle piccole e medie imprese di pubblicizzare il brand
+    InterConn, e
 
-.jumbotron.jumbotron-photo#about-jumbotron
-  .overlay
-    .container
-      = image_tag 'glyph.svg', class: 'img-responsive', id: 'about-logo'
+    = link_to('Albatros', deals_path) + ','
 
-      %h1 Siamo InterConn.
+    tramite cui eroghiamo connettività gratuita a banda larga alle scuole
+    pubbliche di primo e secondo grado sprovviste del collegamento a internet.
 
-      %p.lead
-        Un gruppo di visionari e professionisti con l'obiettivo di abbattere il
-        digital divide e restituire alle persone il diritto di condividere le
-        proprie idee.
+#team-wrapper
+  %ul.list-inline.list-team
+    %li
+      = image_tag 'team/valerio.jpg', class: 'img-circle img-responsive center-block'
 
-      %p.lead
-        = "L'<strong>umanità</strong> è il nostro vanto.".html_safe
-        = "L'<strong>onestà</strong> è il nostro valore.".html_safe
-        = "La <strong>perfezione</strong> è il nostro marchio.".html_safe
+      %span.member-name Valerio Desantis
+      %span.member-role Responsabile operazioni
 
-      %p.lead Vieni a conoscerci. Ti stupiremo.
+    %li
+      = image_tag 'team/francesco.jpg', class: 'img-circle img-responsive center-block'
+
+      %span.member-name Francesco Mencaroni
+      %span.member-role Responsabile marketing
+
+    %li
+      = image_tag 'team/luca.jpg', class: 'img-circle img-responsive center-block'
+
+      %span.member-name Luca Mesa
+      %span.member-role Tecnico
+
+    %li
+      = image_tag 'team/vincenzo.jpg', class: 'img-circle img-responsive center-block'
+
+      %span.member-name Vincenzo Astorino
+      %span.member-role Tecnico
+
+    %li
+      = image_tag 'team/salvatore.jpg', class: 'img-circle img-responsive center-block'
+
+      %span.member-name Salvatore Nigro
+      %span.member-role Tecnico
+
+    %li
+      = image_tag 'team/alessandro.jpg', class: 'img-circle img-responsive center-block'
+
+      %span.member-name Alessandro Desantis
+      %span.member-role Sviluppatore
+
+    %li
+      = image_tag 'team/you.jpg', class: 'img-circle img-responsive center-block'
+
+      %span.member-name Tu?
+      %span.member-role= link_to 'Lavora con noi', careers_path
+
+.container.contained-sm.text-container
+  %h2 Il manifesto InterConn
+
+  %p
+
+    Nel 2011 abbiamo fondato InterConn con il preciso scopo di rimuovere tutti
+    gli ostacoli di ordine tecnico, legale e culturale che impediscono lo
+    sviluppo tecnologico del Paese. Il nostro obiettivo è l'abbattimento del
+    digital divide tramite la fornitura di connettività internet senza fili.
+    Il nostro piano d'azione è riassunto e delineato dal nostro manifesto:
+
+  %blockquote
+    %p
+      %strong Siamo ideatori.
+
+      Portiamo un'ondata di novità in un panorama fossilizzato. Pianifichiamo
+      e agiamo. Sfruttiamo le tecnologie esistenti per offrire prodotti
+      innovativi. Studiamo con attenzione ogni aspetto del nostro processo per
+      offrire un servizio di qualità.
+
+    %p
+      %strong Siamo sperimentatori.
+
+      Non ci adagiamo sui nostri successi. Il clima di costante sperimentazione
+      è la nostra firma. Siamo sempre alla ricerca di soluzioni migliori, più
+      veloci ed efficienti, senza per questo rinunciare alla stabilità del
+      servizio offerto.
+
+    %p
+      %strong Siamo perfezionisti.
+
+      Sopra ogni altra cosa ci interessa la qualità. Se non possiamo dare il
+      meglio, non diamo niente. Abbiamo provato sulla nostra pelle le
+      conseguenze di un cattivo servizio. Non accettiamo compromessi,
+      qualunque sia il costo da pagare.
+
+  %p
+    Questi valori ci guidano nel nostro viaggio. Li ricordiamo, li ripetiamo
+    e li rivediamo a ogni passo. Finché ci sarà un solo cittadino privato della
+    possibilità di accedere a internet, non saremo giunti a destinazione.

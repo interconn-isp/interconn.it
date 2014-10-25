@@ -1,0 +1,28 @@
+.list-team {
+  margin-bottom: 0;
+  margin-top: -20px;
+  text-align: center;
+
+  li {
+    padding-top: 20px;
+    width: 195px;
+
+    img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+
+    span {
+      display: block;
+
+      &.member-name {
+        margin-top: 5px;
+        font-weight: bold;
+      }
+
+      &.member-role {
+        font-size: $font-size-small;
+      }
+    }
+  }
+}

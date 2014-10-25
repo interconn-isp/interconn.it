@@ -1,13 +1,13 @@
-.heading + .telephones {
+.heading + .data-grid {
   border-top: none;
   margin-top: -25px;
 }
 
-.telephones {
+.data-grid {
   border-top: 1px solid $gray-lighter;
   border-bottom: 1px solid $gray-lighter;
 
-  .telephone {
+  .datum {
     padding: 25px 0;
     border-right: 1px solid $gray-lighter;
     text-align: center;
@@ -26,13 +26,13 @@
       }
     }
 
-    .telephone-note {
+    .datum-note {
       font-weight: thin;
       text-transform: uppercase;
       color: $palette-blue;
     }
 
-    .telephone-number {
+    .datum-number {
       font-size: ceil(($font-size-large * 2));
       font-weight: bolder;
       color: $palette-orange;

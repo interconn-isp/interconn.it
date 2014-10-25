@@ -3,24 +3,56 @@
  */
 
 body#about {
-  #about-jumbotron {
+  #about-cover {
+    height: 400px;
+
+    @media (max-width: $screen-xs-max) {
+      height: 200px;
+    }
+
     background-image: asset-url('covers/about.jpg');
+    background-size: cover;
     background-position: center center;
 
-    text-align: center;
+    content: " ";
+  }
 
-    .container {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      max-width: 800px;
+  .container {
+    h1, h2 {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    blockquote {
+      margin-bottom: 10.5px;
     }
   }
 
-  #about-logo {
-    margin: 0 auto;
+  #team-wrapper {
+    margin-top: 50px;
+    border-top: 1px solid $gray-lighter;
+    border-bottom: 1px solid $gray-lighter;
+    padding: 30px;
   }
 
-  .horizontal-call {
-    margin-top: 0;
+  #internet-map-wrapper {
+    margin-top: 50px;
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    border: 1px solid $gray-lighter;
+  }
+
+  #internet-map-caption {
+    margin-top: 5px;
+    text-align: center;
+    font-size: $font-size-small;
+    color: $gray-light;
+  }
+
+  .text-container {
+    margin-top: 50px;
   }
 }
