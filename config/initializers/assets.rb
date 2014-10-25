@@ -10,6 +10,5 @@ Rails.application.config.assets.precompile += [
   'pages/coverage.js',
   'pages/contract.js',
   'pages/inquiries/new.js',
-  'pages/inquiries/created.js',
   'pages/call-rates.js'
 ]

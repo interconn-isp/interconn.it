@@ -1,5 +1,4 @@
 //= require components/gmaps/autocomplete
-//= require pages/inquiries/shared/padding
 
 (function() {
   $(function() {
