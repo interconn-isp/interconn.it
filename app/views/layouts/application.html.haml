@@ -26,7 +26,7 @@
     %main(role='main')
       = yield
 
-    = render 'layouts/bottom_call' unless yield(:hide_ctas).present?
+    = render 'layouts/bottom_call'
     = render 'layouts/footer'
 
     = javascript_include_tag 'application'

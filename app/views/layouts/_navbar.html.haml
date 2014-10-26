@@ -18,6 +18,5 @@
             %li{class: "#{'active' if params[:id] && params[:id][0..2] == 'faq'}"}= link_to 'Domande frequenti', faq_path
             %li{class: "#{'active' if params[:controller] == 'contacts'}"}= link_to 'Contatti', contact_path
 
-          - unless yield(:hide_ctas).present?
-            %ul.nav.navbar-nav
-              %li.navbar-nav-action= link_to 'Inizia la tua prova!', new_inquiry_path
+          %ul.nav.navbar-nav
+            %li.navbar-nav-action= link_to 'Inizia la tua prova!', new_inquiry_path
