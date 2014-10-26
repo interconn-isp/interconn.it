@@ -149,13 +149,17 @@
   padding-bottom: 15px;
 
   border: 2px solid $gray-lighter;
-  border-top: none;
 
   p {
     text-align: center;
+    font-size: $font-size-base;
+  }
 
-    @media (max-width: $screen-xs-max) {
-      font-size: $font-size-base;
-    }
+  @media (min-width: $screen-sm-min) {
+    border-top: none;
+  }
+
+  @media (max-width: $screen-xs-max) {
+    margin-top: 15px !important;
   }
 }
