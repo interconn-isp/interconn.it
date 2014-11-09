@@ -31,7 +31,6 @@ gem 'figaro'
 
 # I18n
 gem 'rails-i18n'
-gem 'devise-i18n'
 
 # Active Record
 gem 'pg'
@@ -118,8 +117,4 @@ group :test do
 
   # Mocking
   gem 'mocha'
-
-  # API testing
-  gem 'webmock'
-  gem 'vcr'
 end

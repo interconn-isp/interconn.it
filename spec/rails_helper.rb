@@ -7,8 +7,6 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rack_session_access/capybara'
 require 'sidekiq/testing'
-require 'webmock/rspec'
-require 'vcr'
 require 'capybara/poltergeist'
 require 'shoulda-matchers'
 
@@ -43,12 +41,6 @@ RSpec.configure do |config|
 
   Sidekiq::Testing.fake!
   Sidekiq::Logging.logger = nil
-
-  VCR.configure do |c|
-    c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-    c.hook_into :webmock
-    c.ignore_localhost = true
-  end
 
   Capybara.javascript_driver = :poltergeist
 end

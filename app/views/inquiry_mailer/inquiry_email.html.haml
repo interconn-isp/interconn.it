@@ -1,0 +1,24 @@
+%dl
+  %dt= t('mailers.inquiry.full_name')
+  %dd= @inquiry.full_name
+
+  %dt= t('mailers.inquiry.email')
+  %dd= @inquiry.email
+
+  %dt= t('mailers.inquiry.phone')
+  %dd= @inquiry.phone
+
+  %dt= t('mailers.inquiry.address')
+  %dd= @inquiry.address
+
+  - if @inquiry.product.present?
+    %dt= t('mailers.inquiry.product')
+    %dd= @inquiry.product_text
+
+- if @inquiry.notes.present?
+  %hr/
+
+  %p
+    %strong= t('mailers.inquiry.notes')
+
+  = simple_format @inquiry.notes

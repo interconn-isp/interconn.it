@@ -5,7 +5,7 @@
     CoverageAutocomplete.input = 'inquiry_address';
     CoverageAutocomplete.init();
 
-    $('#new_inquiry').bind('keyup keypress', function(e) {
+    $('#new_inquiry #inquiry_address').bind('keyup keypress', function(e) {
       var code = e.keyCode || e.which;
       if (code  == 13) {
         e.preventDefault();

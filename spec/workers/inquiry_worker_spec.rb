@@ -5,15 +5,7 @@ RSpec.describe InquiryWorker do
 
   describe '#perform' do
     it 'creates the tickets on Freshdesk' do
-      inquiry = stub(
-        id: 1,
-        full_name: 'John Doe',
-        email: 'jdoe@example.com',
-        product: nil,
-        phone: '3281716819',
-        address: 'Via Fasulla 123',
-        notes: ''
-      )
+      inquiry = FactoryGirl.build_stubbed(:inquiry)
 
       Inquiry
         .expects(:find)
@@ -21,18 +13,16 @@ RSpec.describe InquiryWorker do
         .once
         .returns(inquiry)
 
-      Freshdesk
-        .any_instance
-        .expects(:create_ticket)
+      email = stub()
+      email
+        .expects(:deliver)
         .once
-        .returns('helpdesk_ticket' => {
-          'display_id' => 1,
-          'requester_id' => 1
-        })
 
-      inquiry
-        .expects(:destroy!)
+      InquiryMailer
+        .expects(:inquiry_email)
+        .with(inquiry)
         .once
+        .returns(email)
 
       subject.perform(1)
     end

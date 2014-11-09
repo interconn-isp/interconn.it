@@ -1,0 +1,10 @@
+it:
+  mailers:
+    inquiry:
+      subject:   'Richiesta di sopralluogo (%{full_name})'
+      full_name: 'Nome completo:'
+      email:     'Email:'
+      phone:     'Telefono:'
+      address:   'Indirizzo:'
+      product:   'Prodotto:'
+      notes:     'Note:'

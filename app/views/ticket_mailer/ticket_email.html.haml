@@ -1,0 +1,5 @@
+= simple_format @ticket.message
+
+- if @ticket.phone.present?
+  %hr/
+  %p= t('mailers.ticket.phone_html', phone: @ticket.phone)
