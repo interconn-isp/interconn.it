@@ -1,5 +1,7 @@
 it:
   mailers:
     ticket:
-      phone_html: >
-        Puoi ricontattare l'utente al numero di telefono <strong>%{phone}</strong>.
+      full_name: 'Nome completo:'
+      email:     'Email:'
+      phone:     'Telefono:'
+      message:   'Messaggio:'

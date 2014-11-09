@@ -1,5 +1,16 @@
-= simple_format @ticket.message
+%dl
+  %dt= t('mailers.ticket.full_name')
+  %dd= @ticket.full_name
 
-- if @ticket.phone.present?
-  %hr/
-  %p= t('mailers.ticket.phone_html', phone: @ticket.phone)
+  %dt= t('mailers.ticket.email')
+  %dd= @ticket.email
+
+  %dt= t('mailers.ticket.phone')
+  %dd= @ticket.phone
+
+%hr/
+
+%p
+  %strong= t('mailers.ticket.message')
+
+= simple_format @ticket.message
