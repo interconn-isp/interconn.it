@@ -5,6 +5,10 @@ RSpec.describe TicketWorker do
     it 'creates the ticket' do
       ticket = FactoryGirl.build_stubbed(:ticket)
 
+      ticket
+        .expects(:update_column)
+        .once
+
       Ticket
         .expects(:find)
         .with(1)

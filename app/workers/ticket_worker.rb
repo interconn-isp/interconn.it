@@ -5,7 +5,10 @@ class TicketWorker
     ticket = Ticket.find(ticket_id)
 
     logger.info "Sending email for #{ticket.id}..."
+
     TicketMailer.ticket_email(ticket).deliver
+    ticket.update_column :sent_at, Time.now
+
     logger.info "Finished processing ticket #{ticket.id}!"
   end
 end
