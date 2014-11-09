@@ -7,6 +7,10 @@ RSpec.describe InquiryWorker do
     it 'creates the tickets on Freshdesk' do
       inquiry = FactoryGirl.build_stubbed(:inquiry)
 
+      inquiry
+        .expects(:update_column)
+        .once
+
       Inquiry
         .expects(:find)
         .with(1)

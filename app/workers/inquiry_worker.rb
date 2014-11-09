@@ -5,7 +5,10 @@ class InquiryWorker
     inquiry = Inquiry.find(inquiry_id)
 
     logger.info "Sending email for inquiry #{inquiry.id}..."
+
     InquiryMailer.inquiry_email(inquiry).deliver
+    inquiry.update_column :sent_at, Time.now
+
     logger.info "Finished processing inquiry #{inquiry.id}!"
   end
 end
