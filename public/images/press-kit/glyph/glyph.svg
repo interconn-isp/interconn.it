@@ -13,8 +13,11 @@
    height="2000"
    id="svg3018"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="glifo.svg">
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Glifo bianco su sfondo arancione.svg"
+   inkscape:export-filename="C:\Users\Alessandro Desantis\Dropbox\InterConn\Brand\Logo\Glifo\Bianco su sfondo arancione\Glifo bianco su sfondo arancione (anteprima).png"
+   inkscape:export-xdpi="33.299999"
+   inkscape:export-ydpi="33.299999">
   <defs
      id="defs3020">
     <clipPath
@@ -39,9 +42,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="2051.5029"
-     inkscape:cy="556.6971"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="-14.682265"
+     inkscape:cy="1042.351"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -92,7 +95,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,17 +105,18 @@
      id="layer1"
      transform="translate(0,947.6378)">
     <rect
-       style="fill:#ff9c00;fill-opacity:1;stroke:none"
+       style="fill:#ff9900;fill-opacity:1;stroke:none"
        id="rect3033"
        width="2000"
        height="2000"
        x="0"
-       y="0"
+       y="-947.63782"
        ry="0"
-       transform="translate(0,-947.6378)" />
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g56"
-       transform="matrix(8.7226865,0,0,-8.7226865,-539.74992,986.78668)"
+       transform="matrix(8.7226865,0,0,-8.7226865,-539.75629,986.8208)"
        inkscape:export-xdpi="418.69"
        inkscape:export-ydpi="418.69"
        style="fill:#ffffff;fill-opacity:1;stroke:none">
