@@ -31,6 +31,7 @@ SITE_NAME: 'InterConn'
 # STATUS_URL: 'http://status.interconn.it'
 PRIVACY_URL: 'https://www.iubenda.com/privacy-policy/131846'
 # BLOG_URL: 'http://blog.interconn.it'
+# CP_URL: 'http://customers.interconn.it'
 
 GA_ID: 'UA-54085084-1'
 

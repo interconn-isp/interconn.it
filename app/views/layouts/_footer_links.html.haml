@@ -18,7 +18,7 @@
           %li= link_to 'Copertura', coverage_path
           %li= link_to 'Promozioni', deals_path
           %li= link_to 'Webmail', 'http://webmail.interconn.it'
-          %li= link_to 'Area clienti', '#'
+          %li= link_to 'Area clienti', ENV['CP_URL'] if ENV['CP_URL']
 
       .footer-links-col.col-xs-6.col-md-3
         %h4 Assistenza
