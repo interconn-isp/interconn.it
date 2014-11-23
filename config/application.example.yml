@@ -20,18 +20,18 @@ SMTP_AUTH: 'plain'
 SMTP_STARTTLS: true
 SMTP_OPENSSL_VERIFY: none
 
-FACEBOOK_URL: 'https://www.facebook.com/interconn.wisp'
+FACEBOOK_URL: 'https://www.facebook.com/interconn.isp'
 TWITTER_URL: 'https://twitter.com/InterConnISP'
-GOOGLE_PLUS_URL: 'https://plus.google.com/b/102521319510282326533'
-GITHUB_URL: 'https://github.com/interconn-wisp'
+# GOOGLE_PLUS_URL: 'https://plus.google.com/b/YourPageID'
+GITHUB_URL: 'https://github.com/interconn-isp'
 SKYPE_URL: 'skype:interconn.wisp?chat'
 
 SITE_NAME: 'InterConn'
 
 # STATUS_URL: 'http://status.interconn.it'
-PRIVACY_URL: 'https://www.iubenda.com/privacy-policy/131846'
 BLOG_URL: 'https://medium.com/@interconn'
 # CP_URL: 'http://customers.interconn.it'
+PRIVACY_URL: 'https://www.iubenda.com/privacy-policy/131846'
 
 GA_ID: 'UA-54085084-1'
 
