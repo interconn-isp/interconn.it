@@ -86,3 +86,6 @@ pickle-email-*.html
 /config/deploy.rb
 /config/deploy/*.rb
 !/config/deploy/*.example.rb
+
+# Ignore Capistrano data.
+/.capistrano/
