@@ -1,19 +1,19 @@
-- provide :title, 'Promozioni'
-- provide :body_id, 'deals'
+- provide :title, 'Progetti'
+- provide :body_id, 'projects'
 
 .heading.heading-bordered
   .container
-    %h1.heading-title Promozioni
-    %h3.heading-description Sconti e affari sui nostri prodotti, solo per te.
+    %h1.heading-title Progetti
+    %h3.heading-description Pensi che ci manchi la fantasia? Guarda qui!
 
-.container#deals-container
+.container#projects-container
   -#
     .row
       .col-xs-12
-        .no-deals.contained-sm
-          = fa_icon 'frown-o', class: 'no-deals-icon'
+        .no-projects.contained-sm
+          = fa_icon 'frown-o', class: 'no-projects-icon'
 
-          %p.no-deals-text
+          %p.no-projects-text
             Sembra che attualmente non ci siano promozioni attive.
             Perché non riprovi tra un po'? Avremo qualcosa per te!
 
@@ -22,9 +22,9 @@
 
   .row
     .col-xs-12.col-sm-6
-      .deal#bring-a-friend
-        .deal-image-wrapper
-          = link_to image_tag('deals/bring-a-friend.jpg', class: 'img-responsive', alt: 'Porta un amico'), contact_path
+      .project#bring-a-friend
+        .project-image-wrapper
+          = link_to image_tag('projects/bring-a-friend.jpg', class: 'img-responsive', alt: 'Porta un amico'), contact_path
 
         %h3 Porta un amico
 
@@ -36,9 +36,9 @@
           conoscenti: ne beneficerete entrambi!
 
     .col-xs-12.col-sm-6
-      .deal#evangelist
-        .deal-image-wrapper
-          = link_to image_tag('deals/evangelists.jpg', class: 'img-responsive', alt: 'Diventa un Evangelist'), contact_path
+      .project#evangelist
+        .project-image-wrapper
+          = link_to image_tag('projects/evangelists.jpg', class: 'img-responsive', alt: 'Diventa un Evangelist'), contact_path
 
         %h3 Diventa un Evangelist
 
@@ -54,9 +54,9 @@
           divide!
 
     .col-xs-12.col-sm-6.col-sm-offset-3
-      .deal#albatros
-        .deal-image-wrapper
-          = link_to image_tag('deals/albatros.jpg', class: 'img-responsive', alt: 'Progetto Albatros'), contact_path
+      .project#albatros
+        .project-image-wrapper
+          = link_to image_tag('projects/albatros.jpg', class: 'img-responsive', alt: 'Progetto Albatros'), contact_path
 
         %h3 Progetto Albatros
 

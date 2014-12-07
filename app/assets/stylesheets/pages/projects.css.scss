@@ -1,14 +1,14 @@
-body#deals {
-  #deals-container {
+body#projects {
+  #projects-container {
     margin-top: 60px;
     margin-bottom: 80px;
 
-    .no-deals {
+    .no-projects {
       text-align: center;
     }
 
     p {
-      &.no-deals-text {
+      &.no-projects-text {
         color: $gray-light;
         font-size: 35px;
 
@@ -22,7 +22,7 @@ body#deals {
       }
     }
 
-    .no-deals-icon {
+    .no-projects-icon {
       color: $gray-light;
       font-size: 250px;
 

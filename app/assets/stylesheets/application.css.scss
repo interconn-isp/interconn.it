@@ -8,6 +8,7 @@
 
 @import "typed/typed";
 
+// Global components
 @import "components/typography";
 @import "components/inputs";
 @import "components/buttons";
@@ -15,7 +16,9 @@
 @import "components/font-awesome";
 @import "components/heading";
 @import "components/navbar";
+@import "components/footer";
 
+// Specific components
 @import "components/horizontal_call";
 @import "components/jumbotron";
 @import "components/feature-grid";
@@ -24,20 +27,13 @@
 @import "components/data-grid";
 @import "components/feature-list";
 @import "components/panels";
-@import "components/deals";
+@import "components/project";
 @import "components/modals";
-@import "components/deal";
+@import "components/project";
 @import "components/toolbar-subnav";
 @import "components/list-team";
 
-@import "components/footer";
-
 @import "pages/home";
-
-@import "pages/pricing/wadsl";
-@import "pages/pricing/whdsl";
-@import "pages/pricing/voip";
-
 @import "pages/coverage";
 @import "pages/contact";
 @import "pages/contract";
@@ -45,5 +41,9 @@
 @import "pages/careers";
 @import "pages/press_kit";
 @import "pages/privacy";
-@import "pages/deals";
+@import "pages/projects";
 @import "pages/inquiry";
+
+@import "pages/pricing/wadsl";
+@import "pages/pricing/whdsl";
+@import "pages/pricing/voip";
