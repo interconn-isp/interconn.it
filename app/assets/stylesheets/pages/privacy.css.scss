@@ -1,5 +1,21 @@
 body#privacy {
-  .horizontal-call {
-    margin-top: 0;
+  padding-top: 100px;
+
+  .privacy-policy-container {
+    max-width: 800px;
+
+    p, ul, table {
+      font-size: 16px;
+    }
+
+    p {
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    h2 {
+      border-top: 1px solid $gray-lighter;
+      padding-top: 20px;
+    }
   }
 }

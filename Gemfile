@@ -106,4 +106,5 @@ group :test do
 
   # Mocking
   gem 'mocha'
+  gem 'webmock'
 end
