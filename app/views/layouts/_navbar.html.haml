@@ -14,7 +14,7 @@
         .navbar-right
           %ul.nav.navbar-nav
             %li{class: "#{'active' if params[:id] && params[:id][0..7] == 'pricing/'}"}= link_to 'Offerta', pricing_path
-            %li{class: "#{'active' if params[:id] && params[:id][0..2] == 'projects'}"}= link_to 'Progetti', projects_path
+            %li{class: "#{'active' if params[:id] && params[:id] == 'projects'}"}= link_to 'Progetti', projects_path
             %li{class: "#{'active' if params[:id] == 'coverage'}"}= link_to 'Copertura', coverage_path
             %li{class: "#{'active' if params[:id] && params[:id][0..2] == 'faq'}"}= link_to 'Domande frequenti', faq_path
             %li{class: "#{'active' if params[:controller] == 'tickets'}"}= link_to 'Contatti', contact_path
