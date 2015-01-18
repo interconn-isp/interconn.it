@@ -17,7 +17,7 @@ RSpec.describe TicketWorker do
 
       email = stub()
       email
-        .expects(:deliver)
+        .expects(:deliver_now)
         .once
 
       TicketMailer

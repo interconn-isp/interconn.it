@@ -5,7 +5,7 @@ RSpec.describe TicketMailer do
 
   it 'sends the email' do
     expect {
-      TicketMailer.ticket_email(ticket).deliver
+      TicketMailer.ticket_email(ticket).deliver_now
     }.to change(ActionMailer::Base.deliveries, :size).by(1)
   end
 end

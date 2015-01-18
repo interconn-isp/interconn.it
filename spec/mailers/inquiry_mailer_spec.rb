@@ -5,7 +5,7 @@ RSpec.describe InquiryMailer do
 
   it 'sends the email' do
     expect {
-      InquiryMailer.inquiry_email(inquiry).deliver
+      InquiryMailer.inquiry_email(inquiry).deliver_now
     }.to change(ActionMailer::Base.deliveries, :size).by(1)
   end
 end

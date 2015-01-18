@@ -43,4 +43,8 @@ RSpec.configure do |config|
   Sidekiq::Logging.logger = nil
 
   Capybara.javascript_driver = :poltergeist
+
+  config.before(:each) do
+    InterConn::Application.config.secret_key_base = 'TESTTESTTEST'
+  end
 end

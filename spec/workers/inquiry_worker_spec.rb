@@ -19,7 +19,7 @@ RSpec.describe InquiryWorker do
 
       email = stub()
       email
-        .expects(:deliver)
+        .expects(:deliver_now)
         .once
 
       InquiryMailer

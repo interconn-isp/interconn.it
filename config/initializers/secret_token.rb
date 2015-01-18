@@ -1,1 +1,1 @@
-InterConn::Application.config.secret_token = ENV['SECRET']
+InterConn::Application.config.secret_key_base = ENV['SECRET']
