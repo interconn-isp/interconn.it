@@ -7,7 +7,7 @@ class TicketsController < ApplicationController
     @ticket = Ticket.new(ticket_params)
 
     if @ticket.save
-      TicketWorker.perform_async(@ticket.id)
+      TicketJob.perform_later(@ticket.id)
     end
 
     render :new

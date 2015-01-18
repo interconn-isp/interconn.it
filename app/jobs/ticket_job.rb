@@ -1,5 +1,5 @@
-class TicketWorker
-  include Sidekiq::Worker
+class TicketJob < ActiveJob::Base
+  queue_as :default
 
   def perform(ticket_id)
     ticket = Ticket.find(ticket_id)

@@ -19,9 +19,8 @@ RSpec.describe TicketsController, type: :controller do
       end
 
       it 'creates the ticket on Freshdesk asynchronously' do
-        expect {
-          post :create, ticket: params
-        }.to change(TicketWorker.jobs, :size).by(1)
+        TicketJob.expects(:perform_later).once
+        post :create, ticket: params
       end
     end
 

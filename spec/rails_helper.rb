@@ -39,9 +39,6 @@ RSpec.configure do |config|
   # https://relishapp.com/rspec/rspec-rails/docs
   config.infer_spec_type_from_file_location!
 
-  Sidekiq::Testing.fake!
-  Sidekiq::Logging.logger = nil
-
   Capybara.javascript_driver = :poltergeist
 
   config.before(:each) do

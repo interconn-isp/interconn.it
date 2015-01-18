@@ -1,5 +1,5 @@
-class InquiryWorker
-  include Sidekiq::Worker
+class InquiryJob < ActiveJob::Base
+  queue_as :default
 
   def perform(inquiry_id)
     inquiry = Inquiry.find(inquiry_id)

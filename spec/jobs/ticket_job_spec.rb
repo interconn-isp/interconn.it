@@ -1,30 +1,30 @@
 require 'rails_helper'
 
-RSpec.describe InquiryWorker do
+RSpec.describe TicketJob do
   subject { described_class.new }
 
   describe '#perform' do
-    it 'creates the tickets on Freshdesk' do
-      inquiry = FactoryGirl.build_stubbed(:inquiry)
+    it 'creates the ticket' do
+      ticket = FactoryGirl.build_stubbed(:ticket)
 
-      inquiry
+      ticket
         .expects(:update_column)
         .once
 
-      Inquiry
+      Ticket
         .expects(:find)
         .with(1)
         .once
-        .returns(inquiry)
+        .returns(ticket)
 
       email = stub()
       email
         .expects(:deliver_now)
         .once
 
-      InquiryMailer
-        .expects(:inquiry_email)
-        .with(inquiry)
+      TicketMailer
+        .expects(:ticket_email)
+        .with(ticket)
         .once
         .returns(email)
 

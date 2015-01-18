@@ -8,7 +8,7 @@ class InquiriesController < ApplicationController
     @inquiry = Inquiry.new(inquiry_params)
 
     if @inquiry.save
-      InquiryWorker.perform_async @inquiry.id
+      InquiryJob.perform_later @inquiry.id
       render :created
     else
       render :new
