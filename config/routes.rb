@@ -11,10 +11,10 @@ Rails.application.routes.draw do
   get 'contact', to: 'tickets#new'
   post 'contact', to: 'tickets#create'
 
-  get 'pricing', to: 'high_voltage/pages#show', id: 'pricing/wadsl'
-  get 'pricing/wadsl', to: 'high_voltage/pages#show', id: 'pricing/wadsl'
-  get 'pricing/whdsl', to: 'high_voltage/pages#show', id: 'pricing/whdsl'
-  get 'pricing/voip', to: 'high_voltage/pages#show', id: 'pricing/voip'
+  get 'plans', to: 'high_voltage/pages#show', id: 'plans/wadsl'
+  get 'plans/wadsl', to: 'high_voltage/pages#show', id: 'plans/wadsl'
+  get 'plans/whdsl', to: 'high_voltage/pages#show', id: 'plans/whdsl'
+  get 'plans/voip', to: 'high_voltage/pages#show', id: 'plans/voip'
 
   get 'faq', to: 'high_voltage/pages#show', id: 'faq/terms'
   get 'faq/terms', to: 'high_voltage/pages#show', id: 'faq/terms'

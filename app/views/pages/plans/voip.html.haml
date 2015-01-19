@@ -1,7 +1,7 @@
 - provide :title, 'VoIP'
-- provide :body_id, 'pricing-voip'
+- provide :body_id, 'plans-voip'
 
-= render 'pages/pricing/navigation'
+= render 'pages/plans/navigation'
 
 .container
   %section
@@ -44,7 +44,7 @@
                 %li.product-action
                   = link_to "Attiva Offerta", new_inquiry_path(product: 'voip'), class: 'btn btn-orange btn-lg btn-transition'
 
-              = render 'pages/pricing/custom_plans'
+              = render 'pages/plans/custom_plans'
 
               .row
                 .col-xs-12
@@ -81,7 +81,7 @@
             Puoi consultare le tariffe nazionali e internazionali tramite
             = link_to 'questo modulo.', '#', data: { toggle: 'modal', target: '#call-rates-modal' }, id: 'call-rates-modal-label'
 
-= render 'pages/pricing/call_rates_modal'
+= render 'pages/plans/call_rates_modal'
 
 - content_for :javascripts do
   = javascript_include_tag 'pages/call-rates.js'

@@ -1,4 +1,4 @@
-body#pricing-whdsl {
+body#plans-whdsl {
   .pricing-table-container-inner {
     max-width: 400px;
     margin: 0 auto;
@@ -22,7 +22,7 @@ body#pricing-whdsl {
 }
 
 @media (max-width: $screen-sm-max) {
-  body#pricing-whdsl .pricing-table-container {
+  body#plans-whdsl .pricing-table-container {
     padding-left: 15px;
     padding-right: 15px;
 
@@ -33,7 +33,7 @@ body#pricing-whdsl {
     }
   }
 
-  body#pricing-whdsl .pricing-table {
+  body#plans-whdsl .pricing-table {
     .product-name, .product-price {
       border-left: none;
       border-right: none;
@@ -45,7 +45,7 @@ body#pricing-whdsl {
     }
   }
 
-  body#pricing-whdsl .custom-plans {
+  body#plans-whdsl .custom-plans {
     max-width: 400px;
     margin: 0 auto;
   }

@@ -1,7 +1,7 @@
 - provide :title, 'WHDSL'
-- provide :body_id, 'pricing-whdsl'
+- provide :body_id, 'plans-whdsl'
 
-= render 'pages/pricing/navigation'
+= render 'pages/plans/navigation'
 
 .container
   %section
@@ -108,7 +108,7 @@
             %li.product-action
               = link_to "Attiva Offerta", new_inquiry_path(product: 'whdsl-4mega-2mega'), class: 'btn btn-orange btn-lg btn-transition'
 
-    = render 'pages/pricing/custom_plans'
+    = render 'pages/plans/custom_plans'
 
     .row
       .col-xs-12
@@ -153,4 +153,4 @@
           %p
             %strong Va’ a fare del bene col tuo scintillante IP statico.
 
-  = render 'pages/pricing/common_features'
+  = render 'pages/plans/common_features'
