@@ -43,5 +43,10 @@ RSpec.configure do |config|
 
   config.before(:each) do
     InterConn::Application.config.secret_key_base = 'TESTTESTTEST'
+    ENV['MAIL_SENDER'] = 'test@example.com'
+  end
+
+  config.after(:each) do
+    ENV.delete('MAIL_SENDER')
   end
 end
