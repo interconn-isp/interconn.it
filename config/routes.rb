@@ -22,6 +22,8 @@ Rails.application.routes.draw do
   get 'faq/voip', to: 'high_voltage/pages#show', id: 'faq/voip'
   get 'faq/condos', to: 'high_voltage/pages#show', id: 'faq/condos'
 
+  get 'suspended', to: 'high_voltage/pages#show', id: 'suspended'
+
   resources :inquiries, only: [:new, :create]
 
   resources :call_rates, only: [:index], path: 'call-rates', defaults: { format: 'json' }

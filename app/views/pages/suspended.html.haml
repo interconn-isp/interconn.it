@@ -1,0 +1,13 @@
+- provide :title, 'Account sospeso'
+- provide :body_id, 'suspended'
+
+.container.contained#suspended-container
+  = fa_icon 'lock', class: 'suspended-icon'
+
+  %h1 Account sospeso
+  %p
+    Questo account è stato sospeso per via di problemi amministrativi. Ti
+    invitiamo a
+    = link_to "contattare l'assistenza clienti", contact_path
+    per informazioni riguardo le fatture insolute e i metodi di pagamento
+    disponibili.
