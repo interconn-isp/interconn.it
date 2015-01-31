@@ -18,11 +18,11 @@ RSpec.describe Ticket, type: :model do
   end
 
   it 'ensures the length of subject is at least 4' do
-    expect(subject).to ensure_length_of(:subject).is_at_least(4)
+    expect(subject).to validate_length_of(:subject).is_at_least(4)
   end
 
   it 'ensures the length of message is at least 10' do
-    expect(subject).to ensure_length_of(:message).is_at_least(10)
+    expect(subject).to validate_length_of(:message).is_at_least(10)
   end
 
   it 'validates the format of phone' do
