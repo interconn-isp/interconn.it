@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe 'the inquiry creation page', type: :feature do
+  before(:each) { ENV['INQUIRIES_EMAIL'] = 'help@interconn.it' }
+  after(:each) { ENV.delete('INQUIRIES_EMAIL') }
+
   it 'creates an inquiry' do
     visit new_inquiry_path
 

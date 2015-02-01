@@ -1,7 +1,17 @@
 require 'rails_helper'
 
 RSpec.describe InquiriesController, type: :controller do
+  describe "GET 'new'" do
+    it 'is successful' do
+      get :new
+      expect(response).to be_success
+    end
+  end
+
   describe "POST 'create'" do
+    before(:each) { ENV['INQUIRIES_EMAIL'] = 'help@interconn.it' }
+    after(:each) { ENV.delete('INQUIRIES_EMAIL') }
+
     context 'with valid params' do
       let(:params) { FactoryGirl.attributes_for(:inquiry) }
 

@@ -8,6 +8,7 @@ HOST: 'www.interconn.it'
 MAIL_SENDER: 'InterConn <info@interconn.it>'
 
 TICKETS_EMAIL: 'help@interconn.it'
+INQUIRIES_EMAIL: 'help@interconn.it'
 
 SMTP_ADDRESS: 'mail.interconn.it'
 SMTP_PORT: 25

@@ -5,7 +5,7 @@ class InquiryMailer < ActionMailer::Base
     @inquiry = inquiry
 
     mail(
-      to: ENV['INFO_EMAIL'],
+      to: ENV['INQUIRIES_EMAIL'],
       subject: I18n.t('mailers.inquiry.subject', full_name: inquiry.full_name),
       reply_to: "#{inquiry.full_name} <#{inquiry.email}>"
     )
