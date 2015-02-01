@@ -11,38 +11,37 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141109154113) do
+ActiveRecord::Schema.define(version: 20150201175007) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "call_rates", force: true do |t|
-    t.string  "traffic_direction",                          null: false
-    t.decimal "rate",              precision: 10, scale: 8, null: false
-    t.string  "time_slot",                                  null: false
+  create_table "call_rates", force: :cascade do |t|
+    t.string  "traffic_direction", limit: 255,                          null: false
+    t.decimal "rate",                          precision: 10, scale: 8, null: false
+    t.string  "time_slot",         limit: 255,                          null: false
   end
 
-  create_table "inquiries", force: true do |t|
-    t.string   "full_name",  null: false
-    t.string   "phone",      null: false
-    t.string   "email",      null: false
-    t.string   "address",    null: false
-    t.string   "product"
+  create_table "inquiries", force: :cascade do |t|
+    t.string   "full_name",  limit: 255, null: false
+    t.string   "phone",      limit: 255, null: false
+    t.string   "email",      limit: 255, null: false
+    t.string   "address",    limit: 255, null: false
+    t.string   "product",    limit: 255
     t.text     "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.datetime "sent_at"
   end
 
-  create_table "tickets", force: true do |t|
-    t.string   "full_name",  null: false
-    t.string   "phone"
-    t.string   "email",      null: false
-    t.text     "message",    null: false
+  create_table "tickets", force: :cascade do |t|
+    t.string   "full_name",  limit: 255, null: false
+    t.string   "phone",      limit: 255
+    t.string   "email",      limit: 255, null: false
+    t.text     "message",                null: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "subject",    null: false
-    t.string   "category",   null: false
+    t.string   "subject",    limit: 255, null: false
     t.datetime "sent_at"
   end
 

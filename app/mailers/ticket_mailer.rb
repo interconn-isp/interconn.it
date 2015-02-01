@@ -5,7 +5,7 @@ class TicketMailer < ActionMailer::Base
     @ticket = ticket
 
     mail(
-      to: ticket.recipient,
+      to: ENV['TICKETS_EMAIL'],
       subject: ticket.subject,
       reply_to: "#{ticket.full_name} <#{ticket.email}>"
     )

@@ -7,7 +7,7 @@ RSpec.describe Ticket, type: :model do
     expect(subject).to be_valid
   end
 
-  %w(full_name email message subject category).each do |attribute|
+  %w(full_name email message subject).each do |attribute|
     it "validates the presence of #{attribute}" do
       expect(subject).to validate_presence_of(attribute)
     end

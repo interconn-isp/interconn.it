@@ -12,6 +12,9 @@ RSpec.describe TicketsController, type: :controller do
     context 'with valid params' do
       let(:params) { FactoryGirl.attributes_for(:ticket) }
 
+      before(:each) { ENV['TICKETS_EMAIL'] = 'test@example.com' }
+      after(:each) { ENV.delete('TICKETS_EMAIL') }
+
       it 'is successful' do
         expect {
           post :create, ticket: params

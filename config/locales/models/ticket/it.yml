@@ -7,7 +7,6 @@ it:
         phone:     'Telefono/cellulare:'
         message:   'Messaggio:'
         subject:   'Oggetto:'
-        category:  'Destinatario:'
 
     placeholders:
       ticket:
@@ -16,10 +15,3 @@ it:
         email:     'Promettiamo di non inviare spam.'
         subject:   'Cerca di essere sintetico.'
         message:   'Non essere timido! :)'
-
-  enumerize:
-    ticket:
-      category:
-        billing: 'Amministrazione'
-        info:    'Informazioni'
-        support: 'Assistenza'
