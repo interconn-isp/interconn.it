@@ -57,6 +57,7 @@ group :development do
   gem 'capistrano-rails-console'
   gem 'capistrano-rvm'
   gem 'capistrano-sidekiq'
+  gem 'capistrano-passenger'
 
   # Process management
   gem 'foreman'
