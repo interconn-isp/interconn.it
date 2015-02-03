@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 # Rails
-gem 'rails', '4.2'
+gem 'rails', '4.2.0'
 
 # Asset preprocessors
 gem 'sass-rails'
