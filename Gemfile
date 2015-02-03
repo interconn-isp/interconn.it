@@ -38,7 +38,6 @@ gem 'enumerize'
 
 # Asynchronous jobs
 gem 'sidekiq'
-gem 'clockwork'
 
 # API
 gem 'jbuilder'

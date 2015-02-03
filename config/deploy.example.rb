@@ -17,14 +17,6 @@ set :default_env, { path: "/opt/ruby/bin:$PATH" }
 set :keep_releases, 5
 
 namespace :deploy do
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      execute :touch, release_path.join('tmp/restart.txt')
-    end
-  end
-
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
@@ -38,5 +30,4 @@ namespace :deploy do
   after :finishing, 'deploy:cleanup'
 
   after :restart, 'sidekiq:restart'
-  after :restart, 'clockwork:restart'
 end
