@@ -32,22 +32,27 @@
         %h4 Seguici su...
 
         %ul.list-unstyled
-          %li
-            = fa_icon 'facebook', class: 'fa-fw'
-            = link_to 'Facebook', ENV['FACEBOOK_URL']
+          - if ENV['FACEBOOK_URL'].present?
+            %li
+              = fa_icon 'facebook', class: 'fa-fw'
+              = link_to 'Facebook', ENV['FACEBOOK_URL']
 
-          %li
-            = fa_icon 'twitter', class: 'fa-fw'
-            = link_to 'Twitter', ENV['TWITTER_URL']
+          - if ENV['TWITTER_URL'].present?
+            %li
+              = fa_icon 'twitter', class: 'fa-fw'
+              = link_to 'Twitter', ENV['TWITTER_URL']
 
-          %li
-            = fa_icon 'github', class: 'fa-fw'
-            = link_to 'GitHub', ENV['GITHUB_URL']
+          - if ENV['GITHUB_URL'].present?
+            %li
+              = fa_icon 'github', class: 'fa-fw'
+              = link_to 'GitHub', ENV['GITHUB_URL']
 
-          %li
-            = fa_icon 'google-plus', class: 'fa-fw'
-            = link_to 'Google+', ENV['GOOGLE_PLUS_URL']
+          - if ENV['GOOGLE_PLUS_URL'].present?
+            %li
+              = fa_icon 'google-plus', class: 'fa-fw'
+              = link_to 'Google+', ENV['GOOGLE_PLUS_URL']
 
-          %li
-            = fa_icon 'skype', class: 'fa-fw'
-            = link_to 'Skype', ENV['SKYPE_URL']
+          - if ENV['SKYPE_URL'].present?
+            %li
+              = fa_icon 'skype', class: 'fa-fw'
+              = link_to 'Skype', ENV['SKYPE_URL']
