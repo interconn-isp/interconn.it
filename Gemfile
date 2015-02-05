@@ -45,6 +45,9 @@ gem 'jbuilder'
 # Monitoring
 gem 'newrelic_rpm'
 
+# Logging
+gem 'lograge'
+
 group :development do
   # Bower assets
   gem 'bower-rails'
