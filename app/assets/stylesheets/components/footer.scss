@@ -13,7 +13,7 @@ footer {
     color: lighten($gray-light, 30%);
     border-bottom: none !important;
 
-    &:hover {
+    &:hover, &:focus {
       color: lighten($gray-light, 50%);
       text-decoration: none;
     }
