@@ -15,10 +15,6 @@
     %dt= t('mailers.inquiry.product')
     %dd= @inquiry.product_text
 
-- if @inquiry.notes.present?
-  %hr/
-
-  %p
-    %strong= t('mailers.inquiry.notes')
-
-  = simple_format @inquiry.notes
+  - if @inquiry.notes.present?
+    %dt= t('mailers.inquiry.product')
+    %dd= simple_format @inquiry.notes

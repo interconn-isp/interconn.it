@@ -5,12 +5,9 @@
   %dt= t('mailers.ticket.email')
   %dd= @ticket.email
 
-  %dt= t('mailers.ticket.phone')
-  %dd= @ticket.phone
+  - if @ticket.phone.present?
+    %dt= t('mailers.ticket.phone')
+    %dd= @ticket.phone
 
-%hr/
-
-%p
-  %strong= t('mailers.ticket.message')
-
-= simple_format @ticket.message
+  %dt= t('mailers.ticket.message')
+  %dd= simple_format @ticket.message
