@@ -6,7 +6,7 @@
 
         %ul.list-unstyled
           %li= link_to 'Chi siamo', about_path
-          %li= link_to 'Lavora con noi', careers_path
+          %li= link_to 'Lavora con noi', ENV['CAREERS_URL'] if ENV['CAREERS_URL']
           %li= link_to 'Blog', ENV['BLOG_URL'] if ENV['BLOG_URL']
           %li= link_to 'Kit stampa', press_kit_path
 

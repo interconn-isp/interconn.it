@@ -133,11 +133,12 @@
           %span.member-name Alessandro Desantis
           %span.member-role Sviluppatore
 
-        %li
-          = image_tag 'team/you.jpg', class: 'img-circle img-responsive center-block', alt: 'Tu?'
+        - if ENV['CAREERS_URL']
+          %li
+            = image_tag 'team/you.jpg', class: 'img-circle img-responsive center-block', alt: 'Tu?'
 
-          %span.member-name Tu?
-          %span.member-role= link_to 'Lavora con noi', careers_path
+            %span.member-name Tu?
+            %span.member-role= link_to 'Lavora con noi', ENV['CAREERS_URL']
 
   .container.contained-sm.text-container
     %h2 Il manifesto InterConn
