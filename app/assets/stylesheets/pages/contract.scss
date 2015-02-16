@@ -1,5 +1,9 @@
 body#contract {
-  padding-top: 120px;
+  padding-top: 60px;
+
+  @media (max-width: $screen-xs-max) {
+    padding-top: 120px;
+  }
 
   .terms-long {
     p, ul, dl, ol, address, table {

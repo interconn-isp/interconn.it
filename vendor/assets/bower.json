@@ -1,8 +1,6 @@
 {
   "name": "dsl-generated dependencies",
   "dependencies": {
-    "jquery.scrollTo": "latest",
-    "df-visible": "git://github.com/teamdf/jquery-visible.git",
-    "within-viewport": "latest"
+    "jquery.scrollTo": "latest"
   }
 }

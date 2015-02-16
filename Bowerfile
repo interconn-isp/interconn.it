@@ -1,3 +1,1 @@
 asset 'jquery.scrollTo'
-asset 'df-visible', 'git://github.com/teamdf/jquery-visible.git'
-asset 'within-viewport'

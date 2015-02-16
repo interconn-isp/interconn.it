@@ -6,17 +6,9 @@
     %h1.heading-title Contratto
     %h3.heading-description A sinistra per gli avvocati, a destra per te.
 
-.toolbar-subnav
+.toolbar-subnav.visible-xs
   .container
-    .toolbar-subnav-section.pull-right
-      %span#current-article
-      .btn-group
-        %a.btn.btn-blue-light.btn-sm#previous-article(href='#')
-          = fa_icon 'caret-up'
-        %a.btn.btn-orange.btn-sm#next-article(href='#')
-          = fa_icon 'caret-down'
-
-    .toolbar-subnav-section.visible-xs
+    .toolbar-subnav-section
       .btn-group(data-toggle='buttons')
         %label.btn.btn-sm.btn-orange.active
           %input(type='radio' name='contract-view' value='complete' checked) Completo
