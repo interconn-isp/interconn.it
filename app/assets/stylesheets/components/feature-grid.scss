@@ -11,6 +11,14 @@
       margin: 0 auto;
     }
 
+    h3 {
+      font-weight: bolder;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
     h3 .label {
       margin-top: 15px;
       font-size: floor(($font-size-small * 0.8));

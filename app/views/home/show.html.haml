@@ -15,9 +15,10 @@
 
             .jumbotron-text.contained-sm
               %p
-                Internet non è più un optional, eppure quasi 3 milioni di
-                italiani non possono accedervi. InterConn usa la tecnologia
-                wireless per abbattere il digital divide una casa alla volta.
+
+                Comunicare non è un optional, eppure quasi 3 milioni di italiani
+                non possono accedere a internet. Con la tecnologia wireless
+                abbattiamo il digital divide una casa alla volta.
 
             .jumbotron-form-wrapper.contained
               = simple_form_for @inquiry, url: inquiries_path, wrapper: :inline_form, html: { class: 'form-inline' } do |f|
@@ -48,33 +49,23 @@
       .row
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag 'ballicons/piggy-bank.svg', class: 'feature-icon'
-
-            %h3 Costi competitivi
-
-            %p.lead
-              Stanco di pagare troppo per avere troppo poco? Con noi ottieni
-              un rapporto qualità/prezzo imbattibile.
-
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
             = image_tag 'ballicons/speed.svg', class: 'feature-icon'
 
             %h3 Servizio da urlo
 
-            %p.lead
+            %p
               Connettività affidabile e prestazioni senza eguali. Finalmente un
               servizio su cui puoi davvero contare.
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
-            = image_tag 'ballicons/help.svg', class: 'feature-icon'
+            = image_tag 'ballicons/piggy-bank.svg', class: 'feature-icon'
 
-            %h3 Assistenza su misura
+            %h3 Costi competitivi
 
-            %p.lead
-              Dimentica le lunghe attese e le scuse improbabili. Risolveremo in
-              tempo reale qualunque tuo problema.
+            %p
+              Stanco di pagare troppo per avere troppo poco? Anche noi. La
+              comunicazione non dovrebbe essere un lusso.
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
@@ -82,9 +73,30 @@
 
             %h3 Copertura estesa
 
-            %p.lead
-              Arriviamo anche dove le compagnie telefoniche tradizionali hanno
-              rinunciato. Nessuno rimane indietro.
+            %p
+              Le grandi compagnie telefoniche si arrogano il diritto di decidere
+              chi servire. Stavolta nessuno rimane indietro.
+
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag 'ballicons/help.svg', class: 'feature-icon'
+
+            %h3 Assistenza su misura
+
+            %p
+              Sappiamo che usi la rete per fare e creare cose importanti. Non
+              sprecheremo il tuo tempo con scuse improbabili.
+
+        .col-xs-12.col-sm-6.col-md-4
+          .feature
+            = image_tag 'ballicons/rocket.svg', class: 'feature-icon'
+
+            %h3
+              Nessun limite
+
+            %p
+              Il tuo ISP non dovrebbe decidere cosa fai con la connessione. Il
+              P2P e il gaming sono liberi e illimitati. Per sempre.
 
         .col-xs-12.col-sm-6.col-md-4
           .feature
@@ -92,21 +104,77 @@
 
             %h3 Contratto trasparente
 
-            %p.lead
-              Non c'è alcun bisogno di complicare le cose. Con il nostro contratto
-              saprai sempre per cosa stai pagando.
+            %p
+              Non c'è alcun bisogno di complicare le cose. Con il contratto
+              InterConn saprai sempre per cosa stai pagando.
 
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
-            = image_tag 'ballicons/settings.svg', class: 'feature-icon'
+-#
+  #home-testimonials
+    .container
+      .row
+        .col-xs-12
+          %h1.text-center
+            Ancora non sei convinto? Chiedilo a loro.
 
-            %h3
-              Pannello di controllo
-              %span.label.label-success Coming soon!
+      .testimonials
+        .row
+          .col-xs-12.col-sm-6
+            .testimonial
+              .testimonial-image
+                = image_tag 'http://placehold.it/100x100', class: 'img-responsive img-circle center-block'
 
-            %p.lead
-              Accedi a tutti i tuoi dati, gestisci i servizi di connettività e
-              paga le fatture, tutto senza muoverti da casa.
+              %p.testimonial-body
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+
+              %p.testimonial-signature
+                — John Doe
+
+
+          .col-xs-12.col-sm-6
+            .testimonial
+              .testimonial-image
+                = image_tag 'http://placehold.it/100x100', class: 'img-responsive img-circle center-block'
+
+              %p.testimonial-body
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+
+              %p.testimonial-signature
+                — John Doe
+
+
+          .col-xs-12.col-sm-6
+            .testimonial
+              .testimonial-image
+                = image_tag 'http://placehold.it/100x100', class: 'img-responsive img-circle center-block'
+
+              %p.testimonial-body
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+
+              %p.testimonial-signature
+                — John Doe
+
+          .col-xs-12.col-sm-6
+            .testimonial
+              .testimonial-image
+                = image_tag 'http://placehold.it/100x100', class: 'img-responsive img-circle center-block'
+
+              %p.testimonial-body
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+
+              %p.testimonial-signature
+                — John Doe
 
 - content_for :javascripts do
   = javascript_include_tag 'pages/home.js'

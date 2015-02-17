@@ -3,10 +3,6 @@
  */
 
 body#home {
-  .horizontal-call {
-    margin-top: 0;
-  }
-
   #home-jumbotron {
     background-image: asset-url('covers/home.jpg');
     background-position: center 60%;
@@ -38,6 +34,19 @@ body#home {
 
   #home-features {
     margin-top: 100px;
-    margin-bottom: 100px;
+
+    & + #home-testimonials {
+      padding-bottom: 75px;
+      border-bottom: 1px solid $gray-lighter;
+    }
+  }
+
+  #home-testimonials {
+    margin-top: 75px;
+    margin-bottom: (100px - 45px);
+
+    .testimonials {
+      margin-top: 45px;
+    }
   }
 }
