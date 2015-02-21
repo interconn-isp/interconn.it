@@ -15,8 +15,6 @@ Rails.application.routes.draw do
   get 'plans/whdsl', to: 'high_voltage/pages#show', id: 'plans/whdsl'
   get 'plans/voip', to: 'high_voltage/pages#show', id: 'plans/voip'
 
-  get 'suspended', to: 'high_voltage/pages#show', id: 'suspended'
-
   resources :inquiries, only: [:new, :create]
 
   resources :call_rates, only: [:index], path: 'call-rates', defaults: { format: 'json' }
