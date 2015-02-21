@@ -1,0 +1,20 @@
+- provide :title, "#{@category.name} | Domande frequenti"
+- provide :body_id, "faqs-#{@category.slug}"
+
+= render 'heading'
+= render 'navigation'
+
+- faq_class = 'col-xs-12'
+- container_class = 'container'
+
+- if @category.faqs.count > 3
+  - faq_class += ' col-md-6'
+- else
+  - container_class += ' contained'
+
+%div{class: container_class}
+  .row
+    - @category.faqs.each do |faq|
+      %div{class: faq_class}
+        %h3= faq.question
+        = simple_format faq.answer

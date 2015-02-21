@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150201175007) do
+ActiveRecord::Schema.define(version: 20150221162243) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,20 @@ ActiveRecord::Schema.define(version: 20150201175007) do
     t.string  "traffic_direction", limit: 255,                          null: false
     t.decimal "rate",                          precision: 10, scale: 8, null: false
     t.string  "time_slot",         limit: 255,                          null: false
+  end
+
+  create_table "faq_categories", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "slug", null: false
+  end
+
+  add_index "faq_categories", ["name"], name: "index_faq_categories_on_name", unique: true, using: :btree
+  add_index "faq_categories", ["slug"], name: "index_faq_categories_on_slug", unique: true, using: :btree
+
+  create_table "faqs", force: :cascade do |t|
+    t.integer "category_id"
+    t.string  "question"
+    t.text    "answer"
   end
 
   create_table "inquiries", force: :cascade do |t|
@@ -45,4 +59,5 @@ ActiveRecord::Schema.define(version: 20150201175007) do
     t.datetime "sent_at"
   end
 
+  add_foreign_key "faqs", "faq_categories", column: "category_id"
 end

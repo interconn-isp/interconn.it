@@ -35,6 +35,10 @@ gem 'rails-i18n'
 # Active Record
 gem 'pg'
 gem 'enumerize'
+gem 'friendly_id'
+
+# Controllers
+gem 'responders'
 
 # Asynchronous jobs
 gem 'sidekiq'

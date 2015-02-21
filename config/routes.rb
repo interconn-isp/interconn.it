@@ -15,12 +15,6 @@ Rails.application.routes.draw do
   get 'plans/whdsl', to: 'high_voltage/pages#show', id: 'plans/whdsl'
   get 'plans/voip', to: 'high_voltage/pages#show', id: 'plans/voip'
 
-  get 'faq', to: 'high_voltage/pages#show', id: 'faq/terms'
-  get 'faq/terms', to: 'high_voltage/pages#show', id: 'faq/terms'
-  get 'faq/tech', to: 'high_voltage/pages#show', id: 'faq/tech'
-  get 'faq/voip', to: 'high_voltage/pages#show', id: 'faq/voip'
-  get 'faq/condos', to: 'high_voltage/pages#show', id: 'faq/condos'
-
   get 'suspended', to: 'high_voltage/pages#show', id: 'suspended'
 
   resources :inquiries, only: [:new, :create]
@@ -28,4 +22,6 @@ Rails.application.routes.draw do
   resources :call_rates, only: [:index], path: 'call-rates', defaults: { format: 'json' }
 
   get 'privacy', to: 'privacy_policy#show', as: 'privacy_policy'
+
+  resources :faq_categories, path: 'faqs', only: [:index, :show]
 end

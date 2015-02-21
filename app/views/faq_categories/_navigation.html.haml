@@ -1,0 +1,6 @@
+.nav-wrapper
+  .container
+    %ul.nav.nav-tabs.nav-justified
+      - FAQCategory.all.each do |category|
+        -  if category.faqs.any?
+          %li{class: "#{'active' if params[:id] == category.slug}"}= link_to category.name, faq_category_path(category.slug)
