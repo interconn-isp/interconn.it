@@ -1,0 +1,124 @@
+-
+  category_id: 1
+  question: Cosa comprende il costo d'installazione?
+  answer: >
+    Il costo di installazione comprende la fornitura dell'antenna e la sua
+    installazione su un supporto preesistente, il router Wi-Fi in comodato
+    d'uso gratuito e del cavo di rete fino a un massimo di 30 metri. Il costo
+    per cavi più lunghi sarà quantificato durante il sopralluogo.
+
+-
+  category_id: 1
+  question: Come avviene la fatturazione?
+  answer: >
+    La fat­tu­ra­zio­ne dei ser­vi­zi è bi­me­stra­le an­ti­ci­pa­ta. Le fatture vengono
+    emesse il primo del mese per i due mesi successivi (es. il primo dicembre
+    per i mesi di gennaio e febbraio). Per pagare la fattura hai tempo fino al
+    quindicesimo giorno del mese.
+
+-
+  category_id: 1
+  question: Come avviene la tariffazione?
+  answer: >
+    La tariffazione dei servizi è flat: i dispositivi possono essere
+    costantemente connessi e consumare banda illimitata senza che venga
+    addebitato alcun costo aggiuntivo.
+
+-
+  category_id: 1
+  question: Quali sono i termini di fornitura dell'apparato?
+  answer: >
+    L'apparato è fornito in comodato d'uso gratuito. La garanzia è illimitata
+    e copre, in caso di guasto, sia il costo del nuovo apparato che quello
+    della manodopera per la sostituzione.
+
+-
+  category_id: 1
+  question: Quali sono i metodi di pagamento?
+  answer: >
+    Il pagamento può essere effettuato tramite RID (tranne che su c/c
+    BancoPosta) oppure bollettino postale.
+
+-
+  category_id: 1
+  question: Dovrò pagare il canone Telecom?
+  answer: >
+    No: tutti i possessori di contratto InterConn WADSL o WHDSL non sono
+    soggetti al pagamento del canone Telecom.
+
+-
+  category_id: 1
+  question: Ci sono penali per la disdetta?
+  answer: >
+    No: puoi disdire il servizio quando vuoi senza pagare nulla (anche se
+    preferiremmo davvero che ci ripensassi).
+
+-
+  category_id: 2
+  question: L'antenna è dannosa per la salute?
+  answer: >
+    Assolutamente no! Le tecnologie che usiamo sono sottoposte alla vigilanza
+    delle autorità competenti, e in ogni caso sono molto meno invadenti dei
+    comuni telefoni cellulari.
+
+-
+  category_id: 2
+  question: Posso usare l'antenna del mio vicino?
+  answer: >
+    No. Le antenne installate sono ottimizzate per la gestione del traffico di
+    un singolo cliente. Per motivi tecnici e legali un pannello non può
+    servire più utenti.
+
+-
+  category_id: 2
+  question: Posso usare l'antenna di un altro provider?
+  answer: >
+    No. Le tecnologie usate da InterConn per la ricetrasmissione sono diverse
+    da quelle usate dagli altri fornitori di servizi internet, e InterConn non
+    sarebbe in grado di garantire la qualità del servizio offerto usando
+    un'antenna esistente.
+
+-
+  category_id: 2
+  question: Ci sono limitazioni ai servizi?
+  answer: >
+    Alcuni ISP limitano in parte o completamente l'accesso a determinati
+    servizi, in particolare a quelli peer-to-peer come eMule e BitTorrent. Non
+    è il caso di InterConn: crediamo che l'accesso alla rete debba essere
+    completamente libero.
+
+-
+  category_id: 4
+  question: Quali sono i requisiti del servizio VoIP?
+  answer: >
+    Per l'attivazione del servizio VoIP è necessaria una linea ADSL, non
+    necessariamente offerta da InterConn. Si raccomandano almeno 128 Kbps
+    simmetrici per un funzionamento ottimale.
+
+-
+  category_id: 4
+  question: Posso usare il mio apparato VoIP?
+  answer: >
+    Sì, è possibile rinunciare all'apparato preconfigurato fornito da
+    InterConn e azzerare così il costo di installazione. In tal caso ti
+    forniremo i dati per configurare il tuo apparato VoIP.
+
+-
+  category_id: 3
+  question: Si può usare una sola antenna per un condominio?
+  answer: >
+    Sì, l'installazione condominiale è possibile con una sola antenna. In tal
+    caso il costo di installazione è di €300,00 IVA inclusa per l'intero
+    condominio, e può essere ovviamente ripartito tra quanti si avvarrano del
+    servizio, mentre quello di attivazione è di €50,00/utente IVA inclusa. A
+    ogni utente sarà fornito un router Wi-Fi in comodato d'uso gratuito.
+
+-
+  category_id: 3
+  question: I proprietari dello stabile possono opporsi all'installazione?
+  answer: >
+    No. L'art. 1 della legge n. 554 del 6 maggio 1940 recita: “I proprietari
+    di uno stabile o di un appartamento non possono opporsi alla
+    installazione, nella loro proprietà, di aerei esterni destinati al
+    funzionamento di apparecchi radiofonici appartenenti agli abitanti degli
+    stabili o appartamenti stessi.”

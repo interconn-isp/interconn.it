@@ -1,0 +1,15 @@
+- id: 1
+  name: Termini del servizio
+  slug: terms
+
+- id: 2
+  name: Tecnologia
+  slug: tech
+
+- id: 3
+  name: Condomini
+  slug: condos
+
+- id: 4
+  name: VoIP
+  slug: voip

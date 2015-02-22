@@ -32,10 +32,11 @@ gem 'figaro'
 # I18n
 gem 'rails-i18n'
 
-# Active Record
+# Database
 gem 'pg'
 gem 'enumerize'
 gem 'friendly_id'
+gem 'active_hash'
 
 # Controllers
 gem 'responders'

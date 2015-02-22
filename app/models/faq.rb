@@ -1,7 +1,8 @@
-class FAQ < ActiveRecord::Base
-  belongs_to :category, class_name: 'FAQCategory', foreign_key: 'category_id', inverse_of: :faqs
+class FAQ < ActiveYaml::Base
+  field :category_id
+  field :question
+  field :answer
 
-  validates :category, presence: true
-  validates :question, presence: true
-  validates :answer, presence: true
+  include ActiveHash::Associations
+  belongs_to :category, class_name: 'FAQCategory', foreign_key: 'category_id'
 end

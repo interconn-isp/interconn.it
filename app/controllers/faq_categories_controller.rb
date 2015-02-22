@@ -2,7 +2,7 @@ class FAQCategoriesController < ApplicationController
   respond_to :html
 
   def index
-    if FAQCategory.any?
+    if FAQCategory.count > 0
       redirect_to faq_category_path(FAQCategory.first)
     else
       redirect_to root_path
@@ -10,9 +10,9 @@ class FAQCategoriesController < ApplicationController
   end
 
   def show
-    @category = FAQCategory.friendly.find(params[:id])
+    @category = FAQCategory.find_by_slug(params[:id])
 
-    if @category.faqs.any?
+    if @category.faqs.count > 0
       respond_with @category
     else
       redirect_to root_path

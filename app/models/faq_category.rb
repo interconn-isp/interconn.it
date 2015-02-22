@@ -1,9 +1,11 @@
-class FAQCategory < ActiveRecord::Base
-  extend FriendlyId
-  friendly_id :name, use: :slugged
+class FAQCategory < ActiveYaml::Base
+  field :name
+  field :slug
 
-  has_many :faqs, inverse_of: :category, foreign_key: 'category_id', dependent: :destroy
+  include ActiveHash::Associations
+  has_many :faqs, foreign_key: 'category_id'
 
-  validates :name, presence: true, uniqueness: true
-  validates :slug, presence: true, uniqueness: true
+  def to_param
+    slug
+  end
 end
