@@ -1,10 +1,19 @@
 require 'rails_helper'
 
 RSpec.describe FAQCategoriesController do
+  before(:each) do
+    FAQCategory.first
+    FAQCategory.data = []
+
+    FAQ.first
+    FAQ.data = []
+  end
+
   describe "GET 'index'" do
     context 'when there is a category' do
-      let!(:category) { FactoryGirl.create(:faq_category) }
-      before(:each) { FactoryGirl.create(:faq, category: category) }
+      let!(:category) do
+        FAQCategory.create(name: 'Foo', slug: 'foo')
+      end
 
       it 'redirects to the the category' do
         get :index
@@ -21,9 +30,11 @@ RSpec.describe FAQCategoriesController do
   end
 
   describe "GET 'show'" do
-    let!(:category) { FactoryGirl.create(:faq_category) }
+    let!(:category) { FAQCategory.create(name: 'Foo', slug: 'foo') }
 
     context 'when the category has questions' do
+      let!(:question) { FAQ.create(question: 'Foo', answer: 'Bar', category: category) }
+
       it 'loads the category' do
         get :show, id: category.slug
         expect(assigns(:category)).to eq(category)
