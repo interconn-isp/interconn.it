@@ -1,0 +1,29 @@
+- id: 1
+  slug: valerio
+  name: Valerio Desantis
+  role: Responsabile operazioni
+
+- id: 2
+  slug: francesco
+  name: Francesco Mencaroni
+  role: Responsabile tecnico
+
+- id: 3
+  slug: luca
+  name: Luca Mesa
+  role: Tecnico
+
+- id: 4
+  slug: vincenzo
+  name: Vincenzo Astorino
+  role: Tecnico
+
+- id: 5
+  slug: salvatore
+  name: Salvatore Nigro
+  role: Tecnico
+
+- id: 6
+  slug: alessandro
+  name: Alessandro Desantis
+  role: Sviluppatore

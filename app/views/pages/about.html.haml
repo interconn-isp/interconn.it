@@ -95,41 +95,12 @@
   #team-wrapper
     .container.contained-lg
       %ul.list-inline.list-team
-        %li
-          = image_tag 'team/valerio.jpg', class: 'img-circle img-responsive center-block', alt: 'Valerio Desantis'
+        - TeamMember.all.each do |member|
+          %li
+            = image_tag "team/#{member.slug}.jpg", class: 'img-circle img-responsive center-block', alt: member.name
 
-          %span.member-name Valerio Desantis
-          %span.member-role Responsabile operazioni
-
-        %li
-          = image_tag 'team/francesco.jpg', class: 'img-circle img-responsive center-block', alt: 'Francesco Mencaroni'
-
-          %span.member-name Francesco Mencaroni
-          %span.member-role Responsabile tecnico
-
-        %li
-          = image_tag 'team/luca.jpg', class: 'img-circle img-responsive center-block', alt: 'Luca Mesa'
-
-          %span.member-name Luca Mesa
-          %span.member-role Tecnico
-
-        %li
-          = image_tag 'team/vincenzo.jpg', class: 'img-circle img-responsive center-block', alt: 'Vincenzo Astorino'
-
-          %span.member-name Vincenzo Astorino
-          %span.member-role Tecnico
-
-        %li
-          = image_tag 'team/salvatore.jpg', class: 'img-circle img-responsive center-block', alt: 'Salvatore Nigro'
-
-          %span.member-name Salvatore Nigro
-          %span.member-role Tecnico
-
-        %li
-          = image_tag 'team/alessandro.jpg', class: 'img-circle img-responsive center-block', alt: 'Alessandro Desantis'
-
-          %span.member-name Alessandro Desantis
-          %span.member-role Sviluppatore
+            %span.member-name= member.name
+            %span.member-role= member.role
 
         - if ENV['CAREERS_URL']
           %li
