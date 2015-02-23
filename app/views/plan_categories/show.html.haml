@@ -1,0 +1,22 @@
+- provide :title, @category.name
+- provide :body_id, "plans-#{@category.slug}"
+
+= render 'navigation'
+
+%section
+  .heading
+    .container
+      %h1.heading-title= @category.long_name
+      %h3.heading-description= @category.description
+
+  - if @category.slug == 'voip'
+    = render 'voip', plan: @category.plans.first
+  - else
+    .container
+      .row.pricing-tables-container
+        = render 'plans', plans: @category.plans
+
+      = render 'custom_plans'
+      = render 'notes'
+
+    = render 'features', features: @category.features

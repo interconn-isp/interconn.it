@@ -1,0 +1,14 @@
+.feature-list.feature-list-inverted
+  - features.each do |feature|
+    .feature
+      .container.contained
+        .row
+          .col-xs-12.col-md-4.feature-icon-container
+            = image_tag "ballicons/#{feature['icon']}.svg", class: 'feature-icon'
+
+          .col-xs-12.col-md-8
+            %h3= feature['name']
+            %p= feature['content']
+
+            %p
+              %strong= feature['headline']

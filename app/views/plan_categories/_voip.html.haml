@@ -1,0 +1,43 @@
+.row.voip-row
+  .col-xs-12.col-sm-6
+    .row.pricing-tables-container
+      .pricing-table-container
+        .pricing-table-container-inner
+          = render 'plan', plan: plan
+
+          = render 'custom_plans'
+          = render 'notes'
+
+  .col-xs-12.col-sm-6
+    .pricing-table-sidebar
+      %h3 Tempi di attivazione
+
+      %p
+        L'attivazione di una nuova linea VoIP avviene entro 24 ore dalla
+        ricezione.
+
+      %h3 Tempi di portabilità
+
+      %p
+        Se vuoi passare a InterConn mantenendo il tuo numero, possiamo
+        effettuare la portabilità della linea esistente in 15 giorni.
+
+      %h3 Piani personalizzati
+
+      %p
+        I clienti che prevedono di generare una grande mole di traffico
+        telefonico possono richiedere l'attivazione di un piano con tariffe
+        agevolate. Se è il tuo caso, ti invitiamo a
+        = link_to 'contattarci', contact_path
+        per discuterne.
+
+      %h3 Tariffe
+
+      %p
+        Puoi consultare le tariffe nazionali e internazionali tramite
+        = link_to 'questo modulo.', '#', data: { toggle: 'modal', target: '#call-rates-modal' }, id: 'call-rates-modal-label'
+
+= render 'call_rates_modal'
+
+- content_for :javascripts do
+  = javascript_include_tag 'pages/call-rates.js'

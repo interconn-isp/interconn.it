@@ -1,0 +1,7 @@
+- plan_classes = 'col-xs-12 col-sm-6 pricing-table-container'
+- plan_classes += " col-md-#{12 / plans.count}"
+
+- plans.each do |plan|
+  %div{class: plan_classes}
+    .pricing-table-container-inner
+      = render 'plan', plan: plan

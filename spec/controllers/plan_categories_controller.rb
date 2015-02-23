@@ -1,13 +1,13 @@
 require 'rails_helper'
 
-RSpec.describe FAQCategoriesController do
+RSpec.describe PlanCategoriesController do
   let(:category) do
-    FAQCategory.new(slug: 'foo')
+    PlanCategory.new(slug: 'foo')
   end
 
   describe "GET 'index'" do
     before(:each) do
-      FAQCategory
+      PlanCategory
         .expects(:first)
         .once
         .returns(category)
@@ -21,7 +21,7 @@ RSpec.describe FAQCategoriesController do
 
   describe "GET 'show'" do
     before(:each) do
-      FAQCategory
+      PlanCategory
         .expects(:find_by_slug!)
         .once
         .with(category.slug)

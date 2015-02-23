@@ -1,0 +1,21 @@
+- notes = plan.vat_included? ? '*' : '**'
+
+%ul.pricing-table
+  %li.product-name= plan.name
+  %li.product-price
+    %span.price-currency €
+    %span.price-digits= plan.monthly_cost
+    %span.price-interval= "/ mese#{notes}"
+
+  - plan.features.each do |feature|
+    - feature_classes = 'product-feature'
+    - feature_classes += ' product-feature-optional' if feature['optional']
+    - feature_classes += ' product-feature-2x' if feature['2x']
+
+    %li{class: feature_classes}
+      %ul
+        %li.feature-desc= feature['name']
+        %li.feature-numbers= feature['content']
+
+  %li.product-action
+    = link_to 'Attiva Offerta', new_inquiry_path(product: plan.slug), class: 'btn btn-orange btn-lg btn-transition'

@@ -22,4 +22,5 @@ Rails.application.routes.draw do
   get 'privacy', to: 'privacy_policy#show', as: 'privacy_policy'
 
   resources :faq_categories, path: 'faqs', only: [:index, :show]
+  resources :plan_categories, path: 'pricing', only: [:index, :show]
 end

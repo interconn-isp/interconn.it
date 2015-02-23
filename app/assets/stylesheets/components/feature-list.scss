@@ -11,6 +11,12 @@
       background-color: lighten($gray-lighter, 3.25%);
     }
 
+    &:nth-child(odd) {
+      .feature-icon-container {
+        @extend .pull-right;
+      }
+    }
+
     .feature-icon {
       width: 100%;
 

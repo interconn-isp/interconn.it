@@ -1,0 +1,64 @@
+- /aliases:
+  router_feature: &router_feature
+    name: Router Wi-Fi
+    icon: wifi
+    content: >
+      Insieme all'antenna, ti forniamo in comodato d'uso gratuito un router
+      Wi-Fi. Il router è completamente configurabile e, in caso di guasto,
+      la sostituzione non ti costa nulla!
+    headline: I tuoi strumenti non dovrebbero frenarti.
+
+  trial_feature: &trial_feature
+    name: 15 giorni di prova
+    icon: statistic
+    content: >
+      Non dovresti pagare per qualcosa che non conosci. Per questo offriamo
+      a tutti gli utenti 15 giorni di prova gratuita e senza impegno.
+      Ci dirai dopo cosa vuoi fare.
+    headline: Perché non dare un'occhiata?
+
+- id: 1
+  name: 'WADSL'
+  slug: 'wadsl'
+  long_name: 'WADSL: veloce e affidabile.'
+  description: "L'ideale per sbrigare le faccende di ogni giorno."
+  features:
+    - *router_feature
+    - *trial_feature
+    - name: IP pubblico
+      icon: browser
+      content: >
+        Molti ISP assegnano a più utenti lo stesso IP pubblico. Questo
+        sistema è economico per il fornitore ma rende molto più difficoltoso
+        l'uso di software P2P. I nostri utenti invece hanno un IP pubblico
+        dinamico.
+      headline: Non lasciarti limitare.
+
+- id: 2
+  name: 'WHDSL'
+  slug: 'whdsl'
+  long_name: 'WHDSL: per il professionista.'
+  description: 'Assistenza dedicata e banda garantita per tutti i tuoi servizi mission critical.'
+  features:
+    - *router_feature
+    - *trial_feature
+    - name: Assistenza dedicata 24x7
+      icon: help
+      content: >
+        Usi InterConn per cose importanti. Per questo avrai accesso a una
+        linea telefonica dedicata aperta 24 ore al giorno, 7 giorni su 7.
+        Non ci sono ferie sul nostro calendario.
+      headline: Ti copriamo le spalle.
+    - name: IP statico in omaggio
+      icon: browser
+      content: >
+        Se vuoi offrire servizi al pubblico, avrai bisogno di un IP statico
+        perché gli utenti possano raggiungerti. Sapendo che lo userai per
+        qualcosa di bello, te ne diamo uno in omaggio.
+      headline: 'Va’ a fare del bene: offre la casa.'
+
+- id: 3
+  name: 'VoIP'
+  slug: 'voip'
+  long_name: 'VoIP: telefona via internet.'
+  description: 'Chiama ovunque a costi irrisori.'
