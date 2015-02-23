@@ -10,11 +10,6 @@ Rails.application.routes.draw do
   get 'contact', to: 'tickets#new'
   post 'contact', to: 'tickets#create'
 
-  get 'plans', to: 'high_voltage/pages#show', id: 'plans/wadsl'
-  get 'plans/wadsl', to: 'high_voltage/pages#show', id: 'plans/wadsl'
-  get 'plans/whdsl', to: 'high_voltage/pages#show', id: 'plans/whdsl'
-  get 'plans/voip', to: 'high_voltage/pages#show', id: 'plans/voip'
-
   resources :inquiries, only: [:new, :create]
 
   resources :call_rates, only: [:index], path: 'call-rates', defaults: { format: 'json' }
