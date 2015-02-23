@@ -2,14 +2,14 @@ require 'rails_helper'
 
 RSpec.describe 'the call rate consultation page', type: :feature do
   it 'displays the search modal', js: true do
-    visit plans_voip_path
+    visit plan_category_path(PlanCategory.find_by_slug('voip'))
     click_link 'questo modulo.'
 
     expect(page).to have_content('Tariffe VoIP')
   end
 
   it 'displays the matching call rates', js: true do
-    visit plans_voip_path
+    visit plan_category_path(PlanCategory.find_by_slug('voip'))
     click_link 'questo modulo.'
 
     FactoryGirl.create(:call_rate, {
