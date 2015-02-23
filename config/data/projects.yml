@@ -1,0 +1,28 @@
+- id: 1
+  slug: bring-a-friend
+  name: Porta un amico
+  description: >
+    Chi trova un amico trova un tesoro, recita un antico proverbio. In
+    InterConn, chi porta un amico ottiene un mese di connettività gratuita. Se
+    sei rimasto soddisfatto del nostro servizio perché non condividere la gioia?
+    Suggerisci InterConn ai tuoi conoscenti: ne beneficerete entrambi!
+
+- id: 2
+  slug: evangelist
+  name: Diventa un Evangelist
+  description: >
+    Se sei il titolare di una piccola o media impresa, puoi diventare un
+    InterConn Evangelist. Gli Evangelist pubblicizzano il brand InterConn e
+    raccolgono autonomamente i dati di clienti interessati ai nostri servizi.
+    Contattaci subito per un accordo su misura; combatti in prima linea il
+    digital divide!
+
+- id: 3
+  slug: albatros
+  name: Progetto Albatros
+  description: >
+    Le scuole pubbliche di ogni ordine e grado sprovviste di connessione a
+    internet e coperte dai nostri servizi possono usufruire gratuitamente della
+    nostra offerta WADSL 10 Mega. Se dirigi un istituto colpito dal digital
+    divide, contattaci per pianificare l'installazione. Saremmo felici di
+    servirti!

@@ -1,0 +1,11 @@
+.row
+  .col-xs-12
+    .no-projects.contained-sm
+      = fa_icon 'frown-o', class: 'no-projects-icon'
+
+      %p.no-projects-text
+        Sembra che attualmente non ci siano promozioni attive.
+        Perché non riprovi tra un po'? Avremo qualcosa per te!
+
+      %p.back-to-home
+        = link_to 'Torna alla home →', root_path

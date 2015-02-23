@@ -1,0 +1,13 @@
+- provide :title, 'Progetti'
+- provide :body_id, 'projects'
+
+.heading.heading-bordered
+  .container
+    %h1.heading-title Progetti
+    %h3.heading-description Pensi che ci manchi la fantasia? Guarda qui!
+
+.container#projects-container
+  - if @projects.count > 0
+    = render 'projects', projects: @projects
+  - else
+    = render 'no_projects'

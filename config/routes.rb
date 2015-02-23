@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   get 'contract', to: 'high_voltage/pages#show', id: 'contract'
   get 'about', to: 'high_voltage/pages#show', id: 'about'
   get 'press-kit', to: 'high_voltage/pages#show', id: 'press_kit'
-  get 'projects', to: 'high_voltage/pages#show', id: 'projects'
 
   get 'contact', to: 'tickets#new'
   post 'contact', to: 'tickets#create'
@@ -18,4 +17,5 @@ Rails.application.routes.draw do
 
   resources :faq_categories, path: 'faqs', only: [:index, :show]
   resources :plan_categories, path: 'pricing', only: [:index, :show]
+  resources :projects, only: :index
 end

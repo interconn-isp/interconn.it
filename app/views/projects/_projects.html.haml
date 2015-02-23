@@ -1,0 +1,8 @@
+- @projects.each_slice(2) do |projects|
+  .row
+    - projects.each_with_index do |project, index|
+      - column_classes = 'col-xs-12 col-sm-6'
+      - column_classes += ' col-sm-offset-3' if projects.length == 1
+
+      %div{class: column_classes}
+        = render 'project', project: project
