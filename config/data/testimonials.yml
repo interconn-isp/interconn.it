@@ -1,5 +1,49 @@
 - id: 1
+  customer_name: Bruno Minafra
+  # customer_image: ???
+  text: >
+    Nessun paragone con gli altri gestori che ho conosciuto. I tecnici sono
+    disponibili e professionali: l'installazione è stata eseguita il giorno dopo
+    la richiesta, e la banda promessa è quella fornita!
+
+- id: 2
+  customer_name: Alessandro Lucchesi
+  customer_image: alessandro
+  text: >
+    Servizio eccellente, connettività stabile, ping basso, upload da sogno... e
+    un'assistenza che funziona! Mi trovo benissimo: la maggior parte dei
+    provider tradizionali non mantiene quello che promette e offre prestazioni
+    ben al di sotto di quelle di InterConn.
+
+- id: 3
+  customer_name: Sara Bontempi
+  # customer_image: ???
+  text: >
+    Credo sia il migliore servizio mai provato: internet è sempre alle massime
+    prestazioni anche quando il tempo non è dei migliori. Servizio di assistenza
+    sempre disponibile, cordiale e paziente.  Sono cliente InterConn dal 2013 e
+    sono super soddisfatta!
+
+- id: 4
+  customer_name: Raffaele Ludrico
+  customer_image: raffaele
+  text: >
+    Abbiamo scoperto InterConn attraverso il passaparola. Per noi significa
+    libertà: un servizio efficiente, garantito, sufficientemente potente e
+    soprattutto accessibile, sia per quanto riguarda i costi che per
+    l'assistenza clienti a misura d'uomo.
+
+- id: 5
   customer_name: Gabriele D'Alessandro
   customer_image: gabriele
   text: >
     Ottimo servizio, professionalità e tempismo negli interventi. Impeccabili!
+
+- id: 6
+  customer_name: Andrea Giusti
+  # customer_image: ???
+  text: >
+    Vengo da una terribile esperienza con un altro gestore. Con InterConn la
+    connessione è schizzata a velocità prima impensabili, per non parlare
+    dell'assistenza: rapida, professionale e sempre disponibile, fondamentale
+    per chi lavora da casa. Grazie ragazzi!
