@@ -3,7 +3,7 @@
   = f.input :email, input_html: { class: 'input-lg' }
   = f.input :phone, input_html: { class: 'input-lg' }
   = f.input :address, input_html: { class: 'input-lg' }
-  = f.input :product, as: :grouped_select, collection: PlanCategory.all, group_method: :plans, input_html: { class: 'input-lg' }
+  = f.input :product, as: :grouped_select, collection: PlanCategory.visible, group_method: :plans, input_html: { class: 'input-lg' }
   = f.input :notes, input_html: { class: 'input-lg', style: 'min-height: 150px' }
 
   .text-center

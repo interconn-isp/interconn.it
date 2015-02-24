@@ -1,5 +1,5 @@
 .nav-wrapper
   .container
     %ul.nav.nav-tabs.nav-justified
-      - PlanCategory.all.select{ |p| p.visible? || !Rails.env.production? }.each do |category|
+      - PlanCategory.visible.each do |category|
         %li{class: "#{'active' if params[:id] == category.slug}"}= link_to category.name, plan_category_path(category)
