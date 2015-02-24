@@ -4,6 +4,7 @@ class PlanCategory < ActiveYaml::Base
   field :long_name
   field :description
   field :features, default: []
+  field :visible, default: true
 
   include ActiveHash::Associations
   include ActiveYaml::Aliases

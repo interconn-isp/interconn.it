@@ -65,6 +65,7 @@
   slug: 'adsl'
   long_name: 'ADSL: come ai vecchi tempi.'
   description: "La stabilità di un'ADSL con il servizio di InterConn."
+  visible: false
   features:
     - *router_feature
     - *public_ip_feature
