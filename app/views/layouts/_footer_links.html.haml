@@ -14,9 +14,10 @@
         %h4 Servizi
 
         %ul.list-unstyled
-          %li= link_to 'Contratto', contract_path
-          %li= link_to 'Copertura', coverage_path
+          %li= link_to 'Piani', plan_categories_path
           %li= link_to 'Progetti', projects_path
+          %li= link_to 'Copertura', coverage_path
+          %li= link_to 'Contratto', contract_path
           %li= link_to 'Webmail', 'http://webmail.interconn.it'
           %li= link_to 'Area clienti', ENV['CP_URL'] if ENV['CP_URL']
 
