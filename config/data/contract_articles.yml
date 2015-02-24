@@ -1,0 +1,1182 @@
+- id: 1
+  name: Definizione degli elementi del contratto
+  content: >
+    <p>
+      Le parti contraenti il seguente contratto sono l'azienda InterConn Srl
+      (d'ora in poi “InterConn”) con sede legale in via Delia 9, 00155 Roma
+      (RM) e il cliente che ne richiede i servizi e che sottoscrive il
+      presente contratto (d'ora in poi “il Cliente”).
+    </p>
+    <dl>
+      <dt>Dati immessi in rete</dt>
+      <dd>
+        Per  “Dati  immessi  in  rete”  si  intende  ogni  documento,
+        programma, immagine, messaggio di posta elettronica, file, archivio
+        audio e/o video pubblicati, trasmessi, ricevuti, prelevati o resi in
+        ogni modo disponibile attraverso i servizi di telecomunicazione.
+      </dd>
+      <dt>Scheda tecnica</dt>
+      <dd>
+        Per “Scheda tecnica” si intende il documento elettronico, reso
+        disponibile da InterConn sul proprio sito web, in cui sono riportate
+        le caratteristiche tecniche del servizio offerto.
+      </dd>
+      <dt>Modulo d'ordine</dt>
+      <dd>
+        Per “Modulo d'ordine” si intende il modulo telematico o cartaceo
+        reso disponibile da InterConn tramite il proprio sito web o un agente
+        di vendita delegato, per mezzo del quale il cliente: sceglie e
+        acquista i servizi di telecomunicazione erogati da InterConn, ne
+        accetta i prezzi e le modalità di pagamento e fornisce i dati
+        necessari alla loro erogazione e alla fatturazione.
+      </dd>
+      <dt>Contratto</dt>
+      <dd>
+        Per “Contratto” si intende il presente documento, che contiene le
+        condizioni di erogazione dei servizi di connettività richiesti dal
+        Cliente, ed è accompagnato dal Modulo d'ordine nonché da altri
+        allegati necessari.
+      </dd>
+    </dl>
+  summary: >
+    <p>Questo è un contratto tra InterConn e te.</p>
+
+- id: 2
+  name: Oggetto del contratto
+  content: >
+    <p>
+      Il presente contratto regola le norme da valere tra le parti contraenti
+      per la fornitura da parte di InterConn dei servizi di connettività
+      richiesti dal Cliente tramite la compilazione e la consegna a InterConn
+      del Modulo d'ordine.
+    </p>
+  summary: >
+    <p>
+      Questo contratto regola i servizi di connettività.
+    </p>
+
+- id: 3
+  name: >
+    Tipologia, conclusione, durata, rinnovo, cessazione, cessione, recesso del
+    contratto
+  content: >
+    <h5>Proposta di contratto</h5>
+    <p>
+      Il Cliente ordina i servizi richiesti compilando il Modulo d'ordine
+      e consegnandolo a InterConn per via telematica o tramite un agente
+      delegato.
+      Il Cliente dichiara di avere preso visione e di avere compreso le
+      caratteristiche tecniche dei servizi scelti.
+      Durante la fase di ordine il cliente accetta il presente contratto.
+    </p>
+    <h5>Conclusione del contratto</h5>
+    <p>
+      Il contratto si conclude con l'attivazione dei servizi richiesti da
+      parte di InterConn.
+      InterConn si riserva il diritto di non concludere il
+      contratto qualora:
+      non riceva copia debitamente firmata del contratto;
+      il Cliente sia sottoposto a procedure concorsuali o esecutive, o sia
+      iscritto al registro dei protesti;
+      il Cliente sia stato inadempiente nei confronti di InterConn e non abbia
+      ancora sanato tali inadempienze.
+    </p>
+    <h5>Durata del contratto</h5>
+    <p>
+      Il presente contratto ha durata di anni 1 (uno) a partire dalla data di
+      attivazione dei servizi richiesti.
+      Il contratto sarà automaticamente rinnovato per lo stesso periodo alla
+      data di scadenza, a meno che una delle parti non comunichi la volontà di
+      recedere tramite comunicazione scritta da inviare entro giorni 60
+      (sessanta) dalla data di scadenza.
+    </p>
+    <h5>Cessione del contratto</h5>
+    <p>
+      InterConn si riserva il diritto di cedere il presente contratto, a
+      titolo oneroso oppure gratuito, senza autorizzazione del Cliente. Il
+      Cliente potrà cedere a terzi il presente contratto solo in seguito ad
+      autorizzazione da parte di InterConn.
+    </p>
+    <h5>Recesso di contratti conclusi a distanza</h5>
+    <p>
+      Il Cliente potrà recedere dal contratto, senza nulla dovere, entro
+      giorni lavorativi 7 (sette) dal giorno della consegna del Modulo
+      d'ordine. Il Cliente può manifestare la volontà di recedere tramite
+      raccomandata A/R e dovrà anticipare la comunicazione via fax.
+    </p>
+  summary: >
+    <p>
+      Richiedendo un servizio da InterCon accetti questo contratto.
+    </p>
+    <p>
+      Il contratto può non essere attivato se sei protestato o sei stato
+      inadempiente.
+    </p>
+    <p>
+      Il contratto dura un anno e viene rinnovato automaticamente, ma una
+      delle parti può recedere comunicandolo 60 giorni prima del rinnovo.
+    </p>
+    <p>
+      InterConn può cedere a chiunque questo contratto. Tu puoi cederlo solo
+      se autorizzato da InterConn.
+    </p>
+    <p>
+      Puoi recedere da un contratto concluso a distanza entro sette giorni
+      lavorativi inviando un fax e una raccomandata a InterConn
+    </p>
+
+- id: 4
+  name: Disdetta anticipata
+  content: >
+    <h5>Disdetta da parte del fornitore</h5>
+    <p>
+      InterConn potrà recedere dal presente contratto in qualsiasi momento
+      tramite raccomandata A/R inviata al Cliente. Entro giorni 90 (novanta)
+      dalla cessazione, InterConn provvederà a restituire eventuali
+      corrispettivi già versati dal Cliente per il periodo tra la data di
+      cessazione e il termine del contratto.
+    </p>
+    <h5>Disdetta da parte del cliente</h5>
+    <p>
+      Il Cliente potrà recedere dal contratto senza nulla dovere in qualunque
+      momento. Il Cliente può manifestare la volontà di recedere tramite
+      raccomandata A/R inviata all'indirizzo nell'art.
+      <a href="#art-10">10</a>
+      e dovrà anticipare tale comunicazione via fax.
+    </p>
+    <h5>Obblighi del Cliente</h5>
+    <p>
+      In caso di disdetta da parte di InterConn o del Cliente, il Cliente è
+      tenuto: al pagamento di tutti i corrispettivi non ancora versati; alla
+      restituzione delle apparecchiature fornite in noleggio o comodato d'uso.
+      In caso di mancata restituzione delle apparecchiature verrà addebitata
+      al cliente la somma di €300,00 (trecento) IVA inclusa.
+    </p>
+  summary: >
+    <p>
+      InterConn può recedere dal contratto inviando una raccomandata. In tal
+      caso ti restituirà ciò che ti deve.
+    </p>
+    <p>
+      Tu puoi recedere dal contratto inviando un fax e una raccomandata, e
+      devi pagare le somme non versate e restituire le apparecchiature. Se non
+      le restituisci, dovrai pagare €300,00 IVA inclusa.
+    </p>
+
+- id: 5
+  name: Termini di pagamento
+  content: >
+    <h5>Pagamento</h5>
+    <p>
+      Il Cliente corrisponderà a InterConn i contributi di installazione e
+      attivazione e i canoni periodici riportati nel Modulo d'ordine.
+    </p>
+    <h5>Modalità di pagamento</h5>
+    <p>
+      Il Cliente corrisponderà gli importi dovuti secondo le modalità di
+      pagamento indicate nel Modulo d'ordine. Il pagamento non potrà essere
+      ritardato o sospeso per nessuna ragione, con espressa rinunci a
+      qualsiasi eccezione ivi incluse quelle previste dall'art. 1460 del
+      Codice civile.
+    </p>
+    <h5>Pagamento ritardato</h5>
+    <p>
+      In caso di ritardo nei pagamenti InterConn si riserva i diritti: di
+      addebitare al Cliente un'indennità di mora su tutti gli importi non
+      pagati dal giorno successivo al termine del pagamento prestabilito
+      (saggio praticato sul principale strumento di rifinanziamento BCE
+      maggiorato di sette punti percentuali) nella misura prevista dall'art.
+      5 del DLgs 9 ottobre 2002 n. 231; di addebitare al Cliente costi
+      ragionevoli di esazione, comprese le spese legali; di sospendere il
+      servizio fino a quando il Cliente abbia provveduto al pagamento; di
+      invocare la risoluzione automatica del contratto a fronte di un ritardo
+      nel pagamento superiore a giorni 60 (sessanta).
+    </p>
+    <h5>Variazione dei canoni</h5>
+    <p>
+      Se non altrimenti specificato, i canoni di servizio saranno mantenuti
+      inalterati per un anno dalla data di sottoscrizione del Modulo d'ordine.
+      InterConn si riservà la facoltà di modificare le proprie tariffe con
+      preavviso di almeno 60 (sessanta) giorni, con comunicazione via posta
+      elettronica o fax al Cliente. Le nuove tariffe saranno applicate alla
+      data di rinnovo del contratto e saranno mantenute inalterate per un
+      anno.
+    </p>
+    <p>
+      È diritto del Cliente rifiutare le nuove tariffe comunicando
+      l'intenzione di non rinnovare il contratto entro 30 giorni dalla
+      comunicazione della modifica.
+    </p>
+  summary: >
+    <p>
+      Pagherai i contributi di installazione e attivazione e i canoni entro i
+      tempi stabiliti, senza eccezioni.
+    </p>
+    <p>
+      In caso di mancato pagamento, InterConn può applicare interessi di mora,
+      addebitarti costi di esazione o sospendere il servizio. Dopo 60 giorni,
+      InterConn può risolvere il contratto.
+    </p>
+    <p>
+      Dove non specificato, i canoni sono mantenuti inalterati per un anno
+      dalla richiesta del servizio. InterConn può modificare le tariffe con 60
+      giorni di preavviso e applicarle al rinnovo del contratto. Puoi
+      rifiutare le nuove tariffe e non rinnovare il contratto comunicandolo
+      entro 30 giorni dalla modifica.
+    </p>
+
+- id: 6
+  name: 'Qualità dei servizi, responsabilità del fornitore, forza maggiore'
+  content: >
+    <p>
+      InterConn non è responsabile o perseguibile per l'eventuale mancato
+      funzionamento dei servizi di connettività, qualunque sia il degrato o
+      la deviazione dalle descrizioni di servizio o dai livelli di servizio
+      previsti e qualunque sia il ritardo nella fornitura, nel caso in
+      cui:
+      <ul>
+        <li>
+          questi disservizi possano ragionevolmente essere atribuiti ad
+          azioni, omissioni o imperizia del Cliente;
+        </li>
+        <li>
+          derivino dall'azione di terzi sulle apparecchiature utilizzate da
+          InterConn per l'erogazione del servizio;
+        </li>
+        <li>
+          non possano essere risolti da InterConn ove il cliente si rifiuti
+          senza ragione di concedere accesso alla propria rete o
+          apparecchiatura;
+        </li>
+        <li>
+          si verifichino durante qualunque periodo di manutenzione;
+        </li>
+        <li>
+          siano dovuti a eventi di forza maggiore (a titolo esemplificativo:
+          incendio, inondazione, sciopero, tagli di cavi, fulmine, sommossa
+          civile, atti governativi o delle autorità militari, mutamenti di
+          disposizioni di legge, terrorismo e periodi prolungati di
+          interruzione generale dell'energia elettrica);
+        </li>
+        <li>
+          siano il risultato di una sospensione del servizio.
+        </li>
+      </ul>
+    </p>
+  summary: >
+    <p>
+      InterConn non è responsabile di disservizi se sono dovuti ad azioni od
+      omissioni tue o di altri, se ti rifiuti di concedere l'accesso ai tuoi
+      apparati, se si verificano durante un periodo di manutenzione, se sono
+      dovuti a eventi di forza maggiore o se il servizio è stato sospeso.
+    </p>
+
+- id: 7
+  name: Uso dei servizi
+  content: >
+    <h5>Copyright</h5>
+    <p>
+      Il Cliente garantisce che i Dati immessi in rete non violano o
+      trasgrediscono diritti d'autore, marchi, brevetti o altri diritti
+      derivanti dalla legge dal contratto e dalla consuetudine. I Dati immessi
+      in rete dovranno essere originali oppure dovranno contenere la fonte e
+      citare l'esistenza del'autorizzazione che testimonia l'acquisizione dei
+      diritti di utilizzo.
+    </p>
+    <p>
+      In caso di violazione, InterConn si riselva il diritto di rimuovere i
+      Dati immessi in rete e di sospendere il servizio senza preavviso, oltre
+      che di invocare la risoluzione automatica del contratto.
+    </p>
+    <h5>Qualità delle informazioni</h5>
+    <p>
+      I Dati immessi in rete non dovranno contenere forme e/o contenuti di
+      carattere diffamatorio. In caso di violazione, InterConn si riserva il
+      diritto di rimuovere i Dati immessi in rete e/o di sospendere il
+      servizio senza preavviso, oltre che di invocare la risoluzione
+      automatica del contratto.
+    </p>
+    <h5>Responsabilità del Cliente</h5>
+    <p>
+      Il Cliente prende atto che l'uso dei servizi di telecomunicazione
+      avviene sotto la propria responsabilità.
+    </p>
+    <p>
+      Il Cliente garantisce che i servizi di telecomunicazione saranno
+      utilizzati solo da terzi da lui autorizzati e si assume ogni
+      responsabilità per ogni uso improprio del servizio.
+    </p>
+    <p>
+      Nei casi in cui l'uso dei servizi di telecomunicazione preveda il
+      riconoscimento del Cliente tramite identificativi, il Cliente è
+      responsabile della conservazione e della segretezza di tali
+      identificativi e si impegna a comunicare a InterConn l'eventuale
+      smarrimento o ottenimento degli identificativi da parte di terzi non
+      autorizzati.
+    </p>
+    <h5>Comportamenti illeciti</h5>
+    <p>
+      Il Cliente prende atto che la normativa vigente vieta l'uso dei servizi
+      di telecomunicazione nei seguenti casi, e libera InterConn da ogni
+      obbligo o impegno derivante dalla violazione delle seguenti norme,
+      mantenendola indenne da ogni responsabilità e costo incluse le spese
+      legali: inviare messaggi non richiesti a terzi senza il loro esplicito
+      consenso; inviare messaggi o pubblicare informazioni contro l'ordine
+      pubblico e/o la morale; inviare messaggi o pubblicare informazioni con
+      lo scopo di recare molestia alla quiete pubblica o privata; recare
+      offesa o danno ad altri; illecitamente intercettare o rivelare il
+      contenuto di comunicazioni telematiche od ostacolarne la trasmissione;
+      violare la privacy di terzi; contravvenire a leggi dello Stato italiano
+      o di altri Stati. In caso di violazione, InterConn si riserva il diritto
+      di rimuovere i dati immessi in rete e/o di sospendere il servizio senza
+      preavviso, oltre che di invocare la risoluzione automatica del
+      contratto.
+    </p>
+    <h5>Chiavi d'accesso</h5>
+    <p>
+      Per l'accesso ai servizi di connettività, InterConn potrà fornire al
+      Cliente una o più coppie di identificativi d'accesso, designati
+      “User ID” e “Password”.
+    </p>
+    <p>
+      Le coppie di identificativi non conterranno riferimenti ai dati
+      personali del Cliente.
+    </p>
+    <p>
+      L'identificativo designato come “Password” potrà essere modificato al
+      primo uso da parte del Cliente. Tale identificativo non sarà disattivato
+      in caso di inutilizzo.
+    </p>
+  summary: >
+    <p>
+      Tu garantisci a InterConn di non pubblicare materiale protetto da
+      copyright senza l'autorizzazione dell'autore oppure materiale
+      diffamatorio. InterConn si riserva il diritto di rimuovere tale
+      materiale.
+    </p>
+    <p>
+      Tu garantisci a InterConn che solo persone da te autorizzate useranno
+      i servizi di connettività, e riconosci che ciò avverrà sotto la tua
+      completa responsabilità.
+    </p>
+    <p>
+      Tu ti impegni a conservare segretamente le chiavi di accesso fornite da
+      InterConn, e a informare InterConn qualora venissero perse od ottenute
+      da qualcun altro.
+    </p>
+    <p>
+      Tu garantisci che non userai i servizi di connettività per recare danno
+      o mettere in atto comportamenti illegali in Italia o nel mondo. Se lo
+      fai, InterConn potrà rimuovere i dati e/o sospendere il servizio e/o
+      risolvere il contratto.
+    </p>
+    <p>
+      InterConn potrà fornirti delle chiavi di accesso che non conterranno
+      riferimenti ai tuoi dati personali. Potrai modificare la password al
+      primo uso. Le chiavi non saranno disattivate per inutilizzo.
+    </p>
+
+- id: 8
+  name: Clausola risolutiva espressa
+  content: >
+    <p>
+      In caso di violazione delle regole di cui agli artt.
+      <a href="#art-5">5</a>
+      e
+      <a href="#art-7">7</a>
+      InterConn
+      avrà facoltà di risolvere il presente contratto ai sensi dell'art. 1456
+      del Codice civile, oltre alla facoltà di intraprendere azioni di rivalsa
+      e risarcimento per eventuali danni subiti.
+    </p>
+    <p>
+      In caso di rifiuto da parte del Cliente del trattamento dei dati
+      personali necessari all'esecuzione del contratto, InterConn avrà facoltà
+      di risolvere il presente contratto ai sensi dell'art. 1456 del Codice
+      civile.
+    </p>
+  summary: >
+    <p>
+      Se violi gli artt.
+      <a href="#art-5">5</a>
+      o
+      <a href="#art-7">7</a>
+      InterConn potrà risolvere il contratto e
+      intraprendere azioni di rivalsa e risarcimento. Se ti rifiuti di
+      autorizzare InterConn al trattamento dei tuoi dati, InterConn potrà
+      risolvere il contratto.
+    </p>
+
+- id: 9
+  name: Esistenza del registro elettronico (log)
+  content: >
+    <p>
+      Il Cliente prende atto e accetta che i servizi di telecomunicazione
+      prevedono il mantenimento del registro elettronico del funzionamento
+      (log), il cui contenuto potrà essere esibito esclusivamente su richiesta
+      delle autorità competenti.
+    </p>
+  summary: >
+    <p>
+      Tu sai e accetti che manteniamo un log dei servizi di telecomunicazione,
+      e che possiamo esibirlo dietro richiesta delle autorità.
+    </p>
+
+- id: 10
+  name: Comunicazioni
+  content: >
+    <p>
+      Tutte le comunicazioni indirizzate a InterConn saranno inviate ai
+      recapiti forniti al momento della conclusione del contratto. Tutte
+      le comunicazioni indirizzate al Cliente saranno inviate ai recapiti
+      indicati dal Cliente.
+    </p>
+  summary: >
+    <p>
+      Tu invierai tutte le comunicazioni per InterConn ai recapiti forniti.
+      Noi invieremo tutte le comunicazioni per te ai tuoi recapiti.
+    </p>
+
+- id: 11
+  name: Foro competente
+  content: >
+    <p>
+      Il Codice civile applicabile al presente contratto è quello italiano
+      vigente. L'Autorità giudiziaria competente per ogni controversia
+      relativa all'esecuzione, all'interpretazione, all'efficacia o alla
+      risoluzione del presente contratto sarà esclusivamente quella del
+      Foro di Roma, con espressa esclusione dell'Autorità giudiziaria di
+      qualsiasi altro foro.
+    </p>
+  summary: >
+    <p>
+      Il Codice civile che regola il contratto è quello italiano. L'Autorità
+      giudiziaria competente è solo quella del Foro di Roma.
+    </p>
+
+- id: 12
+  name: Descrizione del servizio
+  content: >
+    <p>
+      Le caratteristiche del servizio, la velocità massima, la banda garantita
+      e altri parametri di configurazione sono riportati nella documentazione
+      pubblicata su internet, sulla brochure e sul materiale informativo e
+      pubblicitario.
+    </p>
+  summary: >
+    <p>
+      Tutti i dati riguardanti il servizio sono pubblicati su internet e sul
+      materiale informativo.
+    </p>
+
+- id: 13
+  name: Requisiti per l'attivazione del servizio ADSL
+  content: >
+    <p>
+      L'attivazione del servizio richiede il soddisfacimento dei seguenti
+      requisiti minimi:
+      <ul>
+        <li>
+          Un impianto telefonico abilitato a connessione internet PSTN/ISDN.
+          Qualora sull'impianto telefonico siano attivi servizi specifici (a
+          titolo esemplificativo: centralino, interfono, teleallarme,
+          telesoccorso, filodiffusione) il servizio potrà essere soggetto a
+          limitazioni o potrà non essere attivabile, oppure potrà richiedere
+          l'installazione di un'apparecchiatura denominata “splitter” i cui
+          costi saranno a carico del Cliente.
+        </li>
+        <li>
+          Un personal computer idoneo a supportare una connessione internet
+          PSTN/ISDN.
+        </li>
+        <li>
+          Un'apparecchiatura modem compatibile con i servizi InterConn.
+        </li>
+      </ul>
+    </p>
+    <p>
+      Nel caso in cui il Cliente non sia l'intestatario dell'impianto
+      telefonico, dovrà garantire sotto la propria responsabilità la
+      disponibilità dell'impianto e disporre del consenso scritto
+      dell'intestatario.
+    </p>
+  summary: >
+    <p>
+      Per attivare il servizio ADSL serve un impianto telefonico abilitato,
+      un PC e un modem. Lo splitter, se necessario, è a tuo carico.
+    </p>
+    <p>
+      Se non sei l'intestatario dell'impianto telefonico, dovrai presentare
+      l'autorizzazione scritta dell'intestatario.
+    </p>
+
+- id: 14
+  name: Requisiti per l'attivazione del servizio wireless
+  content: >
+    <p>
+      L'attivazione del servizio richiede il soddisfacimento dei seguenti
+      requisiti minimi:
+      <ul>
+        <li>
+          L'installazione di un'apparecchiatura denominata “Bridge-Router
+          Wireless” (di seguito “BRW”), che viene fornita in comodato d'uso
+          gratuito da InterConn al Cliente.
+        </li>
+        <li>
+          Un Personal Computer idoneo a supportare una connessione internet.
+        </li>
+      </ul>
+    </p>
+    <p>
+      Il Cliente si assume l'obbligo di custodire e conservare il BRW e gli
+      eventuali accessori con la massima cura e diligenza, assumendo al
+      riguardo ogni rischio relativo al deperimento o al deterioramento che
+      non siano conseguenza dell'uso normale.
+    </p>
+    <p>
+      Il Cliente si obbliga altresì a non trasferire o concedere a terzi a
+      titolo alcuno il BRW e gli eventuali accessori ricevuti. Si impegna a
+      non aprire, smontare, rimuovere o manomettere gli stessi accessori. Il
+      cliente si impegna a mantenere il dispositivo e gli eventuali accessori
+      liberi da sequestri, pignoramenti e da qualsiasi atto od onere
+      pregiudizievole.
+    </p>
+    <p>
+      Il Cliente si impegna fin da ora a risarcire, al prezzo corrente di
+      mercato per apparecchiature e accessori nuovi ed indicati esclusivamente
+      da InterConn, tutti i danni cagionati dalla mancata osservanza di quanto
+      sopra prescritto.
+    </p>
+    <p>
+      InterConn provvederà a riparare o sostituire gratuitamente il BRW se
+      difettoso o non idoneo all'uso, a esclusione dell'ipotesi in cui il
+      difetto o il guasto siano imputabili a imperizia, manomissione,
+      negligenza, incuria nell'uso dello stesso da parte del Cliente.
+    </p>
+    <p>
+      Qualora il guasto sia imputabile a imperizia, manomissione, negligenza
+      o incuria da parte del Cliente, InterConn provvederà alla sostituzione o
+      riparazione del BRW previo preventivo pagamento del corrispettivo
+      secondo i prezzi di mercato vigenti per apparecchiature e accessori
+      nuovi e indicati esclusivamente da InterConn.
+    </p>
+  summary: >
+    <p>
+      Per il servizio wireless, serve un bridge-router wireless (BRW) e un PC
+      funzionante.
+    </p>
+    <p>
+      Ti assumi l'obbligo di custodire il BRW e tutti gli accessori e di
+      mantenerli liberi da sequestri, e hai il divieto di fornire a chiunque
+      il BRW o gli accessori, oltre che di aprire e/o manometterli.
+    </p>
+    <p>
+      Qualora dovessi danneggiare o smarrire il BRW o gli accessori, dovrai
+      risarcirli al prezzo indicato da InterConn.
+    </p>
+    <p>
+      InterConn riparerà o sostituirà il BRW gratuitamete, a meno che il danno
+      non sia stato causato da una tua azione od omissione. In quest'ultimo
+      caso, le nuove apparecchiature saranno a tuo carico.
+    </p>
+
+- id: 15
+  name: Accesso alla sede
+  content: >
+    <p>
+      Il Cliente autorizza incaricati o fornitori di InterConn, muniti di
+      documenti identificativi, ad accedere alla propria sede, previo
+      appuntamento, per svolgere operazioni legate all'impianto di
+      connettività.
+    </p>
+  summary: >
+    <p>
+      Tu autorizzi InterConn ad accedere alla tua sede su appuntamento.
+    </p>
+
+- id: 16
+  name: Effetto della mancanza dei requisiti del servizio ADSL
+  content: >
+    <p>
+      Il Cliente riconosce che la predisposizione tecnica dell'impianto
+      telefonico è effettuata da Telecom Italia o altro operatore in
+      unbundling e che l'attivazione del servizio dipende dalla disponibilità
+      di risorse tecniche e gestionali. Pertanto eventuali ritardi o
+      malfunzionamenti in fase d'attivazione non sono da addebitarsi a
+      InterConn.
+    </p>
+    <p>
+      La mancanza di uno dei requisiti descritti all'art.
+      <a href="#art-13">13</a>
+      determina
+      l'impossibilità per il Cliente di utilizzare il servizio e per InterConn
+      di concludere il contratto. In caso di impossibilità di concludere il
+      contratto per mancanza dei requisiti per l'attivazione, InterConn si
+      riserva il diritto di addebitare, e il Cliente accetta fin da ora,
+      eventuali costi d'attivazione già sostenuti.
+    </p>
+  summary: >
+    <p>
+      Riconosci che ritardi e malfunzionamenti del servizio durante
+      l'attivazione non sono dovuti a InterConn.
+    </p>
+    <p>
+      Se non soddisfi i requisiti per l'attivazione, dovrai comunque pagare le
+      spese già sostenute da InterConn.
+    </p>
+
+- id: 17
+  name: Effetto della mancanza dei requisiti del servizio wireless
+  content: >
+    <p>
+      Il Cliente riconosce che la predisposizione tecnica dell'impianto
+      wireless è effettuata da InterConn e che l'attivazione del servizio
+      dipende dalla disponibilità di risorse tecniche e gestionali.
+    </p>
+    <p>
+      La mancanza di uno dei requisiti descritti all'art.
+      <a href="#art-14">14</a>
+      determina
+      l'impossibilità per il Cliente di utilizzare il servizio e per InterConn
+      di concludere il contratto. In caso di impossibilità di concludere il
+      contratto per mancanza dei requisiti per l'attivazione, InterConn si
+      riserva il diritto di addebitare, e il Cliente accetta fin da ora,
+      eventuali costi d'attivazione già sostenuti.
+    </p>
+  summary: >
+    <p>
+      Riconosci che l'installazione e attivazione del servizio dipende dalle
+      nostre risorse.
+    </p>
+    <p>
+      Se non soddisfi i requisiti per l'attivazione, dovrai comunque pagare le
+      spese già sostenute da InterConn.
+    </p>
+
+- id: 18
+  name: Indirizzi IP pubblici
+  content: >
+    <p>
+      Nei casi in cui il servizio includa indirizzi IP pubblici, questi
+      saranno assegnati al Cliente per tutta la durata del servizio di
+      telecomunicazione. Al termine di esso, gli indirizzi saranno
+      riutilizzati da InterConn.
+    </p>
+    <p>
+      Nel caso di richiesta di indirizzi IP statici pubblici, InterConn
+      richiederà gli indirizzi necessari presso le autorità competenti (RIPE)
+      e, se concessi, li assegnerà temporaneamente al Cliente per tutta la
+      durata del servizio. Nel caso in cui le autorità competenti rifiutassero
+      l'assegnazione degli indirizzi, InterConn ne darà comunicazione al
+      Cliente e rimuoverà i canoni periodici relativi alle quote dovute dal
+      Cliente stesso, restituendo inoltre le eventuali somme già ricevute.
+    </p>
+  summary: >
+    <p>
+      Eventuali IP pubblici ti saranno assegnati per tutta la durata del
+      servizio.
+    </p>
+    <p>
+      Gli IP statici saranno richiesti al RIPE. Se sono negati, InterConn
+      eliminerà il canone previsto e restituirà le somme già versate.
+    </p>
+
+- id: 19
+  name: DNS
+  content: >
+    <p>
+      InterConn rende disponibile al Cliente la normale funzionalità DNS per
+      la risoluzione dei nomi di dominio.
+    </p>
+  summary: >
+    <p>
+      InterConn ti fornisce l'accesso ai propri server DNS.
+    </p>
+
+- id: 20
+  name: Modifiche al servizio
+  content: >
+    <p>
+      InterConn potrà effettuare modifiche tecniche al servizio, comunicando
+      le modifiche e le motivazioni al Cliente.
+    </p>
+  summary: >
+    <p>
+      InterConn potrà modificare il servizio, comunicandolo.
+    </p>
+
+- id: 21
+  name: Tempi di attivazione
+  content: >
+    <p>
+      I tempi massimi d'attivazione sono di giorni 90 (novanta) a partire
+      dalla data di compilazione del Modulo d'ordine e dalla ricezione della
+      prima rata dei pagamenti richiesti. InterConn comunicherà al Cliente
+      l'avvenuta attivazione del servizio.
+    </p>
+  summary: >
+    <p>
+      I tempi massimi di attivazione sono di 90 giorni. InterConn comunicherà
+      l'avvenuta attivazione.
+    </p>
+
+- id: 22
+  name: Contestazione dell'attivazione
+  content: >
+    <p>
+      Il Cliente, entro giorni 5 (cinque) dalla data di trasmissione della
+      notifica d'attivazione, potrà contestare la corretta attivazione e
+      disponibilità del servizio. Trascorsi i cinque giorni senza
+      comunicazione da parte del Cliente, il servizio si intende accettato. La
+      contestazione dovrà essere comunicata a InterConn in forma scritta e
+      circostanziata e dovrà riportare tutti gli elementi in possesso del
+      Cliente per determinare la natura del problema.
+    </p>
+  summary: >
+    <p>
+      Puoi contestare l'attivazione entro 5 giorni dalla notifica in forma
+      scritta.
+    </p>
+
+- id: 23
+  name: Assistenza
+  content: >
+    <p>
+      L'assistenza sarà erogata esclusivamente da remoto, per via telematica o
+      telefonica.
+    </p>
+    <p>
+      L'assistenza esclude qualsiasi supporto all'installazione e alla
+      configurazione delle apparecchiature hardware di proprietà del cliente.
+    </p>
+    <p>
+      InterConn non è in alcun modo responsabile della valutazione della
+      configurazione software del Cliente.
+    </p>
+    <p>
+      Eventuali consigli forniti durante la fase di diagnosi sono realizzati a
+      cura e sotto la responsabilità del Cliente.
+    </p>
+    <p>
+      Scopo delle procedure d'assistenza è diagnosticare lo stato del servizio
+      e attivare le procedure di riparazione o sostituzione delle
+      apparecchiature (laddove previste) in caso di guasto. InterConn è
+      responsabile solo dell'effettuazione delle procedure di richiesta di
+      riparazione della linea e di sostituzione delle apparecchiature.
+    </p>
+    <h5>Modalità di richiesta d'assistenza</h5>
+    <p>
+      Per effettuare la richiesta di assistenza il cliente utilizzerà il
+      sistema elettronico reso disponibile da InterConn, oppure contatterà
+      InterConn dalle 9 alle 19, oppure invierà un fax al numero fornito.
+    </p>
+    <h5>Diagnosi e risoluzione</h5>
+    <p>
+      InterConn adotterà la seguente procedura di diagnosi, in collaborazione
+      con il cliente:
+      <ol>
+        <li>
+          Controllo della raggiungibilità internet tra un PC del Cliente e
+          InterConn tramite applicazioni standard come “ping”.
+        </li>
+        <li>
+          Verifica sommaria della correttezza della configurazione software
+          che controlla l'apparecchiatura.
+        </li>
+        <li>
+          Verifica dello stato visibile dell'apparecchiatura: segnalatori
+          luminosi etc.
+        </li>
+      </ol>
+    </p>
+    <p>
+      Nel caso in cui il Cliente non sia in grado di supportare InterConn
+      nella diagnosi del problema, InterConn applicherà le procedure standard
+      di richiesta di riparazione linea o di sostituzione delle
+      apparecchiature, laddove previste.
+    </p>
+    <p>
+      Nei casi in cui il problema possa essere imputato:
+      <ul>
+        <li>
+          al software: InterConn suggerirà al cliente le operazioni da
+          effettuare;
+        </li>
+        <li>
+          all'apparecchiatura: laddove prevista, InterConn provvederà alla
+          sostituzione, oppure il Cliente dovrà preoccuparsi della sua
+          riparazione, o di chiedere a InterConn di procedere comunque con
+          la richiesta di riparazione della linea, riconoscendo che la
+          soluzione può non essere risolutiva;
+        </li>
+        <li>
+          alla linea: InterConn applicherà la procedura di riparazione della
+          linea presso i propri fornitori aprendo un ticket entro 60 minuti
+          dalla diagnosi, in orario lavorativo (dal lunedì al venerdì, dalle 9
+          alle 19), o entro le ore 9:30 del giorno lavorativo successivo.
+        </li>
+      </ul>
+    </p>
+    <h5>Sostituzione dell'apparecchiatura</h5>
+    <p>
+      Deve ritenersi applicabile la sostituzione della apparecchiature quando
+      esse sono: noleggiate presso InterConn o acquistate presso InterConn non
+      più di due anni prima della data del guasto.
+    </p>
+    <p>
+      In seguito alla diagnosi di un probabile guasto di tali apparecchiature,
+      InterConn spedirà al Cliente un'apparecchiatura sostitutiva identica o
+      di pari funzionalità. Le spese di spedizione e le eventuali spese di
+      giacenza in caso di irreperibilità saranno a carico del Cliente.
+    </p>
+    <h5>Richieste di riparazione “a vuoto”</h5>
+    <p>
+      InterConn si riserva il diritto di addebitare al Cliente, che accetta
+      fin da ora, eventuali costi per richieste di riparazione di guasti alle
+      linee, laddove non si dovessero riscontrare effettivi disservizi della
+      linea stessa.
+    </p>
+  summary: >
+    <p>
+      InterConn fornirà assistenza hardware e software per via telematica e
+      solo per le proprie apparcchiature concesse a noleggio o acquistate non
+      più di due anni prima, diagnosticando lo stato del servizio,
+      spiegando come risolvere il problema e/o mettendo in atto le
+      proprie procedure di riparazione e/o sostituzione.
+    </p>
+    <p>
+      InterConn ti addebiterà i costi per eventuali richieste di riparazione
+      o sostituzione di apparecchi funzionanti.
+    </p>
+
+- id: 24
+  name: Disponibilità del servizio
+  content: >
+    <p>
+      InterConn presterà la massima attenzione per assicurare al Cliente la
+      costante disponibilità del servizio. Il servizio potrà subire
+      interruzioni o variazioni alle prestazioni nominali, che non verranno
+      considerate disservizi, in caso di: manutenzione ordinaria; manutenzione
+      straordinaria per interventi di ottimizzazione e riconfigurazione di
+      rete.
+    </p>
+    <p>
+      InterConn comunicherà al Cliente gli interventi programmati e
+      prevedibili, ogni qualvolta sarà materialmente possibile, con almeno una
+      settimana d'anticipo, nel caso di previste variazioni o interruzioni.
+    </p>
+  summary: >
+    <p>
+      InterConn si impegna a subire un servizio costante. Le manutenzioni
+      ordinarie e straordinarie non sono considerate disservizi, e InterConn
+      cercherà di comunicarle con almeno una settimana di anticipo.
+    </p>
+
+- id: 25
+  name: Protezione e comportamento in caso di intrusioni
+  content: >
+    <p>
+      Il Cliente dovrà provvedere autonomamente alla protezione dei propri
+      sistemi da intrusioni e attacchi effettuati da terzi via internet, e
+      solleva InterConn da ogni responsabilità in merito. Il Cliente è
+      avvisato del fatto che terzi possano accedere via internet e superare le
+      protezioni dei suoi sistemi per utilizzarli in modo improprio al fine di
+      causare danni. Nel caso in cui InterConn rilevi un tentativo
+      d'intrusione tramite gli accessi e i dati di cui dispone lecitamente per
+      l'erogazione del servizio, potrà sospendere il servizio, senza nulla
+      dovere, fino a quando il Cliente non provveda a implementare le misure
+      necessarie a impedire il perdurare della situazione.
+    </p>
+  summary: >
+    <p>
+      Tu ti impegnerai a proteggere i tuoi sistemi da eventuali intrusioni.
+      In caso di intrusione, InterConn potrà sospendere il servizio finché non
+      avrai preso le misure necessarie.
+    </p>
+
+- id: 26
+  name: Tempi di comunicazione della cessazione
+  content: >
+    <p>
+      InterConn si impegna a comunicare ai propri fornitori la cessazione del
+      servizio al Cliente entro giorni 5 (cinque) dalla data di cessazione.
+    </p>
+  summary: >
+    <p>
+      InterConn comunicherà la cessazione del contratto ai fornitori entro
+      5 giorni.
+    </p>
+
+- id: 27
+  name: Fornitura delle apparecchiature
+  content: >
+    <p>
+      InterConn fornirà al Cliente le apparecchiature scelte tramite il
+      Modulo d'ordine in una delle seguenti forme:
+      <dl>
+        <dt>Vendita</dt>
+        <dd>
+          InterConn trasferisce la proprietà del bene da InterConn al Cliente.
+        </dd>
+        <dt>Noleggio</dt>
+        <dd>
+          InterConn consente l'uso della proprietà al Cliente presso la sede
+          del Cliente per tutta la durata del contratto.
+        </dd>
+      </dl>
+    </p>
+  summary: >
+    <p>
+      InterConn ti vende o fornisce a noleggio, per la durata del contratto,
+      le proprie apparecchiature.
+    </p>
+
+- id: 28
+  name: Tempi e modalità di consegna
+  content: >
+    <p>
+      Il tempo di consegna dipende dalle scorte di magazzino. In genere la
+      spedizione della merce avviene entro giorni lavorativi 5 (cinque) se
+      l'apparecchiatura non deve essere configurata, o contestualmente al
+      rilascio del servizio ADSL quando l'apparecchiatura deve essere
+      configurata.
+    </p>
+  summary: >
+    <p>
+      InterConn fornirà l'apparecchiatura in genere entro 5 giorni o insieme
+      al servizio se deve essere configurata.
+    </p>
+
+- id: 29
+  name: Garanzia
+  content: >
+    <p>
+      InterConn applicherà alle apparecchiature la garanzia standard erogata
+      dal fornitore senza altri servizi d'assistenza opzionali.
+    </p>
+  summary: >
+    <p>
+      InterConn applica alle apparecchiature la garanzia del fornitore.
+    </p>
+
+- id: 30
+  name: Cura e restituzione delle apparecchiature in noleggio
+  content: >
+    <p>
+      Al termine del servizio di connettività, le apparecchiature in noleggio
+      debbono essere restituite a spese e cura del Cliente, complete degli
+      imballi originali, alla sede di InterConn entro giorni 15 (quindici)
+      dalla data di termine del servizio.
+    </p>
+    <p>
+      Nel caso in cui l'apparecchiatura non venga restituita o sia stata
+      danneggiata, il Cliente, che accetta fin da ora, dovrà corrispondere a
+      InterConn, il valore corrente dell'apparecchiatura nuova equivalente in
+      prestazioni e categoira. Il valore dell'apparecchiatura verrà stabilito
+      a insindacabile giudizio di InterConn.
+    </p>
+  summary: >
+    <p>
+      Al termine del servizio, ti impegni a restituire a tue spese le
+      apparecchiature con gli imballi originali. Se non dovessi farlo, dovrai
+      risarcire il loro valore, che verrà stabilito da InterConn.
+    </p>
+
+- id: 31
+  name: Accettazione espressa
+  content: >
+    <p>
+      Ai sensi e per gli effetti degli artt. 1341 e 1342 del Codice civile
+      vigente, il Cliente dichiara di aver preso visione e di accettare
+      espressamente le clausole contrattuali di cui ai punti
+      <a href="#art-2">2</a>,
+      <a href="#art-3">3</a>,
+      <a href="#art-4">4</a>,
+      <a href="#art-5">5</a>,
+      <a href="#art-6">6</a>,
+      <a href="#art-7">7</a>,
+      <a href="#art-8">8</a>,
+      <a href="#art-9">9</a>,
+      <a href="#art-10">10</a>,
+      <a href="#art-11">11</a>,
+      <a href="#art-12">12</a>,
+      <a href="#art-13">13</a>,
+      <a href="#art-14">14</a>,
+      <a href="#art-15">15</a>,
+      <a href="#art-16">16</a>,
+      <a href="#art-17">17</a>,
+      <a href="#art-18">18</a>,
+      <a href="#art-19">19</a>,
+      <a href="#art-20">20</a>,
+      <a href="#art-21">21</a>,
+      <a href="#art-22">22</a>,
+      <a href="#art-23">23</a>,
+      <a href="#art-24">24</a>,
+      <a href="#art-25">25</a>,
+      <a href="#art-26">26</a>,
+      <a href="#art-27">27</a>,
+      <a href="#art-28">28</a>,
+      <a href="#art-29">29</a>
+      e
+      <a href="#art-30">30</a>.
+    </p>
+  summary: >
+    <p>
+      Dichiari di aver letto e accettato i punti dal
+      <a href="#art-2">2</a>
+      al
+      <a href="#art-30">30</a>.
+    </p>
+
+- id: 32
+  name: Trattamento dei dati personali
+  content: >
+    <h5>Finalità del trattamento dei dati personali del Cliente</h5>
+    <p>
+      I dati forniti dal Cliente saranno trattati per le seguenti finalità:
+    </p>
+    <dl>
+      <dt>Erogazione dei servizi:</dt>
+      <dd>
+        <ul>
+          <li>esecuzione del presente contratto;</li>
+          <li>fornitura ed erogazione di servizi di telecomunicazione;</li>
+          <li>assistenza tecnica ai servizi di telecomunicazione;</li>
+          <li>fatturazione;</li>
+          <li>
+            recupero e cessione credito, anche attraverso terzi cui saranno
+            comunicati i dati necessari;
+          </li>
+          <li>prevenzione frodi;</li>
+          <li>
+            adempimento degli obblighi di legge, regolamento e normativa
+            comunitaria;
+          </li>
+        </ul>
+      </dd>
+      <dt>Promozioni e statistiche:</dt>
+      <dd>
+        <ul>
+          <li>elaborazioni statistiche e ricerche di mercato;</li>
+          <li>invio di materiale promozionale da parte di InterConn;</li>
+          <li>
+            rilevazione del grado di soddisfazione del Cliente rispetto ai
+            servizi.
+          </li>
+        </ul>
+      </dd>
+    </dl>
+    <p>
+      Il consenso al trattamento dei dati personali per le finalità descritte
+      come “Erogazione servizi” è obbligatorio. Il rifiuto da parte del
+      Cliente del consenso al trattamento può tradursi nell'impossibilità per
+      InterConn di fornire i servizi di telecomunicazione richiesti.
+    </p>
+    <p>
+      Il consenso al trattamento dei dati personali per le finalità descritte
+      come “Promozioni e statistiche” è facoltativo. Il rifiuto da parte del
+      Cliente del consenso al trattamento può tradursi nell'impossibilità per
+      InterConn di fornire i servizi di telecomunicazione alternativi a
+      quello attualmente utilizzato.
+    </p>
+    <h5>Responsabilità del Cliente rispetto ai dati forniti</h5>
+    <p>
+      Il Cliente garantisce sopra la propria responsabilità che i dati forniti
+      sono veritieri, completi ed esatti.
+    </p>
+    <h5>Modalità di espressione e revoca del consenso</h5>
+    <p>
+      Il consenso al trattamento dei dati personali è effettuato tramite una
+      delle seguenti modalità:
+      <ul>
+        <li>compilazione del Modulo d'ordine;</li>
+        <li>sottoscrizione del presente contratto;</li>
+        <li>compilazione dei moduli informatici previsti a tale scopo;</li>
+        <li>verbalmente in caso di intervista telefonica.</li>
+      </ul>
+    </p>
+    <p>
+      La revoca del consenso al trattamento dei dati personali per le finalità
+      descritte come “Promozioni e statistiche” è effettuata tramite
+      comunicazione scritta al Responsabile del trattamento dei dati
+      personali.
+    </p>
+    <h5>Effetti della cessazione del contratto</h5>
+    <p>
+      Al termine del contratto, i dati personali e i file di log saranno
+      gestiti secondo la seguente procedura:
+      <ol>
+        <li>
+          saranno conservati per scopi di fatturazione o pretesa di pagamento
+          per la durata di anni 5 (cinque);
+        </li>
+        <li>
+          saranno conservati per scopi di fatturazione o pretesa di pagamento
+          per la durata di mesi 6 (sei) secondo le norme riportate nel d.l.
+          196/03 e successive modifiche;
+        </li>
+        <li>
+          saranno conservati per finalità di prevenzione e accertamento per i
+          periodi previsti dall'art. 132 del d.l. 196/03 e successive
+          modifiche.
+        </li>
+      </ol>
+    </p>
+    <h5>Tipologia e modalità di trattamento</h5>
+    <p>
+      Il trattamento sarà effettuato su supporti elettronici o cartacei. I
+      dati, in forma elettronica o cartacea, sono archiviati presso la sede di
+      InterConn con sistemi di protezione a livello fisico e logico e con
+      accesso ristretto al solo personale autorizzato.
+    </p>
+    <h5>Categorie di soggetti a cui i dati possono essere comunicati</h5>
+    <p>
+      Le categorie di soggetti a cui i dati potranno essere comunicati sono:
+      <ul>
+        <li>team vendite;</li>
+        <li>team fatturazione;</li>
+        <li>help desk.</li>
+      </ul>
+    </p>
+    <p>
+      All'interno di ciascuna funzione sono definiti responsabili specifici
+      che operano sotto le direttive del Responsabile del trattamento dei dati
+      personali e che definiscono le funzioni e le responsabilità specifiche
+      dei singoli incaricati.
+    </p>
+    <p>
+      Per l'erogazione e l'assistenza di servizi di connettività, posta
+      elettronica, hosting e housing, i dati relativi potranno essere
+      comunicati a InterConn. Per l'erogazione e l'assistenza di servizi di
+      connettività ADSL o wireless “ultimo miglio” i dati potranno essere
+      comunicati alle strutture di erogazione del servizio.
+    </p>
+    <h5>Titolare e Responsabile</h5>
+    <p>
+      Il Titolare del trattamento dei dati personali è InterConn Srl, con
+      sede in Via Delia 9, 00155 Roma (RM).
+    </p>
+    <p>
+      Il Responsabile del trattamento dei dati personali è una figura
+      collocata all'interno di InterConn.
+    </p>
+  summary: >
+    <p>
+      I tuoi dati vengono usati per l'erogazione dei servizi, per offrirti
+      promozioni e per ricavare dati statistici.
+    </p>
+    <p>
+      Non puoi rifiutare a InterConn il consenso al trattamento dei dati per
+      l'erogazione dei servizi, ma puoi impedire che vengano usati per
+      promozioni e statistiche scrivendo al responsabile del loro trattamento.
+    </p>
+    <p>
+      Al termine del contratto, i dati verranno conservati per scopi di
+      fatturazione, prevenzione e accertamento.
+    </p>
+    <p>
+      Solo le persone autorizzate avranno accesso ai tuoi dati, che potranno
+      essere comunicati anche ai responsabili delle vendite, della
+      fatturazione e del supporto clienti, così come ai fornitori del servizio
+      wireless “ultimo miglio” ove necessario.
+    </p>
