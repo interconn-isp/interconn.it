@@ -13,7 +13,7 @@
 
   - if @inquiry.product.present?
     %dt= t('mailers.inquiry.product')
-    %dd= Product.find_by_slug(@inquiry.product_value).full_name
+    %dd= Plan.find_by_slug(@inquiry.product_value).full_name
 
   - if @inquiry.notes.present?
     %dt= t('mailers.inquiry.product')

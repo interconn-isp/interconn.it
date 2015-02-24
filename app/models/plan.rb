@@ -13,6 +13,10 @@ class Plan < ActiveYaml::Base
   belongs_to :category, class_name: 'PlanCategory', foreign_key: 'category_id'
 
   def full_name
-    "#{category.name} #{name}"
+    if category
+      "#{category.name} #{name}"
+    else
+      name
+    end
   end
 end
