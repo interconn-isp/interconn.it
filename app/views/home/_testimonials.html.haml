@@ -1,0 +1,27 @@
+- testimonials = Testimonial.all
+
+- if testimonials.count > 0
+  #home-testimonials
+    .container
+      .row
+        .col-xs-12
+          %h1.text-center
+            Ancora non sei convinto? Chiedilo a loro.
+
+      .testimonials
+        .row
+          - testimonials.each_slice(2) do |testimonials_slice|
+            - testimonials_slice.each do |testimonial|
+              - testimonial_classes = 'col-xs-12 col-sm-6'
+              - testimonial_classes += ' col-sm-offset-3' if testimonials_slice.length == 1
+
+              %div{class: testimonial_classes}
+                .testimonial
+                  .testimonial-image
+                    = image_tag "testimonials/#{testimonial.customer_image}.jpg", class: 'img-responsive img-circle center-block'
+
+                  %p.testimonial-body
+                    = "“#{testimonial.text.strip}”"
+
+                  %p.testimonial-signature
+                    = "— #{testimonial.customer_name}"
