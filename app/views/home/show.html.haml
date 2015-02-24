@@ -47,66 +47,13 @@
 
     .feature-grid
       .row
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
-            = image_tag 'ballicons/speed.svg', class: 'feature-icon'
+        - Feature.all.each do |feature|
+          .col-xs-12.col-sm-6.col-md-4
+            .feature
+              = image_tag "ballicons/#{feature.icon}.svg", class: 'feature-icon'
 
-            %h3 Servizio da urlo
-
-            %p
-              Connettività affidabile e prestazioni senza eguali. Finalmente un
-              servizio su cui puoi davvero contare.
-
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
-            = image_tag 'ballicons/piggy-bank.svg', class: 'feature-icon'
-
-            %h3 Costi competitivi
-
-            %p
-              Stanco di pagare troppo per avere troppo poco? Anche noi. La
-              comunicazione non dovrebbe essere un lusso.
-
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
-            = image_tag 'ballicons/globe.svg', class: 'feature-icon'
-
-            %h3 Copertura estesa
-
-            %p
-              Le grandi compagnie telefoniche si arrogano il diritto di decidere
-              chi servire. Stavolta nessuno rimane indietro.
-
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
-            = image_tag 'ballicons/help.svg', class: 'feature-icon'
-
-            %h3 Assistenza su misura
-
-            %p
-              Sappiamo che usi la rete per fare e creare cose importanti. Non
-              sprecheremo il tuo tempo con scuse improbabili.
-
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
-            = image_tag 'ballicons/rocket.svg', class: 'feature-icon'
-
-            %h3
-              Nessun limite
-
-            %p
-              Il tuo ISP non dovrebbe decidere cosa fai con la connessione. Il
-              P2P e il gaming sono liberi e illimitati. Per sempre.
-
-        .col-xs-12.col-sm-6.col-md-4
-          .feature
-            = image_tag 'ballicons/document.svg', class: 'feature-icon'
-
-            %h3 Contratto trasparente
-
-            %p
-              Non c'è alcun bisogno di complicare le cose. Con il contratto
-              InterConn saprai sempre per cosa stai pagando.
+              %h3= feature.name
+              %p= feature.content
 
 -#
   #home-testimonials

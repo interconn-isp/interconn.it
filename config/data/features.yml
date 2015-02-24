@@ -1,0 +1,41 @@
+- id: 1
+  icon: speed
+  name: Servizio da urlo
+  content: >
+    Connettività affidabile e prestazioni senza eguali. Finalmente un servizio
+    su cui puoi davvero contare.
+
+- id: 2
+  icon: piggy-bank
+  name: Costi competitivi
+  content: >
+    Stanco di pagare troppo per avere troppo poco? Anche noi. La comunicazione
+    non dovrebbe essere un lusso.
+
+- id: 3
+  icon: globe
+  name: Copertura estesa
+  content: >
+    Le grandi compagnie telefoniche si arrogano il diritto di decidere chi
+    servire. Stavolta nessuno rimane indietro.
+
+- id: 4
+  icon: help
+  name: Assistenza su misura
+  content: >
+    Sappiamo che usi la rete per fare e creare cose importanti. Non sprecheremo
+    il tuo tempo con scuse improbabili.
+
+- id: 5
+  icon: rocket
+  name: Nessun limite
+  content: >
+    Il tuo ISP non dovrebbe decidere cosa fai con la connessione. Il P2P e il
+    gaming sono liberi e illimitati. Per sempre.
+
+- id: 6
+  icon: document
+  name: Contratto trasparente
+  content: >
+    Non c'è alcun bisogno di complicare le cose. Con il contratto InterConn
+    saprai sempre per cosa stai pagando.
