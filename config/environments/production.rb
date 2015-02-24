@@ -69,4 +69,7 @@ Rails.application.configure do
     enable_starttls_auto: (ENV['SMTP_STARTTLS'] == 'true'),
     openssl_verify_mode:  ENV['SMTP_OPENSSL_VERIFY']
   }
+
+  # Enable Lograge.
+  config.lograge.enabled = true
 end
