@@ -17,6 +17,16 @@
       Ci dirai dopo cosa vuoi fare.
     headline: Perché non dare un'occhiata?
 
+  public_ip_feature: &public_ip_feature
+    name: IP pubblico
+    icon: browser
+    content: >
+      Molti ISP assegnano a più utenti lo stesso IP pubblico. Questo
+      sistema è economico per il fornitore ma rende molto più difficoltoso
+      l'uso di software P2P. I nostri utenti invece hanno un IP pubblico
+      dinamico.
+    headline: Non lasciarti limitare.
+
 - id: 1
   name: 'WADSL'
   slug: 'wadsl'
@@ -25,14 +35,7 @@
   features:
     - *router_feature
     - *trial_feature
-    - name: IP pubblico
-      icon: browser
-      content: >
-        Molti ISP assegnano a più utenti lo stesso IP pubblico. Questo
-        sistema è economico per il fornitore ma rende molto più difficoltoso
-        l'uso di software P2P. I nostri utenti invece hanno un IP pubblico
-        dinamico.
-      headline: Non lasciarti limitare.
+    - *public_ip_feature
 
 - id: 2
   name: 'WHDSL'
@@ -58,6 +61,15 @@
       headline: 'Va’ a fare del bene: offre la casa.'
 
 - id: 3
+  name: 'ADSL'
+  slug: 'adsl'
+  long_name: 'ADSL: come ai vecchi tempi.'
+  description: "La stabilità di un'ADSL con il servizio di InterConn."
+  features:
+    - *router_feature
+    - *public_ip_feature
+
+- id: 4
   name: 'VoIP'
   slug: 'voip'
   long_name: 'VoIP: telefona via internet.'

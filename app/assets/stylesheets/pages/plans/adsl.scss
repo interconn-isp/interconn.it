@@ -1,0 +1,92 @@
+body#plans-adsl {
+  .pricing-tables-container + .pricing-tables-container {
+    margin-top: 20px;
+  }
+
+  .horizontal-call {
+    margin-top: 0;
+  }
+
+  .feature-list {
+    margin-top: 50px;
+  }
+
+  .asterisks-explanation {
+    ul {
+      @media (max-width: $screen-sm-max) {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  body#plans-adsl .pricing-table-container {
+    margin-top: 15px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+    .pricing-table {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .product-name, .product-price {
+        border-left: none;
+        border-right: none;
+      }
+
+      .product-feature, .product-action {
+        border-left-width: 2px;
+        border-right-width: 2px;
+      }
+    }
+  }
+
+  body#plans-adsl .custom-plans-row {
+    margin-left: 0;
+    margin-right: 0;
+
+    .custom-plans {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  body#plans-adsl .pricing-table-container {
+    margin-top: 15px;
+
+    &:nth-child(odd) {
+      padding-left: 15px;
+
+      .pricing-table {
+        .product-name, .product-price {
+          border-left: none;
+        }
+
+        .product-feature, .product-action {
+          border-left-width: 2px;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      padding-right: 15px;
+
+      .pricing-table {
+        .product-name, .product-price {
+          border-right: none;
+        }
+
+        .product-feature, .product-action {
+          border-right-width: 2px;
+        }
+      }
+    }
+  }
+}

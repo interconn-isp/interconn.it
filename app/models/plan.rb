@@ -7,5 +7,7 @@ class Plan < ActiveYaml::Base
   field :features, default: []
 
   include ActiveHash::Associations
+  include ActiveYaml::Aliases
+
   belongs_to :category, class_name: 'PlanCategory', foreign_key: 'category_id'
 end

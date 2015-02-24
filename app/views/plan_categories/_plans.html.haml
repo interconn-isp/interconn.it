@@ -1,7 +1,9 @@
-- plan_classes = 'col-xs-12 col-sm-6 pricing-table-container'
-- plan_classes += " col-md-#{12 / plans.count}"
+- plans.each_slice(4) do |slice|
+  - plan_classes = 'col-xs-12 col-sm-6 pricing-table-container'
+  - plan_classes += " col-md-#{12 / slice.count}"
 
-- plans.each do |plan|
-  %div{class: plan_classes}
-    .pricing-table-container-inner
-      = render 'plan', plan: plan
+  .row.pricing-tables-container
+    - slice.each do |plan|
+      %div{class: plan_classes}
+        .pricing-table-container-inner
+          = render 'plan', plan: plan

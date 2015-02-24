@@ -1,3 +1,13 @@
+- /aliases:
+  static_ip_vat_included: &static_ip_vat_included
+    name: IP statico
+    optional: true
+    content: €6 / mese*
+  static_ip_vat_excluded: &static_ip_vat_excluded
+    name: IP statico
+    optional: true
+    content: '€4,92 / mese**'
+
 - id: 1
   category_id: 1
   slug: 'wadsl-7mega-privati'
@@ -10,9 +20,7 @@
     - name: Velocità di picco
       content: 7 Mbps / 3 Mbps
       2x: true
-    - name: IP statico
-      optional: true
-      content: €6 / mese*
+    - *static_ip_vat_included
 
 - id: 2
   category_id: 1
@@ -26,9 +34,7 @@
     - name: Velocità di picco
       content: 10 Mbps / 3 Mbps
       2x: true
-    - name: IP statico
-      optional: true
-      content: €6 / mese*
+    - *static_ip_vat_included
 
 - id: 3
   category_id: 1
@@ -43,9 +49,7 @@
       content: 4 Mbps / 1 Mbps
     - name: Banda garantita
       content: 512 Kbps
-    - name: IP statico
-      optional: true
-      content: '€4,92 / mese**'
+    - *static_ip_vat_excluded
 
 - id: 4
   category_id: 1
@@ -60,9 +64,7 @@
       content: 7 Mbps / 3 Mbps
     - name: Banda garantita
       content: 512 Kbps
-    - name: IP statico
-      optional: true
-      content: '€4,92 / mese**'
+    - *static_ip_vat_excluded
 
 - id: 5
   category_id: 2
@@ -77,9 +79,7 @@
       content: 2 Mbps / 2 Mbps
     - name: Banda garantita
       content: 1 Mbps
-    - name: IP statico
-      optional: true
-      content: '€4,92 / mese**'
+    - *static_ip_vat_excluded
 
 - id: 6
   category_id: 2
@@ -94,9 +94,7 @@
       content: 2 Mbps / 2 Mbps
     - name: Banda garantita
       content: 2 Mbps
-    - name: IP statico
-      optional: true
-      content: '€4,92 / mese**'
+    - *static_ip_vat_excluded
 
 - id: 7
   category_id: 2
@@ -111,12 +109,10 @@
       content: 4 Mbps / 4 Mbps
     - name: Banda garantita
       content: 2 Mbps
-    - name: IP statico
-      optional: true
-      content: '€4,92 / mese**'
+    - *static_ip_vat_excluded
 
 - id: 8
-  category_id: 3
+  category_id: 4
   slug: 'interconn-voip'
   name: 'InterConn VoIP'
   vat_included: true
@@ -132,3 +128,108 @@
     - name: Portabilità numero
       optional: true
       content: €15 u.t.*
+
+- id: 9
+  category_id: 3
+  slug: 'adsl-7mega-tier1'
+  name: '7 Mega (Tier 1)'
+  vat_included: true
+  monthly_cost: 21
+  features:
+    - name: Installazione
+      content: '€37 u.t.*'
+    - name: Velocità di picco
+      content: 7 Mbps / 384 Kbps
+    - name: Banda garantita
+      content: 32 Kbps
+    - *static_ip_vat_included
+
+- id: 10
+  category_id: 3
+  slug: 'adsl-7mega-tier2'
+  name: '7 Mega (Tier 2)'
+  vat_included: true
+  monthly_cost: 25
+  features:
+    - name: Installazione
+      content: '€37 u.t.*'
+    - name: Velocità di picco
+      content: 7 Mbps / 704 Kbps
+    - name: Banda garantita
+      content: 64 Kbps
+    - *static_ip_vat_included
+
+- id: 11
+  category_id: 3
+  slug: 'adsl-7mega-tier3'
+  name: '7 Mega (Tier 3)'
+  vat_included: true
+  monthly_cost: 28
+  features:
+    - name: Installazione
+      content: '€37 u.t.*'
+    - name: Velocità di picco
+      content: 7 Mbps / 704 Kbps
+    - name: Banda garantita
+      content: 128 Kbps
+    - *static_ip_vat_included
+
+- id: 12
+  category_id: 3
+  slug: 'adsl-7mega-tier4'
+  name: '7 Mega (Tier 4)'
+  vat_included: true
+  monthly_cost: 43
+  features:
+    - name: Installazione
+      content: '€37 u.t.*'
+    - name: Velocità di picco
+      content: 7 Mbps / 704 Kbps
+    - name: Banda garantita
+      content: 512 Kbps
+    - *static_ip_vat_included
+
+- id: 13
+  category_id: 3
+  slug: 'adsl-20mega-tier1'
+  name: '20 Mega (Tier 1)'
+  vat_included: true
+  monthly_cost: 27
+  features:
+    - name: Installazione
+      content: '€37 u.t.*'
+    - name: Velocità di picco
+      content: 20 Mbps / 1 Mbps
+    - name: Banda garantita
+      content: 64 Kbps
+    - *static_ip_vat_included
+
+- id: 14
+  category_id: 3
+  slug: 'adsl-20mega-tier2'
+  name: '20 Mega (Tier 2)'
+  vat_included: true
+  monthly_cost: 34
+  features:
+    - name: Installazione
+      content: '€37 u.t.*'
+    - name: Velocità di picco
+      content: 20 Mbps / 1 Mbps
+    - name: Banda garantita
+      content: 128 Kbps
+    - *static_ip_vat_included
+
+- id: 15
+  category_id: 3
+  slug: 'adsl-20mega-tier3'
+  name: '20 Mega (Tier 3)'
+  vat_included: true
+  monthly_cost: 42
+  features:
+    - name: Installazione
+      content: '€37 u.t.*'
+    - name: Velocità di picco
+      content: 20 Mbps / 1 Mbps
+    - name: Banda garantita
+      content: 512 Kbps
+    - *static_ip_vat_included

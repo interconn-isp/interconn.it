@@ -13,8 +13,7 @@
     = render 'voip', plan: @category.plans.first
   - else
     .container
-      .row.pricing-tables-container
-        = render 'plans', plans: @category.plans
+      = render 'plans', plans: @category.plans
 
       = render 'custom_plans'
       = render 'notes'
