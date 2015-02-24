@@ -15,7 +15,7 @@
         .navbar-right
           %ul.nav.navbar-nav
             %li{class: "#{'active' if params[:controller] == 'plan_categories'}"}= link_to 'Piani', plan_categories_path
-            %li{class: "#{'active' if params[:id] && params[:id] == 'projects'}"}= link_to 'Progetti', projects_path
+            %li{class: "#{'active' if params[:controller] == 'projects'}"}= link_to 'Progetti', projects_path
             %li{class: "#{'active' if params[:id] == 'coverage'}"}= link_to 'Copertura', coverage_path
             %li{class: "#{'active' if params[:controller] == 'faq_categories'}"}= link_to 'Domande frequenti', faq_categories_path
             %li{class: "#{'active' if params[:controller] == 'tickets'}"}= link_to 'Contatti', contact_path
