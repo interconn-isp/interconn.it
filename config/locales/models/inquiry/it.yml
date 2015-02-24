@@ -16,23 +16,3 @@ it:
         notes: >
           IP statici aggiuntivi, portabilità del numero di telefono e ogni
           altra esigenza.
-
-  enumerize:
-    inquiry:
-      product:
-        wadsl-7mega-privati:  'WADSL 7 Mega Privati'
-        wadsl-10mega-privati: 'WADSL 10 Mega Privati'
-        wadsl-4mega-business: 'WADSL 4 Mega Business'
-        wadsl-7mega-business: 'WADSL 7 Mega Business'
-        whdsl-2mega-1mega:    'WHDSL 2 Mega / 1 Mega'
-        whdsl-2mega-2mega:    'WHDSL 2 Mega / 2 Mega'
-        whdsl-2mega-2mega:    'WHDSL 2 Mega / 2 Mega'
-        whdsl-4mega-2mega:    'WHDSL 4 Mega / 2 Mega'
-        interconn-voip:       'InterConn VoIP'
-        adsl-7mega-tier1:     'ADSL 7 Mega (Tier 1)'
-        adsl-7mega-tier2:     'ADSL 7 Mega (Tier 2)'
-        adsl-7mega-tier3:     'ADSL 7 Mega (Tier 3)'
-        adsl-7mega-tier4:     'ADSL 7 Mega (Tier 4)'
-        adsl-20mega-tier1:    'ADSL 20 Mega (Tier 1)'
-        adsl-20mega-tier2:    'ADSL 20 Mega (Tier 2)'
-        adsl-20mega-tier3:    'ADSL 20 Mega (Tier 3)'
