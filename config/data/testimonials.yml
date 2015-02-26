@@ -7,15 +7,6 @@
     la richiesta, e la banda promessa è quella fornita!
 
 - id: 2
-  customer_name: Alessandro Lucchesi
-  customer_image: alessandro-lucchesi
-  text: >
-    Servizio eccellente, connettività stabile, ping basso, upload da sogno... e
-    un'assistenza che funziona! Mi trovo benissimo: la maggior parte dei
-    provider tradizionali non mantiene offre prestazioni ben inferiori rispetto
-    a quelle di InterConn.
-
-- id: 3
   customer_name: Sara Bontempi
   customer_image: sara-bontempi
   text: >
@@ -24,7 +15,7 @@
     sempre disponibile, cordiale e paziente. Sono cliente InterConn dal 2013 e
     sono super soddisfatta!
 
-- id: 4
+- id: 3
   customer_name: Raffaele Ludrico
   customer_image: raffaele-ludrico
   text: >
@@ -33,7 +24,7 @@
     soprattutto accessibile, sia per quanto riguarda i costi che per
     l'assistenza clienti a misura d'uomo.
 
-- id: 5
+- id: 4
   customer_name: Andrea Giusti
   customer_image: andrea-giusti
   text: >
@@ -42,7 +33,7 @@
     dell'assistenza: rapida, professionale e sempre disponibile, fondamentale
     per chi lavora da casa. Grazie ragazzi!
 
-- id: 6
+- id: 5
   customer_name: Bruno Moscatelli
   customer_image: bruno-moscatelli
   text: >
@@ -51,8 +42,20 @@
     che mette al primo posto il cliente, dove efficienza, qualità e
     disponibilità non hanno pari. Complimenti, continuate così.
 
-- id: 7
-  customer_name: Gabriele D'Alessandro
-  customer_image: gabriele-dalessandro
+- id: 6
+  customer_name: Stefano Apolloni
+  customer_image: stefano-apolloni
   text: >
-    Ottimo servizio, professionalità e tempismo negli interventi. Impeccabili!
+    Ho scoperto InterConn grazie a un amico. Avendo un'agenzia pubblicitaria,
+    avevo dei dubbi riguardo la stabilità del segnale e la velocità. Provandolo
+    però sono rimasto molto soddisfatto sia della performance che del servizio
+    di assistenza, puntuale e disponibile. Consigliato!
+
+- id: 7
+  customer_name: Daniele Graziani
+  customer_image: daniele-graziani
+  text: >
+    Da quasi due anni utilizzo InterConn. È trasparente, efficente, performante
+    e dai costi accessibili. In passato ho provato altri provider che
+    millantavano di poter offrire un buon servizio, ma niente regge il confronto
+    con InterConn!
