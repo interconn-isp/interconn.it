@@ -19,7 +19,7 @@ class InquiriesController < ApplicationController
 
   def inquiry_params
     params.require(:inquiry).permit(
-      :full_name, :phone, :email, :address, :product, :notes
+      :full_name, :phone, :email, :address, :product, :notes, :referer
     )
   end
 end

@@ -9,10 +9,17 @@ it:
         notes:     'Note:'
         address:   'Indirizzo:'
         status:    'Stato:'
+        referer:   'Referente:'
 
     placeholders:
       inquiry:
         address: 'Inserisci il tuo indirizzo completo.'
+
+    hints:
+      inquiry:
+        referer: >
+          Se hai conosciuto InterConn grazie a un amico, inserisci qui il suo
+          nome: otterrà uno sconto del 50% sulla prossima fattura.
         notes: >
-          IP statici aggiuntivi, portabilità del numero di telefono e ogni
-          altra esigenza.
+          IP statici aggiuntivi, portabilità del numero di telefono e tutto
+          quello che dovremmo sapere (anche il PIN del tuo bancomat, se vuoi).

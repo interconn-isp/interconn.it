@@ -8,3 +8,4 @@ it:
       address:   'Indirizzo:'
       product:   'Prodotto:'
       notes:     'Note:'
+      referer:   'Referente:'

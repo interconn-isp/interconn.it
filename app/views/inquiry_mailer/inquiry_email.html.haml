@@ -18,3 +18,7 @@
   - if @inquiry.notes.present?
     %dt= t('mailers.inquiry.notes')
     %dd= simple_format @inquiry.notes
+
+  - if @inquiry.referer.present?
+    %dt= t('mailers.inquiry.referer')
+    %dd= @inquiry.referer

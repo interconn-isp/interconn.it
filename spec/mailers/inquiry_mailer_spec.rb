@@ -5,8 +5,16 @@ RSpec.describe InquiryMailer do
   after(:each) { ENV.delete('INQUIRIES_EMAIL') }
 
   let(:inquiry) do
-    inquiry = FactoryGirl.build_stubbed(:inquiry)
-    inquiry.stubs(product: 'foo', product_value: 'foo')
+    inquiry = FactoryGirl.build_stubbed(:inquiry,
+      notes: 'Lorem ipsum',
+      referer: 'John Doe'
+    )
+
+    inquiry.stubs(
+      product: 'foo',
+      product_value: 'foo'
+    )
+
     inquiry
   end
 

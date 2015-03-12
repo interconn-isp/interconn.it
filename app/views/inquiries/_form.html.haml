@@ -5,6 +5,7 @@
   = f.input :address, input_html: { class: 'input-lg' }
   = f.input :product, as: :grouped_select, collection: PlanCategory.visible, group_method: :plans, value_method: :slug, label_method: :full_name, input_html: { class: 'input-lg' }
   = f.input :notes, input_html: { class: 'input-lg', style: 'min-height: 150px' }
+  = f.input :referer, input_html: { class: 'input-lg' }
 
   .text-center
     %button.btn.btn-lg.btn-primary.btn-orange.btn-block
