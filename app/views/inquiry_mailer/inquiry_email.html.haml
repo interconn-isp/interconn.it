@@ -11,9 +11,10 @@
   %dt= t('mailers.inquiry.address')
   %dd= @inquiry.address
 
-  - if @inquiry.product.present?
-    %dt= t('mailers.inquiry.product')
-    %dd= Plan.find_by_slug(@inquiry.product_value).full_name
+  %dt= t('mailers.inquiry.product')
+  %dd
+    - plan = Plan.find_by_slug(@inquiry.product_value)
+    = plan ? plan.full_name : @inquiry.product_value
 
   - if @inquiry.notes.present?
     %dt= t('mailers.inquiry.notes')

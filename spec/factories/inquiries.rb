@@ -4,5 +4,6 @@ FactoryGirl.define do
     email { Faker::Internet.email }
     phone '3926178192'
     address { Faker::Address.street_address }
+    product { Inquiry.product.values.sample }
   end
 end

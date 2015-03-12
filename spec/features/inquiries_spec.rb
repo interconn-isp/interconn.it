@@ -13,6 +13,8 @@ RSpec.describe 'the inquiry creation page', type: :feature do
       fill_in I18n.t("simple_form.labels.inquiry.#{attribute}"), with: inquiry[attribute.to_sym]
     end
 
+    select Plan.find_by_slug(inquiry[:product]).full_name, from: I18n.t('simple_form.labels.inquiry.product')
+
     expect {
       click_button 'Richiedi il tuo sopralluogo'
     }.to change(Inquiry, :count).by(1)

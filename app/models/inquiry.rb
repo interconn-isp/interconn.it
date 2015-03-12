@@ -7,4 +7,5 @@ class Inquiry < ActiveRecord::Base
   validates :email, presence: true, format: { with: /@/ }
   validates :phone, presence: true, format: { with: /\A(\+|\d)+\z/, allow_blank: true }
   validates :address, presence: true
+  validates :product, presence: true
 end
