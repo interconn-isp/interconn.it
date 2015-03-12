@@ -1,49 +1,4 @@
-- id: 1
-  customer_name: Bruno Minafra
-  customer_image: bruno-minafra
-  text: >
-    Nessun paragone con gli altri gestori che ho conosciuto. I tecnici sono
-    disponibili e professionali: l'installazione è stata eseguita il giorno dopo
-    la richiesta, e la banda promessa è quella fornita!
-
-- id: 2
-  customer_name: Sara Bontempi
-  customer_image: sara-bontempi
-  text: >
-    Credo sia il migliore servizio mai provato: internet è sempre alle massime
-    prestazioni anche quando il tempo non è dei migliori. Servizio di assistenza
-    sempre disponibile, cordiale e paziente. Sono cliente InterConn dal 2013 e
-    sono super soddisfatta!
-
-- id: 3
-  customer_name: Raffaele Ludrico
-  customer_image: raffaele-ludrico
-  text: >
-    Abbiamo scoperto InterConn attraverso il passaparola. Per noi significa
-    libertà: un servizio efficiente, garantito, sufficientemente potente e
-    soprattutto accessibile, sia per quanto riguarda i costi che per
-    l'assistenza clienti a misura d'uomo.
-
-- id: 4
-  customer_name: Andrea Giusti
-  customer_image: andrea-giusti
-  text: >
-    Vengo da una terribile esperienza con un altro gestore. Con InterConn la
-    connessione è schizzata a velocità prima impensabili, per non parlare
-    dell'assistenza: rapida, professionale e sempre disponibile, fondamentale
-    per chi lavora da casa. Grazie ragazzi!
-
-- id: 5
-  customer_name: Bruno Moscatelli
-  customer_image: bruno-moscatelli
-  text: >
-    Abito in perferia di Roma, una località da terzo mondo per le connessioni a
-    internet. Per fortuna dove non arriva il cavo arriva InterConn, un'azienda
-    che mette al primo posto il cliente, dove efficienza, qualità e
-    disponibilità non hanno pari. Complimenti, continuate così.
-
-- id: 6
-  customer_name: Stefano Apolloni
+- customer_name: Stefano Apolloni
   customer_image: stefano-apolloni
   text: >
     Ho scoperto InterConn grazie a un amico. Avendo un'agenzia pubblicitaria,
@@ -51,11 +6,49 @@
     però sono rimasto molto soddisfatto sia della performance che del servizio
     di assistenza, puntuale e disponibile. Consigliato!
 
-- id: 7
-  customer_name: Daniele Graziani
+- customer_name: Sara Bontempi
+  customer_image: sara-bontempi
+  text: >
+    Credo sia il migliore servizio mai provato: internet è sempre alle massime
+    prestazioni anche quando il tempo non è dei migliori. Servizio di assistenza
+    sempre disponibile, cordiale e paziente. Sono cliente InterConn dal 2013 e
+    sono super soddisfatta!
+
+- customer_name: Bruno Minafra
+  customer_image: bruno-minafra
+  text: >
+    Nessun paragone con gli altri gestori che ho conosciuto. I tecnici sono
+    disponibili e professionali: l'installazione è stata eseguita il giorno dopo
+    la richiesta, e la banda promessa è quella fornita!
+
+- customer_name: Daniele Graziani
   customer_image: daniele-graziani
   text: >
     Da quasi due anni utilizzo InterConn. È trasparente, efficente, performante
     e dai costi accessibili. In passato ho provato altri provider che
     millantavano di poter offrire un buon servizio, ma niente regge il confronto
     con InterConn!
+
+- customer_name: Raffaele Ludrico
+  customer_image: raffaele-ludrico
+  text: >
+    Abbiamo scoperto InterConn attraverso il passaparola. Per noi significa
+    libertà: un servizio efficiente, garantito, sufficientemente potente e
+    soprattutto accessibile, sia per quanto riguarda i costi che per
+    l'assistenza clienti a misura d'uomo.
+
+- customer_name: Andrea Giusti
+  customer_image: andrea-giusti
+  text: >
+    Vengo da una terribile esperienza con un altro gestore. Con InterConn la
+    connessione è schizzata a velocità prima impensabili, per non parlare
+    dell'assistenza: rapida, professionale e sempre disponibile, fondamentale
+    per chi lavora da casa. Grazie ragazzi!
+
+- customer_name: Bruno Moscatelli
+  customer_image: bruno-moscatelli
+  text: >
+    Abito in perferia di Roma, una località da terzo mondo per le connessioni a
+    internet. Per fortuna dove non arriva il cavo arriva InterConn, un'azienda
+    che mette al primo posto il cliente, dove efficienza, qualità e
+    disponibilità non hanno pari. Complimenti, continuate così.
