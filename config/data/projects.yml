@@ -1,5 +1,4 @@
-- id: 1
-  slug: bring-a-friend
+- slug: bring-a-friend
   name: Porta un amico
   description: >
     Chi trova un amico trova un tesoro, recita un antico proverbio. In
@@ -7,8 +6,7 @@
     sei rimasto soddisfatto del nostro servizio perché non condividere la gioia?
     Suggerisci InterConn ai tuoi conoscenti: ne beneficerete entrambi!
 
-- id: 2
-  slug: evangelist
+- slug: evangelist
   name: Diventa un Evangelist
   description: >
     Se sei il titolare di una piccola o media impresa, puoi diventare un
@@ -17,8 +15,7 @@
     Contattaci subito per un accordo su misura; combatti in prima linea il
     digital divide!
 
-- id: 3
-  slug: albatros
+- slug: albatros
   name: Progetto Albatros
   description: >
     Le scuole pubbliche di ogni ordine e grado sprovviste di connessione a
