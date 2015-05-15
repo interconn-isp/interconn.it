@@ -1,7 +1,7 @@
-SECRET: SecretToken
+SECRET: 'SecretToken'
 
-DEFAULT_LOCALE: it
-TIME_ZONE: Rome
+DEFAULT_LOCALE: 'it'
+TIME_ZONE: 'Rome'
 
 HOST: 'www.interconn.it'
 
@@ -11,13 +11,13 @@ TICKETS_EMAIL: 'help@interconn.it'
 INQUIRIES_EMAIL: 'help@interconn.it'
 
 SMTP_ADDRESS: 'mail.interconn.it'
-SMTP_PORT: 25
+SMTP_PORT: '25'
 SMTP_DOMAIN: 'interconn.it'
 SMTP_USERNAME: 'devel@interconn.it'
 SMTP_PASSWORD: 'TestPassword'
 SMTP_AUTH: 'plain'
 SMTP_STARTTLS: true
-SMTP_OPENSSL_VERIFY: none
+SMTP_OPENSSL_VERIFY: 'none'
 
 FACEBOOK_URL: 'https://www.facebook.com/interconn.isp'
 TWITTER_URL: 'https://twitter.com/InterConnISP'
