@@ -53,6 +53,9 @@ gem 'newrelic_rpm'
 # Logging
 gem 'lograge'
 
+# Heroku
+gem 'rails_12factor', group: :production
+
 group :development do
   # Bower assets
   gem 'bower-rails'

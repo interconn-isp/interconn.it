@@ -4,6 +4,7 @@ DEFAULT_LOCALE: 'it'
 TIME_ZONE: 'Rome'
 
 HOST: 'www.interconn.it'
+FORCE_SSL: 'true'
 
 MAIL_SENDER: 'InterConn <info@interconn.it>'
 
