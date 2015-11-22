@@ -1,7 +1,7 @@
 var CoverageMap = (function() {
   return {
     options: {
-      center: new google.maps.LatLng(41.85, 12.60),
+      center: new google.maps.LatLng(41.87, 12.60),
       zoom: 11,
       disableDefaultUI: true,
       draggable: false,
