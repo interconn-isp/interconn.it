@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+ruby '2.2.3'
 
 # Rails
-gem 'rails', '4.2.1'
+gem 'rails', '4.2.5'
 
 # Asset preprocessors
 gem 'sass-rails'
@@ -17,7 +17,7 @@ gem 'font-awesome-rails'
 
 # Views
 gem 'haml-rails'
-gem 'simple_form', '~> 3.1.0.rc2', github: 'plataformatec/simple_form'
+gem 'simple_form'
 gem 'high_voltage'
 
 # JavaScript runtime
@@ -36,7 +36,7 @@ gem 'rails-i18n'
 gem 'pg'
 gem 'enumerize'
 gem 'friendly_id'
-gem 'active_hash'
+gem 'active_hash', '1.4.0'
 
 # Controllers
 gem 'responders'

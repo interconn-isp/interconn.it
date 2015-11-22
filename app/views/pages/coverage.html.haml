@@ -23,13 +23,13 @@
                   = fa_icon 'arrow-left'
                   %span.hidden-xs Scrivi qualcosa!
 
-      .row
+      .row.hidden-xs
         .col-xs-12
           %ul.list-inline.covered-areas-list
-            - ['Albano Laziale', 'Guidonia', 'Tivoli Terme', 'Villalba', 'Ariccia', 'Genzano di Roma', 'Cecchina', 'Pavona', 'Roma centro'].each do |area|
+            - CoveredArea.all.sort_by(&:name).each do |area|
               %li
                 = fa_icon 'check', class: 'fa-success'
-                = area
+                = area.name
 
 - content_for :javascripts do
   = javascript_include_tag '//maps.googleapis.com/maps/api/js?libraries=places'

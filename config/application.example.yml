@@ -16,7 +16,7 @@ SMTP_DOMAIN: 'interconn.it'
 SMTP_USERNAME: 'devel@interconn.it'
 SMTP_PASSWORD: 'TestPassword'
 SMTP_AUTH: 'plain'
-SMTP_STARTTLS: true
+SMTP_STARTTLS: 'true'
 SMTP_OPENSSL_VERIFY: 'none'
 
 FACEBOOK_URL: 'https://www.facebook.com/interconn.isp'
@@ -35,6 +35,6 @@ BLOG_URL: 'https://medium.com/@interconn'
 
 GA_ID: 'UA-54085084-1'
 
-REDIS_NAMESPACE: 'interconn'
-
 IUBENDA_POLICY_ID: '131846'
+
+NEWRELIC_LICENSE_KEY: 'YourNewRelicLicenseKey'

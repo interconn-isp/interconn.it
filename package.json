@@ -1,0 +1,6 @@
+{
+  "name": "interconn",
+  "dependencies": {
+    "bower": "^1.6.5"
+  }
+}
