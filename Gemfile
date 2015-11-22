@@ -56,10 +56,13 @@ gem 'lograge'
 # Heroku
 gem 'rails_12factor', group: :production
 
-group :development do
-  # Bower assets
-  gem 'bower-rails'
+# Process management
+gem 'foreman'
 
+# Bower assets
+gem 'bower-rails'
+
+group :development do
   # Deployment
   gem 'capistrano'
   gem 'capistrano-bundler'
@@ -68,25 +71,11 @@ group :development do
   gem 'capistrano-rvm'
   gem 'capistrano-sidekiq'
 
-  # Process management
-  gem 'foreman'
-
-  # Continuous testing
-  gem 'guard-bundler'
-  gem 'guard-rspec'
-  gem 'rb-fchange', require: false
-  gem 'rb-fsevent', require: false
-  gem 'rb-inotify', require: false
-
   # Asset logging suppression
   gem 'quiet_assets'
 
   # Console
   gem 'pry-rails'
-
-  # Preloading
-  gem 'spring'
-  gem 'spring-commands-rspec'
 end
 
 group :development, :test do
@@ -111,7 +100,7 @@ group :test do
   gem 'faker'
 
   # RSpec
-  gem 'shoulda-matchers', require: false
+  gem 'shoulda-matchers'
   gem 'fuubar'
 
   # Mocking
