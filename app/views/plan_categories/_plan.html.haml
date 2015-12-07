@@ -15,7 +15,13 @@
     %li{class: feature_classes}
       %ul
         %li.feature-desc= feature['name']
-        %li.feature-numbers= feature['content']
+        %li.feature-numbers
+          .feature-content
+            = feature['content']
+          .feature-discounted-content
+            = feature['erased_content']
+          - if feature['erased_content']
+            %span.label.label-success PROMO
 
   %li.product-action
     = link_to 'Attiva Offerta', new_inquiry_path(product: plan.slug), class: 'btn btn-orange btn-lg btn-transition'

@@ -16,7 +16,8 @@
   monthly_cost: 24
   features:
     - name: Installazione
-      content: €180 u.t.*
+      erased_content: €180 u.t.*
+      content: €100 u.t.*
     - name: Velocità di picco
       content: 7 Mbps / 3 Mbps
       2x: true
@@ -30,7 +31,8 @@
   monthly_cost: 31
   features:
     - name: Installazione
-      content: €180 u.t.*
+      erased_content: €180 u.t.*
+      content: €100 u.t.*
     - name: Velocità di picco
       content: 10 Mbps / 3 Mbps
       2x: true
@@ -44,7 +46,8 @@
   monthly_cost: 39
   features:
     - name: Installazione
-      content: €245 u.t.**
+      erased_content: €245 u.t.**
+      content: €180 u.t.**
     - name: Velocità di picco
       content: 4 Mbps / 1 Mbps
     - name: Banda garantita
@@ -59,7 +62,8 @@
   monthly_cost: 69
   features:
     - name: Installazione
-      content: €245 u.t.**
+      erased_content: €245 u.t.**
+      content: €180 u.t.**
     - name: Velocità di picco
       content: 7 Mbps / 3 Mbps
     - name: Banda garantita
