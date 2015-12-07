@@ -70,6 +70,7 @@ group :development do
   gem 'capistrano-rails-console'
   gem 'capistrano-rvm'
   gem 'capistrano-sidekiq'
+  gem 'capistrano-passenger'
 
   # Asset logging suppression
   gem 'quiet_assets'
