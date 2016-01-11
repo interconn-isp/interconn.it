@@ -8,36 +8,10 @@
 
 .container#inquiry-container
   .row
-    .col-xs-12.col-sm-7
+    .col-xs-12.col-sm-8.col-sm-offset-2
       .panel.panel-inquiry
         .panel-body
           = render 'inquiries/form'
-
-    .col-xs-12.col-sm-5
-      %h3 Come funziona?
-
-      %p
-        Ti offriamo la possibilità di provare i nostri servizi* per 15 giorni
-        gratuitamente e senza alcun impegno. È sufficiente che compili il modulo
-        affianco: sarai ricontattato da un tecnico che prenderà appuntamento per
-        il sopralluogo. Se questo dovesse avere esito positivo, si procederà
-        all'installazione.
-
-      %p
-        Dopo 15 giorni potrai decidere se vuoi rinnovare il servizio. In caso
-        contrario, il tecnico tornerà per la disinstallazione. Finora nessuno ha
-        disdetto il servizio dopo la prova... non vorrai essere il primo? :)
-
-      %p
-        Per motivi legali è necessario firmare il contratto InterConn per poter
-        usufruire della prova. Tuttavia, il contratto non è in alcun modo
-        vincolante: in ogni momento potrai disdire gratuitamente il servizio.
-
-      %p.text-muted
-        %small
-          * Purtroppo, i piani ADSL non godono della prova gratuita. Inoltre,
-          non è possibile richiedere servizi accessori (es. IP statico) prima
-          della fine dei 15 giorni di prova.
 
 - content_for :javascripts do
   = javascript_include_tag '//maps.googleapis.com/maps/api/js?libraries=places'
