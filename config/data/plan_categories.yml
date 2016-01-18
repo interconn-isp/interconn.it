@@ -8,15 +8,6 @@
       la sostituzione non ti costa nulla!
     headline: I tuoi strumenti non dovrebbero frenarti.
 
-  trial_feature: &trial_feature
-    name: 15 giorni di prova
-    icon: statistic
-    content: >
-      Non dovresti pagare per qualcosa che non conosci. Per questo offriamo
-      a tutti gli utenti 15 giorni di prova gratuita e senza impegno.
-      Ci dirai dopo cosa vuoi fare.
-    headline: Perché non dare un'occhiata?
-
   public_ip_feature: &public_ip_feature
     name: IP pubblico
     icon: browser
@@ -34,7 +25,6 @@
   description: "L'ideale per sbrigare le faccende di ogni giorno."
   features:
     - *router_feature
-    - *trial_feature
     - *public_ip_feature
 
 - id: 2
@@ -44,7 +34,6 @@
   description: 'Assistenza dedicata e banda garantita per tutti i tuoi servizi mission critical.'
   features:
     - *router_feature
-    - *trial_feature
     - name: Assistenza dedicata 24x7
       icon: help
       content: >
