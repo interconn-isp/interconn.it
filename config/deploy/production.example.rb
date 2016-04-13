@@ -6,7 +6,7 @@ set :stage, :production
 # definition into the server list. The second argument
 # something that quacks like a hash can be used to set
 # extended properties on the server.
-server 'satellite.interconn.it', user: 'deployer', roles: %w{web app db}
+server 'app1.interconn.it', user: 'deployer', roles: %w{web app db}
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
