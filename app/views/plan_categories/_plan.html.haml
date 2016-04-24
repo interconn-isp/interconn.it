@@ -7,6 +7,14 @@
     %span.price-digits= plan.monthly_cost
     %span.price-interval= "/ mese#{notes}"
 
+  - if plan.erased_monthly_cost
+    %li.product-erased-price
+      invece di
+      %span.price-content= "€ #{plan.erased_monthly_cost} / mese#{notes}"
+      - if plan.erased_monthly_cost_notes.present?
+        %a{href: '#', data: { toggle: 'tooltip' }, title: plan.erased_monthly_cost_notes}
+          = fa_icon 'question-circle-o', class: 'fa-fw'
+
   - plan.features.each do |feature|
     - feature_classes = 'product-feature'
     - feature_classes += ' product-feature-optional' if feature['optional']

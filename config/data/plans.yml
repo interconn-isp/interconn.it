@@ -139,6 +139,13 @@
   name: '7 Mega'
   vat_included: true
   monthly_cost: 24
+  erased_monthly_cost: 29
+  erased_monthly_cost_notes: >
+    Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+    almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+    potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+    pagamento di una penale di recesso anticipato pari al beneficio fruito della
+    promozione del primo anno.
   features:
     - name: Installazione
       content: '€30 u.t.*'
@@ -155,6 +162,13 @@
   name: '7 Mega No Canone'
   vat_included: true
   monthly_cost: 32
+  erased_monthly_cost: 37
+  erased_monthly_cost_notes: >
+    Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+    almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+    potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+    pagamento di una penale di recesso anticipato pari al beneficio fruito della
+    promozione del primo anno.
   features:
     - name: Installazione
       content: '€90 u.t.*'
@@ -171,6 +185,13 @@
   name: '20 Mega'
   vat_included: true
   monthly_cost: 27
+  erased_monthly_cost: 32
+  erased_monthly_cost_notes: >
+    Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+    almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+    potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+    pagamento di una penale di recesso anticipato pari al beneficio fruito della
+    promozione del primo anno.
   features:
     - name: Installazione
       content: '€30 u.t.*'
@@ -187,6 +208,13 @@
   name: '20 Mega No Canone'
   vat_included: true
   monthly_cost: 35
+  erased_monthly_cost: 40
+  erased_monthly_cost_notes: >
+    Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+    almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+    potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+    pagamento di una penale di recesso anticipato pari al beneficio fruito della
+    promozione del primo anno.
   features:
     - name: Installazione
       content: '€90 u.t.*'
@@ -203,6 +231,13 @@
   name: 'Fibra 30 Mega'
   vat_included: true
   monthly_cost: 45
+  erased_monthly_cost: 50
+  erased_monthly_cost_notes: >
+    Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+    almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+    potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+    pagamento di una penale di recesso anticipato pari al beneficio fruito della
+    promozione del primo anno.
   features:
     - name: Installazione
       content: '€149 u.t.*'
@@ -219,6 +254,13 @@
   name: 'SuperFibra 30 Mega'
   vat_included: true
   monthly_cost: 49
+  erased_monthly_cost: 54
+  erased_monthly_cost_notes: >
+    Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+    almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+    potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+    pagamento di una penale di recesso anticipato pari al beneficio fruito della
+    promozione del primo anno.
   features:
     - name: Installazione
       content: '€149 u.t.*'

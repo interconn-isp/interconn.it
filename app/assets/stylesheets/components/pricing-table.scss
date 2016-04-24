@@ -57,18 +57,32 @@
     text-align: center;
   }
 
-  .product-price {
+  .product-price, .product-erased-price {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
     background-color: $palette-blue;
 
     border-left: 1px solid $palette-blue-light;
     border-right: 1px solid $palette-blue-light;
 
-    font-size: $font-size-large;
     text-align: center;
     color: lighten($gray-light, 25%);
+  }
 
-    padding-top: 5px;
-    padding-bottom: 5px;
+  .product-erased-price {
+    padding-bottom: 15px;
+    margin-top: -20px;
+    font-size: $font-size-small;
+
+    .price-content {
+      text-decoration: line-through;
+      color: $brand-danger;
+    }
+  }
+
+  .product-price {
+    font-size: $font-size-large;
 
     .price-currency {
       position: relative;
