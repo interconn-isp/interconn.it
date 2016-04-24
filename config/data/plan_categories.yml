@@ -57,7 +57,15 @@
   visible: false
   features:
     - *public_ip_feature
-
+  panels:
+    -
+      type: info
+      title: Verifica della copertura
+      content: >
+        Per scoprire se sei coperto dal servizio ADSL, inviaci un'email a
+        <a href="mailto:info@interconn.it">info@interconn.it</a> o chiama il
+        numero verde <strong>800-19-37-24</strong> (o lo <strong>06-833-903-15</strong>
+        da cellulari e dall'estero).
 - id: 4
   name: 'VoIP'
   slug: 'voip'
