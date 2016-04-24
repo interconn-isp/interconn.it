@@ -135,105 +135,96 @@
 
 - id: 9
   category_id: 3
-  slug: 'adsl-7mega-tier1'
-  name: '7 Mega (Tier 1)'
+  slug: 'adsl-7mega'
+  name: '7 Mega'
   vat_included: true
-  monthly_cost: 21
+  monthly_cost: 24
   features:
     - name: Installazione
-      content: '€37 u.t.*'
+      content: '€30 u.t.*'
     - name: Velocità di picco
-      content: 7 Mbps / 384 Kbps
+      content: 7 Mbps / 704 Kbps
     - name: Banda garantita
-      content: 32 Kbps
-    - *static_ip_vat_included
+      content: 256 Kbps
+    - name: Canone Telecom
+      content: €18,54/mese
 
 - id: 10
   category_id: 3
-  slug: 'adsl-7mega-tier2'
-  name: '7 Mega (Tier 2)'
+  slug: 'adsl-7mega-nocanone'
+  name: '7 Mega No Canone'
   vat_included: true
-  monthly_cost: 25
+  monthly_cost: 32
   features:
     - name: Installazione
-      content: '€37 u.t.*'
+      content: '€90 u.t.*'
     - name: Velocità di picco
       content: 7 Mbps / 704 Kbps
     - name: Banda garantita
-      content: 64 Kbps
-    - *static_ip_vat_included
+      content: 256 Kbps
+    - name: Canone Telecom
+      content: Azzerato
 
 - id: 11
   category_id: 3
-  slug: 'adsl-7mega-tier3'
-  name: '7 Mega (Tier 3)'
-  vat_included: true
-  monthly_cost: 28
-  features:
-    - name: Installazione
-      content: '€37 u.t.*'
-    - name: Velocità di picco
-      content: 7 Mbps / 704 Kbps
-    - name: Banda garantita
-      content: 128 Kbps
-    - *static_ip_vat_included
-
-- id: 12
-  category_id: 3
-  slug: 'adsl-7mega-tier4'
-  name: '7 Mega (Tier 4)'
-  vat_included: true
-  monthly_cost: 43
-  features:
-    - name: Installazione
-      content: '€37 u.t.*'
-    - name: Velocità di picco
-      content: 7 Mbps / 704 Kbps
-    - name: Banda garantita
-      content: 512 Kbps
-    - *static_ip_vat_included
-
-- id: 13
-  category_id: 3
-  slug: 'adsl-20mega-tier1'
-  name: '20 Mega (Tier 1)'
+  slug: 'adsl-20mega'
+  name: '20 Mega'
   vat_included: true
   monthly_cost: 27
   features:
     - name: Installazione
-      content: '€37 u.t.*'
+      content: '€30 u.t.*'
     - name: Velocità di picco
       content: 20 Mbps / 1 Mbps
     - name: Banda garantita
-      content: 64 Kbps
-    - *static_ip_vat_included
+      content: 256 Kbps
+    - name: Canone Telecom
+      content: €18,54/mese
+
+- id: 12
+  category_id: 3
+  slug: 'adsl-20mega-noncanone'
+  name: '20 Mega No Canone'
+  vat_included: true
+  monthly_cost: 35
+  features:
+    - name: Installazione
+      content: '€90 u.t.*'
+    - name: Velocità di picco
+      content: 20 Mbps / 1 Mbps
+    - name: Banda garantita
+      content: 256 Kbps
+    - name: Canone Telecom
+      content: Azzerato
+
+- id: 13
+  category_id: 3
+  slug: 'fibra-30mega'
+  name: 'Fibra 30 Mega'
+  vat_included: true
+  monthly_cost: 45
+  features:
+    - name: Installazione
+      content: '€149 u.t.*'
+    - name: Velocità di picco
+      content: 30 Mbps / 3 Mbps
+    - name: Banda garantita
+      content: 1 Mbps
+    - name: Canone Telecom
+      content: Azzerato
 
 - id: 14
   category_id: 3
-  slug: 'adsl-20mega-tier2'
-  name: '20 Mega (Tier 2)'
+  slug: 'superfibra-30mega'
+  name: 'SuperFibra 30 Mega'
   vat_included: true
-  monthly_cost: 34
+  monthly_cost: 49
   features:
     - name: Installazione
-      content: '€37 u.t.*'
+      content: '€149 u.t.*'
     - name: Velocità di picco
-      content: 20 Mbps / 1 Mbps
+      content: 30 Mbps / 3 Mbps
     - name: Banda garantita
-      content: 128 Kbps
-    - *static_ip_vat_included
-
-- id: 15
-  category_id: 3
-  slug: 'adsl-20mega-tier3'
-  name: '20 Mega (Tier 3)'
-  vat_included: true
-  monthly_cost: 42
-  features:
-    - name: Installazione
-      content: '€37 u.t.*'
-    - name: Velocità di picco
-      content: 20 Mbps / 1 Mbps
-    - name: Banda garantita
-      content: 512 Kbps
-    - *static_ip_vat_included
+      content: 3 Mbps / 1 Mbps
+    - name: Canone Telecom
+      content: Azzerato
