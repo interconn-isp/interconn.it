@@ -153,13 +153,11 @@
       content: 7 Mbps / 704 Kbps
     - name: Banda garantita
       content: 256 Kbps
-    - name: Canone Telecom
-      content: €18,54/mese
 
 - id: 10
   category_id: 3
   slug: 'adsl-7mega-nocanone'
-  name: '7 Mega No Canone'
+  name: '7 Mega No Telecom'
   vat_included: true
   monthly_cost: 32
   erased_monthly_cost: 37
@@ -176,8 +174,6 @@
       content: 7 Mbps / 704 Kbps
     - name: Banda garantita
       content: 256 Kbps
-    - name: Canone Telecom
-      content: Azzerato
 
 - id: 11
   category_id: 3
@@ -199,13 +195,11 @@
       content: 20 Mbps / 1 Mbps
     - name: Banda garantita
       content: 256 Kbps
-    - name: Canone Telecom
-      content: €18,54/mese
 
 - id: 12
   category_id: 3
   slug: 'adsl-20mega-noncanone'
-  name: '20 Mega No Canone'
+  name: '20 Mega No Telecom'
   vat_included: true
   monthly_cost: 35
   erased_monthly_cost: 40
@@ -222,8 +216,6 @@
       content: 20 Mbps / 1 Mbps
     - name: Banda garantita
       content: 256 Kbps
-    - name: Canone Telecom
-      content: Azzerato
 
 - id: 13
   category_id: 3
@@ -245,8 +237,6 @@
       content: 30 Mbps / 3 Mbps
     - name: Banda garantita
       content: 1 Mbps
-    - name: Canone Telecom
-      content: Azzerato
 
 - id: 14
   category_id: 3
@@ -268,5 +258,3 @@
       content: 30 Mbps / 3 Mbps
     - name: Banda garantita
       content: 3 Mbps / 1 Mbps
-    - name: Canone Telecom
-      content: Azzerato
