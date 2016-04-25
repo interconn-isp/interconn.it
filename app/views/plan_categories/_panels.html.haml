@@ -1,0 +1,11 @@
+.pricing-panels
+  - (panels || []).each_slice(2).each do |slice|
+    .row
+      - slice.each do |panel|
+        .col-xs-12.col-md-6
+          %div{class: "panel panel-#{panel['type']}"}
+            .panel-heading
+              %h3.panel-title= panel['title']
+
+            .panel-body
+              = panel['content'].html_safe

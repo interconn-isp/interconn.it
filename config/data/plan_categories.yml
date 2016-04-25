@@ -18,6 +18,25 @@
       dinamico.
     headline: Non lasciarti limitare.
 
+  manual_coverage_check_panel: &manual_coverage_check_panel
+    type: info
+    title: Verifica della copertura
+    content: >
+      Per scoprire se sei coperto dal servizio ADSL, inviaci un'email a
+      <a href="mailto:info@interconn.it">info@interconn.it</a> o chiama il
+      numero verde <strong>800-19-37-24</strong> (o lo <strong>06-833-903-15</strong>
+      da cellulari e dall'estero).
+
+  promotion_terms_panel: &promotion_terms_panel
+    type: warning
+    title:  Termini della promozione
+    content: >
+      Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+      almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+      potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+      pagamento di una penale di recesso anticipato pari al beneficio fruito della
+      promozione del primo anno.
+
 - id: 1
   name: 'WADSL'
   slug: 'wadsl'
@@ -54,28 +73,24 @@
   slug: 'adsl'
   long_name: 'ADSL: come ai vecchi tempi.'
   description: "La stabilità di un'ADSL con il servizio di InterConn."
-  visible: false
   features:
     - *public_ip_feature
   panels:
-    -
-      type: info
-      title: Verifica della copertura
-      content: >
-        Per scoprire se sei coperto dal servizio ADSL, inviaci un'email a
-        <a href="mailto:info@interconn.it">info@interconn.it</a> o chiama il
-        numero verde <strong>800-19-37-24</strong> (o lo <strong>06-833-903-15</strong>
-        da cellulari e dall'estero).
-    -
-      type: warning
-      title:  Termini della promozione
-      content: >
-        Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
-        almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
-        potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
-        pagamento di una penale di recesso anticipato pari al beneficio fruito della
-        promozione del primo anno.
+    - *promotion_terms_panel
+    - *manual_coverage_check_panel
+
 - id: 4
+  name: 'Fibra'
+  slug: 'fibra'
+  long_name: 'ADSL: come ai vecchi tempi.'
+  description: "La stabilità di un'ADSL con il servizio di InterConn."
+  features:
+    - *public_ip_feature
+  panels:
+    - *promotion_terms_panel
+    - *manual_coverage_check_panel
+
+- id: 5
   name: 'VoIP'
   slug: 'voip'
   long_name: 'VoIP: telefona via internet.'

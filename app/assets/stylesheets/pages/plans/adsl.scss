@@ -3,10 +3,6 @@ body#plans-adsl {
     margin-top: 20px;
   }
 
-  .horizontal-call {
-    margin-top: 0;
-  }
-
   .feature-list {
     margin-top: 50px;
   }
@@ -54,6 +50,11 @@ body#plans-adsl {
     .custom-plans {
       margin: 0 auto;
     }
+  }
+
+  body#plans-adsl .pricing-panels {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 

@@ -116,7 +116,7 @@
     - *static_ip_vat_excluded
 
 - id: 8
-  category_id: 4
+  category_id: 5
   slug: 'interconn-voip'
   name: 'InterConn VoIP'
   vat_included: true
@@ -194,7 +194,7 @@
       content: 256 Kbps
 
 - id: 13
-  category_id: 3
+  category_id: 4
   slug: 'fibra-30mega'
   name: 'Fibra 30 Mega'
   vat_included: true
@@ -209,7 +209,7 @@
       content: 1 Mbps
 
 - id: 14
-  category_id: 3
+  category_id: 4
   slug: 'superfibra-30mega'
   name: 'SuperFibra 30 Mega'
   vat_included: true

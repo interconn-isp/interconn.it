@@ -3,6 +3,10 @@
     padding-top: 75px;
     padding-bottom: 75px;
 
+    &.feature-hug-jumbotron {
+      margin-bottom: -100px;
+    }
+
     p {
       font-size: ceil(($font-size-large * 1));
     }

@@ -1,6 +1,6 @@
 .feature-list.feature-list-inverted
-  - features.each do |feature|
-    .feature
+  - features.each_with_index do |feature, index|
+    %div{class: "feature #{'feature-hug-jumbotron' if (index + 1) == features.size}"}
       .container.contained
         .row
           .col-xs-12.col-md-4.feature-icon-container

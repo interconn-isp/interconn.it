@@ -171,6 +171,7 @@
 
 .asterisks-explanation {
   margin-top: 10px;
+  margin-bottom: 20px;
 
   ul {
     font-size: $font-size-small;
@@ -195,4 +196,8 @@
   @media (max-width: $screen-xs-max) {
     margin-top: 15px !important;
   }
+}
+
+.pricing-panels {
+  margin-bottom: 30px;
 }
