@@ -66,6 +66,15 @@
         <a href="mailto:info@interconn.it">info@interconn.it</a> o chiama il
         numero verde <strong>800-19-37-24</strong> (o lo <strong>06-833-903-15</strong>
         da cellulari e dall'estero).
+    -
+      type: warning
+      title:  Termini della promozione
+      content: >
+        Per beneficiare della promozione il Cliente dovrà mantenere il servizio per
+        almeno 24 mesi dalla data di attivazione. Prima di tale scadenza il Cliente
+        potrà recedere in qualsiasi momento dandone comunicazione contestualmente al
+        pagamento di una penale di recesso anticipato pari al beneficio fruito della
+        promozione del primo anno.
 - id: 4
   name: 'VoIP'
   slug: 'voip'
