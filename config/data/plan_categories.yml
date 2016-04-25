@@ -3,7 +3,7 @@
     name: Router Wi-Fi
     icon: wifi
     content: >
-      Insieme all'antenna, ti forniamo in comodato d'uso gratuito un router
+      Insieme alla connessione, ti forniamo in comodato d'uso gratuito un router
       Wi-Fi. Il router è completamente configurabile e, in caso di guasto,
       la sostituzione non ti costa nulla!
     headline: I tuoi strumenti non dovrebbero frenarti.
@@ -74,6 +74,7 @@
   long_name: 'ADSL: come ai vecchi tempi.'
   description: "La stabilità di un'ADSL con il servizio di InterConn."
   features:
+    - *router_feature
     - *public_ip_feature
   panels:
     - *promotion_terms_panel
@@ -85,6 +86,7 @@
   long_name: 'Fibra: più veloce e sicura che mai.'
   description: "Veloce come la luce, ma con i piedi per terra."
   features:
+    - *router_feature
     - *public_ip_feature
   panels:
     - *promotion_terms_panel
