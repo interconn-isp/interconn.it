@@ -23,10 +23,13 @@
         %li.feature-numbers
           .feature-content
             = feature['content']
+            - if feature['tooltip']
+              = link_to fa_icon('question-circle'), '#', data: { toggle: 'tooltip' }, title: feature['tooltip'], class: 'text-small'
           .feature-discounted-content
             = feature['erased_content']
           - if feature['erased_content']
             %span.label.label-success PROMO
+
 
   %li.product-action
     = link_to 'Attiva Offerta', new_inquiry_path(product: plan.slug), class: 'btn btn-orange btn-lg btn-transition'

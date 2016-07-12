@@ -15,9 +15,11 @@
   vat_included: true
   monthly_cost: 24
   features:
+    - name: Deposito cauzionale
+      content: €70
+      tooltip: Il deposito cauzionale sarà restituito al termine del contratto.
     - name: Installazione
-      erased_content: €180 u.t.*
-      content: €100 u.t.*
+      content: €30 u.t.*
     - name: Velocità di picco
       content: 7 Mbps / 3 Mbps
       2x: true
@@ -30,9 +32,11 @@
   vat_included: true
   monthly_cost: 31
   features:
+    - name: Deposito cauzionale
+      content: €70
+      tooltip: Il deposito cauzionale sarà restituito al termine del contratto.
     - name: Installazione
-      erased_content: €180 u.t.*
-      content: €100 u.t.*
+      content: €30 u.t.*
     - name: Velocità di picco
       content: 10 Mbps / 3 Mbps
       2x: true
@@ -45,9 +49,11 @@
   vat_included: false
   monthly_cost: 39
   features:
+    - name: Deposito cauzionale
+      content: €150
+      tooltip: Il deposito cauzionale sarà restituito al termine del contratto.
     - name: Installazione
-      erased_content: €245 u.t.**
-      content: €180 u.t.**
+      content: €30 u.t.**
     - name: Velocità di picco
       content: 4 Mbps / 1 Mbps
     - name: Banda garantita
@@ -61,9 +67,11 @@
   vat_included: false
   monthly_cost: 69
   features:
+    - name: Deposito cauzionale
+      content: €150
+      tooltip: Il deposito cauzionale sarà restituito al termine del contratto.
     - name: Installazione
-      erased_content: €245 u.t.**
-      content: €180 u.t.**
+      content: €30 u.t.**
     - name: Velocità di picco
       content: 7 Mbps / 3 Mbps
     - name: Banda garantita
