@@ -2,7 +2,7 @@ var CoverageMap = (function() {
   return {
     options: {
       center: new google.maps.LatLng(41.87, 12.60),
-      zoom: 11,
+      zoom: 10,
       disableDefaultUI: true,
       draggable: false,
       scrollwheel: false,
@@ -62,7 +62,7 @@ var CoverageMap = (function() {
 
       for (key in coordinates) {
         set = coordinates[key];
-        newCoordinates.push(new google.maps.LatLng(set[0], set[1]));
+        newCoordinates.push(new google.maps.LatLng(set[1], set[0]));
       }
 
       return newCoordinates;
