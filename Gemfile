@@ -47,9 +47,6 @@ gem 'sidekiq'
 # API
 gem 'jbuilder'
 
-# Monitoring
-gem 'newrelic_rpm'
-
 # Logging
 gem 'lograge'
 
