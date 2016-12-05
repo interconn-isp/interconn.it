@@ -1,0 +1,1163 @@
+traffic_direction,rate,time_slot
+841 841 Telecom Italia,0.00000000,flat
+Afghanistan,0.31135104,flat
+"Afghanistan, AWCC mobile",0.28014336,flat
+"Afghanistan, Etisalat mobile",0.29051136,flat
+"Afghanistan, mobile",0.31363200,flat
+"Afghanistan, MTN mobile",0.32607360,flat
+"Afghanistan, Roshan mobile",0.30098304,flat
+"Afghanistan, Wasel mobile",0.34909056,flat
+Alaska,0.04800384,flat
+Albania,0.15883776,flat
+Albania OLO,0.25920000,flat
+"Albania, mobile",0.41942400,flat
+"Albania, mobile AMC",0.43058304,flat
+"Albania, mobile Eagle",0.41181696,flat
+"Albania, mobile Plus",0.46417536,flat
+"Albania, mobile Vodafone",0.28843776,flat
+"Albania, Tirana",0.15883776,flat
+Algeria,0.08781696,flat
+"Algeria, Algeri",0.08138880,flat
+"Algeria, mobile",0.17760384,flat
+"Algeria, mobile Orascom",0.40559616,flat
+"Algeria, mobile Telecom",0.30513024,flat
+"Algeria, mobile Wataniya",0.53934336,flat
+"Algeria, satellite",0.39087360,flat
+Andorra,0.03545856,flat
+"Andorra, mobile",0.28014336,flat
+Angola,0.11695104,flat
+"Angola, mobile",0.10233216,flat
+Anguilla,0.09611136,flat
+"Anguilla, mobile",0.29683584,flat
+Antarctica,2.13891840,flat
+Antarctica Global Networks,5.11214976,flat
+Antigua & Barbuda,0.19440000,flat
+"Antigua & Barbuda, mobile",0.34909056,flat
+Argentina,0.03753216,flat
+"Argentina, Buenos Aires",0.00829440,flat
+"Argentina, Cities",0.01451520,flat
+"Argentina, Corridor",0.01036800,flat
+"Argentina, mobile",0.12545280,flat
+Armenia,0.14204160,flat
+Armenia other,0.20912256,flat
+"Armenia, mobile",0.24033024,flat
+Aruba,0.16298496,flat
+"Aruba, mobile",0.30720384,flat
+Ascension Island,2.11590144,flat
+Australia,0.02094336,flat
+"Australia, metro",0.01451520,flat
+"Australia, mobile",0.10025856,flat
+"Australia, satellite",3.48541056,flat
+Australian External Territories,2.69495424,flat
+Austria,0.02301696,flat
+"Austria, mobile",0.02301696,flat
+"Austria, mobile 3G Mobile",0.05007744,flat
+"Austria, mobile Hutchison 3G",0.04800384,flat
+"Austria, mobile Mobilcom",0.05007744,flat
+"Austria, mobile Mobile One",0.04800384,flat
+"Austria, mobile Telering",0.04800384,flat
+"Austria, mobile T-Mobile",0.04800384,flat
+"Austria, Special Services",0.02509056,flat
+"Austria, Vienna",0.02301696,flat
+Azerbaijan,0.30720384,flat
+"Azerbaijan, mobile",0.46624896,flat
+Azores,0.01866240,flat
+Bahamas,0.13374720,flat
+"Bahamas, mobile",0.24447744,flat
+Bahrain,0.10025856,flat
+"Bahrain, mobile",0.10865664,flat
+Bangladesh,0.05215104,flat
+"Bangladesh, Chittaong",0.04178304,flat
+"Bangladesh, Dhaka",0.04800384,flat
+"Bangladesh, mobile",0.04800384,flat
+"Bangladesh, Sylhet",0.04800384,flat
+Barbados,0.12960000,flat
+"Barbados, mobile",0.29890944,flat
+Belarus,0.48501504,flat
+"Belarus, mobile",0.48916224,flat
+Belgium,0.02094336,flat
+"Belgium, mobile",0.44217600,flat
+"Belgium, mobile Base",0.03131136,flat
+"Belgium, mobile Mobistar",0.03131136,flat
+"Belgium, mobile others",0.02923776,flat
+"Belgium, mobile Proximus",0.03131136,flat
+"Belgium, Special Services",0.03131136,flat
+Belize,0.33022080,flat
+"Belize, mobile",0.33229440,flat
+Benin,0.32400000,flat
+"Benin, mobile",0.29251200,flat
+"Benin, mobile Bell Benin",0.32400000,flat
+"Benin, mobile GLOMOB",0.32400000,flat
+"Benin, mobile Libercom",0.32400000,flat
+"Benin, mobile MTN",0.32192640,flat
+"Benin, mobile TELCEL",0.32192640,flat
+Bermuda,0.05837184,flat
+"Bermuda, mobile",0.05422464,flat
+Bhutan,0.13789440,flat
+Bolivia,0.11487744,flat
+"Bolivia, La Paz",0.09818496,flat
+"Bolivia, mobile",0.21326976,flat
+Bosnia-Herzegovina,0.16505856,flat
+"Bosnia-Herzegovina, mobile",0.45567360,flat
+"Bosnia-Herzegovina, Mostar",0.16505856,flat
+"Bosnia-Herzegovina, Srpska",0.16505856,flat
+Botswana,0.08989056,flat
+"Botswana, mobile",0.29476224,flat
+Brazil,0.02716416,flat
+"Brazil, Brasilia",0.01866240,flat
+"Brazil, mobile",0.08781696,flat
+"Brazil, Rio de Janeiro",0.01451520,flat
+"Brazil, San Paolo",0.01658880,flat
+Brunei Darussalam,0.03545856,flat
+"Brunei Darussalam, mobile",0.04178304,flat
+Bulgaria,0.02509056,flat
+"Bulgaria, fixed alternative networks",0.02509056,flat
+"Bulgaria, mobile",0.50388480,flat
+"Bulgaria, mobile BTC",0.07931520,flat
+"Bulgaria, mobile Globul",0.12317184,flat
+"Bulgaria, mobile Maxtel",0.06894720,flat
+"Bulgaria, mobile Mobiltel",0.07931520,flat
+"Bulgaria, Sofia",0.02509056,flat
+"Bulgaria, Special Services",0.23410944,flat
+Burkina Faso,0.31985280,flat
+"Burkina Faso, mobile",0.40559616,flat
+Burundi,0.69828480,flat
+"Burundi, mobile",0.65235456,flat
+Cambodia,0.07724160,flat
+"Cambodia, mobile",0.07724160,flat
+Cameroon,0.23410944,flat
+"Cameroon, Douala",0.23875200,flat
+"Cameroon, mobile",0.22996224,flat
+"Cameroon, mobile Orange",0.36578304,flat
+Canada,0.00622080,flat
+Cape Verde Islands,0.20476800,flat
+"Cape Verde Islands, mobile",0.33872256,flat
+Cayman Islands,0.22156416,flat
+"Cayman Islands, mobile",0.23618304,flat
+Central African Rep,0.41814144,flat
+"Central African Rep, mobile",0.52897536,flat
+"Central African Rep, Special Services",0.46624896,flat
+Chad,0.33457536,flat
+"Chad, mobile",0.62290944,flat
+"Chad, Special Services",2.32502400,flat
+Chatham Island,0.03338496,flat
+Chile,0.03338496,flat
+"Chile, Easter Island",0.03545856,flat
+"Chile, mobile",0.03960576,flat
+"Chile, Santiago",0.01866240,flat
+China,0.01036800,flat
+"China, Beijing",0.01036800,flat
+"China, Fuzhou",0.02112000,flat
+"China, Guangzhou",0.02112000,flat
+"China, mobile",0.01036800,flat
+"China, Nanjing",0.02112000,flat
+"China, Shanghai",0.02112000,flat
+"China, Shenzhen",0.02112000,flat
+Christmas Island,0.05629824,flat
+Cocos Island,0.05629824,flat
+Colombia,0.04593024,flat
+"Colombia, Barranquilla",0.02923776,flat
+"Colombia, Bogota",0.02923776,flat
+"Colombia, Cali",0.01658880,flat
+"Colombia, Cities",0.02923776,flat
+"Colombia, Medellin",0.04800384,flat
+"Colombia, mobile",0.10658304,flat
+"Colombia, mobile Comcel",0.06044544,flat
+"Colombia, mobile Movistar",0.08989056,flat
+"Colombia, mobile Tigo",0.10450944,flat
+Comoros,0.58112640,flat
+Congo,0.56453760,flat
+Congo Democratic Republic,0.60414336,flat
+"Congo Democratic Republic, CCT mobile",0.30305664,flat
+"Congo Democratic Republic, Celtel mobile",0.36370944,flat
+"Congo Democratic Republic, mobile",0.88853760,flat
+"Congo Democratic Republic, mobile Vodacom",0.25712640,flat
+"Congo Democratic Republic, Tigo mobile",0.39502080,flat
+"Congo, mobile",0.52047360,flat
+Cook Islands,1.16246016,flat
+"Cook Islands, mobile",1.16246016,flat
+"Cook Islands, Special Services",4.64797440,flat
+Costa Rica,0.01866240,flat
+"Costa Rica, mobile",0.08366976,flat
+Croatia,0.02509056,flat
+"Croatia, mobile",0.15261696,flat
+"Croatia, Zagreb",0.01658880,flat
+Cuba,0.97635456,flat
+"Cuba, mobile",0.97635456,flat
+Cyprus,0.01451520,flat
+"Cyprus, mobile",0.05215104,flat
+"Cyprus, North",0.07102080,flat
+Czech Republic,0.03131136,flat
+"Czech Republic, mobile",0.02923776,flat
+"Czech Republic, Prague",0.03131136,flat
+Denmark,0.01244160,flat
+"Denmark, mobile",0.24950400,flat
+"Denmark, mobile Barablu",0.03545856,flat
+"Denmark, mobile HI3G",0.03545856,flat
+"Denmark, mobile Others",0.03545856,flat
+"Denmark, mobile TDC Mobil",0.03545856,flat
+"Denmark, mobile Telenor",0.03545856,flat
+"Denmark, mobile Telia mobile",0.03545856,flat
+Diego Garcia,2.11590144,flat
+Djibouti,0.48086784,flat
+"Djibouti, mobile",0.47869056,flat
+Dominica,0.14639616,flat
+"Dominica, mobile",0.32607360,flat
+Dominican Republic,0.03545856,flat
+"Dominican Republic, mob Centennial",0.11073024,flat
+"Dominican Republic, mob Orange",0.11280384,flat
+"Dominican Republic, mob Others",0.11073024,flat
+"Dominican Republic, mob Tricom",0.11073024,flat
+"Dominican Republic, mobile",0.16348800,flat
+"Dominican Republic, mobile Ce",0.16348800,flat
+"Dominican Republic, mobile Or",0.16348800,flat
+"Dominican Republic, mobile Ot",0.16348800,flat
+"Dominican Republic, mobile Tricom",0.16348800,flat
+Ecuador,0.14411520,flat
+"Ecuador, Cuenca",0.14411520,flat
+"Ecuador, Guayaquil",0.14411520,flat
+"Ecuador, Guayaquill",0.17827200,flat
+"Ecuador, mobile",0.28636416,flat
+"Ecuador, mobile Movistar",0.28014336,flat
+"Ecuador, mobile Porta",0.28843776,flat
+"Ecuador, Quito",0.14204160,flat
+Egypt,0.09818496,flat
+"Egypt, Alexandria",0.09403776,flat
+"Egypt, Cairo",0.09818496,flat
+"Egypt, mobile",0.17345664,flat
+"Egypt, mobile Etisalat",0.12109824,flat
+El Salvador,0.20476800,flat
+"El Salvador, mobile",0.21949056,flat
+"El Salvador, mobile Digicel",0.22571136,flat
+Ellipso,4.64797440,flat
+EMSAT,6.04039680,flat
+Equatorial Guinea,0.26542080,flat
+"Equatorial Guinea, mobile",0.26749440,flat
+Eritrea,0.31777920,flat
+"Eritrea, mobile",0.32400000,flat
+Estonia,0.02301696,flat
+"Estonia, mobile",0.43680384,flat
+"Estonia, Special Services",0.79657344,flat
+Ethiopia,0.34701696,flat
+"Ethiopia, Addis Abeba",0.34286976,flat
+"Ethiopia, mobile",0.34079616,flat
+"Ethiopia, mobile ETA",0.31135104,flat
+ETNS Euro Space,10.03186944,flat
+Falkland Islands,1.62653184,flat
+Faroe Islands,0.11695104,flat
+"Faroe Islands, mobile",0.28014336,flat
+Fiji Islands,0.34909056,flat
+"Fiji Islands, mobile",0.34909056,flat
+"Fiji Islands, Special Services",4.64797440,flat
+Finland,0.05837184,flat
+"Finland, Corporate",0.07516800,flat
+"Finland, Helsinki",0.05629824,flat
+"Finland, mobile",0.17212800,flat
+"Finland, Mobile Aaland Mobil",0.07102080,flat
+"Finland, Mobile DNA",0.06894720,flat
+"Finland, Mobile Elisa",0.06894720,flat
+"Finland, Mobile Others",0.06894720,flat
+"Finland, Mobile Sonera",0.06894720,flat
+"Finland, Mobile TDC",0.06894720,flat
+"Finland, Premium",0.09611136,flat
+"Finland, Special Services",0.14841600,flat
+France,0.00622080,flat
+"France, fixed alternative networks",0.03446400,flat
+"France, mobile",0.03545856,flat
+"France, mobile Bouygues",0.03338496,flat
+"France, mobile Globalstar",0.58548096,flat
+"France, mobile Orange",0.03338496,flat
+"France, mobile SFR",0.03338496,flat
+"France, Paris",0.00622080,flat
+"France, Special Services",0.20912256,flat
+French Antilles,0.03960576,flat
+"French Antilles, mobile",0.16298496,flat
+French Guiana,0.06272640,flat
+"French Guiana, mobile",0.13996800,flat
+French Polynesia,0.39294720,flat
+"French Polynesia, mobile",0.42436224,flat
+Gabon,0.59792256,flat
+"Gabon, mobile",0.59999616,flat
+Gambia,0.59999616,flat
+"Gambia, mobile",0.63676800,flat
+"Gambia, mobile Africell",0.59999616,flat
+"Gambia, mobile Comium",0.59999616,flat
+"Gambia, mobile Gamcell",0.59999616,flat
+"Gambia, mobile Qcell",0.59999616,flat
+Georgia,0.08138880,flat
+"Georgia, mobile",0.14411520,flat
+"Georgia, mobile Geocell",0.14411520,flat
+"Georgia, mobile Magtikom",0.14411520,flat
+"Georgia, Special services",0.08138880,flat
+"Georgia, Tbilisi",0.08138880,flat
+Germany,0.01451520,flat
+"Germany, mobile",0.04385664,flat
+"Germany, mobile Eplus",0.04593024,flat
+"Germany, mobile O2",0.04593024,flat
+"Germany, mobile T-Mobile",0.04593024,flat
+"Germany, mobile Vodafone D2",0.04593024,flat
+"Germany, Personal Number",0.08138880,flat
+"Germany, Special Services",0.05215104,flat
+Ghana,0.29051136,flat
+"Ghana, Accra",0.29051136,flat
+"Ghana, mobile",0.20912256,flat
+"Ghana, mobile MTN",0.20684160,flat
+Gibraltar,0.05837184,flat
+"Gibraltar, mobile",0.39502080,flat
+Globalstar,5.80836096,flat
+Greece,0.01658880,flat
+"Greece, Athens",0.01451520,flat
+"Greece, mobile",0.02923776,flat
+"Greece, mobile Wind",0.02923776,flat
+Greenland,0.79024896,flat
+"Greenland, mobile",0.81316224,flat
+Grenada,0.28014336,flat
+"Grenada, mobile",0.32607360,flat
+Guadeloupe,0.02509056,flat
+"Guadeloupe, mobile",0.10450944,flat
+Guam,0.02509056,flat
+"Guam, mobile",0.03545856,flat
+Guatemala,0.17138304,flat
+"Guatemala, mobile",0.19232640,flat
+Guinea,0.62498304,flat
+"Guinea, mobile",0.54566784,flat
+"Guinea, mobile Areeba",0.58112640,flat
+"Guinea, mobile Cellcom",0.55810944,flat
+"Guinea, mobile Intercel",0.53519616,flat
+"Guinea, mobile Orange",0.47869056,flat
+"Guinea, mobile Sotelgui",0.61461504,flat
+Guinea-Bissau,0.46832256,flat
+"Guinea-Bissau, mobile",0.51010560,flat
+Guyana,0.34909056,flat
+"Guyana, mobile",0.38050560,flat
+"Guyana, Special Services",0.46624896,flat
+Haiti,0.41814144,flat
+"Haiti, mobile",0.39502080,flat
+Hawaii,0.01451520,flat
+Honduras,0.16091136,flat
+"Honduras, mobile",0.20476800,flat
+Hong Kong,0.02509056,flat
+"Hong Kong, mobile",0.02509056,flat
+Hungary,0.01036800,flat
+"Hungary, Budapest",0.01036800,flat
+"Hungary, mobile",0.06272640,flat
+Iceland,0.02923776,flat
+"Iceland, mobile",0.16723584,flat
+India,0.03338496,flat
+"India, Bombay",0.02923776,flat
+"India, Calcutta",0.02923776,flat
+"India, mobile",0.02923776,flat
+"India, mobile BSNL",0.02716416,flat
+"India, New Delhi",0.02923776,flat
+"India, Punjab",0.02923776,flat
+Indonesia,0.06044544,flat
+"Indonesia, Jakarta",0.01866240,flat
+"Indonesia, mobile",0.03338496,flat
+Inmarsat (SNAC) Aero,6.97092480,flat
+Inmarsat B (SNAC) Except Pacific,4.30656000,flat
+Inmarsat B (SNAC) -S,2.55705984,flat
+Inmarsat B GAN,1.64332800,flat
+Inmarsat B HSD (SNAC) -S,8.13131136,flat
+Inmarsat BGAN SNAC,2.87385600,flat
+Inmarsat HSD Atlantic Ocean East,12.90662400,flat
+Inmarsat HSD Atlantic Ocean West,12.90662400,flat
+Inmarsat HSD Indian Ocean,12.90662400,flat
+Inmarsat HSD Pacific Ocean,12.90662400,flat
+Inmarsat HSD SNAC Except Pacific,13.62729600,flat
+Inmarsat M (SNAC) Except Pacific,2.32502400,flat
+Inmarsat M4 (SNAC) HSD,8.13131136,flat
+Inmarsat M4/ Atlantic Ocean East,12.90662400,flat
+Inmarsat M4/ Atlantic Ocean West,12.90662400,flat
+Inmarsat M4/ Indian Ocean,12.90662400,flat
+Inmarsat M4/ Pacific Ocean,12.90662400,flat
+Inmarsat Mini-M (SNAC) Except Pacific,2.87385600,flat
+Inmarsat Mini-M Fleet,1.85867136,flat
+Inmarsat SNAC,8.13131136,flat
+Inmarsat-A Atlantic Ocean region East,12.90662400,flat
+Inmarsat-A Atlantic Ocean region West,12.90662400,flat
+Inmarsat-A Indian Ocean region,12.90662400,flat
+Inmarsat-A Pacific Ocean region,12.90662400,flat
+Inmarsat-AERO Atlantic Ocean region East,12.90662400,flat
+Inmarsat-AERO Atlantic Ocean region West,12.90662400,flat
+Inmarsat-AERO Indian Ocean region,12.90662400,flat
+Inmarsat-AERO Pacific Ocean region,12.90662400,flat
+Inmarsat-B Atlantic Ocean region East,12.90662400,flat
+Inmarsat-B Atlantic Ocean region West,12.90662400,flat
+Inmarsat-B Indian Ocean region,12.90662400,flat
+Inmarsat-B Pacific Ocean region,12.90662400,flat
+Inmarsat-M Atlantic Ocean region East,12.90662400,flat
+Inmarsat-M Atlantic Ocean region West,12.90662400,flat
+Inmarsat-M Indian Ocean region,12.90662400,flat
+Inmarsat-M Pacific Ocean region,12.90662400,flat
+Inmarsat-Mini M Atlantic Ocean region East,12.90662400,flat
+Inmarsat-Mini M Atlantic Ocean region West,12.90662400,flat
+Inmarsat-Mini M Indian Ocean region,12.90662400,flat
+Inmarsat-Mini M Pacific Ocean region,12.90662400,flat
+InSat,6.97092480,flat
+"International Networks, shared code",8.13131136,flat
+International Shared Cost Number,0.13374720,flat
+Iran,0.06044544,flat
+"Iran, mobile",0.11695104,flat
+Iraq,0.18817920,flat
+"Iraq, mobile",0.27599616,flat
+Ireland,0.01244160,flat
+"Ireland, mobile",0.13996800,flat
+"Ireland, mobile H3G",0.10025856,flat
+"Ireland, mobile Meteor",0.10233216,flat
+"Ireland, mobile O2",0.08574336,flat
+"Ireland, mobile Vodafone",0.06687360,flat
+"Ireland, Special Services",0.22156416,flat
+Iridium,5.80836096,flat
+Israel,0.01244160,flat
+"Israel, mobile",0.03131136,flat
+"Israel, Tel Aviv",0.01451520,flat
+Israel-Palestine Auth.,0.22571136,flat
+"Israel-Palestine Auth., mobile",0.26127360,flat
+Italy nomadiche,0.02227200,peak
+Italy nomadiche,0.02227200,off_peak
+"Italy, 155ccWind",0.12000000,flat
+"Italy, 840 0 Telecom Italia",0.00000000,flat
+"Italy, 840 1100 BT-Italia",0.00000000,flat
+"Italy, 840 1107 BT-Italia",0.00000000,flat
+"Italy, 840 1113 BT-Italia",0.00000000,flat
+"Italy, 840 1117 BT-Italia",0.00000000,flat
+"Italy, 840 1123 BT-Italia",0.00000000,flat
+"Italy, 840 1137 BT-Italia",0.00000000,flat
+"Italy, 840 1147 BT-Italia",0.00000000,flat
+"Italy, 840 1161 BT-Italia",0.00000000,flat
+"Italy, 840 1181 BT-Italia",0.00000000,flat
+"Italy, 840 1199 BT-Italia",0.00000000,flat
+"Italy, 840 1300 Eutelia",0.00000000,flat
+"Italy, 840 1301 Eutelia",0.00000000,flat
+"Italy, 840 1302 Eutelia",0.00000000,flat
+"Italy, 840 1303 Eutelia",0.00000000,flat
+"Italy, 840 1313 Eutelia",0.00000000,flat
+"Italy, 840 1315 Eutelia",0.00000000,flat
+"Italy, 840 1403 Fastweb Mediterranea",0.00000000,flat
+"Italy, 840 1404 Fastweb Mediterranea",0.00000000,flat
+"Italy, 840 1405 Fastweb Mediterranea",0.00000000,flat
+"Italy, 840 1406 Fastweb Mediterranea",0.00000000,flat
+"Italy, 840 1431 Eutelia",0.00000000,flat
+"Italy, 840 1511 Eutelia",0.00000000,flat
+"Italy, 840 2222 BT-Italia",0.00000000,flat
+"Italy, 840 2922 BT-Italia",0.00000000,flat
+"Italy, 840 300 Tiscali",0.00000000,flat
+"Italy, 840 32 Colt Telecom",0.00000000,flat
+"Italy, 840 6903 Eutelia",0.00000000,flat
+"Italy, 840 6904 Eutelia",0.00000000,flat
+"Italy, 840 6905 Eutelia",0.00000000,flat
+"Italy, 840 6907 Eutelia",0.00000000,flat
+"Italy, 840 6908 Eutelia",0.00000000,flat
+"Italy, 840 6928 Eutelia (ex Noicom)",0.00000000,flat
+"Italy, 840 6939 Eutelia",0.00000000,flat
+"Italy, 840 70 BT/Albacom",0.00000000,flat
+"Italy, 840 8 Telecom Italia",0.00000000,flat
+"Italy, 840 8480 Fastweb",0.00000000,flat
+"Italy, 840 8484 Fastweb",0.00000000,flat
+"Italy, 840 8844 Fastweb",0.00000000,flat
+"Italy, 840 8888 Fastweb",0.00000000,flat
+"Italy, 840 9910 Tele 2",0.00000000,flat
+"Italy, 848",0.04080000,peak
+"Italy, 848",0.02352000,off_peak
+"Italy, 848.0000xx Fastweb Mediterranea",0.03072000,peak
+"Italy, 848.0000xx Fastweb Mediterranea",0.17548800,off_peak
+"Italy, 848.0001xx Fastweb Mediterranea",0.06451200,peak
+"Italy, 848.0001xx Fastweb Mediterranea",0.06451200,off_peak
+"Italy, 848.0002xx Fastweb Mediterranea",0.04080000,peak
+"Italy, 848.0002xx Fastweb Mediterranea",0.02352000,off_peak
+"Italy, 848.0003xx Fastweb Mediterranea",0.04080000,peak
+"Italy, 848.0003xx Fastweb Mediterranea",0.02352000,off_peak
+"Italy, 848.0016xx Eutelia",0.03072000,peak
+"Italy, 848.0016xx Eutelia",0.01756800,off_peak
+"Italy, 848.1100xx BT",0.03072000,peak
+"Italy, 848.1100xx BT",0.01756800,off_peak
+"Italy, 848.1111xx BT",0.03072000,peak
+"Italy, 848.1111xx BT",0.01756800,off_peak
+"Italy, 848.1122xx BT",0.03072000,peak
+"Italy, 848.1122xx BT",0.01756800,off_peak
+"Italy, 848.1133xx BT",0.03072000,peak
+"Italy, 848.1133xx BT",0.01756800,off_peak
+"Italy, 848.1144xx BT",0.03072000,peak
+"Italy, 848.1144xx BT",0.01756800,off_peak
+"Italy, 848.1155xx BT",0.03072000,peak
+"Italy, 848.1155xx BT",0.01756800,off_peak
+"Italy, 848.1166xx BT",0.03072000,peak
+"Italy, 848.1166xx BT",0.01756800,off_peak
+"Italy, 848.1177xx BT",0.03072000,peak
+"Italy, 848.1177xx BT",0.01756800,off_peak
+"Italy, 848.1188xx BT",0.03072000,peak
+"Italy, 848.1188xx BT",0.01756800,off_peak
+"Italy, 848.1199xx BT",0.03072000,peak
+"Italy, 848.1199xx BT",0.01756800,off_peak
+"Italy, 848.1500xx BT",0.03072000,peak
+"Italy, 848.1500xx BT",0.01756800,off_peak
+"Italy, 848.1501xx BT",0.03072000,peak
+"Italy, 848.1501xx BT",0.01756800,off_peak
+"Italy, 848.1502xx BT",0.03072000,peak
+"Italy, 848.1502xx BT",0.01756800,off_peak
+"Italy, 848.1503xx BT",0.03072000,peak
+"Italy, 848.1503xx BT",0.01756800,off_peak
+"Italy, 848.1504xx BT",0.03072000,peak
+"Italy, 848.1504xx BT",0.01756800,off_peak
+"Italy, 848.1505xx BT",0.03072000,peak
+"Italy, 848.1505xx BT",0.01756800,off_peak
+"Italy, 848.1506xx BT",0.03072000,peak
+"Italy, 848.1506xx BT",0.01756800,off_peak
+"Italy, 848.1507xx BT",0.03072000,peak
+"Italy, 848.1507xx BT",0.01756800,off_peak
+"Italy, 848.1517xx BT",0.03072000,peak
+"Italy, 848.1517xx BT",0.01756800,off_peak
+"Italy, 848.1519xx BT",0.03072000,peak
+"Italy, 848.1519xx BT",0.01756800,off_peak
+"Italy, 848.1557xx BT",0.03072000,peak
+"Italy, 848.1557xx BT",0.01756800,off_peak
+"Italy, 848.1587xx BT",0.03072000,peak
+"Italy, 848.1587xx BT",0.01756800,off_peak
+"Italy, 848.1597xx BT",0.03072000,peak
+"Italy, 848.1597xx BT",0.01756800,off_peak
+"Italy, 848.1598xx BT",0.03072000,peak
+"Italy, 848.1598xx BT",0.01756800,off_peak
+"Italy, 848.1599xx BT",0.03072000,peak
+"Italy, 848.1599xx BT",0.01756800,off_peak
+"Italy, 848.2422xx Fastweb",0.03072000,peak
+"Italy, 848.2422xx Fastweb",0.01756800,off_peak
+"Italy, 848.2424xx Fastweb",0.04080000,peak
+"Italy, 848.2424xx Fastweb",0.02352000,off_peak
+"Italy, 848.380xxx Tiscali",0.03072000,peak
+"Italy, 848.380xxx Tiscali",0.01756800,off_peak
+"Italy, 848.4248 Brennercom",0.02582400,peak
+"Italy, 848.4248 Brennercom",0.01286400,off_peak
+"Italy, 848.4444xx Fastweb",0.04080000,peak
+"Italy, 848.4444xx Fastweb",0.02352000,off_peak
+"Italy, 848.4488xx Fastweb",0.06451200,flat
+"Italy, 848.500xxx Telecom Italia",0.06451200,flat
+"Italy, 848.5800 Wind",0.03072000,peak
+"Italy, 848.5800 Wind",0.01756800,off_peak
+"Italy, 848.5801 Wind",0.03072000,peak
+"Italy, 848.5801 Wind",0.01756800,off_peak
+"Italy, 848.5802 Wind",0.03072000,peak
+"Italy, 848.5802 Wind",0.01756800,off_peak
+"Italy, 848.5803 Wind",0.03072000,peak
+"Italy, 848.5803 Wind",0.01756800,off_peak
+"Italy, 848.5804 Wind",0.03072000,peak
+"Italy, 848.5804 Wind",0.01756800,off_peak
+"Italy, 848.5820 Wind",0.03072000,peak
+"Italy, 848.5820 Wind",0.01756800,off_peak
+"Italy, 848.66xxxx BT",0.03072000,peak
+"Italy, 848.66xxxx BT",0.01756800,off_peak
+"Italy, 848.6903xx Eutelia",0.03072000,peak
+"Italy, 848.6903xx Eutelia",0.01756800,off_peak
+"Italy, 848.6904xx Eutelia",0.03072000,peak
+"Italy, 848.6904xx Eutelia",0.01756800,off_peak
+"Italy, 848.6905xx Eutelia",0.03072000,peak
+"Italy, 848.6905xx Eutelia",0.01756800,off_peak
+"Italy, 848.6906xx Eutelia",0.03072000,peak
+"Italy, 848.6906xx Eutelia",0.01756800,off_peak
+"Italy, 848.6907xx Eutelia",0.03072000,peak
+"Italy, 848.6907xx Eutelia",0.01756800,off_peak
+"Italy, 848.78xxxx Albacom",0.03072000,peak
+"Italy, 848.78xxxx Albacom",0.01756800,off_peak
+"Italy, 848.8500 Telecom Italia",0.03081600,peak
+"Italy, 848.8500 Telecom Italia",0.01766400,off_peak
+"Italy, 848.8xxxxx Telecom Italia",0.03072000,peak
+"Italy, 848.8xxxxx Telecom Italia",0.01756800,off_peak
+"Italy, 848.98 Wind",0.03072000,peak
+"Italy, 848.98 Wind",0.01756800,off_peak
+"Italy, 848.9910 Tele2",0.03072000,peak
+"Italy, 848.9910 Tele2",0.01756800,off_peak
+"Italy, mobile H3G ported Noverca",0.07555200,peak
+"Italy, mobile H3G ported Noverca",0.07555200,off_peak
+"Italy, mobile Noverca",0.07555200,peak
+"Italy, mobile Noverca",0.07555200,off_peak
+"Italy, mobile Noverca ported H3G",0.07747200,peak
+"Italy, mobile Noverca ported H3G",0.07747200,off_peak
+"Italy, mobile Noverca ported TIM",0.07555200,peak
+"Italy, mobile Noverca ported TIM",0.07555200,off_peak
+"Italy, mobile Noverca ported Vodafone",0.07555200,peak
+"Italy, mobile Noverca ported Vodafone",0.07555200,off_peak
+"Italy, mobile Noverca ported Wind",0.07555200,peak
+"Italy, mobile Noverca ported Wind",0.07555200,off_peak
+"Italy, mobile TIM ported Noverca",0.07555200,peak
+"Italy, mobile TIM ported Noverca",0.07555200,off_peak
+"Italy, mobile Vodafone ported Noverca",0.07555200,peak
+"Italy, mobile Vodafone ported Noverca",0.07555200,off_peak
+"Italy, mobile WIND ported Noverca",0.07555200,peak
+"Italy, mobile WIND ported Noverca",0.07555200,off_peak
+"Italy, Servizio Clienti TIM",0.12000000,flat
+"Italy, Servizio Clienti Vodafone",0.12000000,flat
+"Italy, Special services 12.40",3.09763200,flat
+"Italy, Special services 12.44",2.83948800,flat
+"Italy, Special services 12.48",3.09763200,flat
+"Italy, Special services 12.50",3.09763200,flat
+"Italy, Special services 12.54",3.09763200,flat
+"Italy, Special services 12.56",3.09763200,peak
+"Italy, Special services 12.56",3.09763200,off_peak
+"Italy, Special services 12.60",3.09763200,peak
+"Italy, Special services 12.60",3.09763200,off_peak
+"Italy, Special services 12.66",3.09763200,peak
+"Italy, Special services 12.66",3.09763200,off_peak
+"Italy, Special services 12.77",3.09763200,peak
+"Italy, Special services 12.77",3.09763200,off_peak
+"Italy, Special services 12.80",3.09763200,flat
+"Italy, Special services 12.88",3.09763200,flat
+"Italy, Special services 12.89",3.09763200,flat
+"Italy, Special services 12.99",3.09763200,flat
+"Italy, Special services 178.200 Karupa",0.67113600,flat
+"Italy, Special services 178.202",0.86659200,flat
+"Italy, Special services 178.203",0.86659200,flat
+"Italy, Special services 178.208 Fastweb",0.67113600,peak
+"Italy, Special services 178.208 Fastweb",0.67113600,off_peak
+"Italy, Special services 178.214",0.25814400,flat
+"Italy, Special services 178.215",0.53328000,flat
+"Italy, Special services 178.216",0.39984000,flat
+"Italy, Special services 178.22",0.21321600,flat
+"Italy, Special services 178.24",0.12672000,flat
+"Italy, Special services 178.27",0.21321600,flat
+"Italy, Special services 178.33",0.67113600,flat
+"Italy, Special services 178.400",0.86659200,flat
+"Italy, Special services 178.44",0.67113600,flat
+"Italy, Special services 178.60",0.21321600,flat
+"Italy, Special services 199.1",0.30672000,peak
+"Italy, Special services 199.1",0.12000000,off_peak
+"Italy, Special services 199.103",0.67113600,flat
+"Italy, Special services 199.200",0.02448000,flat
+"Italy, Special services 199.201",0.67113600,flat
+"Italy, Special services 199.203",0.30662400,peak
+"Italy, Special services 199.203",0.12000000,off_peak
+"Italy, Special services 199.207",0.12652800,flat
+"Italy, Special Services 199.208",0.02582400,flat
+"Italy, Special services 199.209020 Energit",0.25814400,flat
+"Italy, Special services 199.210",0.12902400,flat
+"Italy, Special services 199.213",0.38716800,flat
+"Italy, Special services 199.214",0.30662400,peak
+"Italy, Special services 199.214",0.12000000,off_peak
+"Italy, Special services 199.222",0.67113600,flat
+"Italy, Special services 199.2292",0.39964800,peak
+"Italy, Special services 199.2292",0.39964800,off_peak
+"Italy, Special services 199.23",0.25814400,flat
+"Italy, Special services 199.24",0.30662400,peak
+"Italy, Special services 199.24",0.12000000,off_peak
+"Italy, Special services 199.25",0.17318400,flat
+"Italy, Special services 199.28",0.05164800,flat
+"Italy, Special services 199.295 Wind",0.30662400,peak
+"Italy, Special services 199.295 Wind",0.12000000,off_peak
+"Italy, Special services 199.301",0.67113600,flat
+"Italy, Special services 199.302 Intermatica",0.30662400,peak
+"Italy, Special services 199.302 Intermatica",0.12000000,off_peak
+"Italy, Special services 199.303",0.05683200,flat
+"Italy, Special services 199.305",0.25814400,flat
+"Italy, Special services 199.307",0.07747200,flat
+"Italy, Special services 199.308",0.21321600,flat
+"Italy, Special services 199.309",0.30662400,peak
+"Italy, Special services 199.309",0.12000000,off_peak
+"Italy, Special services 199.310",0.38716800,flat
+"Italy, Special services 199.3145",0.59193600,peak
+"Italy, Special services 199.3145",0.59193600,off_peak
+"Italy, Special services 199.3147",0.17318400,peak
+"Italy, Special services 199.3147",0.17318400,off_peak
+"Italy, Special services 199.3148",0.28060800,peak
+"Italy, Special services 199.3148",0.28060800,off_peak
+"Italy, Special services 199.315",0.39984000,flat
+"Italy, Special services 199.317",0.67113600,flat
+"Italy, Special services 199.32",0.67113600,flat
+"Italy, Special services 199.35",0.30662400,peak
+"Italy, Special services 199.35",0.12000000,off_peak
+"Italy, Special services 199.36",0.67113600,flat
+"Italy, Special services 199.37",0.30662400,peak
+"Italy, Special services 199.37",0.12000000,off_peak
+"Italy, Special services 199.38 BT/Albacom",0.12902400,flat
+"Italy, Special services 199.39",0.30662400,peak
+"Italy, Special services 199.39",0.12000000,off_peak
+"Italy, Special services 199.400",0.25814400,flat
+"Italy, Special services 199.401",0.67113600,flat
+"Italy, Special services 199.403",0.30662400,peak
+"Italy, Special services 199.403",0.12000000,off_peak
+"Italy, Special services 199.404",0.53328000,flat
+"Italy, Special services 199.405",0.67113600,flat
+"Italy, Special services 199.410",0.21321600,flat
+"Italy, Special services 199.411",0.30662400,peak
+"Italy, Special services 199.411",0.12000000,off_peak
+"Italy, Special services 199.412",0.25814400,flat
+"Italy, Special services 199.413",0.38716800,flat
+"Italy, Special services 199.414",0.12902400,flat
+"Italy, Special services 199.415",0.39984000,flat
+"Italy, Special services 199.416",0.38716800,flat
+"Italy, Special services 199.417",0.67113600,flat
+"Italy, Special services 199.418",0.30662400,peak
+"Italy, Special services 199.418",0.12000000,off_peak
+"Italy, Special services 199.419",0.27206400,peak
+"Italy, Special services 199.419",0.20265600,off_peak
+"Italy, Special services 199.44",0.27206400,peak
+"Italy, Special services 199.44",0.20265600,off_peak
+"Italy, Special services 199.47",0.12672000,flat
+"Italy, Special services 199.5",0.30662400,peak
+"Italy, Special services 199.5",0.12000000,off_peak
+"Italy, Special services 199.6",0.30662400,peak
+"Italy, Special services 199.6",0.12000000,off_peak
+"Italy, Special services 199.67",0.30662400,peak
+"Italy, Special services 199.67",0.12000000,off_peak
+"Italy, Special services 199.7",0.30662400,peak
+"Italy, Special services 199.7",0.12000000,off_peak
+"Italy, Special services 199.8",0.21321600,flat
+"Italy, Special services 199.9",0.03868800,flat
+"Italy, Special services 199.90",0.64531200,flat
+"Italy, Special services 199.94",0.67113600,flat
+"Italy, Special services 199.95",0.25814400,flat
+"Italy, Special services 840.50",0.00000000,flat
+"Italy, Special services 892.032",0.00000000,peak
+"Italy, Special services 892.032",0.00000000,off_peak
+"Italy, Special services 892.080",0.15993600,flat
+"Italy, Special services 892.123",0.38716800,flat
+"Italy, Special services 892.323",0.01677920,flat
+"Italy, Special services 892.727",1.33584000,flat
+"Italy, Special services 892.888",2.90400000,flat
+"Italy, Special services 892.900",1.00675200,flat
+"Italy, Special services 892.928",1.20998400,flat
+"Italy, Special services 892892",3.09763200,flat
+"Italy, Special services 895.89589",1.54876800,flat
+Ivory Coast,0.30305664,flat
+"Ivory Coast, Abidjan",0.37862400,flat
+"Ivory Coast, mobile",0.20269440,flat
+"Ivory Coast, mobile Moov",0.40144896,flat
+"Ivory Coast, mobile MTN",0.43058304,flat
+"Ivory Coast, mobile Orange",0.40144896,flat
+"Ivory Coast, mobile Oricel",0.20476800,flat
+"Ivory Coast, Special Services",0.46624896,flat
+Jamaica,0.15676416,flat
+"Jamaica, mobile",0.34701696,flat
+Japan,0.03753216,flat
+"Japan, mobile",0.11073024,flat
+"Japan, Tokyo",0.03338496,flat
+Jordan,0.13582080,flat
+"Jordan, mobile",0.13789440,flat
+Kazakhstan,0.03338496,flat
+"Kazakhstan, Almaty",0.05366400,flat
+"Kazakhstan, mobile",0.26956800,flat
+Kenya,0.17967744,flat
+"Kenya, mobile",0.17967744,flat
+"Kenya, mobile Safaricom",0.13996800,flat
+"Kenya, Nairobi",0.15883776,flat
+Kiribati,0.88439040,flat
+"Kiribati, mobile",0.93032064,flat
+"Kiribati, Special Services",4.64797440,flat
+Korea North,0.97635456,flat
+Korea South,0.01451520,flat
+"Korea South, mobile",0.03131136,flat
+"Korea South, Seoul",0.01451520,flat
+Kuwait,0.08138880,flat
+"Kuwait, mobile",0.10025856,flat
+Kyrgyzstan,0.16723584,flat
+"Kyrgyzstan, mobile",0.18589824,flat
+Laos,0.06687360,flat
+"Laos, mobile",0.07102080,flat
+Latvia,0.08781696,flat
+"Latvia, mobile",0.11695104,flat
+"Latvia, mobile 2",0.81316224,flat
+"Latvia, Riga",0.03753216,flat
+"Latvia, Special Services",0.83638656,flat
+Lebanon,0.12317184,flat
+"Lebanon, mobile",0.22778496,flat
+Lesotho,0.25712640,flat
+"Lesotho, mobile",0.28429056,flat
+Liberia,0.54774144,flat
+"Liberia, mobile",0.55810944,flat
+"Liberia, mobile MTN",0.57075840,flat
+"Liberia, Special Services",0.54774144,flat
+Libya,0.31135104,flat
+"Libya, mobile",0.42850944,flat
+"Libya, mobile Libyana Al Hurra",0.54211200,flat
+Liechtenstein,0.10233216,flat
+"Liechtenstein, mobile",0.28014336,flat
+"Liechtenstein, Special Services",0.23410944,flat
+Lithuania,0.02509056,flat
+"Lithuania, mobile",0.03338496,flat
+"Lithuania, Special Services",0.69828480,flat
+Luxembourg,0.01866240,flat
+"Luxembourg, mobile",0.21326976,flat
+Macao,0.08138880,flat
+"Macao, mobile",0.09403776,flat
+Macedonia,0.16505856,flat
+"Macedonia, mobile",0.52482816,flat
+Madagascar,0.82995840,flat
+"Madagascar, mobile",0.82995840,flat
+"Madagascar, mobile Madacom",0.85297536,flat
+"Madagascar, mobile Orange",0.81316224,flat
+"Madagascar, Special Services",0.83638656,flat
+Madeira,0.02509056,flat
+Malawi,0.11695104,flat
+"Malawi, mobile",0.23410944,flat
+Malaysia,0.01866240,flat
+"Malaysia, mobile",0.03338496,flat
+Maldives,1.16246016,flat
+"Maldives, mobile",1.16246016,flat
+Mali,0.29683584,flat
+"Mali, Bamako",0.29268864,flat
+"Mali, mobile",0.37200384,flat
+"Mali, mobile Ikatel",0.40352256,flat
+Malta,0.02509056,flat
+"Malta, mobile",0.12960000,flat
+Maritime Communications Partner,4.64797440,flat
+Maritime mobile Service,7.20296064,flat
+Marshall islands,0.46624896,flat
+Mauritania,0.59377536,flat
+"Mauritania, mobile",0.61668864,flat
+Mauritius,0.13167360,flat
+"Mauritius, mobile",0.13167360,flat
+Mayotte,0.63427200,flat
+Mayotte and Reunion,0.12109824,flat
+"Mayotte, mobile",0.63427200,flat
+Mexico,0.02509056,flat
+"Mexico, Mexico City",0.00829440,flat
+"Mexico, mobile",0.06480000,flat
+Micronesia,0.29683584,flat
+Midway Islands,11.70671616,flat
+Moldova,0.23410944,flat
+"Moldova, mobile",0.26749440,flat
+"Moldova, mobile Moldcell",0.34494336,flat
+"Moldova, mobile Moldtelecom",0.33229440,flat
+"Moldova, mobile Orange",0.26749440,flat
+"Moldova, mobile Priednestrovie",0.29890944,flat
+"Moldova, Pridnestrovie",0.24033024,flat
+"Moldova, Special Services",0.24862464,flat
+Monaco,0.09818496,flat
+"Monaco, mobile",0.46624896,flat
+Mongolia,0.06894720,flat
+"Mongolia, mobile",0.06894720,flat
+Montenegro,0.18589824,flat
+"Montenegro, mobile",0.52047360,flat
+Montserrat,0.24655104,flat
+"Montserrat, mobile",0.23825664,flat
+"Montserrat, Special Services",0.25712640,flat
+Morocco,0.02509056,flat
+"Morocco, Casablanca",0.02509056,flat
+"Morocco, Fes",0.22819200,flat
+"Morocco, Fixed Alternative Networks",0.03545856,flat
+"Morocco, mobile",0.46624896,flat
+"Morocco, mobile Meditelecom",0.48916224,flat
+"Morocco, mobile Wana",0.48403200,flat
+"Morocco, mobile Wana full mobility",0.30305664,flat
+"Morocco, mobile Wana restraint mobility",0.34494336,flat
+Mozambique,0.07931520,flat
+"Mozambique, mobile",0.20912256,flat
+Myanmar,0.42228864,flat
+"Myanmar, mobile",0.38257920,flat
+Namibia,0.08366976,flat
+"Namibia, mobile",0.18589824,flat
+Nauru,1.25017344,flat
+"Nauru, mobile",1.85867136,flat
+"Nauru, Special Services",4.64797440,flat
+Nepal,0.16298496,flat
+"Nepal, Kathmandu",0.16298496,flat
+"Nepal, mobile",0.17553024,flat
+Netherlands,0.01244160,flat
+Netherlands Antilles,0.17760384,flat
+"Netherlands Antilles, mobile",0.17553024,flat
+"Netherlands, mobile",0.07309440,flat
+New Caledonia,0.25712640,flat
+"New Caledonia, mobile",0.25712640,flat
+New Zealand,0.01451520,flat
+"New Zealand, mobile",0.06894720,flat
+Nicaragua,0.17760384,flat
+"Nicaragua, mobile",0.34909056,flat
+Niger,0.30305664,flat
+"Niger, mobile",0.26334720,flat
+Nigeria,0.08989056,flat
+"Nigeria, Lagos",0.08989056,flat
+"Nigeria, mobile",0.08574336,flat
+"Nigeria, mobile Econet",0.06044544,flat
+"Nigeria, mobile Globacom",0.06044544,flat
+"Nigeria, mobile MTEL",0.06480000,flat
+"Nigeria, mobile MTN",0.06044544,flat
+Niue Island,0.95333760,flat
+"Niue Island, Special Services",4.64797440,flat
+Norfolk Island,1.97582976,flat
+"Norfolk Island, Special Services",2.32502400,flat
+Northern Marianas,0.11073024,flat
+Norway,0.01658880,flat
+"Norway, mobile",0.25171200,flat
+"Norway, Mobile Netcom",0.05837184,flat
+"Norway, Mobile Network Norway",0.06272640,flat
+"Norway, Mobile Others",0.06272640,flat
+"Norway, Mobile Tele2",0.06272640,flat
+"Norway, Mobile Telenor",0.06272640,flat
+"Norway, Shared Cost",0.20684160,flat
+"Norway, Special Services",0.29251200,flat
+Oman,0.15469056,flat
+"Oman, mobile",0.38465280,flat
+Oration Technologies,4.42838016,flat
+Pakistan,0.14411520,flat
+"Pakistan, Islamabad",0.14411520,flat
+"Pakistan, Karachi",0.14411520,flat
+"Pakistan, Lahore",0.14411520,flat
+"Pakistan, mobile",0.09403776,flat
+Palau,0.51217920,flat
+Palestine,0.24033024,flat
+"Palestine, mobile",0.26956800,flat
+Panama,0.05215104,flat
+"Panama, mobile",0.19232640,flat
+Papua New Guinea,0.91570176,flat
+"Papua New Guinea, mobile",0.92202624,flat
+"Papua New Guinea, Special Services",1.16246016,flat
+Paraguay,0.04800384,flat
+"Paraguay, Asuncion",0.04593024,flat
+"Paraguay, mobile",0.09403776,flat
+Peru,0.02094336,flat
+"Peru Lima, mobile",0.24422400,flat
+"Peru, Lima",0.01658880,flat
+"Peru, mobile",0.12545280,flat
+"Peru, Rural",0.03131136,flat
+Philippines,0.15676416,flat
+"Philippines, Manila",0.15676416,flat
+"Philippines, mobile",0.22363776,flat
+"Philippines, mobile Digitel",0.16723584,flat
+"Philippines, mobile Globe",0.17967744,flat
+"Philippines, mobile Smart",0.18589824,flat
+Poland,0.01451520,flat
+"Poland, mobile",0.03338496,flat
+"Poland, mobile Centernet",0.02923776,flat
+"Poland, mobile Centertel",0.10329600,flat
+"Poland, mobile ERA",0.02923776,flat
+"Poland, mobile Mobyland",0.35712000,flat
+"Poland, mobile Orange",0.02923776,flat
+"Poland, mobile P4",0.02923776,flat
+"Poland, mobile Polkomtel",0.02923776,flat
+"Poland, Special Services",0.03753216,flat
+"Poland, Warsaw",0.01451520,flat
+Portugal,0.01451520,flat
+"Portugal, mobile",0.03545856,flat
+Puerto Rico,0.01036800,flat
+"Puerto Rico, mobile",0.01036800,flat
+Qatar,0.22363776,flat
+"Qatar, mobile",0.26127360,flat
+Reunion islands,0.33456000,flat
+"Reunion islands, mobile",0.57696000,flat
+Romania,0.01866240,flat
+"Romania, Bucharest",0.01658880,flat
+"Romania, Fixed Alternative Networks",0.01866240,flat
+"Romania, mobile",0.13996800,flat
+"Romania, mobile Cosmorom",0.07309440,flat
+"Romania, mobile Digimobil",0.07931520,flat
+"Romania, mobile Mobifon",0.14841600,flat
+"Romania, mobile Orange",0.03131136,flat
+"Romania, mobile Telemobil",0.07724160,flat
+"Romania, mobile Vodafone",0.03545856,flat
+"Romania, Special Services",0.02094336,flat
+Russia,0.03545856,flat
+Russia Overlay,0.06480000,flat
+"Russia, Abkhazia",0.26542080,flat
+"Russia, mobile",0.06480000,flat
+"Russia, mobile Abkhazia",0.09465600,flat
+"Russia, mobile BeeLine",0.09465600,flat
+"Russia, mobile Global",0.09465600,flat
+"Russia, mobile Megafon",0.05215104,flat
+"Russia, mobile MTS",0.06687360,flat
+"Russia, mobile Rostelecom",0.06687360,flat
+"Russia, mobile Vympelcom",0.05837184,flat
+"Russia, Mosca",0.03225600,flat
+"Russia, Moscow",0.02094336,flat
+"Russia, St.Petersburg",0.01451520,flat
+Rwanda,0.41814144,flat
+"Rwanda, mobile",0.38880000,flat
+Samoa (USA),0.07102080,flat
+San Marino,0.04800384,flat
+"San Marino, mobile",0.29051136,flat
+"San Marino, Special Services",6.97092480,flat
+Sao Tome & Principe,1.31289984,flat
+"Sao Tome & Principe, mobile",1.31289984,flat
+Saudi Arabia,0.12545280,flat
+"Saudi Arabia, mobile",0.17138304,flat
+"Saudi Arabia, Riyadh",0.12545280,flat
+Senegal,0.23618304,flat
+Senegal VAS,0.68563584,flat
+"Senegal, Dakar",0.23618304,flat
+"Senegal, mobile Orange",0.40766976,flat
+"Senegal, mobile others",0.54141696,flat
+"Senegal, mobile Sentel",0.73177344,flat
+Serbia,0.13789440,flat
+"Serbia, Kosovo",0.10025856,flat
+"Serbia, mobile",0.44323200,flat
+"Serbia, mobile MOBTEL",0.48916224,flat
+Serbia-Montenegro,0.12259200,flat
+"Serbia-Montenegro, mobile",0.37862400,flat
+Seychelles Island,0.61668864,flat
+"Seychelles Island, mobile",0.61668864,flat
+Sierra Leone,0.60414336,flat
+"Sierra Leone, mobile",0.60206976,flat
+Singapore,0.01451520,flat
+"Singapore, mobile",0.01244160,flat
+Slovak Republic,0.02301696,flat
+"Slovak Republic, mobile",0.18382464,flat
+Slovenia,0.02094336,flat
+"Slovenia, mobile",0.33457536,flat
+Solomon Islands,1.32347520,flat
+"Solomon Islands, mobile",1.32347520,flat
+"Solomon Islands, Special Services",4.64797440,flat
+Somalia,0.67526784,flat
+"Somalia, Mogadiscio",0.62726400,flat
+South Africa,0.03338496,flat
+"South Africa, Johannesburg",0.03131136,flat
+"South Africa, mobile",0.10865664,flat
+"South Africa, mobile Cell-C",0.09611136,flat
+"South Africa, mobile MTN",0.08366976,flat
+"South Africa, mobile TELKOM",0.10865664,flat
+"South Africa, mobile Vodacom",0.08989056,flat
+"South Africa, MTN",0.11695104,flat
+Spain,0.01451520,flat
+"Spain, Balearic Island",0.01451520,flat
+"Spain, Madrid",0.01451520,flat
+"Spain, mobile",0.03131136,flat
+"Spain, mobile Amena",0.02923776,flat
+"Spain, mobile Telefonica",0.02923776,flat
+"Spain, mobile Vodafone",0.02923776,flat
+"Spain, Special Services",0.48294144,flat
+Sri Lanka,0.17967744,flat
+Sri Lanka SLT,0.17644800,flat
+"Sri Lanka, Lankabell",0.17760384,flat
+"Sri Lanka, mobile",0.17967744,flat
+"Sri Lanka, mobile Bharti",0.16298496,flat
+"Sri Lanka, mobile Dialog Tele",0.17138304,flat
+"Sri Lanka, mobile Mobitel",0.17760384,flat
+"Sri Lanka, mobile MTN",0.19142400,flat
+"Sri Lanka, MTN",0.16930944,flat
+"Sri Lanka, SLT",0.16091136,flat
+St. Helena,1.62653184,flat
+St. Kitts & Nevis,0.32400000,flat
+"St. Kitts & Nevis, mobile",0.33872256,flat
+St. Lucia,0.29051136,flat
+"St. Lucia, mobile",0.31570560,flat
+St. Maarten,0.17553024,flat
+St. Pierre & Miquelon,0.30927744,flat
+"St. Pierre & Miquelon, mobile",0.58112640,flat
+St. Vincent & Grenadines,0.27599616,flat
+"St. Vincent & Grenadines, mobile",0.46624896,flat
+Sud Sudan,0.42021504,flat
+Sudan,0.20684160,flat
+"Sudan, mobile",0.20269440,flat
+Suriname,0.27599616,flat
+"Suriname, mobile",0.28221696,flat
+Swaziland,0.08366976,flat
+"Swaziland, mobile",0.25712640,flat
+Sweden,0.01036800,flat
+"Sweden, mobile",0.10752000,flat
+"Sweden, mobile Comviq",0.02923776,flat
+"Sweden, mobile HI3G",0.02923776,flat
+"Sweden, mobile Others",0.02923776,flat
+"Sweden, mobile Telenor",0.02923776,flat
+"Sweden, mobile Telia mobile",0.02923776,flat
+"Sweden, Paging",0.01866240,flat
+"Sweden, Special Services",0.06240000,flat
+Switzerland,0.01866240,flat
+"Switzerland, Corporate",0.02094336,flat
+"Switzerland, mobile",0.32054400,flat
+"Switzerland, mobile Orange",0.15883776,flat
+"Switzerland, mobile others",0.28014336,flat
+"Switzerland, mobile Sunrise",0.15883776,flat
+"Switzerland, mobile Swisscom",0.12960000,flat
+Syria,0.14411520,flat
+"Syria, mobile",0.23410944,flat
+Taiwan,0.01866240,flat
+"Taiwan, mobile",0.12752640,flat
+"Taiwan, Taipei",0.01866240,flat
+Tajikistan,0.20912256,flat
+"Tajikistan, mobile",0.20912256,flat
+Tanzania,0.35748864,flat
+"Tanzania, Dar es Salaam",0.35748864,flat
+"Tanzania, mobile",0.35116416,flat
+"Tanzania, Zanzibar",0.36578304,flat
+Thailand,0.01451520,flat
+"Thailand, Bangkok",0.01658880,flat
+"Thailand, mobile",0.01451520,flat
+"Thuraya, Satellite",4.64797440,flat
+Timor East,1.16246016,flat
+"Timor East, mobile",1.34856576,flat
+Togo,0.47454336,flat
+"Togo, mobile",0.49330944,flat
+"Togo, mobile Atlantique Telecom Togo",0.50388480,flat
+"Togo, mobile Togocell",0.42228864,flat
+Tokelau,1.39449600,flat
+Tonga Islands,0.54359424,flat
+"Tonga Islands, mobile",0.55810944,flat
+Trinidad & Tobago,0.11695104,flat
+"Trinidad & Tobago, mobile",0.29683584,flat
+Tristan Da Cunda,3.94948224,flat
+Tunisia,0.53519616,flat
+"Tunisia, mobile",0.66470400,flat
+"Tunisia, mobile Orange",0.49745664,flat
+"Tunisia, mobile Orascom",0.54141696,flat
+"Tunisia, mobile Tuntel",0.55810944,flat
+"Tunisia, Tunisi",0.55810944,flat
+Turkey,0.05007744,flat
+"Turkey, Ankara",0.03532800,flat
+"Turkey, mobile",0.17760384,flat
+Turkmenistan,0.16091136,flat
+"Turkmenistan, mobile",0.16091136,flat
+Turks & Caicos Islands,0.28843776,flat
+"Turks & Caicos Islands, mobile",0.33022080,flat
+Tuvalu,1.04540544,flat
+"Tuvalu, mobile",1.39449600,flat
+U.K.,0.01036800,flat
+"U.K., Local Call",0.23410944,flat
+"U.K., London",0.01036800,flat
+"U.K., mobile",0.23410944,flat
+"U.K., mobile H3G",0.02716416,flat
+"U.K., mobile O2",0.02716416,flat
+"U.K., mobile Orange",0.02716416,flat
+"U.K., mobile T-mobile",0.02716416,flat
+"U.K., mobile Vodafone",0.02716416,flat
+"U.K., National Call",0.31985280,flat
+"U.K., Special Services",0.46624896,flat
+Uganda,0.29476224,flat
+"Uganda, mobile",0.40144896,flat
+Ukraine,0.13167360,flat
+"Ukraine, Kiev",0.12545280,flat
+"Ukraine, Lviv",0.12545280,flat
+"Ukraine, mobile",0.20697600,flat
+"Ukraine, mobile Astelit",0.25090560,flat
+"Ukraine, mobile Golden Telecom",0.26956800,flat
+"Ukraine, mobile Intertelecom",0.26127360,flat
+"Ukraine, mobile Kyivstar",0.13582080,flat
+"Ukraine, mobile Telesystems of Ukraine",0.19647360,flat
+"Ukraine, mobile Ukrtelecom",0.18817920,flat
+"Ukraine, mobile UMC",0.22363776,flat
+"Ukraine, mobile Wellcom",0.26956800,flat
+"Ukraine, Odessa",0.12317184,flat
+United Arab Emirates,0.22363776,flat
+"United Arab Emirates, Dubai",0.21949056,flat
+"United Arab Emirates, mobile",0.22363776,flat
+Universal Personal Telecomunication Services,2.32502400,flat
+Uruguay,0.07724160,flat
+"Uruguay, mobile",0.21949056,flat
+"Uruguay, Montevideo",0.05422464,flat
+USA,0.01244160,flat
+Uzbekistan,0.08781696,flat
+"Uzbekistan, mobile",0.08138880,flat
+"Uzbekistan, Tashkent",0.02509056,flat
+Vanuatu,1.16246016,flat
+"Vanuatu, mobile",1.10388096,flat
+Vatican City,0.02509056,flat
+Venezuela,0.01036800,flat
+"Venezuela, Caracas",0.01036800,flat
+"Venezuela, mobile",0.04800384,flat
+Vietnam,0.11280384,flat
+"Vietnam, Ho Chi Minh City",0.11280384,flat
+"Vietnam, Ho Chi Minh City mobile",0.08822400,flat
+"Vietnam, mobile",0.05422464,flat
+Virgin islands (UK),0.27599616,flat
+"Virgin islands (UK), mobile",0.31570560,flat
+Virgin islands (US),0.02923776,flat
+"Virgin islands (US), mobile",0.02923776,flat
+Wake Island,9.29387520,flat
+Wallis & Futuna,1.85867136,flat
+Western Samoa,0.74421504,flat
+"Western Samoa, mobile",0.74421504,flat
+Wind servizio assistenza Aziende,0.09725184,flat
+Wind servizio Clienti,0.12000000,flat
+Yemen,0.21326976,flat
+"Yemen, mobile",0.21326976,flat
+Zambia,0.10025856,flat
+"Zambia, mobile",0.17553024,flat
+Zanzibar,0.29145600,flat
+Zimbabwe,0.12752640,flat
+"Zimbabwe, mobile",0.24447744,flat
+"Zimbabwe, mobile Econet",0.53934336,flat
+"Zimbabwe, mobile Telcel",0.57075840,flat

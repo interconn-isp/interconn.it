@@ -3,6 +3,6 @@ class CallRate < ActiveRecord::Base
   enumerize :time_slot, in: [:flat, :peak, :off_peak]
 
   validates :traffic_direction, presence: true
-  validates :rate, presence: true, numericality: { greater_than: 0 }
+  validates :rate, presence: true, numericality: true
   validates :time_slot, presence: true
 end
