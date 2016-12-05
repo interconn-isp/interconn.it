@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 # Rails
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.7'
 
 # Asset preprocessors
 gem 'sass-rails'
@@ -19,9 +19,6 @@ gem 'font-awesome-rails'
 gem 'haml-rails'
 gem 'simple_form'
 gem 'high_voltage'
-
-# JavaScript runtime
-gem 'therubyracer', platform: :ruby
 
 # Web server
 gem 'thin'
@@ -60,15 +57,6 @@ gem 'foreman'
 gem 'bower-rails'
 
 group :development do
-  # Deployment
-  gem 'capistrano'
-  gem 'capistrano-bundler'
-  gem 'capistrano-rails'
-  gem 'capistrano-rails-console'
-  gem 'capistrano-rvm'
-  gem 'capistrano-sidekiq'
-  gem 'capistrano-passenger'
-
   # Asset logging suppression
   gem 'quiet_assets'
 
