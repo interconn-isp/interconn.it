@@ -14,6 +14,6 @@ RSpec.describe CallRate, type: :model do
   end
 
   it 'validates numericality of rate' do
-    expect(subject).to validate_numericality_of(:rate).is_greater_than(0)
+    expect(subject).to validate_numericality_of(:rate).is_greater_than_or_equal_to(0)
   end
 end
