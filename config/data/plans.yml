@@ -27,8 +27,8 @@
 
 - id: 2
   category_id: 1
-  slug: 'wadsl-10mega-privati'
-  name: '10 Mega Privati'
+  slug: 'wadsl-20mega-privati'
+  name: '20 Mega Privati'
   vat_included: true
   monthly_cost: 31
   features:
@@ -38,7 +38,7 @@
     - name: Installazione
       content: €30 u.t.*
     - name: Velocità di picco
-      content: 10 Mbps / 3 Mbps
+      content: 20 Mbps / 3 Mbps
       2x: true
     - *static_ip_vat_included
 
