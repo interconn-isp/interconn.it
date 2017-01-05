@@ -18,7 +18,7 @@
           %li= link_to 'Progetti', projects_path
           %li= link_to 'Copertura', coverage_path
           %li= link_to 'Contratto', contract_path
-          %li= link_to 'Webmail', 'http://webmail.interconn.it'
+          %li= link_to 'Webmail', ENV['WEBMAIL_URL'] if ENV['WEBMAIL_URL']
           %li= link_to 'Area clienti', ENV['CP_URL'] if ENV['CP_URL']
 
       .footer-links-col.col-xs-6.col-md-3
