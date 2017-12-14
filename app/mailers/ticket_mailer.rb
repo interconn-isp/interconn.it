@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class TicketMailer < ActionMailer::Base
   default from: ENV['MAIL_SENDER']
 

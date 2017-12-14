@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Iubenda
   class Client
     class << self
@@ -20,9 +22,7 @@ module Iubenda
       def parse_response(response, options = {})
         parsed_response = JSON.parse(response)
 
-        unless parsed_response['success']
-          raise ResponseError, parsed_response['error']
-        end
+        fail ResponseError, parsed_response['error'] unless parsed_response['success']
 
         content = parsed_response['content']
 

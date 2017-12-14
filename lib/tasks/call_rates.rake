@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'csv'
 
 namespace :call_rates do
-  desc "Imports call rates from a CSV file"
+  desc 'Imports call rates from a CSV file'
   task import: :environment do
     file = ENV['FILE']
     truncate = ENV['TRUNCATE'].present?
@@ -25,18 +27,18 @@ namespace :call_rates do
         when 2
           time_slot = :off_peak
         else
-          raise "Time slot #{line[1]} not recognized"
+          fail "Time slot #{line[1]} not recognized"
         end
 
-        rate = line[2].gsub(',', '.').to_f
+        rate = line[2].tr(',', '.').to_f
 
-        call_rate = CallRate.create!({
+        call_rate = CallRate.create!(
           traffic_direction: traffic_direction,
           rate: rate,
-          time_slot: time_slot
-        })
+          time_slot: time_slot,
+)
 
-        puts "##{call_rate.id} [TD='#{traffic_direction}', TS='#{time_slot.to_s}', R=#{rate.to_s}]"
+        puts "##{call_rate.id} [TD='#{traffic_direction}', TS='#{time_slot}', R=#{rate}]"
 
         count += 1
       end

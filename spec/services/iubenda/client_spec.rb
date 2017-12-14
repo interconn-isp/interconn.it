@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Iubenda::Client do
@@ -7,7 +9,7 @@ RSpec.describe Iubenda::Client do
     let(:uri) { 'www.iubenda.com/api/privacy-policy/1' }
 
     context 'when it is successful' do
-      before(:each) do
+      before do
         stub_request(:get, uri)
           .to_return(body: JSON.generate(
             success: true,
@@ -21,7 +23,7 @@ RSpec.describe Iubenda::Client do
     end
 
     context 'when it returns an error' do
-      before(:each) do
+      before do
         stub_request(:get, uri)
           .to_return(body: JSON.generate(
             success: false,
@@ -30,9 +32,9 @@ RSpec.describe Iubenda::Client do
       end
 
       it 'raises a ResponseError' do
-        expect {
+        expect do
           subject.get_policy(1)
-        }.to raise_error(Iubenda::Client::ResponseError, 'Test error')
+        end.to raise_error(Iubenda::Client::ResponseError, 'Test error')
       end
     end
   end

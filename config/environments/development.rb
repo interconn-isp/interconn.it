@@ -46,4 +46,7 @@ Rails.application.configure do
     address: 'localhost',
     port: 1025
   }
+
+  # Suppress asset logging.
+  config.assets.quiet = true
 end

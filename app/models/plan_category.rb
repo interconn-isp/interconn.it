@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PlanCategory < ActiveYaml::Base
   field :name
   field :slug
@@ -12,7 +14,7 @@ class PlanCategory < ActiveYaml::Base
   has_many :plans, foreign_key: 'category_id'
 
   def self.visible
-    self.all.select{ |p| p.visible? || !Rails.env.production? }
+    all.select { |p| p.visible? || !Rails.env.production? }
   end
 
   def to_param

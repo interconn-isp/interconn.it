@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe TicketJob do
@@ -5,7 +7,7 @@ RSpec.describe TicketJob do
 
   describe '#perform' do
     it 'creates the ticket' do
-      ticket = FactoryGirl.build_stubbed(:ticket)
+      ticket = FactoryBot.build_stubbed(:ticket)
 
       ticket
         .expects(:update_column)
@@ -17,7 +19,7 @@ RSpec.describe TicketJob do
         .once
         .returns(ticket)
 
-      email = stub()
+      email = stub
       email
         .expects(:deliver_now)
         .once

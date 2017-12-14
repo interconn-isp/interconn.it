@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FAQ < ActiveYaml::Base
   field :category_id
   field :question

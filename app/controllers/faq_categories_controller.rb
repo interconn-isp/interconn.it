@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FAQCategoriesController < ApplicationController
   respond_to :html
 
@@ -6,7 +8,7 @@ class FAQCategoriesController < ApplicationController
   end
 
   def show
-    @category = FAQCategory.find_by_slug!(params[:id])
+    @category = FAQCategory.find_by!(slug: params[:id])
     respond_with @category
   end
 end

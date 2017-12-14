@@ -1,4 +1,6 @@
-class Inquiry < ActiveRecord::Base
+# frozen_string_literal: true
+
+class Inquiry < ApplicationRecord
   extend Enumerize
 
   enumerize :product, in: Plan.all.map(&:slug)

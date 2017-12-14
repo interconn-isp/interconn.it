@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class TicketsController < ApplicationController
   def new
     @ticket = Ticket.new
@@ -6,9 +8,7 @@ class TicketsController < ApplicationController
   def create
     @ticket = Ticket.new(ticket_params)
 
-    if @ticket.save
-      TicketJob.perform_later(@ticket.id)
-    end
+    TicketJob.perform_later(@ticket.id) if @ticket.save
 
     render :new
   end

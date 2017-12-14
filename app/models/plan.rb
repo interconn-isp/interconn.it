@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Plan < ActiveYaml::Base
   field :category_id
   field :name

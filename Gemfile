@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.3.3'
+ruby '2.4.2'
 
 # Rails
-gem 'rails', '4.2.7'
+gem 'rails', '~> 5.1.4'
 
 # Asset preprocessors
 gem 'sass-rails'
@@ -57,16 +57,17 @@ gem 'foreman'
 gem 'bower-rails'
 
 group :development do
-  # Asset logging suppression
-  gem 'quiet_assets'
-
   # Console
   gem 'pry-rails'
+
+  # Coding style
+  gem 'rubocop'
+  gem 'rubocop-rspec'
 end
 
 group :development, :test do
   # Factories
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
 
   # RSpec
   gem 'rspec-rails'

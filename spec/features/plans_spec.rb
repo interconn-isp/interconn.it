@@ -1,12 +1,14 @@
-RSpec.feature 'The pricing plans page' do
-  scenario 'Viewing the WADSL plans' do
+# frozen_string_literal: true
+
+RSpec.describe 'The pricing plans page' do
+  it 'Viewing the WADSL plans' do
     visit root_path
     first(:link, 'Piani').click
 
     expect(page).to have_content 'WADSL'
   end
 
-  scenario 'Viewing the WHDSL plans' do
+  it 'Viewing the WHDSL plans' do
     visit root_path
     first(:link, 'Piani').click
 
@@ -15,7 +17,7 @@ RSpec.feature 'The pricing plans page' do
     expect(page).to have_content 'WHDSL'
   end
 
-  scenario 'Viewing the ADSL plans' do
+  it 'Viewing the ADSL plans' do
     visit root_path
     first(:link, 'Piani').click
 
@@ -24,7 +26,7 @@ RSpec.feature 'The pricing plans page' do
     expect(page).to have_content 'ADSL'
   end
 
-  scenario 'Viewing the optic fiber plans' do
+  it 'Viewing the optic fiber plans' do
     visit root_path
     first(:link, 'Piani').click
 
@@ -33,7 +35,7 @@ RSpec.feature 'The pricing plans page' do
     expect(page).to have_content 'Fibra'
   end
 
-  scenario 'Viewing the VoIP plan' do
+  it 'Viewing the VoIP plan' do
     visit root_path
     first(:link, 'Piani').click
     click_link 'VoIP'

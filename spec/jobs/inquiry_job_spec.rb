@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe InquiryJob do
@@ -5,7 +7,7 @@ RSpec.describe InquiryJob do
 
   describe '#perform' do
     it 'creates the tickets on Freshdesk' do
-      inquiry = FactoryGirl.build_stubbed(:inquiry)
+      inquiry = FactoryBot.build_stubbed(:inquiry)
 
       inquiry
         .expects(:update_column)
@@ -17,7 +19,7 @@ RSpec.describe InquiryJob do
         .once
         .returns(inquiry)
 
-      email = stub()
+      email = stub
       email
         .expects(:deliver_now)
         .once

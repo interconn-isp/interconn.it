@@ -1,13 +1,15 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Ticket, type: :model do
-  subject { FactoryGirl.build_stubbed(:ticket) }
+  subject { FactoryBot.build_stubbed(:ticket) }
 
   it 'is valid' do
     expect(subject).to be_valid
   end
 
-  %w(full_name email message subject).each do |attribute|
+  %w[full_name email message subject].each do |attribute|
     it "validates the presence of #{attribute}" do
       expect(subject).to validate_presence_of(attribute)
     end

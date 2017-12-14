@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
-RSpec.feature 'The privacy policy' do
-  scenario 'Displaying the policy' do
+RSpec.describe 'The privacy policy' do
+  it 'Displaying the policy' do
     Iubenda::Client
       .expects(:get_policy)
       .once

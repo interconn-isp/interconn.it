@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class InquiriesController < ApplicationController
   def new
     @inquiry = Inquiry.new
