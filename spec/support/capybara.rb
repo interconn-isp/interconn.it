@@ -1,1 +1,1 @@
-Capybara.asset_host = ENV['HOST']
+Capybara.asset_host = ENV['DOMAIN']
