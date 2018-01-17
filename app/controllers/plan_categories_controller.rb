@@ -8,7 +8,7 @@ class PlanCategoriesController < ApplicationController
   end
 
   def show
-    @category = PlanCategory.find_by!(slug: params[:id])
+    @category = PlanCategory.find_by_slug(params[:id])
     respond_with @category
   end
 end
