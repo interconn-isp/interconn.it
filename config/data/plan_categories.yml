@@ -46,28 +46,6 @@
     - *router_feature
     - *public_ip_feature
 
-- id: 2
-  name: 'WHDSL'
-  slug: 'whdsl'
-  long_name: 'WHDSL: per il professionista.'
-  description: 'Assistenza dedicata e banda garantita per tutti i tuoi servizi mission critical.'
-  features:
-    - *router_feature
-    - name: Assistenza dedicata 24x7
-      icon: help
-      content: >
-        Usi InterConn per cose importanti. Per questo avrai accesso a una
-        linea telefonica dedicata aperta 24 ore al giorno, 7 giorni su 7.
-        Non ci sono ferie sul nostro calendario.
-      headline: Ti copriamo le spalle.
-    - name: IP statico in omaggio
-      icon: browser
-      content: >
-        Se vuoi offrire servizi al pubblico, avrai bisogno di un IP statico
-        perché gli utenti possano raggiungerti. Sapendo che lo userai per
-        qualcosa di bello, te ne diamo uno in omaggio.
-      headline: 'Va’ a fare del bene: offre la casa.'
-
 - id: 3
   name: 'ADSL'
   slug: 'adsl'
