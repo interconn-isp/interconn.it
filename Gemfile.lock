@@ -50,6 +50,8 @@ GEM
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
     bower-rails (0.11.0)
+    bugsnag (6.6.3)
+      concurrent-ruby (~> 1.0)
     builder (3.2.3)
     capybara (2.16.1)
       addressable
@@ -193,11 +195,6 @@ GEM
     rails-i18n (5.0.4)
       i18n (~> 0.7)
       railties (~> 5.0)
-    rails_12factor (0.0.3)
-      rails_serve_static_assets
-      rails_stdout_logging
-    rails_serve_static_assets (0.0.5)
-    rails_stdout_logging (0.0.5)
     railties (5.1.4)
       actionpack (= 5.1.4)
       activesupport (= 5.1.4)
@@ -304,6 +301,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass
   bower-rails
+  bugsnag
   capybara
   coffee-rails
   database_cleaner
@@ -328,7 +326,6 @@ DEPENDENCIES
   rack_session_access
   rails (~> 5.1.4)
   rails-i18n
-  rails_12factor
   responders
   rspec-rails
   rubocop

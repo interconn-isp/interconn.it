@@ -47,14 +47,16 @@ gem 'jbuilder'
 # Logging
 gem 'lograge'
 
-# Heroku
-gem 'rails_12factor', group: :production
-
 # Process management
 gem 'foreman'
 
 # Bower assets
 gem 'bower-rails'
+
+group :production do
+  # Error tracking
+  gem 'bugsnag'
+end
 
 group :development do
   # Console
