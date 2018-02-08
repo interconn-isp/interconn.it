@@ -8,15 +8,6 @@ RSpec.describe 'The pricing plans page' do
     expect(page).to have_content 'WADSL'
   end
 
-  it 'Viewing the WHDSL plans' do
-    visit root_path
-    first(:link, 'Piani').click
-
-    click_link 'WHDSL'
-
-    expect(page).to have_content 'WHDSL'
-  end
-
   it 'Viewing the ADSL plans' do
     visit root_path
     first(:link, 'Piani').click

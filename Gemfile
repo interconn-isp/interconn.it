@@ -95,4 +95,7 @@ group :test do
   # Mocking
   gem 'mocha'
   gem 'webmock'
+
+  # CI
+  gem 'rspec_junit_formatter'
 end
