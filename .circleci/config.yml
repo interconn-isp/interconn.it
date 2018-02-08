@@ -85,5 +85,5 @@ jobs:
               git push heroku-production master
             fi
             if [ "${CIRCLE_BRANCH}" == "develop" ]; then
-              git push heroku-staging staging:master
+              git push heroku-staging develop:master
             fi
