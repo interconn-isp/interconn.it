@@ -44,8 +44,8 @@
 
 - id: 3
   category_id: 1
-  slug: 'wadsl-4mega-business'
-  name: '4 Mega Business'
+  slug: 'wadsl-10mega-business'
+  name: '10 Mega Business'
   vat_included: false
   monthly_cost: 39
   features:
@@ -55,15 +55,15 @@
     - name: Installazione
       content: €30 u.t.**
     - name: Velocità di picco
-      content: 4 Mbps / 1 Mbps
+      content: 10 Mbps / 3 Mbps
     - name: Banda garantita
       content: 512 Kbps
     - *static_ip_vat_excluded
 
 - id: 4
   category_id: 1
-  slug: 'wadsl-7mega-business'
-  name: '7 Mega Business'
+  slug: 'wadsl-30mega-business'
+  name: '30 Mega Business'
   vat_included: false
   monthly_cost: 69
   features:
@@ -73,7 +73,7 @@
     - name: Installazione
       content: €30 u.t.**
     - name: Velocità di picco
-      content: 7 Mbps / 3 Mbps
+      content: 30 Mbps / 3 Mbps
     - name: Banda garantita
       content: 512 Kbps
     - *static_ip_vat_excluded
