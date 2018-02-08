@@ -1,0 +1,89 @@
+version: 2
+jobs:
+  build:
+    parallelism: 1
+    working_directory: ~/interconn-rails
+    docker:
+      - image: circleci/ruby:2.5-node
+        environment:
+          BUNDLE_JOBS: 3
+          BUNDLE_RETRY: 3
+          BUNDLE_PATH: vendor/bundle
+          PGHOST: 127.0.0.1
+          PGUSER: interconn
+          RAILS_ENV: test
+      - image: circleci/postgres:9.5-alpine
+        environment:
+          POSTGRES_USER: interconn
+          POSTGRES_DB: interconn
+          POSTGRES_PASSWORD: ""
+    steps:
+      - checkout
+
+      # Which version of bundler?
+      - run:
+          name: Which bundler?
+          command: bundle -v
+
+      # Restore bundle cache
+      - restore_cache:
+          keys:
+            - interconn-{{ checksum "Gemfile.lock" }}
+            - interconn-
+
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+
+      # Store bundle cache
+      - save_cache:
+          key: interconn-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://localhost:5432 -timeout 1m
+
+      - run:
+          name: Configure app
+          command: |
+            cp config/application.example.yml config/application.yml
+            cp config/database.example.yml config/database.yml
+
+      - run:
+          name: Database setup
+          command: bin/rails db:create db:schema:load --trace
+
+      - run:
+          name: Install PhantomJS
+          command: |
+            [ -f /usr/local/bin/phantomjs ] || sudo cp ./bin/phantomjs /usr/local/bin/phantomjs
+
+      # Run rspec in parallel
+      - type: shell
+        command: |
+          bundle exec rspec --profile 10 \
+                            --format RspecJunitFormatter \
+                            --out test_results/rspec.xml \
+                            --format progress \
+                            --no-color \
+                            $(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
+
+      # Save test results for timing analysis
+      - store_test_results:
+          path: test_results
+
+      - add_ssh_keys:
+          fingerprints:
+            - "31:50:dd:6a:cd:48:95:23:30:41:8a:d0:08:de:15:99"
+
+      - deploy:
+          name: Deploy to Heroku
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git push heroku-production master
+            fi
+            if [ "${CIRCLE_BRANCH}" == "develop" ]; then
+              git push heroku-staging staging:master
+            fi
