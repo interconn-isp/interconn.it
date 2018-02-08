@@ -78,6 +78,10 @@ jobs:
           fingerprints:
             - "31:50:dd:6a:cd:48:95:23:30:41:8a:d0:08:de:15:99"
 
+      - run:
+          name: Configure Heroku remotes
+          command: bash .circleci/setup-heroku.sh
+
       - deploy:
           name: Deploy to Heroku
           command: |
