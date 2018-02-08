@@ -82,6 +82,10 @@ jobs:
           name: Configure Heroku remotes
           command: bash .circleci/setup-heroku.sh
 
+      - run:
+          name: Add Heroku to known hosts
+          command: ssh-keyscan heroku.com >> ~/.ssh/known_hosts
+
       - deploy:
           name: Deploy to Heroku
           command: |
