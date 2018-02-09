@@ -30,7 +30,7 @@ gem 'figaro'
 gem 'rails-i18n'
 
 # Database
-gem 'pg'
+gem 'pg', '~> 0.21'
 gem 'enumerize'
 gem 'friendly_id'
 gem 'active_hash', '1.4.0'
