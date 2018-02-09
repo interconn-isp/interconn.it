@@ -172,3 +172,6 @@ Naming/FileName:
 
 Rails/InverseOf:
   Enabled: false
+
+Rails/DynamicFindBy:
+  Enabled: false
