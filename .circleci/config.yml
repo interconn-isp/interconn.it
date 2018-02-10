@@ -17,6 +17,7 @@ jobs:
           POSTGRES_USER: interconn
           POSTGRES_DB: interconn
           POSTGRES_PASSWORD: ""
+      - image: redis
     steps:
       - checkout
 
