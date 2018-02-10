@@ -53,6 +53,12 @@ gem 'foreman'
 # Bower assets
 gem 'bower-rails'
 
+# 3rd-party APIs
+gem 'rest-client'
+
+# Caching
+gem 'redis-rails'
+
 group :production do
   # Error tracking
   gem 'bugsnag'

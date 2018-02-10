@@ -47,5 +47,7 @@ module InterConn
 
     # Use Sidekiq adapter for ActiveJob.
     config.active_job.queue_adapter = :sidekiq
+
+    config.cache_store = :redis_store, ENV.fetch(ENV.fetch('REDIS_PROVIDER')), { expires_in: 90.minutes }
   end
 end

@@ -5,7 +5,7 @@ module Iubenda
     class << self
       def get_policy(policy_id, options = {})
         uri = make_policy_uri(policy_id, options)
-        response = Net::HTTP.get(uri)
+        response = RestClient.get(uri).body
 
         parse_response(response, options)
       end
@@ -16,7 +16,7 @@ module Iubenda
         uri = "http://www.iubenda.com/api/privacy-policy/#{policy_id}"
         uri += '/no-markup' if options[:no_markup]
 
-        URI(uri)
+        uri
       end
 
       def parse_response(response, options = {})
