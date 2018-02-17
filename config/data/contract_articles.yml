@@ -87,8 +87,9 @@
       attivazione dei servizi richiesti.
       Il contratto sarà automaticamente rinnovato per lo stesso periodo alla
       data di scadenza, a meno che una delle parti non comunichi la volontà di
-      recedere tramite comunicazione scritta da inviare entro giorni 60
-      (sessanta) dalla data di scadenza.
+      recedere tramite comunicazione scritta da inviare a mezzo PEC o raccomandata A/R; in tal caso
+      InterConn procederà alla disattivazione del servizio entro e non oltre 30 (trenta) giorni
+      dalla data di ricezione.
     </p>
     <h5>Cessione del contratto</h5>
     <p>
@@ -113,8 +114,9 @@
       inadempiente.
     </p>
     <p>
-      Il contratto dura un anno e viene rinnovato automaticamente, ma una
-      delle parti può recedere comunicandolo 60 giorni prima del rinnovo.
+      Il contratto dura un anno e viene rinnovato automaticamente, ma sia InterConn che tu
+      potete recedere dal contratto in qualunque momento. InterConn disattiverà il servizio entro 30
+      giorni dalla rescissione.
     </p>
     <p>
       InterConn può cedere a chiunque questo contratto. Tu puoi cederlo solo
@@ -122,7 +124,7 @@
     </p>
     <p>
       Puoi recedere da un contratto concluso a distanza entro sette giorni
-      lavorativi inviando un fax e una raccomandata a InterConn
+      lavorativi inviando un fax e una raccomandata a InterConn.
     </p>
 
 - id: 4
@@ -130,40 +132,69 @@
   content: >
     <h5>Disdetta da parte del fornitore</h5>
     <p>
-      InterConn potrà recedere dal presente contratto in qualsiasi momento
-      tramite raccomandata A/R inviata al Cliente. Entro giorni 90 (novanta)
-      dalla cessazione, InterConn provvederà a restituire eventuali
-      corrispettivi già versati dal Cliente per il periodo tra la data di
+      InterConn potrà recedere dal presente contratto in qualsiasi momento tramite raccomandata A/R
+      inviata al Cliente. Entro giorni 90 (novanta) dalla cessazione, InterConn provvederà a
+      restituire eventuali corrispettivi già versati dal Cliente per il periodo tra la data di
       cessazione e il termine del contratto.
     </p>
-    <h5>Disdetta da parte del cliente</h5>
+    <h5>Disdetta da parte del Cliente</h5>
     <p>
-      Il Cliente potrà recedere dal contratto senza nulla dovere in qualunque
-      momento. Il Cliente può manifestare la volontà di recedere tramite
-      raccomandata A/R inviata all'indirizzo nell'art.
-      <a href="#art-10">10</a>
-      e dovrà anticipare tale comunicazione via fax.
+      Il Cliente potrà recedere dal contratto senza nulla dovere in qualunque momento. Il Cliente
+      può manifestare la volontà di recedere tramite raccomandata A/R inviata all'indirizzo
+      nell'art. <a href="#art-10">10</a> o PEC.
     </p>
     <h5>Obblighi del Cliente</h5>
     <p>
-      In caso di disdetta da parte di InterConn o del Cliente, il Cliente è
-      tenuto: al pagamento di tutti i corrispettivi non ancora versati; alla
-      restituzione delle apparecchiature fornite in noleggio o comodato d'uso.
-      In caso di mancata restituzione delle apparecchiature verrà addebitata
-      al cliente la somma di €300,00 (trecento) IVA inclusa.
+      In caso di disdetta da parte di InterConn o del Cliente, il Cliente è tenuto: al pagamento di
+      tutti i corrispettivi non ancora versati; alla restituzione delle apparecchiature fornite in
+      noleggio o comodato d'uso. In caso di mancata restituzione delle apparecchiature verrà
+      addebitata al cliente la somma di €80,00 (ottanta) IVA inclusa e sarà trattenuto il deposito
+      cauzionale versato alla sottoscrizione del contratto.
     </p>
   summary: >
     <p>
-      InterConn può recedere dal contratto inviando una raccomandata. In tal
-      caso ti restituirà ciò che ti deve.
+      InterConn può recedere dal contratto inviando una raccomandata. In tal caso ti restituirà ciò
+      che ti deve.
     </p>
     <p>
-      Tu puoi recedere dal contratto inviando un fax e una raccomandata, e
-      devi pagare le somme non versate e restituire le apparecchiature. Se non
-      le restituisci, dovrai pagare €300,00 IVA inclusa.
+      Tu puoi recedere dal contratto inviando una raccomandata o una PEC, e devi pagare le somme non
+      versate e restituire le apparecchiature, pena il pagamento di una penale di €80 e del deposito
+      cauzionale.
     </p>
 
 - id: 5
+  name: Deposito cauzionale
+  content: >
+    <p>
+      Il Cliente si impegna a versare su richiesta di InterConn un deposito cauzionale infruttifero,
+      il cui importo sarà commisurato al valore degli apparati forniti. InterConn potrà richiedere
+      in qualunque momento l'integrazione del deposito cauzionale nel caso in cui esso non risulti
+      più adeguato.
+    </p>
+    <p>
+      Per la soddisfazione dei propri crediti vantati a ogni titolo verso il Cliente, InterConn
+      potrà rivalersi sulle somme versate dal Cliente a titolo di deposito cauzionale.
+    </p>
+    <p>
+      In caso di cessazione del contratto InterConn provvederà, entro 20 (venti) giorni dalla
+      riconsegna degli apparati in comodato d'uso, a restituire al cliente le somme versate a titolo
+      di deposito cauzionale, purché risultino interamente adempiute le obbligazioni derivanti dal
+      contratto.
+    </p>
+  summary: >
+    <p>
+      InterConn può richiedere il versamento di un deposito cauzionale per le apparecchiature
+      fornite.
+    </p>
+    <p>
+      InterConn può usare il deposito cauzionale per saldare i tuoi debiti.
+    </p>
+    <p>
+      In caso di cessazione del contratto e restituzione delle apparecchiature, InterConn ti
+      restituirà il deposito cauzionale.
+    </p>
+
+- id: 6
   name: Termini di pagamento
   content: >
     <h5>Pagamento</h5>
@@ -225,7 +256,7 @@
       entro 30 giorni dalla modifica.
     </p>
 
-- id: 6
+- id: 7
   name: 'Qualità dei servizi, responsabilità del fornitore, forza maggiore'
   content: >
     <p>
@@ -271,7 +302,7 @@
       dovuti a eventi di forza maggiore o se il servizio è stato sospeso.
     </p>
 
-- id: 7
+- id: 8
   name: Uso dei servizi
   content: >
     <h5>Copyright</h5>
@@ -376,7 +407,7 @@
       primo uso. Le chiavi non saranno disattivate per inutilizzo.
     </p>
 
-- id: 8
+- id: 9
   name: Clausola risolutiva espressa
   content: >
     <p>
@@ -407,7 +438,7 @@
       risolvere il contratto.
     </p>
 
-- id: 9
+- id: 10
   name: Esistenza del registro elettronico (log)
   content: >
     <p>
@@ -422,7 +453,7 @@
       e che possiamo esibirlo dietro richiesta delle autorità.
     </p>
 
-- id: 10
+- id: 11
   name: Comunicazioni
   content: >
     <p>
@@ -437,7 +468,7 @@
       Noi invieremo tutte le comunicazioni per te ai tuoi recapiti.
     </p>
 
-- id: 11
+- id: 12
   name: Foro competente
   content: >
     <p>
@@ -454,7 +485,7 @@
       giudiziaria competente è solo quella del Foro di Roma.
     </p>
 
-- id: 12
+- id: 13
   name: Descrizione del servizio
   content: >
     <p>
@@ -469,7 +500,7 @@
       materiale informativo.
     </p>
 
-- id: 13
+- id: 14
   name: Requisiti per l'attivazione del servizio ADSL
   content: >
     <p>
@@ -510,7 +541,7 @@
       l'autorizzazione scritta dell'intestatario.
     </p>
 
-- id: 14
+- id: 15
   name: Requisiti per l'attivazione del servizio wireless
   content: >
     <p>
@@ -580,7 +611,7 @@
       caso, le nuove apparecchiature saranno a tuo carico.
     </p>
 
-- id: 15
+- id: 16
   name: Accesso alla sede
   content: >
     <p>
@@ -594,7 +625,7 @@
       Tu autorizzi InterConn ad accedere alla tua sede su appuntamento.
     </p>
 
-- id: 16
+- id: 17
   name: Effetto della mancanza dei requisiti del servizio ADSL
   content: >
     <p>
@@ -625,7 +656,7 @@
       spese già sostenute da InterConn.
     </p>
 
-- id: 17
+- id: 18
   name: Effetto della mancanza dei requisiti del servizio wireless
   content: >
     <p>
@@ -653,7 +684,7 @@
       spese già sostenute da InterConn.
     </p>
 
-- id: 18
+- id: 19
   name: Indirizzi IP pubblici
   content: >
     <p>
@@ -681,7 +712,7 @@
       eliminerà il canone previsto e restituirà le somme già versate.
     </p>
 
-- id: 19
+- id: 20
   name: DNS
   content: >
     <p>
@@ -693,7 +724,7 @@
       InterConn ti fornisce l'accesso ai propri server DNS.
     </p>
 
-- id: 20
+- id: 21
   name: Modifiche al servizio
   content: >
     <p>
@@ -705,7 +736,7 @@
       InterConn potrà modificare il servizio, comunicandolo.
     </p>
 
-- id: 21
+- id: 22
   name: Tempi di attivazione
   content: >
     <p>
@@ -720,7 +751,7 @@
       l'avvenuta attivazione.
     </p>
 
-- id: 22
+- id: 23
   name: Contestazione dell'attivazione
   content: >
     <p>
@@ -738,7 +769,7 @@
       scritta.
     </p>
 
-- id: 23
+- id: 24
   name: Assistenza
   content: >
     <p>
@@ -849,7 +880,7 @@
       o sostituzione di apparecchi funzionanti.
     </p>
 
-- id: 24
+- id: 25
   name: Disponibilità del servizio
   content: >
     <p>
@@ -872,7 +903,7 @@
       cercherà di comunicarle con almeno una settimana di anticipo.
     </p>
 
-- id: 25
+- id: 26
   name: Protezione e comportamento in caso di intrusioni
   content: >
     <p>
@@ -894,7 +925,7 @@
       avrai preso le misure necessarie.
     </p>
 
-- id: 26
+- id: 27
   name: Tempi di comunicazione della cessazione
   content: >
     <p>
@@ -907,7 +938,7 @@
       5 giorni.
     </p>
 
-- id: 27
+- id: 28
   name: Fornitura delle apparecchiature
   content: >
     <p>
@@ -931,7 +962,7 @@
       le proprie apparecchiature.
     </p>
 
-- id: 28
+- id: 29
   name: Tempi e modalità di consegna
   content: >
     <p>
@@ -947,7 +978,7 @@
       al servizio se deve essere configurata.
     </p>
 
-- id: 29
+- id: 30
   name: Garanzia
   content: >
     <p>
@@ -959,7 +990,7 @@
       InterConn applica alle apparecchiature la garanzia del fornitore.
     </p>
 
-- id: 30
+- id: 31
   name: Cura e restituzione delle apparecchiature in noleggio
   content: >
     <p>
@@ -980,52 +1011,6 @@
       Al termine del servizio, ti impegni a restituire a tue spese le
       apparecchiature con gli imballi originali. Se non dovessi farlo, dovrai
       risarcire il loro valore, che verrà stabilito da InterConn.
-    </p>
-
-- id: 31
-  name: Accettazione espressa
-  content: >
-    <p>
-      Ai sensi e per gli effetti degli artt. 1341 e 1342 del Codice civile
-      vigente, il Cliente dichiara di aver preso visione e di accettare
-      espressamente le clausole contrattuali di cui ai punti
-      <a href="#art-2">2</a>,
-      <a href="#art-3">3</a>,
-      <a href="#art-4">4</a>,
-      <a href="#art-5">5</a>,
-      <a href="#art-6">6</a>,
-      <a href="#art-7">7</a>,
-      <a href="#art-8">8</a>,
-      <a href="#art-9">9</a>,
-      <a href="#art-10">10</a>,
-      <a href="#art-11">11</a>,
-      <a href="#art-12">12</a>,
-      <a href="#art-13">13</a>,
-      <a href="#art-14">14</a>,
-      <a href="#art-15">15</a>,
-      <a href="#art-16">16</a>,
-      <a href="#art-17">17</a>,
-      <a href="#art-18">18</a>,
-      <a href="#art-19">19</a>,
-      <a href="#art-20">20</a>,
-      <a href="#art-21">21</a>,
-      <a href="#art-22">22</a>,
-      <a href="#art-23">23</a>,
-      <a href="#art-24">24</a>,
-      <a href="#art-25">25</a>,
-      <a href="#art-26">26</a>,
-      <a href="#art-27">27</a>,
-      <a href="#art-28">28</a>,
-      <a href="#art-29">29</a>
-      e
-      <a href="#art-30">30</a>.
-    </p>
-  summary: >
-    <p>
-      Dichiari di aver letto e accettato i punti dal
-      <a href="#art-2">2</a>
-      al
-      <a href="#art-30">30</a>.
     </p>
 
 - id: 32
@@ -1179,4 +1164,52 @@
       essere comunicati anche ai responsabili delle vendite, della
       fatturazione e del supporto clienti, così come ai fornitori del servizio
       wireless “ultimo miglio” ove necessario.
+    </p>
+
+- id: 33
+  name: Accettazione espressa
+  content: >
+    <p>
+      Ai sensi e per gli effetti degli artt. 1341 e 1342 del Codice civile
+      vigente, il Cliente dichiara di aver preso visione e di accettare
+      espressamente le clausole contrattuali di cui ai punti
+      <a href="#art-2">2</a>,
+      <a href="#art-3">3</a>,
+      <a href="#art-4">4</a>,
+      <a href="#art-5">5</a>,
+      <a href="#art-6">6</a>,
+      <a href="#art-7">7</a>,
+      <a href="#art-8">8</a>,
+      <a href="#art-9">9</a>,
+      <a href="#art-10">10</a>,
+      <a href="#art-11">11</a>,
+      <a href="#art-12">12</a>,
+      <a href="#art-13">13</a>,
+      <a href="#art-14">14</a>,
+      <a href="#art-15">15</a>,
+      <a href="#art-16">16</a>,
+      <a href="#art-17">17</a>,
+      <a href="#art-18">18</a>,
+      <a href="#art-19">19</a>,
+      <a href="#art-20">20</a>,
+      <a href="#art-21">21</a>,
+      <a href="#art-22">22</a>,
+      <a href="#art-23">23</a>,
+      <a href="#art-24">24</a>,
+      <a href="#art-25">25</a>,
+      <a href="#art-26">26</a>,
+      <a href="#art-27">27</a>,
+      <a href="#art-28">28</a>,
+      <a href="#art-29">29</a>,
+      <a href="#art-30">30</a>,
+      <a href="#art-31">31</a>
+      e
+      <a href="#art-32">32</a>.
+    </p>
+  summary: >
+    <p>
+      Dichiari di aver letto e accettato i punti dal
+      <a href="#art-2">2</a>
+      al
+      <a href="#art-32">32</a>.
     </p>
