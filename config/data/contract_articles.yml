@@ -1014,54 +1014,6 @@
     </p>
 
 - id: 32
-  name: Accettazione espressa
-  content: >
-    <p>
-      Ai sensi e per gli effetti degli artt. 1341 e 1342 del Codice civile
-      vigente, il Cliente dichiara di aver preso visione e di accettare
-      espressamente le clausole contrattuali di cui ai punti
-      <a href="#art-2">2</a>,
-      <a href="#art-3">3</a>,
-      <a href="#art-4">4</a>,
-      <a href="#art-5">5</a>,
-      <a href="#art-6">6</a>,
-      <a href="#art-7">7</a>,
-      <a href="#art-8">8</a>,
-      <a href="#art-9">9</a>,
-      <a href="#art-10">10</a>,
-      <a href="#art-11">11</a>,
-      <a href="#art-12">12</a>,
-      <a href="#art-13">13</a>,
-      <a href="#art-14">14</a>,
-      <a href="#art-15">15</a>,
-      <a href="#art-16">16</a>,
-      <a href="#art-17">17</a>,
-      <a href="#art-18">18</a>,
-      <a href="#art-19">19</a>,
-      <a href="#art-20">20</a>,
-      <a href="#art-21">21</a>,
-      <a href="#art-22">22</a>,
-      <a href="#art-23">23</a>,
-      <a href="#art-24">24</a>,
-      <a href="#art-25">25</a>,
-      <a href="#art-26">26</a>,
-      <a href="#art-27">27</a>,
-      <a href="#art-28">28</a>,
-      <a href="#art-29">29</a>,
-      <a href="#art-30">30</a>,
-      <a href="#art-31">31</a>
-      e
-      <a href="#art-32">32</a>.
-    </p>
-  summary: >
-    <p>
-      Dichiari di aver letto e accettato i punti dal
-      <a href="#art-2">2</a>
-      al
-      <a href="#art-32">32</a>.
-    </p>
-
-- id: 33
   name: Trattamento dei dati personali
   content: >
     <h5>Finalità del trattamento dei dati personali del Cliente</h5>
@@ -1212,4 +1164,52 @@
       essere comunicati anche ai responsabili delle vendite, della
       fatturazione e del supporto clienti, così come ai fornitori del servizio
       wireless “ultimo miglio” ove necessario.
+    </p>
+
+- id: 33
+  name: Accettazione espressa
+  content: >
+    <p>
+      Ai sensi e per gli effetti degli artt. 1341 e 1342 del Codice civile
+      vigente, il Cliente dichiara di aver preso visione e di accettare
+      espressamente le clausole contrattuali di cui ai punti
+      <a href="#art-2">2</a>,
+      <a href="#art-3">3</a>,
+      <a href="#art-4">4</a>,
+      <a href="#art-5">5</a>,
+      <a href="#art-6">6</a>,
+      <a href="#art-7">7</a>,
+      <a href="#art-8">8</a>,
+      <a href="#art-9">9</a>,
+      <a href="#art-10">10</a>,
+      <a href="#art-11">11</a>,
+      <a href="#art-12">12</a>,
+      <a href="#art-13">13</a>,
+      <a href="#art-14">14</a>,
+      <a href="#art-15">15</a>,
+      <a href="#art-16">16</a>,
+      <a href="#art-17">17</a>,
+      <a href="#art-18">18</a>,
+      <a href="#art-19">19</a>,
+      <a href="#art-20">20</a>,
+      <a href="#art-21">21</a>,
+      <a href="#art-22">22</a>,
+      <a href="#art-23">23</a>,
+      <a href="#art-24">24</a>,
+      <a href="#art-25">25</a>,
+      <a href="#art-26">26</a>,
+      <a href="#art-27">27</a>,
+      <a href="#art-28">28</a>,
+      <a href="#art-29">29</a>,
+      <a href="#art-30">30</a>,
+      <a href="#art-31">31</a>
+      e
+      <a href="#art-32">32</a>.
+    </p>
+  summary: >
+    <p>
+      Dichiari di aver letto e accettato i punti dal
+      <a href="#art-2">2</a>
+      al
+      <a href="#art-32">32</a>.
     </p>
