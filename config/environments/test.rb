@@ -39,4 +39,8 @@ Rails.application.configure do
 
   # Allow access to the Rack session in acceptance tests.
   config.middleware.use RackSessionAccess::Middleware
+
+  # Disable caching.
+  config.action_controller.perform_caching = false
+  config.cache_store = :null_store
 end
