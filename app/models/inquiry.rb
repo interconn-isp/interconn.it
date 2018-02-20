@@ -3,7 +3,7 @@
 class Inquiry < ApplicationRecord
   extend Enumerize
 
-  enumerize :product, in: Plan.all.map(&:slug)
+  enumerize :product, in: Plan.visible.map(&:slug)
 
   validates :full_name, presence: true
   validates :email, presence: true, format: { with: /@/ }

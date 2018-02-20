@@ -14,6 +14,12 @@ class Plan < ActiveYaml::Base
 
   belongs_to :category, class_name: 'PlanCategory', foreign_key: 'category_id'
 
+  class << self
+    def visible
+      all.select(&:category)
+    end
+  end
+
   def full_name
     if category
       "#{category.name} #{name}"
