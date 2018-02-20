@@ -7,6 +7,9 @@
     name: IP statico
     optional: true
     content: '€4,92 / mese**'
+  dedicated_support: &dedicated_support
+    name: Assistenza
+    content: Dedicata
 
 - id: 1
   category_id: 1
@@ -22,6 +25,7 @@
       content: €30 u.t.*
     - name: Velocità di picco
       content: 10 Mbps / 3 Mbps
+      tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
       2x: true
     - *static_ip_vat_included
 
@@ -39,6 +43,7 @@
       content: €30 u.t.*
     - name: Velocità di picco
       content: 30 Mbps / 3 Mbps
+      tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
       2x: true
     - *static_ip_vat_included
 
@@ -56,8 +61,8 @@
       content: €30 u.t.**
     - name: Velocità di picco
       content: 10 Mbps / 3 Mbps
-    - name: Banda garantita
-      content: 512 Kbps
+      tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
+    - *dedicated_support
     - *static_ip_vat_excluded
 
 - id: 4
@@ -74,8 +79,8 @@
       content: €30 u.t.**
     - name: Velocità di picco
       content: 30 Mbps / 3 Mbps
-    - name: Banda garantita
-      content: 512 Kbps
+      tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
+    - *dedicated_support
     - *static_ip_vat_excluded
 
 - id: 8

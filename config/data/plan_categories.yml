@@ -46,29 +46,29 @@
     - *router_feature
     - *public_ip_feature
 
-- id: 3
-  name: 'ADSL'
-  slug: 'adsl'
-  long_name: 'ADSL: come ai vecchi tempi.'
-  description: "La stabilità di un'ADSL con il servizio di InterConn."
-  features:
-    - *router_feature
-    - *public_ip_feature
-  panels:
-    - *promotion_terms_panel
-    - *manual_coverage_check_panel
+#- id: 3
+#  name: 'ADSL'
+#  slug: 'adsl'
+#  long_name: 'ADSL: come ai vecchi tempi.'
+#  description: "La stabilità di un'ADSL con il servizio di InterConn."
+#  features:
+#    - *router_feature
+#    - *public_ip_feature
+#  panels:
+#    - *promotion_terms_panel
+#    - *manual_coverage_check_panel
 
-- id: 4
-  name: 'Fibra'
-  slug: 'fibra'
-  long_name: 'Fibra: più veloce e sicura che mai.'
-  description: "Veloce come la luce, ma con i piedi per terra."
-  features:
-    - *router_feature
-    - *public_ip_feature
-  panels:
-    - *promotion_terms_panel
-    - *manual_coverage_check_panel
+#- id: 4
+#  name: 'Fibra'
+#  slug: 'fibra'
+#  long_name: 'Fibra: più veloce e sicura che mai.'
+#  description: "Veloce come la luce, ma con i piedi per terra."
+#  features:
+#    - *router_feature
+#    - *public_ip_feature
+#  panels:
+#    - *promotion_terms_panel
+#    - *manual_coverage_check_panel
 
 - id: 5
   name: 'VoIP'
