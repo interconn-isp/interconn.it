@@ -18,6 +18,6 @@
       = render 'custom_plans'
       = render 'notes'
 
-      = render 'panels', panels: @category.panels
+      = render 'panels', panels: @category.panels if @category.respond_to?(:panels)
 
     = render 'features', features: @category.features
