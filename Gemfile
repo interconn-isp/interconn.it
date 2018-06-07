@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.5.0'
+ruby '2.5.1'
 
 # Rails
 gem 'rails', '~> 5.1.4'
@@ -21,7 +21,7 @@ gem 'simple_form'
 gem 'high_voltage'
 
 # Web server
-gem 'thin'
+gem 'puma'
 
 # Configuration management
 gem 'figaro'
