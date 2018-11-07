@@ -80,11 +80,3 @@ pickle-email-*.html
 # Configuraton files are ignored
 /config/database.yml
 /config/application.yml
-
-# Ignore Capistrano configuration.
-/config/deploy.rb
-/config/deploy/*.rb
-!/config/deploy/*.example.rb
-
-# Ignore Capistrano data.
-/.capistrano/
