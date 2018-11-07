@@ -1,4 +1,5 @@
 version: 2
+
 jobs:
   build:
     parallelism: 1
@@ -81,7 +82,12 @@ jobs:
 
       - run:
           name: Configure Heroku remotes
-          command: bash .circleci/setup-heroku.sh
+          command: |
+            git remote add heroku git@heroku.com:interconn-v1-staging.git
+            cat >> ~/.ssh/config << EOF
+              VerifyHostKeyDNS yes
+              StrictHostKeyChecking no
+            EOF
 
       - run:
           name: Add Heroku to known hosts
@@ -90,9 +96,4 @@ jobs:
       - deploy:
           name: Deploy to Heroku
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              git push heroku-production master
-            fi
-            if [ "${CIRCLE_BRANCH}" == "develop" ]; then
-              git push heroku-staging develop:master
-            fi
+            git push heroku master
