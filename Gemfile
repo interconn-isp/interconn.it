@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '2.5.1'
 
 # Rails
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 5.2'
 
 # Asset preprocessors
 gem 'sass-rails'
