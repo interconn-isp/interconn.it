@@ -65,7 +65,7 @@ jobs:
           name: Configure Heroku remotes
           command: |
             git remote add heroku git@heroku.com:interconn-v1-staging.git
-            cat >> ~/.ssh/config << EOF
+            cat >> ~/.ssh/config \<< EOF
               VerifyHostKeyDNS yes
               StrictHostKeyChecking no
             EOF
