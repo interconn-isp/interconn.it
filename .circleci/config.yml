@@ -95,5 +95,4 @@ jobs:
 
       - deploy:
           name: Deploy to Heroku
-          command: |
-            git push heroku master
+          command: git push heroku master
