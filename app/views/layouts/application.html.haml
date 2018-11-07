@@ -3,9 +3,13 @@
   %head
     %meta(name='viewport' content='width=device-width, initial-scale=1.0')
     %meta(name='description' content='InterConn fornisce connettività internet veloce e affidabile.')
+
     %meta(name='google-site-verification' content='AP7tIQxP5jn2PAMBOYvq4aSXEZexz4mbUWZjNFadCMU')
 
-    %title= content_for?(:title) ? "#{yield(:title)} | InterConn" : 'InterConn'
+    %meta{property: 'og:title', content: full_page_title(yield(:title))}
+    %meta{property: 'og:image', content: image_url('press-kit/full-logo/vertical/vertical-thumb.png')}
+
+    %title= full_page_title(yield(:title))
 
     = stylesheet_link_tag 'application', media: 'all'
 
@@ -27,10 +31,6 @@
     = render 'layouts/footer'
 
     = javascript_include_tag 'application'
-
-    /[if lt IE 9]
-      = javascript_include_tag '//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'
-      = javascript_include_tag '//oss.maxcdn.com/respond/1.4.2/respond.min.js'
 
     = yield :javascripts
     = render 'layouts/ga' if ENV['GA_ID']
