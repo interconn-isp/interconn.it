@@ -6,6 +6,7 @@ RSpec.describe TicketMailer do
   let(:ticket) { FactoryBot.build_stubbed(:ticket) }
 
   before { ENV['TICKETS_EMAIL'] = 'test@example.com' }
+
   after { ENV.delete('TICKETS_EMAIL') }
 
   it 'sends the email' do

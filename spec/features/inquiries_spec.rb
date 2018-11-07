@@ -4,6 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'the inquiry creation page', type: :feature do
   before { ENV['INQUIRIES_EMAIL'] = 'help@interconn.it' }
+
   after { ENV.delete('INQUIRIES_EMAIL') }
 
   it 'creates an inquiry' do
@@ -15,7 +16,8 @@ RSpec.describe 'the inquiry creation page', type: :feature do
       fill_in I18n.t("simple_form.labels.inquiry.#{attribute}"), with: inquiry[attribute.to_sym]
     end
 
-    select Plan.find_by_slug(inquiry[:product]).full_name, from: I18n.t('simple_form.labels.inquiry.product')
+    select Plan.find_by_slug(inquiry[:product]).full_name,
+      from: I18n.t('simple_form.labels.inquiry.product')
 
     expect do
       click_button 'Richiedi il tuo sopralluogo'

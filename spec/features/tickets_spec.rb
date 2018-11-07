@@ -4,6 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'the contact page', type: :feature do
   before { ENV['TICKETS_EMAIL'] = 'test@example.com' }
+
   after { ENV.delete('TICKETS_EMAIL') }
 
   it 'sends an email' do

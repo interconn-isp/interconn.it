@@ -10,6 +10,7 @@ class FAQCategoriesController < ApplicationController
   def show
     @category = FAQCategory.find_by_slug(params[:id])
     fail ActiveRecord::RecordNotFound unless @category
+
     respond_with @category
   end
 end
