@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 
 jobs:
   build:
@@ -21,48 +21,32 @@ jobs:
       - image: redis
     steps:
       - checkout
-
-      # Which version of bundler?
-      - run:
-          name: Which bundler?
-          command: bundle -v
-
-      # Restore bundle cache
       - restore_cache:
           keys:
             - interconn-{{ checksum "Gemfile.lock" }}
             - interconn-
-
       - run:
           name: Bundle Install
           command: bundle check || bundle install
-
-      # Store bundle cache
       - save_cache:
           key: interconn-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
-
       - run:
           name: Wait for DB
           command: dockerize -wait tcp://localhost:5432 -timeout 1m
-
       - run:
           name: Configure app
           command: |
             cp config/application.example.yml config/application.yml
             cp config/database.example.yml config/database.yml
-
       - run:
           name: Database setup
           command: bin/rails db:create db:schema:load --trace
-
       - run:
           name: Install PhantomJS
           command: |
             [ -f /usr/local/bin/phantomjs ] || sudo cp ./bin/phantomjs /usr/local/bin/phantomjs
-
-      # Run rspec in parallel
       - type: shell
         command: |
           bundle exec rspec --profile 10 \
@@ -71,15 +55,11 @@ jobs:
                             --format progress \
                             --no-color \
                             $(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
-
-      # Save test results for timing analysis
       - store_test_results:
           path: test_results
-
       - add_ssh_keys:
           fingerprints:
             - "31:50:dd:6a:cd:48:95:23:30:41:8a:d0:08:de:15:99"
-
       - run:
           name: Configure Heroku remotes
           command: |
@@ -88,11 +68,9 @@ jobs:
               VerifyHostKeyDNS yes
               StrictHostKeyChecking no
             EOF
-
       - run:
           name: Add Heroku to known hosts
           command: ssh-keyscan heroku.com >> ~/.ssh/known_hosts
-
       - deploy:
           name: Deploy to Heroku
           command: git push heroku master
