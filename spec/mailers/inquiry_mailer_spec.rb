@@ -4,6 +4,7 @@ require 'rails_helper'
 
 RSpec.describe InquiryMailer do
   before { ENV['INQUIRIES_EMAIL'] = 'help@interconn.it' }
+
   after { ENV.delete('INQUIRIES_EMAIL') }
 
   let(:inquiry) do

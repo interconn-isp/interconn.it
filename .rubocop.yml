@@ -3,19 +3,16 @@ require: rubocop-rspec
 AllCops:
   TargetRubyVersion: 2.4
   Include:
+    - '**/*.rb'
     - '**/Gemfile'
     - '**/Rakefile'
   Exclude:
-   - 'bin/*'
    - 'db/**/*'
    - 'vendor/bundle/**/*'
    - 'spec/spec_helper.rb'
    - 'spec/rails_helper.rb'
    - 'spec/support/**/*'
    - 'config/**/*'
-   - '**/Rakefile'
-   - '**/Gemfile'
-   - 'lib/dev_utils/**/*'
 
 Rails:
   Enabled: true
@@ -25,9 +22,6 @@ Style/Documentation:
 
 RSpec/DescribeClass:
   Exclude:
-    - 'spec/requests/**/*'
-    - 'spec/tasks/**/*'
-    - 'spec/functional/**/*'
     - 'spec/features/**/*'
 
 Layout/AlignParameters:
@@ -61,7 +55,7 @@ Style/SignalException:
 Style/BracesAroundHashParameters:
   EnforcedStyle: context_dependent
 
-Lint/EndAlignment:
+Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
   AutoCorrect: true
 
@@ -116,10 +110,6 @@ Rails/SkipsModelValidations:
 RSpec/NestedGroups:
   Max: 4
 
-Metrics/LineLength:
-  Max: 120
-  IgnoredPatterns: ['\A#']
-
 RSpec/FilePath:
   CustomTransform:
     B2Q: b2q
@@ -133,7 +123,10 @@ Style/GuardClause:
 Layout/EmptyLines:
   Enabled: false
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
 Style/TrailingCommaInArguments:
