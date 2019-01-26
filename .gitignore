@@ -80,3 +80,6 @@ pickle-email-*.html
 # Configuraton files are ignored
 /config/database.yml
 /config/application.yml
+
+# Ignore precompiled assets
+/public/assets
