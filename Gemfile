@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-ruby '~> 2.5'
+ruby '~> 2.6'
 
 # Rails
 gem 'rails', '~> 5.2'
