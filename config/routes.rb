@@ -18,4 +18,8 @@ Rails.application.routes.draw do
   resources :faq_categories, path: 'faqs', only: [:index, :show]
   resources :plan_categories, path: 'pricing', only: [:index, :show]
   resources :projects, only: :index
+
+  namespace :api, defaults: { format: :json } do
+    resource :coverage, only: :show
+  end
 end

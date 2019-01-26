@@ -23,6 +23,7 @@ Style/Documentation:
 RSpec/DescribeClass:
   Exclude:
     - 'spec/features/**/*'
+    - 'spec/requests/**/*'
 
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
