@@ -13,7 +13,7 @@ var CoverageMap = (function() {
       mapTypeId: google.maps.MapTypeId.ROADMAP
     },
 
-    coordinatesUrl: '/data/coverage.json',
+    coordinatesUrl: '/api/coverage.json',
 
     mapCanvas: 'map-canvas',
 
