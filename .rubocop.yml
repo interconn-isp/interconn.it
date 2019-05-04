@@ -35,7 +35,7 @@ Metrics/LineLength:
   Max: 100
   AllowURI: true
 
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   Enabled: false
 
 Layout/MultilineMethodCallIndentation:
@@ -44,11 +44,14 @@ Layout/MultilineMethodCallIndentation:
 Layout/MultilineMethodCallBraceLayout:
   Enabled: false
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
+
+Layout/AlignArguments:
+  EnforcedStyle: with_fixed_indentation
 
 Style/SignalException:
   EnforcedStyle: semantic
