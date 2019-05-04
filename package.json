@@ -1,6 +1,10 @@
 {
   "name": "interconn",
   "dependencies": {
+    "@rails/webpacker": "3.5",
     "bower": "^1.6.5"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
   }
 }
