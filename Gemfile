@@ -6,12 +6,14 @@ ruby '~> 2.6'
 # Rails
 gem 'rails', '~> 5.2'
 
-# Asset preprocessors
+# Asset management
+gem 'webpacker'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 
 # Assets
+
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
