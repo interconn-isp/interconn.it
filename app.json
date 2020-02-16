@@ -16,9 +16,6 @@
     "FORCE_SSL": {
       "required": true
     },
-    "GA_ID": {
-      "required": true
-    },
     "GITHUB_URL": {
       "required": true
     },
