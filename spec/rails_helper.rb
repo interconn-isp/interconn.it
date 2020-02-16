@@ -7,7 +7,7 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rack_session_access/capybara'
 require 'sidekiq/testing'
-require 'capybara/poltergeist'
+require 'capybara/apparition'
 require 'shoulda-matchers'
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
@@ -39,7 +39,7 @@ RSpec.configure do |config|
   # https://relishapp.com/rspec/rspec-rails/docs
   config.infer_spec_type_from_file_location!
 
-  Capybara.javascript_driver = :poltergeist
+  Capybara.javascript_driver = :apparition
 
   config.before(:each) do
     InterConn::Application.config.secret_key_base = 'TESTTESTTEST'

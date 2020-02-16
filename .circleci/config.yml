@@ -5,7 +5,7 @@ jobs:
     parallelism: 1
     working_directory: ~/interconn-rails
     docker:
-      - image: circleci/ruby:2.6-node
+      - image: circleci/ruby:2.6.5-node-browsers
         environment:
           BUNDLE_JOBS: 3
           BUNDLE_RETRY: 3
@@ -43,10 +43,6 @@ jobs:
       - run:
           name: Database setup
           command: bin/rails db:create db:schema:load --trace
-      - run:
-          name: Install PhantomJS
-          command: |
-            [ -f /usr/local/bin/phantomjs ] || sudo cp ./bin/phantomjs /usr/local/bin/phantomjs
       - run:
           name: RSpec
           command: |
