@@ -91,7 +91,7 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rack_session_access'
-  gem 'poltergeist'
+  gem 'apparition'
 
   # Factories
   gem 'faker'
