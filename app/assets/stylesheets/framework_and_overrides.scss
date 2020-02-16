@@ -51,3 +51,7 @@ $grid-float-breakpoint: 992px;
 body {
   overflow-x: hidden;
 }
+
+a:not(.btn):not(.input-group-addon) {
+  border-bottom: none !important;
+}
