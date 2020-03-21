@@ -7,20 +7,20 @@ ruby '~> 2.6'
 gem 'rails', '~> 5.2'
 
 # Asset preprocessors
+gem 'coffee-rails'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
 
 # Assets
-gem 'jquery-rails'
-gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'jquery-rails'
 
 # Views
 gem 'haml-rails'
-gem 'simple_form'
 gem 'high_voltage'
+gem 'simple_form'
 
 # Web server
 gem 'puma'
@@ -32,10 +32,10 @@ gem 'figaro'
 gem 'rails-i18n'
 
 # Database
-gem 'pg', '~> 0.21'
+gem 'active_hash', '1.4.0'
 gem 'enumerize'
 gem 'friendly_id'
-gem 'active_hash', '1.4.0'
+gem 'pg', '~> 0.21'
 
 # Controllers
 gem 'responders'
@@ -72,6 +72,9 @@ group :development do
 
   # Coding style
   gem 'rubocop'
+  gem 'rubocop-performance'
+  gem 'rubocop-rails'
+  gem 'rubocop-rake'
   gem 'rubocop-rspec'
 end
 
@@ -88,17 +91,17 @@ group :test do
   gem 'database_cleaner'
 
   # Acceptance testing
+  gem 'apparition'
   gem 'capybara'
   gem 'launchy'
   gem 'rack_session_access'
-  gem 'apparition'
 
   # Factories
   gem 'faker'
 
   # RSpec
-  gem 'shoulda-matchers'
   gem 'fuubar'
+  gem 'shoulda-matchers'
 
   # Mocking
   gem 'mocha'

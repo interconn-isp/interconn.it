@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateFAQCategories < ActiveRecord::Migration
   def change
     create_table :faq_categories do |t|

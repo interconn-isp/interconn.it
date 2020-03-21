@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Make Thin send its output to stdout.
 $stdout.sync = true
 

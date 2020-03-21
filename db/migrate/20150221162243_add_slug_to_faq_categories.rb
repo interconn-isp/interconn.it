@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddSlugToFAQCategories < ActiveRecord::Migration
   def change
     add_column :faq_categories, :slug, :string, null: false

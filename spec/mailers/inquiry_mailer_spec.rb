@@ -9,9 +9,8 @@ RSpec.describe InquiryMailer do
 
   let(:inquiry) do
     inquiry = FactoryBot.build_stubbed(:inquiry,
-      notes: 'Lorem ipsum',
-      referer: 'John Doe'
-    )
+                                       notes: 'Lorem ipsum',
+                                       referer: 'John Doe')
 
     inquiry.stubs(
       product: 'foo',

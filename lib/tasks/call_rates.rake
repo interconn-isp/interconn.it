@@ -36,7 +36,7 @@ namespace :call_rates do
           traffic_direction: traffic_direction,
           rate: rate,
           time_slot: time_slot,
-)
+        )
 
         puts "##{call_rate.id} [TD='#{traffic_direction}', TS='#{time_slot}', R=#{rate}]"
 

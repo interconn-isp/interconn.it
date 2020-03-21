@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class DropPlanCategories < ActiveRecord::Migration
   def change
     if ActiveRecord::Base.connection.table_exists? :plan_categories

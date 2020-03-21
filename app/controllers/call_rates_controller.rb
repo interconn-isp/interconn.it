@@ -12,8 +12,7 @@ class CallRatesController < ApplicationController
     end
 
     @call_rates = CallRate.where('LOWER(traffic_direction) LIKE LOWER(:query)',
-      query: "%#{params[:q]}%",
-).order('traffic_direction ASC')
+                                 query: "%#{params[:q]}%",).order('traffic_direction ASC')
 
     respond_to do |format|
       format.json

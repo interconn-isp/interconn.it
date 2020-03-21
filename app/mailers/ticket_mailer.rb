@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class TicketMailer < ActionMailer::Base
+class TicketMailer < ApplicationMailer
   default from: ENV['MAIL_SENDER']
 
   def ticket_email(ticket)

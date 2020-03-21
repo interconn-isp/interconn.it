@@ -8,7 +8,7 @@ class PlanCategoriesController < ApplicationController
   end
 
   def show
-    @category = PlanCategory.find_by_slug(params[:id])
+    @category = PlanCategory.find_by(slug: params[:id])
     fail ActiveRecord::RecordNotFound unless @category
 
     respond_with @category

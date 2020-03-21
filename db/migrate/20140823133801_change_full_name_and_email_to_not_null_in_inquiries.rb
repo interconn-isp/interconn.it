@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ChangeFullNameAndEmailToNotNullInInquiries < ActiveRecord::Migration
   def change
     change_column :inquiries, :full_name, :string, null: false

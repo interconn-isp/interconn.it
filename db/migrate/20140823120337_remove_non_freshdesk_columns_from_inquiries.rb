@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RemoveNonFreshdeskColumnsFromInquiries < ActiveRecord::Migration
   def change
     remove_column :inquiries, :code, :string, null: false

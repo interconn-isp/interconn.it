@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class InquiryMailer < ActionMailer::Base
+class InquiryMailer < ApplicationMailer
   default from: ENV['MAIL_SENDER']
 
   def inquiry_email(inquiry)
