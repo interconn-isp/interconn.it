@@ -23,6 +23,9 @@ RSpec.describe 'the call rate consultation page', type: :feature do
     fill_in 'Dove vuoi chiamare?', with: 'bar'
     click_button 'Cerca'
 
+    sleep 0.1
+    expect(page).not_to have_css('#call-rates-loading')
+
     within '#call-rates-table' do
       expect(page).to have_content 'Foobar'
       expect(page).to have_content '€0,027/min'
