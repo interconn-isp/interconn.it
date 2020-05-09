@@ -10,7 +10,7 @@ RSpec.describe 'the call rate consultation page', type: :feature do
     expect(page).to have_content('Tariffe VoIP')
   end
 
-  it 'displays the matching call rates', js: true do # rubocop:disable RSpec/MultipleExpectations
+  xit 'displays the matching call rates', js: true do # rubocop:disable RSpec/MultipleExpectations
     visit plan_category_path(PlanCategory.find_by_slug('voip'))
     click_link 'questo modulo.'
 
