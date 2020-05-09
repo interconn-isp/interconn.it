@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   get 'coverage', to: 'high_voltage/pages#show', id: 'coverage'
   get 'contract', to: 'high_voltage/pages#show', id: 'contract'
   get 'about', to: 'high_voltage/pages#show', id: 'about'
-  get 'press-kit', to: 'high_voltage/pages#show', id: 'press_kit'
 
   get 'contact', to: 'tickets#new'
   post 'contact', to: 'tickets#create'
