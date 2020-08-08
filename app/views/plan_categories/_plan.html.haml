@@ -4,7 +4,7 @@
   %li.product-name= plan.name
   %li.product-price
     %span.price-currency €
-    %span.price-digits= plan.monthly_cost
+    %span.price-digits= number_to_currency(plan.monthly_cost, format: '%n', precision: plan.monthly_cost.is_a?(Float) ? 2 : 0)
     %span.price-interval= "/ mese#{notes}"
 
   - if plan.erased_monthly_cost
@@ -30,6 +30,13 @@
           - if feature['erased_content']
             %span.label.label-success PROMO
 
+  - if plan.include_connection_type?
+    %li.product-feature
+      %ul
+        %li.feature-desc Tipo connessione
+        %li.feature-numbers
+          .feature-content
+            = image_tag 'connection_type.png', style: 'max-width: 82px; padding-top: 5px', class: 'img-responsive center-block'
 
   %li.product-action
     = link_to 'Attiva Offerta', new_inquiry_path(product: plan.slug), class: 'btn btn-orange btn-lg btn-transition'
