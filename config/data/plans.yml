@@ -13,10 +13,12 @@
 
 - id: 1
   category_id: 1
-  slug: 'wadsl-10mega-privati'
-  name: '10 Mega Privati'
+  slug: 'wadsl-30mega-privati'
+  name: '30 Mega Privati'
   vat_included: true
-  monthly_cost: 24
+  monthly_cost: 23.90
+  erased_monthly_cost: 31
+  include_connection_type: true
   features:
     - name: Deposito cauzionale
       content: €70
@@ -24,17 +26,18 @@
     - name: Installazione
       content: €30 u.t.*
     - name: Velocità di picco
-      content: 10 Mbps / 3 Mbps
+      content: 30 Mbps / 5 Mbps
       tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
       2x: true
     - *static_ip_vat_included
 
 - id: 2
   category_id: 1
-  slug: 'wadsl-30mega-privati'
-  name: '30 Mega Privati'
+  slug: 'wadsl-70mega-privati'
+  name: '70 Mega Privati'
   vat_included: true
-  monthly_cost: 31
+  monthly_cost: 39
+  include_connection_type: true
   features:
     - name: Deposito cauzionale
       content: €70
@@ -42,43 +45,46 @@
     - name: Installazione
       content: €30 u.t.*
     - name: Velocità di picco
-      content: 30 Mbps / 5 Mbps
+      content: 70 Mbps / 5 Mbps
       tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
       2x: true
     - *static_ip_vat_included
 
 - id: 3
   category_id: 1
-  slug: 'wadsl-10mega-business'
-  name: '10 Mega Business'
+  slug: 'wadsl-30mega-business'
+  name: '30 Mega Business'
   vat_included: false
-  monthly_cost: 39
+  monthly_cost: 28.9
+  erased_monthly_cost: 38.9
+  include_connection_type: true
   features:
     - name: Deposito cauzionale
-      content: €150
+      content: €70
       tooltip: Il deposito cauzionale sarà restituito al termine del contratto.
     - name: Installazione
       content: €30 u.t.**
     - name: Velocità di picco
-      content: 10 Mbps / 3 Mbps
+      content: 30 Mbps / 5 Mbps
       tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
     - *dedicated_support
     - *static_ip_vat_excluded
 
 - id: 4
   category_id: 1
-  slug: 'wadsl-30mega-business'
-  name: '30 Mega Business'
+  slug: 'wadsl-70mega-business'
+  name: '70 Mega Business'
   vat_included: false
-  monthly_cost: 69
+  monthly_cost: 49.9
+  include_connection_type: true
   features:
     - name: Deposito cauzionale
-      content: €150
+      content: €70
       tooltip: Il deposito cauzionale sarà restituito al termine del contratto.
     - name: Installazione
       content: €30 u.t.**
     - name: Velocità di picco
-      content: 30 Mbps / 5 Mbps
+      content: 70 Mbps / 5 Mbps
       tooltip: La banda minima garantita è di 2 Mbps / 1 Mbps.
     - *dedicated_support
     - *static_ip_vat_excluded

@@ -72,7 +72,7 @@
 
   .product-erased-price {
     padding-bottom: 15px;
-    margin-top: -20px;
+    margin-top: -38px;
     font-size: $font-size-small;
 
     .price-content {
@@ -83,6 +83,7 @@
 
   .product-price {
     font-size: $font-size-large;
+    padding-bottom: 23px;
 
     .price-currency {
       position: relative;
@@ -93,7 +94,7 @@
 
     .price-digits {
       margin-left: 5px;
-      font-size: ceil(($font-size-large * 3.5));
+      font-size: ceil(($font-size-large * 3));
       font-weight: bold;
       color: white;
     }
